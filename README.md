@@ -40,7 +40,7 @@ character_desc_mlr.xml -
 dialogs_bar.xml - 
 <br>
 dialogs_mlr.xml - 
-</ul>
+</ul></li>
 <br>
 <p><strong><li><a href="/thorbits/lost-path-english-translation/tree/master/gamedata/scripts">Scripts</a></strong></p>
 <ul>
@@ -95,6 +95,6 @@ sim_squad.script -
 transitions.script - 
 <br>
 ui_main_menu.script - 
-</ul>
+</ul></li>
 <br>
 

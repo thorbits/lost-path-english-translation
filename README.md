@@ -4,15 +4,14 @@
 <br>
 <p>Translation progress by individual files can be found below:</p>
 
-<p><strong><li><a href="/thorbits/lost-path-english-translation/tree/master/gamedata/configs">Configs</a></strong></p>
+<p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs">Configs</a></strong></p>
 <ul>
 axr_options.ltx - 
 <br>
 localization.ltx - 
 <br></ul>
-<ul>
-<p><strong><li><a href="/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">Configs/Gameplay</a></strong></p>
 
+<ul><p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">Configs/Gameplay</a></strong></p>
 character_desc_lostpath_aes.xml - 
 <br>
 character_desc_lostpath_army.xml - 
@@ -40,9 +39,71 @@ character_desc_mlr.xml -
 dialogs_bar.xml - 
 <br>
 dialogs_mlr.xml - 
-</ul>
+<br></ul>
+
+<ul><p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">Configs/Gameplay</a></strong></p>
+mlr_addon.xml
 <br>
-<p><strong><li><a href="/thorbits/lost-path-english-translation/tree/master/gamedata/scripts">Scripts</a></strong></p>
+sgm_add_include.xml
+<br>
+sgm_script_texts.xml
+<br>
+st_closecaption.xml
+<br>
+st_dialogs.xml
+<br>
+st_dialogs_garbage.xml
+<br>
+st_drx_addons.xml
+<br>
+st_dynamic_news.xml
+<br>
+st_generate_fnames.xml
+<br>
+st_generate_snames.xml
+<br>
+st_items_awr.xml
+<br>
+st_items_fieldcraft.xml
+<br>
+st_items_outfit_addon.xml
+<br>
+st_items_rad.xml
+<br>
+st_items_soup_addon.xml
+<br>
+st_lostpath_addons.xml
+<br>
+st_lostpath_gui.xml
+<br>
+st_lostpath_main.xml
+<br>
+st_lostpath_outfits.xml
+<br>
+st_lostpath_quest.xml
+<br>
+st_lostpath_scripts.xml
+<br>
+st_lostpath_treasure.xml
+<br>
+st_lostpath_weapons_csgo.xml
+<br>
+stable_treasure_manager.xml
+<br>
+ui_st_encyclopedia_awr.xml
+<br>
+ui_st_encyclopedia_quest_info.xml
+<br>
+ui_st_faction_starts.xml
+<br>
+ui_st_loadscreen.xml
+<br>
+ui_st_mm.xml
+<br>
+ui_st_screen.xml
+</ul><br>
+
+<p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/scripts">Scripts</a></strong></p>
 <ul>
 axr_main_options.script - 
 <br>

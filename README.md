@@ -101,15 +101,13 @@ ui_st_loadscreen.xml                  -
 ui_st_mm.xml                          - 
 <br>
 ui_st_screen.xml                      - 
-</ul><br>
+<br></ul>
 
 <ul><p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/ui">Configs/ui</a></strong></p>
-<ul>
 ui_ami_position.xml                   - 
 <br></ul>
 
 <p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/scripts">Scripts</a></strong></p>
-<ul>
 axr_main_options.script               - 
 <br>
 loadscreen.script                     - 

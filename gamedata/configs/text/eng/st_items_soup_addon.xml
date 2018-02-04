@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+<!--ITEM SOUP-->
+
+	<string id="st_paperscrap">
+		<text>Paper sheet</text>
+	</string>
+	<string id="st_paperscrap_descr">
+		<text>Just a plain sheet of scrap paper. \n \n%c[0,140,140,140]PROPERTIES:\n\n%c[255,238,153,26] • %c[0,140,140,140] usable for:%c[0,170,170,170] weapon maintenance (+2%)</text>
+	</string>
+	<string id="st_steel_wool">
+		<text>Steel wool</text>
+	</string>
+	<string id="st_steel_wool_descr">
+		<text>Steel wool, also known as wire wool or wire sponge, is a bundle of strands of very fine soft steel filaments. It is used as an abrasive in finishing and repair work for polishing wood or metal objects, cleaning household cookware, and sanding in light painting. Steel wool is made from low-carbon steel (carbon content is low enough to be close to plain iron). It is not made by drawing "steel wool wire" through a tapered die, but rather by a process more like broaching where a heavy steel wire is pulled through a toothed die that removes a thin wire shaving. Bundles of steel wool can be used in precision equipment cleaning and to improve spreading of lubricants and cleaning solvents.\n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] • %c[0,140,140,140] technological item\n%c[255,238,153,26] • %c[0,140,140,140] usable for:%c[0,170,170,170] weapon maintenance (+6%)</text>
+	</string>
+	<string id="st_grease">
+		<text>Industrial grease</text>
+	</string>
+	<string id="st_grease_descr">
+		<text>Grease is a semisolid lubricant. It generally consists of a soap emulsified with mineral or vegetable oil. Greases are applied to mechanisms that cannot be lubricated constantly or where typical lubricating oil would not stay in position. They also act as sealants to prevent ingress of water and incompressible materials. Grease-lubricated bearings have greater frictional characteristics due to their high viscosity.\n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] • %c[0,140,140,140] technological item\n%c[0,153,255,255] • %c[0,140,140,140] high quality\n%c[255,238,153,26] • %c[0,140,140,140] usable for:%c[0,170,170,170] weapon maintenance (+6%)</text>
+	</string>
+	<string id="st_textile_patch_b">
+		<text>Cloth sheet</text>
+	</string>
+	<string id="st_textile_patch_b_descr">
+		<text>Simple cloth sheet, commonly used both to patch clothing and spread oils and cleaning solvents onto firearm mechanisms. Can be applied by any needle or glue.\n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] • %c[0,140,140,140] everyday item\n%c[255,238,153,26] • %c[0,140,140,140] usable for:%c[0,170,170,170] outfit repairs, weapon maintenance (+3%)</text>
+	</string>
+	<string id="st_textile_patch_m">
+		<text>Textile sheet</text>
+	</string>
+	<string id="st_textile_patch_m_descr">
+		<text>Sheet of military-grade textile that can be used for field repairs of clothing and light armor. Valued for its relatively low price and high versatility, this material is commonly used by the Zoners. Medium-grade sewing equipment and advanced glue required for use. It can also be used to improve spread of liquids during weapon maintenance.\n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] • %c[0,140,140,140] military item\n%c[255,238,153,26] • %c[0,140,140,140] usable for:%c[0,170,170,170] outfit repairs, weapon maintenance (+4%)</text>
+	</string>
+	<string id="st_textile_patch_e">
+		<text>Reinforced textile sheet</text>
+	</string>
+	<string id="st_textile_patch_e_descr">
+		<text>Thick textile patch reinforced with kevlar padding. Can be used to repair medium and heavy armors. Large enough to cover multiple damaged areas. High quality sewing kits and adhesives are required to make use of it. Its alternative usage is weapon lubrication and cleaning - due to increased hardness it's able reach even less accessible areas of firearm parts.\n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] • %c[0,140,140,140] military item\n%c[0,153,255,255] • %c[0,140,140,140] high quality\n%c[255,238,153,26] • %c[0,140,140,140] usable for:%c[0,170,170,170] outfit repairs, weapon maintenance (+6%)</text>
+	</string>
+	
+	<string id="st_armor_repair_fa">
+		<text>Emergency armor repair set</text>
+	</string>
+	<string id="st_armor_repair_fa_descr">
+		<text>\n \n%c[0,140,140,140]COMPATIBILITY:\n \n%c[255,238,153,26] • %c[0,140,140,140] all outfits and light headgear sets\n \n%c[0,170,170,170]A repair set allowing the user to perform emergency repairs of outfits. Includes military grade ducktape and ready-to-use sheets of thick textile in a variety of shapes and sizes which make it possible to quickly patch up any outfit damage. This is especially useful to prevent further structural damage of already damaged suits. Due to a relatively low durability of provided materials, the kit can be used only for minor repairs and is ineffective in case of harder materials like kevlar or metal. For this reason, the kit has a very limited use in headgear maintenance.\n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] • %c[0,140,140,140] technological item\n%c[0,153,255,255] • %c[0,140,140,140] fast usage (adhesive tape)\n%c[255,238,153,26] • %c[0,140,140,140] usable for repairing equipment\n%c[255,238,153,26] • %c[0,140,140,140] not usable below condition level: %c[0,170,170,170]85%\n%c[255,238,153,26] • %c[0,140,140,140] base condition gain: %c[0,170,170,170]6%\n \n%c[0,140,140,140]SUPPORTED MATERIALS:\n%c[255,238,153,26] • %c[0,140,140,140] additional repair kits %c[0,170,170,170]+6-18%\n%c[255,238,153,26] • %c[0,140,140,140] sewing kits %c[0,170,170,170]+3-9%\n%c[255,238,153,26] • %c[0,140,140,140] adhesives %c[0,170,170,170]+2-6%\n%c[255,238,153,26] • %c[0,140,140,140] reinforced textile (sheets) %c[0,170,170,170]+5-6%\n%c[255,238,153,26] • %c[0,140,140,140] textile (sheets) %c[0,170,170,170]+3-4%\n%c[255,238,153,26] • %c[0,140,140,140] cloth (sheets) %c[0,170,170,170]+2-3%</text>
+	</string>
+
+
+	<string id="st_solvent">
+		<text>Hoppe's "No. 9" cleaning solvent</text>
+	</string>
+	<string id="st_solvent_descr">
+		<text>\n \n%c[0,140,140,140]COMPATIBILITY:\n \n%c[255,238,153,26] • %c[0,140,140,140] suited for all weapons\n \n%c[0,170,170,170]Western-made, high-quality firearm cleaning solvent, especially adapted for use in harsh environmental conditions, the Hoppe's No. 9 Bore Cleaning remains perhaps the most commonly used solution. Like all cleaning solvents, it is designed for preventing rust and removing powder, lead and metal fouling, but its unique property is that it makes heavy particles less likely to stick to mechanical parts of a firearm. This proves especially useful in the irradiated Zone. Substance acts quickly, is super-efficient, safe and easy to use. Although it flows freely and penetrates rapidly, it is still advisable to use tools or fabrics to increase spread.\n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] • %c[0,140,140,140] technological item\n%c[0,153,255,255] • %c[0,140,140,140] liquid gun cleaning solvent\n%c[0,153,255,255] • %c[0,140,140,140] high quality\n%c[0,153,255,255] • %c[0,140,140,140] valuable\n%c[255,238,153,26] • %c[0,140,140,140] usable for repairing equipment\n%c[255,238,153,26] • %c[0,140,140,140] not usable below condition level: %c[0,170,170,170]87%\n%c[255,238,153,26] • %c[0,140,140,140] base condition gain: %c[0,170,170,170]7%\n \n%c[0,140,140,140]SUPPORTED MATERIALS:\n%c[255,238,153,26] • %c[0,140,140,140] gun oils %c[0,170,170,170]+3-6%\n%c[255,238,153,26] • %c[0,140,140,140] additional cleaning solvents %c[0,170,170,170]+3-7%\n%c[255,238,153,26] • %c[0,140,140,140] light tools %c[0,170,170,170]+2-5%\n%c[255,238,153,26] • %c[0,140,140,140] paper (sheets) %c[0,170,170,170]+1-2%\n%c[255,238,153,26] • %c[0,140,140,140] cloth (sheets) %c[0,170,170,170]+2-4%\n%c[255,238,153,26] • %c[0,140,140,140] textile (sheets) %c[0,170,170,170]+2-4%</text>
+	</string>
+
+	<string id="st_gun_oil">
+		<text>"Brunox Gun Care" spray lubricant</text>
+	</string>
+	<string id="st_gun_oil_descr">
+		<text>\n \n%c[0,140,140,140]COMPATIBILITY:\n \n%c[255,238,153,26] • %c[0,140,140,140] suited for all weapons\n \n%c[0,170,170,170]Spray can containing oil intended for lubricating and protecting firearms. Frequent application will prevent guns from malfunctioning and corroding, especially after prolonged use in combat situations. Prior to lubrication process, it is advisable to properly clean the firearm to remove any foreign material that has accumulated on or inside it. One can also make use of basic tools in order to access the inner parts of a gun so as to maximize the effectiveness of maintenance. A special tuboline increases gliding quality of all movable parts making the oil even better suited for repeaters and automatic weapons. This allows guns to function even at temperatures of up to -55 °C. It has a flash point of 78 °C.\n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] • %c[0,140,140,140] technological item\n%c[0,153,255,255] • %c[0,140,140,140] fast usage (spray lubricant)\n%c[0,153,255,255] • %c[0,140,140,140] high quality\n%c[255,238,153,26] • %c[0,140,140,140] usable for repairing equipment\n%c[255,238,153,26] • %c[0,140,140,140] not usable below condition level: %c[0,170,170,170]85%\n%c[255,238,153,26] • %c[0,140,140,140] base condition gain: %c[0,170,170,170]5%\n \n%c[0,140,140,140]SUPPORTED MATERIALS:\n%c[255,238,153,26] • %c[0,140,140,140] additional gun oils %c[0,170,170,170]+3-6%\n%c[255,238,153,26] • %c[0,140,140,140] cleaning solvents %c[0,170,170,170]+3-7%\n%c[255,238,153,26] • %c[0,140,140,140] light tools %c[0,170,170,170]+2-5%\n%c[255,238,153,26] • %c[0,140,140,140] paper (sheets) %c[0,170,170,170]+1-2%\n%c[255,238,153,26] • %c[0,140,140,140] cloth (sheets) %c[0,170,170,170]+2-4%\n%c[255,238,153,26] • %c[0,140,140,140] textile (sheets) %c[0,170,170,170]+2-4%</text>
+	</string>
+	
+	<string id="st_gun_oil_ru_d">
+		<text>"Dvojka" gun oil and cleaning solvent</text>
+	</string>
+	<string id="st_gun_oil_ru_d_descr">
+		<text>\n \n%c[0,140,140,140]COMPATIBILITY:\n \n%c[255,238,153,26] • %c[0,140,140,140] suited for all weapons\n \n%c[0,170,170,170]Iconic Red Army oil that has been in service for almost 70 years. The metal bottle is divided into two separate compartments, one for oil and the other one for the cleaning solvent. In the beginning, the solvent was based on an alkaline solution for effective clean-up of preservation salts in which ammunition was commonly shipped and stored. Since then, the composition of liquids has been modernized many times, but the simple yet ingenious 'double' bottle design remained unchanged. "Dvojka" is very popular in the Exclusion Zone due to its versatility. Bear in mind, however, that the oil requires adequate tools to be spread properly and so that it can reach deep into weapon's inner mechanisms. "Dvojka" should thus be regarded as more of an add-on than a stand-alone maintenance item.\n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] • %c[0,140,140,140] technological item\n%c[0,153,255,255] • %c[0,140,140,140] liquid gun oil and cleaning solvent\n%c[255,238,153,26] • %c[0,140,140,140] usable for repairing equipment\n%c[255,238,153,26] • %c[0,140,140,140] not usable below condition level: %c[0,170,170,170]90%\n%c[255,238,153,26] • %c[0,140,140,140] base condition gain: %c[0,170,170,170]8%\n \n%c[0,140,140,140]SUPPORTED MATERIALS:\n%c[255,238,153,26] • %c[0,140,140,140] additional gun oils %c[0,170,170,170]+3-6%\n%c[255,238,153,26] • %c[0,140,140,140] additional cleaning solvents %c[0,170,170,170]+3-7%\n%c[255,238,153,26] • %c[0,140,140,140] light tools %c[0,170,170,170]+2-5%\n%c[255,238,153,26] • %c[0,140,140,140] paper (sheets) %c[0,170,170,170]+1-2%\n%c[255,238,153,26] • %c[0,140,140,140] cloth (sheets) %c[0,170,170,170]+2-4%\n%c[255,238,153,26] • %c[0,140,140,140] textile (sheets) %c[0,170,170,170]+2-4%</text>
+	</string>
+	
+	<string id="st_gun_oil_ru">
+		<text>"Rusak" gun oil</text>
+	</string>
+	<string id="st_gun_oil_ru_descr">
+		<text>\n \n%c[0,140,140,140]COMPATIBILITY:\n \n%c[255,238,153,26] • %c[0,140,140,140] suited for all weapons\n \n%c[0,170,170,170]Plastic bottle containing a budget Russian mineral gun oil. Despite its low price, it can prove useful in keeping a firearm in a good condition if applied frequently. It should be used alongside brushes for increased effect. According to the manufacturer, "Rusak" is especially effective for automatic and repeatable weapons due to low friction coefficient. It also contains various anti-corrosion and metal-preserving additives.\n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] • %c[0,140,140,140] technological item\n%c[0,153,255,255] • %c[0,140,140,140] liquid gun oil\n%c[255,238,153,26] • %c[0,140,140,140] usable for repairing equipment\n%c[255,238,153,26] • %c[0,140,140,140] not usable below condition level: %c[0,170,170,170]90%\n%c[255,238,153,26] • %c[0,140,140,140] base condition gain: %c[0,170,170,170]3%\n \n%c[0,140,140,140]SUPPORTED MATERIALS:\n%c[255,238,153,26] • %c[0,140,140,140] additional gun oils %c[0,170,170,170]+3-6%\n%c[255,238,153,26] • %c[0,140,140,140] cleaning solvents %c[0,170,170,170]+3-7%\n%c[255,238,153,26] • %c[0,140,140,140] light tools %c[0,170,170,170]+2-5%\n%c[255,238,153,26] • %c[0,140,140,140] paper (sheets) %c[0,170,170,170]+1-2%\n%c[255,238,153,26] • %c[0,140,140,140] cloth (sheets) %c[0,170,170,170]+2-4%\n%c[255,238,153,26] • %c[0,140,140,140] textile (sheets) %c[0,170,170,170]+2-4%</text>
+	</string>
+
+	<string id="st_glue_b">
+		<text>"Zviezda" glue tube</text>
+	</string>
+	<string id="st_glue_b_descr">
+		<text>\n \n%c[0,140,140,140]COMPATIBILITY:\n \n%c[255,238,153,26] • %c[0,140,140,140] all outfits and light headgear sets\n \n%c[0,170,170,170]Cheapest of the synthetic adhesives available in the Zone, this epoxy-based solution may be used to put together slightly torn pieces of fabric or to patch up a small hole in your helmet, but it will be useless in case of any serious damage. On the other hand, "Zviezda" has a great value for price, and if used on a regular basis it's able to keep your outfit in a good shape at all times. It is advised to use any type of commonly found materials to greatly increase effectiveness of repair. The glue, however, won't support mutant skins. Can also be used to facilitate sewing.\n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] • %c[0,140,140,140] technological item\n%c[255,238,153,26] • %c[0,140,140,140] usable for repairing equipment\n%c[255,238,153,26] • %c[0,140,140,140] not usable below condition level: %c[0,170,170,170]90%\n%c[255,238,153,26] • %c[0,140,140,140] base condition gain: %c[0,170,170,170]2%\n \n%c[0,140,140,140]SUPPORTED MATERIALS:\n%c[255,238,153,26] • %c[0,140,140,140] outfit repair kits %c[0,170,170,170]+6-18%\n%c[255,238,153,26] • %c[0,140,140,140] sewing kits %c[0,170,170,170]+3-9%\n%c[255,238,153,26] • %c[0,140,140,140] additional adhesives %c[0,170,170,170]+2-6%\n%c[255,238,153,26] • %c[0,140,140,140] reinforced textile (sheets) %c[0,170,170,170]+5-6%\n%c[255,238,153,26] • %c[0,140,140,140] textile (sheets) %c[0,170,170,170]+3-4%\n%c[255,238,153,26] • %c[0,140,140,140] cloth (sheets) %c[0,170,170,170]+2-3%</text>
+	</string>
+	<string id="st_glue_a">
+		<text>"Tur" glue tube</text>
+	</string>
+	<string id="st_glue_a_descr">
+		<text>\n \n%c[0,140,140,140]COMPATIBILITY:\n \n%c[255,238,153,26] • %c[0,140,140,140] all outfits and headgear sets\n \n%c[0,170,170,170]Advanced glue produced by the Ukrainian chemical industry, modified epoxy-based adhesive "Tur" is able to quickly bind most solid materials. Versatility and ease of use are the two reasons why "Tur" is kept in such a high regard among stalkers, especially since spare materials are scarce. The glue binds both textile fabrics and lighter protective materials like kevlar, but is useless when it comes to metals.\n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] • %c[0,140,140,140] technological item\n%c[255,238,153,26] • %c[0,140,140,140] usable for repairing equipment\n%c[255,238,153,26] • %c[0,140,140,140] not usable below condition level: %c[0,170,170,170]75%\n%c[255,238,153,26] • %c[0,140,140,140] base condition gain: %c[0,170,170,170]4%\n \n%c[0,140,140,140]SUPPORTED MATERIALS:\n%c[255,238,153,26] • %c[0,140,140,140] outfit repair kits %c[0,170,170,170]+6-18%\n%c[255,238,153,26] • %c[0,140,140,140] sewing kits %c[0,170,170,170]+3-9%\n%c[255,238,153,26] • %c[0,140,140,140] additional adhesives %c[0,170,170,170]+2-6%\n%c[255,238,153,26] • %c[0,140,140,140] reinforced textile (sheets) %c[0,170,170,170]+5-6%\n%c[255,238,153,26] • %c[0,140,140,140] textile (sheets) %c[0,170,170,170]+3-4%\n%c[255,238,153,26] • %c[0,140,140,140] cloth (sheets) %c[0,170,170,170]+2-3%\n%c[255,238,153,26] • %c[0,140,140,140] kevlar plates %c[0,170,170,170]+12%</text>
+	</string>
+	<string id="st_glue_e">
+		<text>"M17" glue tube</text>
+	</string>
+	<string id="st_glue_e_descr">
+		<text>\n \n%c[0,140,140,140]COMPATIBILITY:\n \n%c[255,238,153,26] • %c[0,140,140,140] all outfits and headgear sets\n \n%c[0,170,170,170]M17 is a result of a Soviet military-industrial research project intended to devise an extremely potent, single-ingredient adhesive which could be used in any situation regardless of purpose and materials involved. It was decided to use a highly potent methacrylate which is most often optimized for reacting with either plastic or metal. In case of M17, however, this limitation has been bypassed, making the substance equally effective in both areas. In addition, the adhesive received a significant boost to versatility thanks to its hydrate form: it can be diluted with water and used in any concentration depending on the intended result. There is almost no damage that the glue, combined with appropriate materials, won't be able to repair. Can be used with all materials available in the Zone.\n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] • %c[0,140,140,140] technological item\n%c[0,153,255,255] • %c[0,140,140,140] high quality\n%c[0,153,255,255] • %c[0,140,140,140] valuable\n%c[255,238,153,26] • %c[0,140,140,140] usable for repairing equipment\n%c[255,238,153,26] • %c[0,140,140,140] not usable below condition level: %c[0,170,170,170]60%\n%c[255,238,153,26] • %c[0,140,140,140] base condition gain: %c[0,170,170,170]6%\n \n%c[0,140,140,140]SUPPORTED MATERIALS:\n%c[255,238,153,26] • %c[0,140,140,140] outfit repair kits %c[0,170,170,170]+6-18%\n%c[255,238,153,26] • %c[0,140,140,140] sewing kits %c[0,170,170,170]+3-9%\n%c[255,238,153,26] • %c[0,140,140,140] additional adhesives %c[0,170,170,170]+2-6%\n%c[255,238,153,26] • %c[0,140,140,140] reinforced textile (sheets) %c[0,170,170,170]+5-6%\n%c[255,238,153,26] • %c[0,140,140,140] textile (sheets) %c[0,170,170,170]+3-4%\n%c[255,238,153,26] • %c[0,140,140,140] cloth (sheets) %c[0,170,170,170]+2-3%\n%c[255,238,153,26] • %c[0,140,140,140] kevlar plates %c[0,170,170,170]+12%\n%c[255,238,153,26] • %c[0,140,140,140] steel plates %c[0,170,170,170]+18%</text>
+	</string>
+
+
+
+
+
+
+
+
+
+
+	<string id="st_goldencoin">
+		<text>Old gold coin</text>
+	</string>
+	<string id="st_goldencoin_descr">
+		<text>Gold coin dating back to Emperor Nicholas II.</text>
+	</string>
+	
+	<string id="st_roubles">
+		<text>100-ruble coins</text>
+	</string>
+	<string id="st_roubles_descr">
+		<text>Trade in the Zone is conducted mainly by means of electronic transactions for safety and managing reasons. But many stalkers keep at least a few coins in their pockets in case they want to buy smaller things like cigarettes.</text>
+	</string>
+	
+	<string id="st_roubles_500">
+		<text>10 dollars</text>
+	</string>
+	<string id="st_roubles_500_descr">
+		<text>Trade in the Zone is conducted mainly by means of electronic transactions for safety and managing reasons. But many stalkers keep at least a notes in their pockets in case they want to buy more expensive everyday items.</text>
+	</string>
+	
+	<string id="st_roubles_1000">
+		<text>50 dollars</text>
+	</string>
+	<string id="st_roubles_1000_descr">
+		<text>Trade in the Zone is conducted mainly by means of electronic transactions for safety and managing reasons. But many stalkers keep at least a notes in their pockets in case they want to buy more expensive everyday items.</text>
+	</string>
+	
+	<string id="st_roubles_5000">
+		<text>100 dollars</text>
+	</string>
+	<string id="st_roubles_5000_descr">
+		<text>Trade in the Zone is conducted mainly by means of electronic transactions for safety and managing reasons. But many stalkers keep at least a notes in their pockets in case they want to buy more expensive everyday items.</text>
+	</string>
+		
+	
+	<string id="st_hide_flesh">
+		<text>Flesh skin</text>
+	</string>
+	<string id="st_hide_flesh_descr">
+		<text>The skin of a flesh.</text>
+	</string>
+	<string id="st_hide_boar">
+		<text>Boar hide</text>
+	</string>
+	<string id="st_hide_boar_descr">
+		<text>The hide of a boar.</text>
+	</string>
+	<string id="st_hide_bloodsucker">
+		<text>Bloodsucker skin</text>
+	</string>
+	<string id="st_hide_bloodsucker_descr">
+		<text>The skin of a bloodsucker.</text>
+	</string>
+	<string id="st_hide_burer">
+		<text>Burer skin</text>
+	</string>
+	<string id="st_hide_burer_descr">
+		<text>The skin of a burer.</text>
+	</string>
+	<string id="st_hide_chimera">
+		<text>Chimera hide</text>
+	</string>
+	<string id="st_hide_chimera_descr">
+		<text>The hide of a chimera.</text>
+	</string>
+	<string id="st_hide_pseudogiant">
+		<text>Pseudogiant hide</text>
+	</string>
+	<string id="st_hide_pseudogiant_descr">
+		<text>The hide of a pseudogiant.</text>
+	</string>
+	<string id="st_hide_controller">
+		<text>Controller skin</text>
+	</string>
+	<string id="st_hide_controller_descr">
+		<text>The skin of a controller.</text>
+	</string>
+	<string id="st_hide_pseudodog">
+		<text>Pseudodog hide</text>
+	</string>
+	<string id="st_hide_pseudodog_descr">
+		<text>The hide of a pseudodog.</text>
+	</string>
+	<string id="st_hide_psy_dog">
+		<text>Psy-dog hide</text>
+	</string>
+	<string id="st_hide_psy_dog_descr">
+		<text>The hide of a psy_dog.</text>
+	</string>
+	<string id="st_powder_poltergeist">
+		<text>"Diamond powder"</text>
+	</string>
+	<string id="st_powder_poltergeist_descr">
+		<text>"Diamond powder" such a common name is given to the Crystal-like substance, found sometimes in the belly of all kinds of psi-beings. It is not known what kind of metabolic processes lead to its appearance. Scientists are willing to pay large sums of money to get it in their hands. Practical use is limited, but some stalkers are known to be sprinkled with the most treasured hunting knives, as this makes sharpening much easier. This also makes the blades more shiny and sharp.</text>
+	</string>
+	<string id="st_mask_snork">
+		<text>Snork mask</text>
+	</string>
+	<string id="st_mask_snork_descr">
+		<text>Masks worn by snorks are apparently a version of GP-5, a Soviet gas mask, which was commonly used by soldiers as well as research and utility crews operating in the Zone when the second Chernobyl disaster occurred. Some of these people were working in numerous underground laboratories in which they were sealed from the outside world and exposed to tremendous amounts of radiation, which produced a creature we know as the snork. The mask, although broken beyond use (with cracked lenses and punctured filter hose), is still in demand by the scientific community.</text>
+	</string>
+	<string id="st_marlboro">
+		<text>Marlboro cigarettes</text>
+	</string>
+	<string id="st_marlboro_descr">
+		<text>"Marlboro" cigarettes imported from the West. Some stalkers trade them for a few rounds of ammo within their faction.</text>
+	</string>
+	<string id="st_lucky">
+		<text>Lucky Strike cigarettes</text>
+	</string>
+	<string id="st_lucky_descr">
+		<text>"Lucky Strike" cigarettes imported from the West. Some stalkers trade them for a few rounds of ammo within their faction.</text>
+	</string>
+	<string id="st_cuban">
+		<text>Cuban cigar (imported)</text>
+	</string>
+	<string id="st_cuban_descr">
+		<text>This valuable Cuban cigar can bring you bliss for a short while, especially when you're admiring a nice sunset. Some stalkers noticed that smoking strong tobacco repels mosquitoes. Cuban cigars are considered the finest in the world. A rare commodity.</text>
+	</string>
+	<string id="st_cigarettes_russian">
+		<text>Russian brand of cigarettes</text>
+	</string>
+	<string id="st_cigarettes_russian_descr">
+		<text>The cheapest pack of cigarettes in the Zone. Russian budget brand.</text>
+	</string>
+	<string id="st_cigarettes_1">
+		<text>"Астра" cigarettes</text>
+	</string>
+	<string id="st_cigarettes_2">
+		<text>"Прима" cigarettes</text>
+	</string>
+	<string id="st_cigarettes_3">
+		<text>"Космос" cigarettes</text>
+	</string>
+	<string id="st_cigarettes_descr">
+		<text>A pack of budget, strong and very low quality cigarettes. Someone must have smoked most of them since there are only a few left. Genuine USSR flavor has been fully preserved.</text>
+	</string>
+	<string id="st_radio_broken">
+		<text>Broken radio</text>
+	</string>
+	<string id="st_radio_broken_descr">
+		<text>A small radio in a poor condition. Dirty and damaged by moisture. The interior seems to be in quite a bad shape as the radio rattles when moved around. No to little value.</text>
+	</string>
+	<string id="st_radio">
+		<text>Radio</text>
+	</string>
+	<string id="st_radio_descr">
+		<text>Common radio found in the Zone.</text>
+	</string>
+	<string id="st_radio_military">
+		<text>Military radio</text>
+	</string>
+	<string id="st_radio_military_descr">
+		<text>All radio settings are shut down.</text>
+	</string>
+	<string id="st_smallradio">
+		<text>Small radio</text>
+	</string>
+	<string id="st_smallradio_descr">
+		<text>Music is a good way to calm your nerves. But with a broken antenna this radio is of little use. Moisture and dirt have also damaged this item.</text>
+	</string>
+	<string id="st_shitpost">
+		<text>Message</text>
+	</string>
+	<string id="st_shitpost_descr">
+		<text>Thanks to everyone who downloaded and liked this mod, and especially those who gave feedback for debugging! / Many thanks to the authors, whose mods were used in this build!/stason174rus</text>
+	</string>
+	<string id="st_bandage_israeli">
+		<text>Medical package</text>
+	</string>
+	<string id="st_bandage_israeli_descr">
+		<text>Combines several devices for first aid. Such as a primary dressing, an applicator, a secondary dressing and an impeccable device for securing the dressing in place.</text>
+	</string>
+	<string id="st_amphetamines">
+		<text>Аmphetamines</text>
+	</string>
+	<string id="st_amphetamines_descr">
+		<text>Amphetamine is a stimulant and improves endurance and reaction time. Side effects include dizziness, blurred vision, or anxiety.</text>
+	</string>
+	<string id="st_diazepam">
+		<text>Diazepam</text>
+	</string>
+	<string id="st_diazepam_descr">
+		<text>Diazepam, first introduced to the market as valium is a drug of the benzodiazepine family, which, as a rule, produces a calming effect. It is widely used to treat a range of symptoms, including anxiety, muscle spasms, convulsions, sleep problems and restless leg syndrome. Common side effects include drowsiness and coordination problems.</text>
+	</string>
+	<string id="st_kolbasa_smoked">
+		<text>"Doctor's" sausage</text>
+	</string>
+	<string id="st_kolbasa_smoked_descr">
+		<text>"Doctor's" sausage</text>
+	</string>
+	<string id="st_mre_1">
+		<text>MRE</text>
+	</string>
+	<string id="st_mre_1_descr">
+		<text>The Meal, Ready-to-Eat (commonly known as the MRE) is a self-contained, individual field ration in lightweight packaging, developed by the United States military for its service members for use in combat or other field conditions where organized food facilities are not available. One MRE can be used as one meal. The packaging of an MRE is designed to withstand rough conditions and exposure to the elements. Contains one course along with a variety of other food and drink items. While it can be eaten cold, it usually tastes much better when heated up with the included flameless ration heater (FRH, a water-activated exothermic reaction device that emits heat).</text>
+	</string>
+	<string id="st_beanz">
+		<text>Baked beans</text>
+	</string>
+	<string id="st_beanz_descr">
+		<text>Classic baked beans in a charming tomato sauce; with a high fiber content, virtually no fat. They also do not contain artificial colors, flavors and preservatives, which makes them an ideal snack or complement to any dish.</text>
+	</string>
+	<string id="st_chili">
+		<text>Chili beans</text>
+	</string>
+	<string id="st_chili_descr">
+		<text>Canned chili beans imported from the West. Popular as an ingredient in some dishes in the Zone.</text>
+	</string>
+	<string id="st_tomatoes">
+		<text>Canned tomatoes</text>
+	</string>
+	<string id="st_tomatoes_descr">
+		<text>Canned, diced tomatoes are imported into the zone on a regular basis. The shelf life at the bottom of the pot assumes that they are still fresh.</text>
+	</string>
+	<string id="st_tushonka">
+		<text>"Abakan" beef tushonka</text>
+	</string>
+	<string id="st_tushonka_descr">
+		<text>Tushonka is a common name of canned, stewed meat produced in the Soviet Union and other Warsaw Pact countries. The irony is that the idea originally came to Russia in a form of World War II aid transports from the United States. Since then, various kinds of tushonkas have become a primary means of long-time meat preservation, used both by the civilian population and as a standard-issue Red Army food ration. Despite their long expiry date, tushonkas are known for their high nutrition value (mostly owing to high fat content) and a relatively good taste. The Chernobyl Exclusion Zone has seen hundreds of types and tastes of tushonkas. In the spring of 2013 'Abakan' minced-meat brand remains the unquestionable king brand, and certainly the Zone has seen worse than that.</text>
+	</string>
+	<string id="st_corn">
+		<text>Canned corn</text>
+	</string>
+	<string id="st_corn_descr">
+		<text>Canned sweet corn imported from the outside. Can be eaten as it is, but there are some who use it as a soup ingredient.</text>
+	</string>
+	<string id="st_chocolate">
+		<text>Russian chocolate</text>
+	</string>
+	<string id="st_chocolate_descr">
+		<text>Very rare in the Zone and very appreciated, although the taste is nothing special.</text>
+	</string>
+	<string id="st_chocolatebar">
+		<text>Chocolate protein bar</text>
+	</string>
+	<string id="st_chocolatebar_descr">
+		<text>This mixture provides the body with the necessary proteins and sugar. Useful in long hikes.</text>
+	</string>
+	<string id="st_snickers">
+		<text>"Snickers" candy</text>
+	</string>
+	<string id="st_snickers_descr">
+		<text>"Snickers" candy bar.</text>
+	</string>
+	<string id="st_mars">
+		<text>"Маrs" candy</text>
+	</string>
+	<string id="st_mars_descr">
+		<text>"Маrs" candy bar.</text>
+	</string>
+	<string id="st_raisins">
+		<text>Raisins</text>
+	</string>
+	<string id="st_raisins_descr">
+		<text>A pack of raisins. Rich in nutrients, balances blood sugar.</text>
+	</string>
+	<string id="st_nuts">
+		<text>Mixed nuts</text>
+	</string>
+	<string id="st_nuts_descr">
+		<text>Assorted: peanuts, hazelnuts, cashews and almonds. Nutritional value is high enough. Imported from South Africa.</text>
+	</string>
+	<string id="st_beef">
+		<text>Beef "tushonka"</text>
+	</string>
+	<string id="st_beef_descr">
+		<text>Russian recipe of canned beef style "tushonka".</text>
+	</string>
+	<string id="st_bullheads">
+		<text>Canned bullheads</text>
+	</string>
+	<string id="st_bullheads_descr">
+		<text>Bullheads in tomato sauce are so tender that they literally melt in the mouth. This food is valued by stalkers throughout the Zone.</text>
+	</string>
+
+
+<!-- UNUSED
+	
+	
+	<string id="st_can_food_6">
+		<text>Килька в томате</text>
+	</string>
+	<string id="st_can_food_6_descr">
+		<text>Консервированная килька в томатном соусе.</text>
+	</string>
+			
+	<string id="st_can_food_7">
+		<text>Паштет из печени трески</text>
+	</string>
+	<string id="st_can_food_7_descr">
+		<text>Консервированный паштет из икры и печени трески. Превосходное качество. Сделано в России.</text>
+	</string>
+			
+	<string id="st_can_food_8">
+		<text>Копченый лосось</text>
+	</string>
+	<string id="st_can_food_8_descr">
+		<text>Украинский копченый лосось. Очень вкусно.</text>
+	</string>
+
+	-->
+	
+	<string id="st_water_large_1">
+		<text>"Borjomi" mineral water</text>
+	</string>
+	<string id="st_water_large_1_descr">
+		<text>Bottle of "Borjomi" mineral water 1.5l.</text>
+	</string>
+	<string id="st_water_large_2">
+		<text>"Darida" mineral water</text>
+	</string>
+	<string id="st_water_large_2_descr">
+		<text>Bottle of "Darida" mineral water 1.5l.</text>
+	</string>
+	<string id="st_water_can_1">
+		<text>Artesian water</text>
+	</string>
+	<string id="st_water_can_1_descr">
+		<text>Clean water from artesian wells.</text>
+	</string>
+	<string id="st_water_can_2">
+		<text>Sparkling water</text>
+	</string>
+	<string id="st_water_can_2_descr">
+		<text>Sparkling water for thirsty stalkers. It has some exhilarating effect when you're tired.</text>
+	</string>
+	<string id="st_cocacola">
+		<text>"Coca-Cola"</text>
+	</string>
+	<string id="st_cocacola_descr">
+		<text>Can of "Coca-Cola" soft drink</text>
+	</string>
+	<string id="st_vodka_1">
+		<text>"Crystal" vodka</text>
+	</string>
+	<string id="st_vodka_1_descr">
+		<text>Bottle of "Crystal" vodka.</text>
+	</string>
+	<string id="st_vodka_2">
+		<text>"Smirnoff"</text>
+	</string>
+	<string id="st_vodka_2_descr">
+		<text>Bottle of "Smirnoff" vodka.</text>
+	</string>
+	<string id="st_vodka_3">
+		<text>"Nemiroff"</text>
+	</string>
+	<string id="st_vodka_3_descr">
+		<text>Nemiroff is a Ukrainian producer of alcoholic beverages, specializing in vodkas and other spirits, based in the town of Nemyriv in the Vinnytska region. One of the best vodkas in the world and - by extension - in the Zone.</text>
+	</string>
+	<string id="st_vodka_4">
+		<text>"Stolichnaya" vodka</text>
+	</string>
+	<string id="st_vodka_4_descr">
+		<text>A favorite amongst Russians and many people over the world, a Russian vodka of high quality. Highly popular in the Zone and widely available most probably owing to an outside connection of one of the traders. In order to avoid detection by the military units stationing around the Zone, it is usually shipped in army containers or metal barrels, and then distributed in sturdy metal bottles.</text>
+	</string>
+	<string id="st_beer_large_1">
+		<text>"Ochakovo" large beer</text>
+	</string>
+	<string id="st_beer_large_1_descr">
+		<text>Large bottle of "Ochakovo" beer, another - beside vodka - popular beverage in the Zone, 2l.</text>
+	</string>
+	<string id="st_beer_large_2">
+		<text>"Alivaria Golden" large beer</text>
+	</string>
+	<string id="st_beer_large_2_descr">
+		<text>Bottle of "Alivaria Golden" beer, another - beside vodka - popular beverage in the Zone, 1.5l.</text>
+	</string>
+	<string id="st_beer_1">
+		<text>"Baltika-3" beer</text>
+	</string>
+	<string id="st_beer_1_descr">
+		<text>Bottle of "Baltika-3" beer, another - beside vodka - popular beverage in the Zone.</text>
+	</string>	
+	<string id="st_beer_2">
+		<text>"Slavic Premium"</text>
+	</string>
+	<string id="st_beer_2_descr">
+		<text>Bottle of "Slavic Premium" beer, another - beside vodka - popular beverage in the Zone.</text>
+	</string>	
+	<string id="st_beer_can_1">
+		<text>"Pripyat" beer.</text>
+	</string>
+	<string id="st_beer_can_1_descr">
+		<text>Bottle of "Pripyat" beer, another - beside vodka - popular beverage in the Zone.</text>
+	</string>	
+	<string id="st_beer_can_2">
+		<text>"Heineken" beer</text>
+	</string>
+	<string id="st_beer_can_2_descr">
+		<text>Bottle of "Heineken" beer, another - beside vodka - popular beverage in the Zone.</text>
+	</string>		
+	<string id="st_redbull">
+		<text>"Red Bull" energy drink</text>
+	</string>
+	<string id="st_redbull_descr">
+		<text>Can of "Red Bull" energy drink, a strong imported energy drink.</text>
+	</string>
+	<string id="st_guru">
+		<text>"Guru" energy drink</text>
+	</string>
+	<string id="st_guru_descr">
+		<text>Can of "Guru" energy drink, an energy drink from an extract of African cola nuts without coloring agents and preservatives.</text>
+	</string>
+	
+		
+<!--SOUP END-->
+</string_table>

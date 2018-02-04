@@ -1,0 +1,173 @@
+--[[ -----------------------------------
+ #  Модуль бартера репутации
+ #  for Lost Path
+ #  author : b4d1k
+ #  date   : 11.11.2017
+ #  file   : lostpath_barter_*.script 
+]]-- -----------------------------------
+
+-- -------------------------------------------------------------------------------------
+-- Функции уменьшения отношения ИИГ к ГГ
+-- Оповещения на ПДА
+-- Звуковой сигнал
+function goodwill_to_isg_gauss()
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"isg", -1000}) 
+	local t = db.actor:community_goodwill("isg")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Reputation Exchange:\\n%c[255,160,160,160]Received item: <Гаусс> Spent reputation: [1000]", nil, nil, nil, nil)
+	xr_sound.set_sound_play(db.actor:id(), "pda_news")
+end
+
+function goodwill_to_isg_val()
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"isg", -600}) 
+	local t = db.actor:community_goodwill("isg")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Reputation Exchange:\\n%c[255,160,160,160]Received item: <АС Вал> Spent reputation: [600]", nil, nil, nil, nil)
+	xr_sound.set_sound_play(db.actor:id(), "pda_news")
+end
+
+function goodwill_to_isg_groza()
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"isg", -750}) 
+	local t = db.actor:community_goodwill("isg")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Reputation Exchange:\\n%c[255,160,160,160]Received item: <Гроза С14 Магма> Spent reputation: [750]", nil, nil, nil, nil)
+	xr_sound.set_sound_play(db.actor:id(), "pda_news")
+end
+
+function goodwill_to_isg_vss()
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"isg", -750}) 
+	local t = db.actor:community_goodwill("isg")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Reputation Exchange:\\n%c[255,160,160,160]Received item: <ВСС Винторез> Spent reputation: [750]", nil, nil, nil, nil)
+	xr_sound.set_sound_play(db.actor:id(), "pda_news")
+end
+
+function goodwill_to_isg_baloon()
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"isg", -900}) 
+	local t = db.actor:community_goodwill("isg")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Reputation Exchange:\\n%c[255,160,160,160]Received item: <Пузырь> Spent reputation: [900]", nil, nil, nil, nil)
+	xr_sound.set_sound_play(db.actor:id(), "pda_news")
+end
+
+function goodwill_to_isg_svu()
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"isg", -900}) 
+	local t = db.actor:community_goodwill("isg")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Reputation Exchange:\\n%c[255,160,160,160]Received item: <СВУмк2> Spent reputation: [900]", nil, nil, nil, nil)
+	xr_sound.set_sound_play(db.actor:id(), "pda_news")
+end
+
+function goodwill_to_isg_545x39()
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"isg", -30}) 
+	local t = db.actor:community_goodwill("isg")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Reputation Exchange:\\n%c[255,160,160,160]Received item: <5.45х39> Spent reputation: [30]", nil, nil, nil, nil)
+	xr_sound.set_sound_play(db.actor:id(), "pda_news")
+end
+
+function goodwill_to_isg_545x39_ap()
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"isg", -40}) 
+	local t = db.actor:community_goodwill("isg")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Reputation Exchange:\\n%c[255,160,160,160]Received item: <5.45х39 Бронебойный> Spent reputation: [40]", nil, nil, nil, nil)
+	xr_sound.set_sound_play(db.actor:id(), "pda_news")
+end
+
+function goodwill_to_isg_9x39()
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"isg", -50}) 
+	local t = db.actor:community_goodwill("isg")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Reputation Exchange:\\n%c[255,160,160,160]Received item: <9x39> Spent reputation: [50]", nil, nil, nil, nil)
+	xr_sound.set_sound_play(db.actor:id(), "pda_news")
+end
+
+function goodwill_to_isg_9x39_ap()
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"isg", -60}) 
+	local t = db.actor:community_goodwill("isg")
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Reputation Exchange:\\n%c[255,160,160,160]Received item: <9x39 Бронебойный> Spent reputation: [60]", nil, nil, nil, nil)
+	xr_sound.set_sound_play(db.actor:id(), "pda_news")
+end
+
+-- -------------------------------------------------------------------------------------
+-- Проверки на наличие необходимой репутации
+function prec(value)
+	if (db.actor:community_goodwill("isg") >= value) then
+		return true
+	else
+		return false
+	end
+end
+
+function prec_isg_gauss()
+	return prec(1000)
+end
+
+function prec_isg_val()
+	return prec(600)
+end
+
+function prec_isg_groza()
+	return prec(850)
+end
+
+function prec_isg_vss()
+	return prec(750)
+end
+
+function prec_isg_baloon()
+	return prec(900)
+end
+
+function prec_isg_svu()
+	return prec(900)
+end
+
+function prec_isg_545x39()
+	return prec(30)
+end
+
+function prec_isg_545x39_ap()
+	return prec(40)
+end
+
+function prec_isg_9x39()
+	return prec(50)
+end
+
+function prec_isg_9x39_ap()
+	return prec(60)
+end
+
+-- -------------------------------------------------------------------------------------
+-- Функции выдачи предмета от НПС к ГГ
+function barter_gauss(first_speaker, second_speaker)
+	dialogs.relocate_item_section(second_speaker, "wpn_gauss", "in") 
+end
+
+function barter_val(first_speaker, second_speaker)
+	dialogs.relocate_item_section(second_speaker, "wpn_val", "in") 
+end
+
+function barter_groza(first_speaker, second_speaker)
+	dialogs.relocate_item_section(second_speaker, "wpn_groza_magma", "in") 
+end
+
+function barter_vss(first_speaker, second_speaker)
+	dialogs.relocate_item_section(second_speaker, "wpn_vintorez", "in") 
+end
+
+function barter_svd(first_speaker, second_speaker)
+	dialogs.relocate_item_section(second_speaker, "af_baloon", "in") 
+end
+
+function barter_svu(first_speaker, second_speaker)
+	dialogs.relocate_item_section(second_speaker, "wpn_svu", "in") 
+end
+
+function barter_545x39(first_speaker, second_speaker)
+	dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_fmj", "in") 
+end
+
+function barter_545x39_ap(first_speaker, second_speaker)
+	dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap", "in") 
+end
+
+function barter_9x39(first_speaker, second_speaker)
+	dialogs.relocate_item_section(second_speaker, "ammo_9x39_pab9", "in") 
+end
+
+function barter_9x39_ap(first_speaker, second_speaker)
+	dialogs.relocate_item_section(second_speaker, "ammo_9x39_ap", "in") 
+end

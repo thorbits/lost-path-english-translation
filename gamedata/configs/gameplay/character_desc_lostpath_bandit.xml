@@ -1,0 +1,164 @@
+<!-------------------- Темная Лощина ----------------------->	
+<!---------------------- Карась -------------------------->	
+
+<specific_character id="ds_dikobraz" team_default="1">
+    <name>Карась</name>
+    <icon>ui_inGame2_bandit_trade</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>ds_dikobraz</class>
+    <community>bandit</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>8139</rank>
+    <reputation>784</reputation>
+    <visual>actors\stalker_bandit\stalker_bandit_tr</visual>
+    <snd_config>characters_voice\human_03\bandit\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_groza = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_4.xml"
+		<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<!------------------------ Шишак --------------------------->
+<specific_character id="ds_maloy" team_default="1">
+    <name>Шишак</name>
+    <icon>ui_inGame2_bandit_4</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>ds_maloy</class>
+    <community>bandit</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>11139</rank>
+    <reputation>784</reputation>
+    <visual>actors\stalker_bandit\stalker_bandit_4</visual>
+    <snd_config>characters_voice\human_01\bandit\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u = 1, silencer \n
+        wpn_pmm = 1 \n
+		itm_backpack_20_black = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_4.xml"
+		<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<!---------------------- Вася Кабан --------------------------->
+<specific_character id="ds_kengyry" team_default="1">
+    <name>Вася Кабан</name>
+    <icon>ui_inGame2_bandit_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>ds_kengyry</class>
+    <community>bandit</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>11139</rank>
+    <reputation>-1784</reputation>
+    <visual>actors\stalker_bandit\stalker_bandit_5</visual>
+    <snd_config>characters_voice\human_01\bandit\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val = 1 \n
+        wpn_desert_eagle = 1 \n
+	        </supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+#include "gameplay\character_criticals_4.xml"
+<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+<actor_dialog>actor_break_dialog</actor_dialog>
+		</specific_character>
+
+<!----------------------- Валет --------------------------->
+<specific_character id="ds_biceps" team_default="1">
+    <name>Валет</name>
+    <icon>ui_inGame2_bandit_3</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>ds_biceps</class>
+    <community>bandit</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>11139</rank>
+    <reputation>2784</reputation>
+    <visual>actors\stalker_bandit\stalker_bandit_3</visual>
+    <snd_config>characters_voice\human_01\bandit\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val = 1 \n
+        wpn_pmm = 1 \n
+</supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+#include "gameplay\character_criticals_6.xml"
+<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+<actor_dialog>actor_break_dialog</actor_dialog>
+		</specific_character>
+
+<!------------------------ Василь ---------------------------->
+<specific_character id="ds_tigr" team_default="1">
+    <name>Василь</name>
+    <icon>ui_inGame2_vas</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>ds_tigr</class>
+    <community>bandit</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>23139</rank>
+    <reputation>2984</reputation>
+    <visual>actors\stalker_merc\stalker_ki_mask</visual>
+    <snd_config>characters_voice\human_01\bandit\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_vssk = 1 \n
+        wpn_pmm = 1 \n
+</supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+#include "gameplay\character_criticals_6.xml"
+<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<!---------------------- Поляна -------------------------->	
+
+<!----------------------- Сильвер --------------------------->	
+
+<specific_character id="pol_yoga" team_default="1">
+    <name>Сильвер</name>
+    <icon>ui_inGame2_nodata</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>pol_yoga</class>
+    <community>bandit</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>15139</rank>
+    <reputation>-2784</reputation>
+    <visual>actors\stalker_merc\stalker_merc_exo_proto</visual>
+    <snd_config>characters_voice\human_01\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val = 1 \n
+        wpn_fort = 1 \n
+	</supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+#include "gameplay\character_criticals_6.xml"
+<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+<actor_dialog>yoga</actor_dialog>
+<actor_dialog>actor_break_dialog</actor_dialog>
+
+</specific_character>

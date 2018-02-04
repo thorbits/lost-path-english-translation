@@ -1,0 +1,410 @@
+<!------------------- Арм склады ---------------------->	
+<!-------------------- Мануэлка ----------------------->	
+<specific_character id="spec_manuel" team_default="1">
+    <name>Мануэль</name>
+    <icon>ui_inGame2_neutral_nauchniy</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>spec_manuel</class>
+    <community>stalker</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>19139</rank>
+    <reputation>2784</reputation>
+    <visual>actors\stalker_neutral\stalker_neutral_nauchni3</visual>
+    <snd_config>characters_voice\human_03\stalker\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_abakan_magma = 1 \n
+        ammo_5.45x39_ap = 4 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+		pda_manuel \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<!---------------- ФЛОДАРЧИК ака КОКОКО ------------------>
+<specific_character id="spec_fladar" team_default="1">
+    <name>Фладар</name>
+    <icon>ui_inGame2_neutral_nauchniy</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>spec_fladar</class>
+    <community>bandit</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>19139</rank>
+    <reputation>2784</reputation>
+    <visual>actors\stalker_neutral\stalker_neutral_nauchni3</visual>
+    <snd_config>characters_voice\human_03\stalker\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val_fladar = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<!-------------------- Иван Зайцев ---------------------->
+<specific_character id="spec_zaec" team_default="1">
+    <name>Заяц</name>
+    <icon>ui_inGame2_merc_4a</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>spec_zaec</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>19139</rank>
+    <reputation>2784</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_7</visual>
+    <snd_config>characters_voiceCoC\human_03\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_g36k = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<!-------------------- Монат ---------------------->
+<specific_character id="spec_monat" team_default="1">
+    <name>Монат</name>
+    <icon>ui_inGame2_bandit_3_mask</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>spec_monat</class>
+    <community>bandit</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>12000</rank>
+    <reputation>2784</reputation>
+    <visual>actors\stalker_bandit\stalker_bandit3a</visual>
+    <snd_config>characters_voice\human_02\bandit\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_mp5 = 1 \n
+		wpn_pm = 1 \n 
+		vodka = 1 \n 
+		grenade_f1 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<!-------------------- Гомноед ---------------------->
+<specific_character id="spec_tyx" team_default="1">
+    <name>Тухлый</name>
+    <icon>ui_inGame2_merc_4a</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>spec_tyx</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>19000</rank>
+    <reputation>2784</reputation>
+    <visual>actors\stalker_merc\stalker_merc_military</visual>
+    <snd_config>characters_voice\human_02\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_m98b = 1 \n
+		wpn_glock = 1 \n 
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<!---------------- Артем Ковальский -------------------->
+<specific_character id="spec_tomas" team_default="1">
+    <name>Томас О'Мелли</name>
+    <icon>ui_inGame2_ecolog_white</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>spec_tomas</class>
+    <community>ecolog</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>15000</rank>
+    <reputation>784</reputation>
+    <visual>actors\stalker_ecologist\stalker_ecolog_white</visual>
+    <snd_config>characters_voice\human_03\ecolog\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_ak74 = 1 \n
+		wpn_pm = 1 \n 
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="spec_chess" team_default="1">
+    <name>Шахматист</name>
+    <icon>ui_inGame2_merc_2</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>spec_chess</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>15000</rank>
+    <reputation>184</reputation>
+    <visual>actors\stalker_merc\stalker_merc_2</visual>
+    <snd_config>characters_voice\human_02\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_g36 = 1 \n
+		wpn_usp = 1 \n 
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="spec_konrad" team_default="1">
+    <name>Конрад Уэлш</name>
+    <icon>ui_inGame2_nodata_ecolog</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>spec_konrad</class>
+    <community>isg</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>15000</rank>
+    <reputation>-2184</reputation>
+    <visual>actors\my\seva_isg</visual>
+    <snd_config>characters_voice\human_03\stalker\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_lr300 = 1 \n
+		wpn_beretta = 1 \n 
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="spec_shepard" team_default="1">
+    <name>Бенджамин Шепард</name>
+    <icon>ui_inGame2_csky_nauchniy</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>spec_shepard</class>
+    <community>csky</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>15000</rank>
+    <reputation>-2184</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_seva_1</visual>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_abakan = 1 \n
+		wpn_beretta = 1 \n 
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="spec_demidov" team_default="1">
+    <name>Капитан Демидов</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>spec_demidov</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>15000</rank>
+    <reputation>-2184</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier5a</visual>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_vintorez = 1 \n
+		wpn_fort = 1 \n 
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="spec_doberman" team_default="1">
+    <name>Султан</name>
+    <icon>ui_inGame2_Sultan</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>spec_doberman</class>
+    <community>bandit</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>20000</rank>
+    <reputation>800</reputation>
+    <visual>actors\stalker_bandit\stalker_bandit_3_face_3</visual>
+    <snd_config>characters_voice\uni_01\sultan\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_m249 = 1 \n
+		wpn_hpsa = 1 \n 
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_6.xml"
+	<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+<actor_dialog>sult</actor_dialog>
+<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="spec_orlan" team_default="1">
+    <name>Орлан</name>
+    <icon>ui_inGame2_neutral_4_new</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>spec_orlan</class>
+    <community>stalker</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>15000</rank>
+    <reputation>2184</reputation>
+    <visual>actors\stalker_neutral\stalker_neutral_4_new</visual>
+    <snd_config>characters_voice\human_03\stalker\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val = 1 \n
+		wpn_desert_eagle = 1 \n 
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="spec_sokol" team_default="1">
+    <name>Сокол</name>
+    <icon>ui_inGame2_monolith2_gp5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>spec_sokol</class>
+    <community>monolith</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>15000</rank>
+    <reputation>0</reputation>
+    <visual>actors\stalker_monolith\stalker_monolith1_gp5</visual>
+    <snd_config>characters_voice\human_01\monolith\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_svu = 1 \n
+		wpn_sig220 = 1 \n 
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="spec_earth" team_default="1">
+    <name>Земляк</name>
+    <icon>ui_inGame2_zemlyak</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>spec_earth</class>
+    <community>darkstalker</community>
+    <map_icon x="0" y="0"></map_icon>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>22608</rank>
+    <reputation>-3184</reputation>
+    <visual>actors\dark_stalker\dark_stalker_1</visual>
+    <snd_config>characters_voice\human_01\stalker\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_gauss = 1 \n
+		wpn_colt1911 = 1 \n 
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="spec_pokemon" team_default="1">
+    <name>Покемон</name>
+    <icon>ui_inGame2_freedom_2_old</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>spec_pokemon</class>
+    <community>freedom</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>15000</rank>
+    <reputation>2184</reputation>
+    <visual>actors\stalker_freedom\stalker_freedom_2_old</visual>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_l85 = 1 \n
+		wpn_walther = 1 \n 
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="spec_filatov" team_default="1">
+    <name>Комиссар Филатов</name>
+    <icon>ui_inGame2_Dolg_3</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>spec_filatov</class>
+    <community>dolg</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>15000</rank>
+    <reputation>2184</reputation>
+    <visual>actors\stalker_dolg\stalker_dolg_3</visual>
+    <snd_config>characters_voice\human_01\dolg\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_groza = 1 \n
+		wpn_tt33 = 1 \n 
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>

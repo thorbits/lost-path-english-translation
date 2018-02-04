@@ -1,0 +1,139 @@
+<!-------------- Исслед-ская группа Искра ------------------>
+<!------------------- Тополь ------------------------------->
+
+<specific_character id="jup_topol" team_default="1">
+    <name>Тополь</name>
+    <icon>ui_inGame2_ecolog_guard_gas</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>jup_topol</class>
+    <community>ecolog</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>18500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_ecologist\stalker_neutral_4_proto</visual>
+    <snd_config>characters_voice\human_02\dolg\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_g36k = 1 \n
+		wpn_beretta = 1 \n
+		itm_backpack_20 = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<!------------------- Булава ------------------------------->
+
+<specific_character id="jup_bulava" team_default="1">
+    <name>Булава</name>
+    <icon>ui_inGame2_ecolog_guard_gas</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>jup_bulava</class>
+    <community>ecolog</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>16500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_ecologist\stalker_ecolog_medic</visual>
+    <snd_config>characters_voice\human_02\dolg\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_spas12 \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+		<actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<!------------------- Дух ---------------------------------->
+
+<specific_character id="jup_dyx" team_default="1">
+    <name>Дух</name>
+    <icon>ui_inGame2_ecolog_guard_gas</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>jup_dyx</class>
+    <community>ecolog</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>16500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_ecologist\stalker_neutral_ecolog_1</visual>
+    <snd_config>characters_voice\human_02\dolg\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_lr300 \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<!------------------- Змей --------------------------------->
+
+<specific_character id="jup_zmey" team_default="1">
+    <name>Змей</name>
+    <icon>ui_inGame2_ecolog_guard_gas</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>jup_zmey</class>
+    <community>ecolog</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>16500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_ecologist\stalker_neutral_ecolog_2</visual>
+    <snd_config>characters_voice\human_02\dolg\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_lr300 \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>

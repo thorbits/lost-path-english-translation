@@ -1,0 +1,404 @@
+--[[ --------------------------------------------------------------
+ #  Модуль спавна брони и шлема в зависимости от визуала
+ #  Основано на искусственном AI. Схема умнее 99% подписчиков
+ #  сборки-хуерки стасона.
+ #  for Lost Path
+ #  author : b4d1k
+ #  date   : 24.12.2017
+ #  file   : lostpath_special_drop_to_npc.script  
+ 
+ 
+ #  TODO   : 
+ #  1) спавн рюкзаков, фильтров и шлемов в зависимости от ранга
+ #     с разным шансом % спавна [DONE]
+ #  2) спавн фильтров в зависимости от спавнящегося шлема, если
+ #     тот позволяет использовать шлем
+ #  3) спавн предметов из п.1 должен быть с рандомным кандишном,
+ #     чтобы не вызывать дисбаланс [DONE]
+ #  4) пофиксить кондишн дропаемых шлемов [DONE]
+ #  5) создание собственного INI файла с настройкой прочности и
+ #     предметов прямо из конфига [DONE]
+]]-- -------------------------------------------------------------
+
+function on_game_start()
+	RegisterScriptCallback("npc_on_death_callback", npc_on_death)
+end
+
+function npc_on_death(dead, killer)
+	local npc = dead
+	spawn_outfit(npc)
+	SpawnSpecial(npc)
+	SpawnMaterialsUp(npc)
+end
+
+--' Функция спавнит броник в зависимости от визуала
+function spawn_outfit(npc)
+	--printf("Loading module spawn outfits...")
+	local ini = ini_file("settings\\outfits.ltx")
+	local ini2 = ini_file("settings\\helmets.ltx")
+	local visual = npc:get_visual_name()
+	local faction = npc:character_community()
+	local factions = alun_utils.parse_ini_section_to_array(ini, "factions")
+	local actor = db.actor
+	local helmet, outfit, visuals
+	local helmets = alun_utils.parse_ini_section_to_array(ini2, "helmets")
+	local ini3 = ini_file("settings\\outfits_"..faction..".ltx")
+	
+	visuals = alun_utils.parse_ini_section_to_array(ini, faction)
+	
+	-- parse_list для мутантов можно сделать
+	
+	
+	
+	-- THE DEBUG
+	--printf("faction: %s", faction)
+	--store_table(factions)
+	--printf("faction: %s", faction)
+	--store_table(visuals)
+	--store_table(table)
+	--printf("Go to FOR i = 1 , #table and #table : %s", #table)
+	--printf("visual: %s", visual)
+	
+	
+	
+	if not visuals then return end
+	
+	for i, v in pairs(visuals) do
+		--printf("visual: %s", visual)
+		if string.find(visual, visuals[i]) then
+			outfit = ini3:r_string_ex(visuals[i],"outfit")
+			helmet = ini3:r_string_ex(visuals[i],"helmet")
+			--printf("Found outfit: %s or helmet: %s in section", i, v)
+			break
+		end
+	end
+	
+	for n, m in pairs(helmets) do
+		if string.find(visual, helmets[n]) then
+			helmet = ini2:r_string_ex(helmets[n],"helmet")
+			--printf("Replace old helmet with new helmet : %s", helmet)
+			break
+		end
+	end
+	
+	if not outfit and not helmet then return end
+	
+	if outfit ~= "" then 
+		local sout = alife():create(outfit,npc:position(),npc:level_vertex_id(),npc:game_vertex_id(),npc:id(), false)
+		outfit_condition(npc, sout)
+		--printf("Randomize outfit : %s", sout)
+		--set_weapon_drop_condition(npc,sout)
+	end
+	
+	if helmet ~= "" then 
+		local shlm = alife():create(helmet,npc:position(),npc:level_vertex_id(),npc:game_vertex_id(),npc:id(), false) 
+		outfit_condition(npc, shlm)
+		--printf("Randomize helmet : %s", shlm) 
+		--set_weapon_drop_condition(npc,shlm)
+	end
+	
+	--printf("Done spawning outfit and helmet")
+end
+
+--' Узнаем какой броник у НПС заспавнится
+function WhatIsOutfit(npc)
+	local ini = ini_file("settings\\outfits.ltx")
+	local visual = npc:get_visual_name()
+	local faction = npc:character_community()
+	local factions = alun_utils.parse_ini_section_to_array(ini, "factions")
+	local actor = db.actor
+	local helmet = "helmet_base"
+	local outfit = "outfit_base"
+	local visuals
+	local ini3 = ini_file("settings\\outfits_"..faction..".ltx")
+	
+	visuals = alun_utils.parse_ini_section_to_array(ini, faction)
+	
+	if not visuals then return "outfit_base" end
+	
+	for i, v in pairs(visuals) do
+		if string.find(visual, visuals[i]) then
+			outfit = ini3:r_string_ex(visuals[i],"outfit")
+			break
+		end
+	end
+	
+	if outfit ~= "" then 
+		return outfit
+	end
+	
+	return "outfit_base"
+end
+
+--' Узнаем какой шлем у НПС заспавнится
+function WhatIsHelmet(npc)
+	local ini = ini_file("settings\\outfits.ltx")
+	local ini2 = ini_file("settings\\helmets.ltx")
+	local visual = npc:get_visual_name()
+	local faction = npc:character_community()
+	local factions = alun_utils.parse_ini_section_to_array(ini, "factions")
+	local actor = db.actor
+	local helmet = "helmet_base"
+	local outfit = "outfit_base"
+	local visuals
+	local helmets = alun_utils.parse_ini_section_to_array(ini2, "helmets")
+	local ini3 = ini_file("settings\\outfits_"..faction..".ltx")
+	
+	visuals = alun_utils.parse_ini_section_to_array(ini, faction)
+	
+	if not visuals then return "helmet_base" end
+	
+	for i, v in pairs(visuals) do
+		if string.find(visual, visuals[i]) then
+			helmet = ini3:r_string_ex(visuals[i],"helmet")
+			break
+		end
+	end
+	
+	for n, m in pairs(helmets) do
+		if string.find(visual, helmets[n]) then
+			helmet = ini2:r_string_ex(helmets[n],"helmet")
+			break
+		end
+	end
+	
+	if helmet then 
+		return helmet 
+	end
+	
+	return "helmet_base"
+end
+
+--' Настраиваем кондишн брони
+function outfit_condition(npc, armor)
+	local ini = ini_file("settings\\weapon_condition.ltx")
+	local condition, min_cond, max_cond
+	local rank = ranks.get_obj_rank_name(npc)
+	
+	if (axr_main.config:r_value("mm_options","enable_rank_loot_option",1,true)) then		
+		if npc:character_community() == "zombied" then
+			min_cond = tonumber(ini:r_string_ex("zombied","min_condition"))
+			max_cond = tonumber(ini:r_string_ex("zombied","max_condition"))
+		else
+			min_cond = tonumber(ini:r_string_ex(rank,"min_condition"))
+			max_cond = tonumber(ini:r_string_ex(rank,"max_condition"))
+		end
+		
+		condition = math.random(min_cond, max_cond)/200
+		
+	else
+		min_cond = tonumber(ini:r_string_ex("legend","min_condition"))
+		
+		condition = min_cond/200
+	end
+	
+	local armor_crc = stpk_utils.get_item_data(armor)
+	armor_crc.condition = condition
+	stpk_utils.set_item_data(armor_crc, armor)
+	alife():register(armor)
+end
+
+--' Проверки типа брони
+function IsExo(npc)
+	local str = WhatIsOutfit(npc)
+	
+	if not str then return end
+	
+	if string.find(str, "exo") then
+		return true
+	else
+		return false
+	end
+end
+
+function IsProto(npc)
+	local str = WhatIsOutfit(npc)
+	
+	if not str then return end
+	
+	if string.find(str, "proto") then
+		return true
+	else
+		return false
+	end
+end
+
+--' Специальный спавн
+function SpawnSpecial(npc)
+	local rank = ranks.get_obj_rank_name(npc)
+	local ini = ini_file("settings\\special_drop.ltx")
+	local itms, cond, chance
+	local outfit = WhatIsOutfit(npc)
+	local helmet = WhatIsHelmet(npc)
+	
+	itms = alun_utils.parse_list(ini, rank,"items")
+	cond = alun_utils.parse_list(ini, rank,"condition")
+	chance = alun_utils.parse_list(ini, rank,"chance")
+	
+	for i, v in pairs(itms) do
+		if math.random(0, 100) <= tonumber(chance[i]) then
+			local sobj = alife():create(itms[i],npc:position(),npc:level_vertex_id(),npc:game_vertex_id(),npc:id(), false)
+			local crc = stpk_utils.get_item_data(sobj)
+			crc.condition = (math.random(0, tonumber(cond[i]))/100)
+			stpk_utils.set_item_data(crc, sobj)
+			alife():register(sobj)
+		end
+	end
+	
+	if IsExo(npc) == true or IsProto(npc) == true and math.random(0, 100) <= tonumber(chance[1]) then 
+		local sobj = alife():create("battery",npc:position(),npc:level_vertex_id(),npc:game_vertex_id(),npc:id(), false)
+		local crc = stpk_utils.get_item_data(sobj)
+		local cnd = (math.random(0, tonumber(cond[1]))/100)
+		crc.condition = cnd
+		stpk_utils.set_item_data(crc, sobj)
+		alife():register(sobj)
+		--printf("condition : %s", cnd)
+	end
+	
+	--printf("helmet is : %s", helmet)
+	
+	if system_ini():r_string_ex(helmet,"can_filter","") == "installing" then
+		local sobj = alife():create("filter",npc:position(),npc:level_vertex_id(),npc:game_vertex_id(),npc:id(), false)
+		local crc = stpk_utils.get_item_data(sobj)
+		local cnd = (math.random(0, tonumber(cond[1]))/100)
+		crc.condition = cnd
+		stpk_utils.set_item_data(crc, sobj)
+		alife():register(sobj)
+		--printf("condition : %s", cnd)
+	end
+end
+
+function SpawnMaterialsUp(npc)
+	local rank = ranks.get_obj_rank_name(npc)
+	local ini = ini_file("settings\\materials_drop.ltx")
+	local name = npc:name()
+	
+	local itms, count, chance
+	local outfit = WhatIsOutfit(npc)
+	
+	itms = alun_utils.parse_list(ini, rank,"items")
+	count = alun_utils.parse_list(ini, rank,"count")
+	chance = alun_utils.parse_list(ini, rank,"chance")
+	
+	for i, v in pairs(itms) do
+		count[i] = tonumber(count[i])
+		chance[i] = tonumber(chance[i])
+		
+		if math.random(0, 100) <= chance[i] then
+			if string.find(name, "mec") then 	
+				count[i] = count[i] * math.random(2,4)
+			end
+			
+			for _ = 1, count[i] do
+				local sobj = alife():create(itms[i],npc:position(),npc:level_vertex_id(),npc:game_vertex_id(),npc:id())
+			end
+		end
+	end
+	
+	--printf("Done")
+end
+
+function return_condition(npc)
+	local ini = ini_file("settings\\weapon_condition.ltx")
+	local condition, min_cond, max_cond
+	local rank = ranks.get_obj_rank_name(npc)
+	
+	if (axr_main.config:r_value("mm_options","enable_rank_loot_option",1,true)) then		
+		if npc:character_community() == "zombied" then
+			min_cond = tonumber(ini:r_string_ex("zombied","min_condition"))
+			max_cond = tonumber(ini:r_string_ex("zombied","max_condition"))
+		else
+			min_cond = tonumber(ini:r_string_ex(rank,"min_condition"))
+			max_cond = tonumber(ini:r_string_ex(rank,"max_condition"))
+		end
+		
+		condition = math.random(min_cond, max_cond)/100
+		
+	else
+		min_cond = tonumber(ini:r_string_ex("legend","min_condition"))
+		
+		condition = min_cond/100
+	end
+	
+	return condition
+end
+
+function random_condition(npc, itm)
+	local ini = ini_file("settings\\weapon_condition.ltx")
+	local condition, min_cond, max_cond
+	local rank = ranks.get_obj_rank_name(npc)
+	
+	if (axr_main.config:r_value("mm_options","enable_rank_loot_option",1,true)) then		
+		if npc:character_community() == "zombied" then
+			min_cond = tonumber(ini:r_string_ex("zombied","min_condition"))
+			max_cond = tonumber(ini:r_string_ex("zombied","max_condition"))
+		else
+			min_cond = tonumber(ini:r_string_ex(rank,"min_condition"))
+			max_cond = tonumber(ini:r_string_ex(rank,"max_condition"))
+		end
+		
+		condition = math.random(min_cond, max_cond)/100
+		
+	else
+		min_cond = tonumber(ini:r_string_ex("legend","min_condition"))
+		
+		condition = min_cond/100
+	end
+	
+	itm:set_condition(condition)	
+end
+
+function set_weapon_drop_condition(npc,itm)
+	local ini = ini_file("settings\\weapon_condition.ltx")
+	local condition, min_cond, max_cond
+	local rank = ranks.get_obj_rank_name(npc)
+	
+	if (axr_main.config:r_value("mm_options","enable_rank_loot_option",1,true)) then		
+		if npc:character_community() == "zombied" then
+			min_cond = tonumber(ini:r_string_ex("zombied","min_condition"))
+			max_cond = tonumber(ini:r_string_ex("zombied","max_condition"))
+		else
+			min_cond = tonumber(ini:r_string_ex(rank,"min_condition"))
+			max_cond = tonumber(ini:r_string_ex(rank,"max_condition"))
+		end
+		
+		condition = math.random(min_cond, max_cond)/100
+		
+	else
+		min_cond = tonumber(ini:r_string_ex("legend","min_condition"))
+		
+		condition = min_cond/100
+	end
+	
+	itm:set_condition(condition)	
+	
+	if (IsWeapon(nil,itm:clsid()) and not npc:marked_dropped(itm)) then
+		local ini = system_ini()
+		local sec,number
+		local ammo_class = alun_utils.parse_list(ini,itm:section(),"ammo_class")
+		-- randomly spawn only 1 ammo type per found weapon
+		if (#ammo_class > 0) then
+			sec = ammo_class[math.random(1,#ammo_class)]
+			if (sec and item_count[sec]) then 
+				number = math.random(item_count[sec][1], item_count[sec][2])
+				if (number > 0 and system_ini():section_exist(sec)) then
+					create_ammo(sec,npc:position(),npc:level_vertex_id(),npc:game_vertex_id(),npc:id(),number)
+				end
+			end
+		end
+		
+		-- spawn grenade ammo if there is launcher attached
+		if (ini:r_float_ex(itm:section(),"grenade_launcher_status") > 0) then
+			ammo_class = alun_utils.parse_list(ini,itm:section(),"grenade_class")
+			for i=1,#ammo_class do
+				sec = ammo_class[i]
+				if (sec and item_count[sec]) then 
+					number = math.random(item_count[sec][1], item_count[sec][2])
+					if (number > 0 and system_ini():section_exist(sec)) then 
+						create_ammo(sec,npc:position(),npc:level_vertex_id(),npc:game_vertex_id(),npc:id(),number)
+					end
+				end
+			end
+		end
+	end
+end

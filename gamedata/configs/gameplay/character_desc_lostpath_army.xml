@@ -1,0 +1,69 @@
+<!---------------------- Дегтярев -------------------------->
+
+<specific_character id="aes_degtyarev" team_default="1">
+    <name>Подполковник Дегтярев</name>
+    <icon>ui_inGame2_Hero</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_degtyarev</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>28500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_sbu\stalker_degtarev_sbu</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_pkm = 1 \n
+		wpn_beretta = 1 \n
+		itm_backpack_60 = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<!------------------------ Лео ----------------------------->
+
+<specific_character id="aes_leo" team_default="1">
+    <name>Майор Леонид</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_leo</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>19500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_soldier\stalker_soldier_9_proto</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_svu = 1 \n
+		wpn_beretta = 1 \n
+		itm_backpack_60 = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>

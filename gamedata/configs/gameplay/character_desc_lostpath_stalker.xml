@@ -1,0 +1,446 @@
+<!--------------------- Свалка Депо ------------------------>	
+<!-------------------- Отец Валерьян ----------------------->	
+<specific_character id="esc_father" team_default="1">
+    <name>esc_father_name</name>
+    <icon>ui_inGame2_Father</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>esc_father</class>
+    <community>isg</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <mechanic_mode>1</mechanic_mode>
+    <rank>13139</rank>
+    <reputation>784</reputation>
+    <visual>actors\stalker_neutral\stalker_neutral_2_face_2</visual>
+    <snd_config>characters_voice\human_03\stalker\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_spas12_father = 1 \n
+        ammo_12x76_zhekan = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+		pda_father \n
+		itm_backpack_40 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		
+		<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_tech_repair</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+		<actor_dialog>dm_tech_repair</actor_dialog>
+
+    </specific_character>
+	
+<!----------------------- Гуфи ---------------------------->
+<specific_character id="bar_zoneguard" team_default="1">
+    <name>Гуфи</name>
+    <icon>ui_inGame2_neutral_2_old</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>bar_zoneguard</class>
+    <community>trader</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+	<money min="1000000"  max="1000000"  infinitive="1"/>
+    <rank>13139</rank>
+    <reputation>784</reputation>
+    <visual>actors\stalker_neutral\stalker_neutral_bar_guard</visual>
+    <snd_config>characters_voice\human_03\stalker\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_vintorez_sk1 = 1 \n
+        ammo_9x39_ap = 1 \n
+        wpn_usp \n
+		pda_father \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+		<actor_dialog>isg_barter</actor_dialog>
+		<actor_dialog>join_isg</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+	
+<!------------- Армейские склады Кривая балка -------------->
+<!----------------- Олег Демон Гусаров --------------------->
+
+<specific_character id="gar_demon" team_default="1">
+    <name>Олег "Демон" Гусаров</name>
+    <icon>ui_inGame2_demon</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>gar_demon</class>
+    <community>stalker</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>17500</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="100000" infinitive="0"/>
+    <visual>actors\stalker_neutral\stalker_neutral_2_old</visual>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_abakan_pso \n
+		wpn_pm \n
+		pda_demon \n
+		itm_backpack_20_black = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<!--------------------- Воробей ---------------------------->
+
+<specific_character id="mil_vorobey" team_default="1">
+    <name>Воробей</name>
+    <icon>ui_inGame2_demon</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>mil_vorobey</class>
+    <community>stalker</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>17500</rank>
+    <reputation>118</reputation>
+    <money min="10000" max="100000" infinitive="0"/>
+    <visual>actors\stalker_neutral\stalker_neutral_2_old</visual>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_abakan_pso = 1 \n
+		wpn_pm = 1 \n
+		itm_backpack_20_black = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<!---------------------- Васян ----------------------------->	
+	
+<specific_character id="mil_vasyan" team_default="1">
+    <name>Васян</name>
+    <icon>ui_inGame2_demon</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>mil_vasyan</class>
+    <community>stalker</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>12500</rank>
+    <reputation>118</reputation>
+    <money min="10000" max="100000" infinitive="0"/>
+    <visual>actors\stalker_neutral\stalker_neutral_2_old</visual>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_abakan_pso \n
+		wpn_pm \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<!----------------------- Пес ------------------------------>
+	
+<specific_character id="mil_pes" team_default="1">
+    <name>Пёс</name>
+    <icon>ui_inGame2_demon</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>mil_pes</class>
+    <community>stalker</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>13200</rank>
+    <reputation>118</reputation>
+    <money min="10000" max="100000" infinitive="0"/>
+    <visual>actors\stalker_neutral\stalker_neutral_2_old</visual>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_abakan_pso \n
+		wpn_pm \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+   
+	
+<!------------- Отряд держащий мост в Лиманск -------------->
+<!----------------------- Медведь -------------------------->
+
+<specific_character id="red_medved" team_default="1">
+    <name>Медведь</name>
+    <icon>ui_inGame2_neutral_4_new</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>red_medved</class>
+    <community>stalker</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>17500</rank>
+    <reputation>818</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_neutral\stalker_neutral_4_new</visual>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_pkm = 1 \n
+		wpn_fn57 = 1 \n
+		itm_backpack_40 = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<!------------------------- Митяй -------------------------->
+
+<specific_character id="red_mitya" team_default="1">
+    <name>Митяй</name>
+    <icon>ui_inGame2_neutral_4_new</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>red_mitya</class>
+    <community>stalker</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>16500</rank>
+    <reputation>818</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_neutral\stalker_neutral_4_new</visual>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_fn57 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+		<actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<!------------------------- Торба -------------------------->
+
+<specific_character id="red_torba" team_default="1">
+    <name>Торба</name>
+    <icon>ui_inGame2_neutral_4_new</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>red_torba</class>
+    <community>stalker</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>16600</rank>
+    <reputation>818</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_neutral\stalker_neutral_4_new</visual>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_groza \n
+		wpn_fn57 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<!-------------------- Темная Лощина ----------------------->	
+<!------------------------ Матис --------------------------->	
+
+<specific_character id="ds_matis" team_default="1">
+    <name>Матис</name>
+    <icon>ui_inGame2_noavatar</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>ds_matis</class>
+    <community>stalker</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>17439</rank>
+    <reputation>1000</reputation>
+    <visual>actors\stalker_digger\stalker_digger_spark_4_2_face</visual>
+    <snd_config>characters_voice\human_03\stalker\</snd_config>
+    <supplies>
+        [spawn] \n
+		wpn_ak12 = 1, silencer\n
+		ammo_5.45x39_ap = 3 \n 
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+		itm_backpack_20_black = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+		
+		<!-- LP Quest -->
+		<actor_dialog>ds_matis_about</actor_dialog>
+		
+		<actor_dialog>ds_matis_dogs_dialog</actor_dialog>
+		<actor_dialog>ds_matis_dogs_done</actor_dialog>
+		
+		<actor_dialog>ds_matis_boar_dialog</actor_dialog>
+		<actor_dialog>ds_matis_boar_done</actor_dialog>
+		
+		<actor_dialog>quest_ds_ak74_dialog</actor_dialog>
+		<actor_dialog>quest_ds_ak74_done</actor_dialog>
+		
+		<actor_dialog>dialog_matis_to_clesh</actor_dialog>
+		<!-- Lost Path -->
+		
+		
+		<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+		<actor_dialog>dm_tech_repair</actor_dialog>
+
+    </specific_character>
+
+<!------------------------- Клещ --------------------------->	
+
+<specific_character id="ds_clesh" team_default="1">
+    <name>Клещ</name>
+    <icon>ui_inGame2_noavatar</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>ds_clesh</class>
+    <community>stalker</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>15239</rank>
+    <reputation>1000</reputation>
+    <visual>actors\stalker_neutral\stalker_neutral_02_07_face_01</visual>
+    <snd_config>characters_voice\human_03\stalker\</snd_config>
+    <supplies>
+        [spawn] \n
+		wpn_ak12 = 1 \n
+		ammo_5.45x39_ap = 3 \n 
+        wpn_beretta \n
+        ammo_9x19_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+		
+		<!-- LP Dialogs -->
+		<actor_dialog>clesh_hello</actor_dialog>
+		<actor_dialog>clesh_pda_dialog</actor_dialog>
+		<actor_dialog>quest_ds_pda_to_shulc</actor_dialog>
+		<actor_dialog>quest_ds_documents_dialog</actor_dialog>
+		<actor_dialog>quest_ds_documents_done</actor_dialog>
+		<!-- <actor_dialog>quest_ds_camp_attack</actor_dialog> -->
+		<!-- Lost Path -->
+		
+		
+		<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+		<actor_dialog>dm_tech_repair</actor_dialog>
+
+    </specific_character>
+
+<!------------------------ Шульц --------------------------->	
+
+<specific_character id="ds_shulc" team_default="1">
+    <name>Шульц</name>
+    <icon>ui_inGame2_noavatar</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>ds_shulc</class>
+    <community>stalker</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>1639</rank>
+    <reputation>1000</reputation>
+    <visual>actors\stalker_neutral\stalker_neutral_02_11_face_01</visual>
+    <snd_config>characters_voice\human_03\stalker\</snd_config>
+    <supplies>
+        [spawn] \n
+		wpn_vintorez_sk1 = 1 \n
+        wpn_sig220 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+	</supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+		
+		<!-- LP Dialogs -->
+		<actor_dialog>quest_ds_pda_shulc</actor_dialog>
+		<!-- Lost Path -->
+		
+		
+		<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+		<actor_dialog>dm_tech_repair</actor_dialog>
+
+    </specific_character>

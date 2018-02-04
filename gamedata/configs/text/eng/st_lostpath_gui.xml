@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>	
+	<string id="ui_money">
+		<text>Personal account</text>
+	</string>
+	<string id="ui_treasure">
+		<text>Information about the cache</text>
+	</string>
+	<string id="ui_transition">
+		<text>Route sheet</text>
+	</string>
+</string_table>

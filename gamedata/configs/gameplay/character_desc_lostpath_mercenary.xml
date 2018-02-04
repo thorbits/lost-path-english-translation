@@ -1,0 +1,243 @@
+<!------------------------ Волкодав -------------------------->
+
+<specific_character id="ros_volkodav" team_default="1">
+    <name>Волкодав</name>
+    <icon>ui_inGame2_merc_4a</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>ros_volkodav</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>26000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="100000" infinitive="0"/>
+    <visual>actors\stalker_merc\stalker_volkodav</visual>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_lr300_volkodav = 1 \n
+        wpn_desert_eagle = 1 \n
+		pda_volkodav = 1 \n
+		itm_backpack_20_black = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<!-------------------- Снайпер Волкодава --------------------->
+	
+<specific_character id="ros_volkodav_team" team_default="1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_merc_4a</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>sim_default_killer_4</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>24000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="100000" infinitive="0"/>
+    <visual>actors\stalker_merc\stalker_merc_4</visual>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+		wpn_vssk = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>volkodav_group</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+	
+<!-------------------------- Тиран --------------------------->	
+	
+<specific_character id="cit_killers_tiran" team_default="1">
+    <name>Тиран</name>
+    <icon>ui_inGame2_merc_4a</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>cit_killers_tiran</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>21000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="100000" infinitive="0"/>
+    <visual>actors\stalker_merc\stalker_merc_4_exo_build</visual>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_fn2000 \n
+        wpn_desert_eagle \n
+		pda_tiran \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>tiran_info</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+	
+<!-------------------------- Мастер -------------------------->	
+	
+<specific_character id="cit_killers_master" team_default="1">
+    <name>Мастер</name>
+    <icon>ui_inGame2_merc_4a</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>cit_killers_master</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>20900</rank>
+    <reputation>4818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_merc\stalker_merc_4</visual>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_fn2000 \n
+        wpn_desert_eagle \n
+		pda_master \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>master_info</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+	
+<!-------------------------- Чучело -------------------------->	
+	
+<specific_character id="cit_killers_chu" team_default="1">
+    <name>Чучело</name>
+    <icon>ui_inGame2_merc_4a</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>cit_killers_chu</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>22000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_ecologist\stalker_neutral_ecolog_2</visual>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_fn2000 \n
+        wpn_desert_eagle \n
+		pda_chu \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>chu_info</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+
+<!-------------------------- Ара ----------------------------->	
+	
+<specific_character id="mil_zastava_ara" team_default="1">
+    <name>Ара</name>
+    <icon>ui_inGame2_merc_trade</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>mil_zastava_ara</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>20000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_merc\stalker_ki_head_2</visual>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_lr300 \n
+        wpn_desert_eagle \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_universal_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<!-------------------------- Павлик -------------------------->	
+	
+<specific_character id="mil_zastava_pavlik" team_default="1">
+    <name>Павлик</name>
+    <icon>ui_inGame2_Freedom_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>mil_zastava_pavlik</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>19000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_specnaz</visual>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_lr300 \n
+        wpn_desert_eagle \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>chu_info</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_universal_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>

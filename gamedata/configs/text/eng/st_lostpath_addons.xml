@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_addon_pso_x4">
+	    <text>Scope PSO-1 х4</text>
+	</string>
+	<string id="st_addon_pso_x8">
+	    <text>Scope PSO-1 х8</text>
+	</string>
+	<string id="st_addon_pso_x12">
+	    <text>Scope PSO-1 х12</text>
+	</string>
+	<string id="st_addon_pso_x16">
+	    <text>Scope PSO-1 х16</text>
+	</string>
+</string_table>

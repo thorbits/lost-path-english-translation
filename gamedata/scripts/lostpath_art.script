@@ -1,0 +1,169 @@
+--[[ -----------------------------------
+ #  Неизвестный скрипт
+ #  for Lost Path
+ #  author : b4d1k
+ #  date   : 11.11.2017
+ #  file   : lostpath_art.script 
+]]-- -----------------------------------
+
+local health
+local radiation
+local satiety
+local power
+local bleeding
+local sid
+
+local h = {}
+local r = {}
+local s = {}
+local p = {}
+local b = {}
+
+local arts = {
+}
+
+function actor_item_to_belt(obj)
+	
+	local ids = obj:id()
+	
+	if not IsArtefact(obj) then 
+		return
+	end
+	
+	if not string.find(obj:section(), "af") then 
+		return 
+	end 
+	
+	if arts[ids] == true then
+		health = obj:get_artefact_health()
+		
+		if h[ids] == nil then return end
+		
+			if health ~= h[ids] and h[ids] then
+				health = h[ids]
+				radiation = r[ids]
+				satiety = s[ids]
+				power = p[ids]
+				bleeding = b[ids]
+				
+				obj:set_artefact_health(health)
+				obj:set_artefact_radiation(radiation)
+				obj:set_artefact_satiety(satiety)
+				obj:set_artefact_power(power)
+				obj:set_artefact_bleeding(bleeding)
+			
+				printf("# -------------------------------------------- #")
+				printf("# --           U. P. D. A. T. E!            -- #")
+				printf("# -------------------------------------------- #")
+				printf("# art : %s", obj:section())
+				printf("# health : %s", h[ids])
+				printf("# radiation : %s", r[ids])
+				printf("# satiety : %s", s[ids])
+				printf("# power : %s", p[ids])
+				printf("# bleeding : %s", b[ids])
+				printf("# -------------------------------------------- #")
+			end
+		return
+	else
+		arts[ids] = true
+	end
+		
+	health = obj:get_artefact_health()
+	radiation = obj:get_artefact_radiation()
+	satiety = obj:get_artefact_satiety()
+	power = obj:get_artefact_power()
+	bleeding = obj:get_artefact_bleeding()
+		
+	obj:set_artefact_health(delta(health))
+	obj:set_artefact_radiation(delta(radiation))
+	obj:set_artefact_satiety(delta(satiety))
+	obj:set_artefact_power(delta(power))
+	obj:set_artefact_bleeding(delta(bleeding))
+		
+	health = obj:get_artefact_health()
+	radiation = obj:get_artefact_radiation()
+	satiety = obj:get_artefact_satiety()
+	power = obj:get_artefact_power()
+	bleeding = obj:get_artefact_bleeding()
+	
+	h[ids] = health
+	r[ids] = radiation
+	s[ids] = satiety
+	p[ids] = power
+	b[ids] = bleeding
+
+	printf("# -------------------------------------------- #")
+	printf("# --           U. P. D. A. T. E.            -- #")
+	printf("# -------------------------------------------- #")
+	printf("# art : %s", obj:section())
+	printf("# health : %s", health)
+	printf("# radiation : %s", radiation)
+	printf("# satiety : %s", satiety)
+	printf("# power : %s", power)
+	printf("# bleeding : %s", bleeding)
+	printf("# -------------------------------------------- #")
+		
+	local gs = game.translate_string("st_"..obj:section().."_name")
+	--printf("%s %s",arts[ids], obj:id())
+	if string.find(gs,obj:section()) then gs = game.translate_string(obj:section()) end
+	if gs == "af_rusty_sea" then gs = game.translate_string("af_rusty_sea_urchin") end
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]The artifact was studied: %c[255,160,160,160]"..gs.." ["..obj:id().."] \\n%c[255,160,160,160]Current characteristics: \\n - Health recovery: "..health.."\\n - Radioactivity: "..radiation.."\\n - Satiety: "..satiety.."\\n - Energy recovery: "..power.."\\n - Bleeding: "..bleeding..".", nil, nil, nil, nil)
+	xr_sound.set_sound_play(db.actor:id(), "pda_news")
+end
+
+function delta(p)
+	local z = 1
+	if math.random(0,1) == 1 then z = -1 end
+	local dl = p / 4 * 1000000000
+	local mr = math.random(0,dl)
+	mr = mr / 1000000000
+	p = p + (mr * z)
+	return p
+end
+
+function save_state(m_data)
+
+	if not m_data.arts then
+		m_data.arts = {}
+		m_data.h = {}
+		m_data.r = {}
+		m_data.s = {}
+		m_data.p = {}
+		m_data.b = {}
+	end	
+	
+	m_data.arts = arts
+	m_data.h = h
+	m_data.r = r
+	m_data.s = s
+	m_data.p = p
+	m_data.b = b
+end
+
+function load_state(m_data)
+
+	if not m_data.arts then
+		return
+	end
+	
+	arts = m_data.arts
+	h = m_data.h
+	r = m_data.r
+	s = m_data.s
+	p = m_data.p
+	b = m_data.b
+	
+	m_data.arts = nil
+	m_data.h = nil
+	m_data.r = nil
+	m_data.s = nil
+	m_data.p = nil
+	m_data.b = nil
+end
+
+
+function on_game_start()
+	RegisterScriptCallback("actor_item_to_belt",actor_item_to_belt)
+	RegisterScriptCallback("save_state", save_state)
+	RegisterScriptCallback("load_state", load_state)
+end

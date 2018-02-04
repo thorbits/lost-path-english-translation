@@ -1,0 +1,29 @@
+ <!-------------------------- ØÐÀÌ ------------------------>
+    <specific_character id="mar_base_shram" team_default = "1">
+    <name>shram_name</name>
+    <icon>ui_inGame2_csky_hero</icon>
+    <map_icon x="1" y="0">	</map_icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>mar_base_shram</class>
+    <community>csky</community>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+    <rank>38000</rank>
+    <reputation>5000</reputation>
+    <money min="100000" max="100000" infinitive="0" />
+    <visual>actors\stalker_merc\stalker_shram</visual>
+    <supplies>
+        [spawn] \n
+        wpn_vintorez_sk1 = 1 \n
+		pda_shram = 1 \n
+		itm_backpack_20 = 1 \n
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+	<actor_dialog>companion_dialog_shram</actor_dialog>
+	<actor_dialog>companion_dialog_shram_no_money</actor_dialog>
+	<actor_dialog>dm_is_actor_companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_patrol</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="matis_search_title">
+		<text>The search for Mathis</text>
+	</string>
+	<string id="matis_search_descr">
+		<text>From the PDA information the Stalker I seek is in the Sawmill area. I need to find him.</text>
+	</string>
+	<string id="ds_matis_title">
+		<text>Find Mathis</text>
+	</string>
+	<string id="ds_matis_descr">
+		<text>You need to find Mathis and talk to him.</text>
+	</string>
+	
+	<string id="ds_ak74_deliver">
+		<text>Bring the AKS-74U to Mathis</text>
+	</string>
+	<string id="ds_ak74_search">
+		<text>Find the AKS-74U for Mathis</text>
+	</string>
+	<string id="quest_ds_ak74_descr">
+		<text>You need to find the AKS-74u for Mathis.</text>
+	</string>
+	
+	<string id="kill_bandit_ds_name">
+		<text>Eliminate the group of Bandits</text>
+	</string>
+	<string id="kill_bandit_ds_descr">
+		<text>Mathis asked to eliminate a group of bandits at the gas station.</text>
+	</string>
+		
+	<string id="quest_ds_matis_dogs_title">
+		<text>Eliminate the pack of dogs</text>
+	</string>
+	<string id="quest_ds_matis_dogs_descr">
+		<text>A first combat mission from Mathis. You need to check your shooting skill fighting a pack of dogs.</text>
+	</string>
+	
+	<string id="quest_ds_matis_boar_title">
+		<text>Eliminate the pack of boars</text>
+	</string>
+	<string id="quest_ds_matis_boar_descr">
+		<text>A second combat mission from Mathis. You need to check your shooting skill fighting a pack of boars.</text>
+	</string>
+	
+	<string id="ds_back_name">
+		<text>Return to camp</text>
+	</string>
+	<string id="ds_back_descr">
+		<text>The task is complete. You need to get back to the camp.</text>
+	</string>
+	
+	<string id="ds_pda_back">
+		<text>Return to camp</text>
+	</string>
+	<string id="ds_pda_back_descr">
+		<text>Digger's PDA is found. Now you need to show it to Tick. I myself will not unlock it.</text>
+	</string>
+	
+	<string id="ds_pda_search">
+		<text>Find PDA of Diggers group</text>
+	</string>
+	<string id="ds_pda_search_descr">
+		<text>The Tick gave you the task to find the PDA of a missing group in the Dark Valley.</text>
+	</string>
+	
+	<string id="ds_pda_shulc_title">
+		<text>Meet with Schultz</text>
+	</string>
+	<string id="ds_pda_shulc_descr">
+		<text>You need to show the PDA to Schultz. The Tick said that he would understand.</text>
+	</string>
+	
+	<string id="ds_pda_clesh_unlock_title">
+		<text>Show the PDA to Tick</text>
+	</string>
+	<string id="ds_pda_clesh_unlock_descr">
+		<text>Schultz unlocked for me the diggers PDA. Now you need to give it to Tick and talk about the information that Schultz gave.</text>
+	</string>
+	<string id="ds_clesh_start_title">
+		<text>Find the Tick</text>
+	</string>	
+	<string id="ds_clesh_start_descr">
+		<text>Mathis directed me to the Tick. He goes somewhere in the camp.</text>
+	</string>	
+	
+	<string id="ds_documents_search">
+		<text>Find the documents</text>
+	</string>	
+	<string id="ds_documents_search_descr">
+		<text>The PDA revealed that the documents are under the bridge. You need to find these documents and bring them to Tick.</text>
+	</string>
+	
+	<string id="ds_documents_back">
+		<text>Bring back the documents</text>
+	</string>	
+	<string id="ds_documents_back_descr">
+		<text>You found the documents now you need to go back to camp and give them to Tick</text>
+	</string>
+	
+	<string id="companion_quest_zulus_title">
+		<text>Zulu's request</text>
+	</string>
+	<string id="companion_quest_zulus_descr">
+		<text>Zulu asked me to find three boxes of ammo for a PKM</text>
+	</string>
+</string_table>

@@ -1,0 +1,1038 @@
+<specific_character id="aes_kvartet" team_default="1">
+    <name>Квартет</name>
+    <icon>ui_inGame2_farvater</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_kvartet</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>20500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_soldier\0_voen_v_krap_berete_2_4</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_vssk \n
+		wpn_colt1911 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<!-------------------- Отряд Сова -------------------------->
+
+<specific_character id="aes_sova_1" team_default="1">
+    <name>Сова-1</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_leo</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>9500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_sbu\stalker_sbu_antigaz_1</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_svu \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_sova_2" team_default="1">
+    <name>Сова-2</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_sova_2</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>9500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_sbu\stalker_sbu_antigaz_2</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_svu \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_sova_3" team_default="1">
+    <name>Сова-3</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_sova_3</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>9500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_sbu\stalker_sbu_antigaz_1</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_svu \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<!------------------- Отряд Ястреб ------------------------->
+
+<specific_character id="aes_eagle_1" team_default="1">
+    <name>Лейтенант Ястреб-1</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_eagle_1</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>4500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_sbu\stalker_sbu_antigaz_1</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_eagle_2" team_default="1">
+    <name>Сержант Ястреб-2</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_sova_2</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>2500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_soldier\stalker_soldier_3</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<!------------------- Отряд Коршун ------------------------->
+
+<specific_character id="aes_korshun_leader" team_default="1">
+    <name>Ст. Лейтенант Шевченко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_korshun_leader</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>5500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_strela_1</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_korshun_1" team_default="1">
+    <name>Ст. Сержант Лисенко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_korshun_1</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>2000</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_soldier_2a</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_korshun_2" team_default="1">
+    <name>Мл. Лейтенант Соколовский</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_korshun_2</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>3500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_soldier_3a</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_korshun_3" team_default="1">
+    <name>Сержант Махно</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_korshun_3</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>2500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_merc_specnaz</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_korshun_4" team_default="1">
+    <name>Сержант Легойда</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_korshun_4</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>2500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_merc_specnaz</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_korshun_5" team_default="1">
+    <name>Сержант Пилипейко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_korshun_5</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>2500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_merc_specnaz</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_korshun_6" team_default="1">
+    <name>Сержант Зубко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_korshun_6</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>2500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_merc_specnaz</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<!------------------- Отряд Лунь --------------------------->
+
+<specific_character id="aes_lyn_leader" team_default="1">
+    <name>Ст. Лейтенант Ткаченко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_lyn_leader</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>5500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_strela_1</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val_pso \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_lyn_1" team_default="1">
+    <name>Ст. Сержант Федоренко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_lyn_1</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>2000</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_soldier_3a</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_lyn_2" team_default="1">
+    <name>Мл. Лейтенант Терещенко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_lyn_2</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>3500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_soldier_3a</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_lyn_3" team_default="1">
+    <name>Сержант Яковенко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_lyn_3</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>2500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_soldier_3a</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_lyn_4" team_default="1">
+    <name>Сержант Коваленко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_lyn_4</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>2500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_soldier_3a</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<!------------------- Отряд Пустельга ---------------------->
+
+<specific_character id="aes_pyst_leader" team_default="1">
+    <name>Лейтенант Бондаренко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_pyst_leader</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>5500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_strela_1</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val_pso \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_pyst_1" team_default="1">
+    <name>Сержант Пархоменко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_pyst_1</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>2500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_soldier_2a</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_pyst_2" team_default="1">
+    <name>Сержант Ерёменко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_pyst_2</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>2500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_soldier_2a</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<!------------------- Отряд Сапсан ------------------------->
+
+<specific_character id="aes_sapsan_leader" team_default="1">
+    <name>Ст. Лейтенант Романенко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_sapsan_leader</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>5500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_strela_1</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val_pso \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_sapsan_1" team_default="1">
+    <name>Ст. Сержант Симоненко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_sapsan_1</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>2000</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_soldier_3a</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_sapsan_2" team_default="1">
+    <name>Мл. Лейтенант Савенко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_sapsan_2</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>3500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_soldier_3a</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_sapsan_3" team_default="1">
+    <name>Сержант Иваненко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_sapsan_3</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>2500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_soldier_3a</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<!------------------- Отряд Гриф --------------------------->
+
+<specific_character id="aes_grif_leader" team_default="1">
+    <name>Ст. Лейтенант Павленко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_grif_leader</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>5500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_strela_1</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val_pso \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_grif_1" team_default="1">
+    <name>Ст. Сержант Иващенко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_grif_1</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>2000</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_soldier_3a</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_grif_2" team_default="1">
+    <name>Мл. Лейтенант Скляренко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_grif_2</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>3500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_soldier_3a</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_grif_3" team_default="1">
+    <name>Сержант Кравченко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_grif_3</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>2500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_soldier_3a</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<!------------------- Отряд Сокол -------------------------->
+
+<specific_character id="aes_sokol_leader" team_default="1">
+    <name>Ст. Лейтенант Кулишенко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_sokol_leader</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>5500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_strela_1</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val_pso \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_sokol_1" team_default="1">
+    <name>Ст. Сержант Захарченко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_sokol_1</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>2000</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_soldier_3a</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_sokol_2" team_default="1">
+    <name>Мл. Лейтенант Пономаренко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_sokol_2</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>3500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_soldier_3a</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+<specific_character id="aes_sokol_3" team_default="1">
+    <name>Сержант Темченко</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <bio>An experienced stalker. No detailed information is available.</bio>
+    <class>aes_sokol_3</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>2500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_strela\stalker_soldier_3a</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>

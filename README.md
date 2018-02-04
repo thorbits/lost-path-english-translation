@@ -7,14 +7,14 @@
 <p><strong><li><a href="/thorbits/lost-path-english-translation/tree/master/gamedata/configs">Configs</a></strong></p>
 <ul>
 axr_options.ltx - 
-<ul>
+<br>
 localization.ltx - 
+<br>
 <ul>
-
 <p><strong><li><a href="/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">Configs/Gameplay</a></strong></p>
-<ul>
+<br>
 character_desc_lostpath_aes.xml - 
-<ul>
+<br>
 character_desc_lostpath_army.xml - 
 <ul>
 character_desc_lostpath_bandit.xml - 
@@ -71,28 +71,28 @@ lostpath_drop.script -
 lostpath_faction_change.script - 
 <ul>
 lostpath_faction_resource.script - 
-<ul>
+<br>
 lostpath_flash.script - 
-<ul>
+<br>
 lostpath_message.script - 
-<ul>
+<br>
 lostpath_montage.script - 
-<ul>
+<br>
 lostpath_name.script - 
-<ul>
+<br>
 lostpath_special_drop_to_npc.script - 
-<ul>
+<br>
 lostpath_visual.script - 
-<ul>
+<br>
 news_manager.script - 
-<ul>
+<br>
 sim_relations.script - 
-<ul>
+<br>
 sim_smart.script - 
-<ul>
+<br>
 sim_squad.script - 
-<ul>
+<br>
 transitions.script - 
-<ul>
+<br>
 ui_main_menu.script - 
 <br>

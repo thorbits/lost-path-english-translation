@@ -11,7 +11,7 @@ axr_options.ltx -
 localization.ltx - 
 
 
-<li><a href="/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">Gameplay</a>
+<li><a href="/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">Configs/Gameplay</a>
 
 character_desc_lostpath_aes.xml - 
 

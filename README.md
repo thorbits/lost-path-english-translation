@@ -4,14 +4,14 @@
 
 Translation progress by individual files can be found below:
 
-<li><a href="/thorbits/lost-path-english-translation/tree/master/gamedata/configs">Configs</a>
+<p><strong><li><a href="/thorbits/lost-path-english-translation/tree/master/gamedata/configs">Configs</a></strong></p>
  
 axr_options.ltx - 
 
 localization.ltx - 
 
 
-<li><a href="/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">Configs/Gameplay</a>
+<p><strong><li><a href="/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">Configs/Gameplay</a></strong></p>
 
 character_desc_lostpath_aes.xml - 
 
@@ -42,7 +42,7 @@ dialogs_bar.xml -
 dialogs_mlr.xml - 
 
 
-<li><a href="/thorbits/lost-path-english-translation/tree/master/gamedata/scripts">Scripts</a>
+<p><strong><li><a href="/thorbits/lost-path-english-translation/tree/master/gamedata/scripts">Scripts</a></strong></p>
 
 axr_main_options.script - 
 

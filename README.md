@@ -1,7 +1,7 @@
 <h1><a href="https://github.com/thorbits/lost-path-english-translation">English translation for S.T.A.L.K.E.R.: Lost Path</a></h1>
 
 <p>Hello! This is an English translation for <strong>S.T.A.L.K.E.R.: Lost Path</strong>, a mod for the S.T.A.L.K.E.R. game series.<br>
-Information can be found here: http://www.moddb.com/mods/lost-path</p>
+Information can be found here: http://www.moddb.com/mods/lost-path.</p>
 
 <p>This translation is currently updated for Lost Path version 0.4.010, Lost Path version 0.5.001 compatibility not yet tested.</p>
 
@@ -14,7 +14,7 @@ axr_options.ltx                       -
 localization.ltx                      - 
 <br></ul>
 
-<ul><p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">Configs/gameplay</a></strong></p>
+<ul><p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">Configs/gameplay</a></strong></p>
 character_desc_lostpath_aes.xml       - 
 <br>
 character_desc_lostpath_army.xml      - 
@@ -44,7 +44,7 @@ dialogs_bar.xml                       -
 dialogs_mlr.xml                       - 
 <br></ul>
 
-<ul><p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/text/eng">Configs/text/eng</a></strong></p>
+<ul><p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/text/eng">Configs/text/eng</a></strong></p>
 mlr_addon.xml                         - 
 <br>
 sgm_add_include.xml                   - 
@@ -106,7 +106,7 @@ ui_st_mm.xml                          -
 ui_st_screen.xml                      - 
 <br></ul>
 
-<ul><p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/ui">Configs/ui</a></strong></p>
+<ul><p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/ui">Configs/ui</a></strong></p>
 ui_ami_position.xml                   - 
 <br></ul>
 

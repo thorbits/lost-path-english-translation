@@ -4,33 +4,95 @@ Hello! This is an English translation for a mod by the name of S.T.A.L.K.E.R.: L
 
 Translation progress by individual files can be found below:
 
-<li><a href="/SashaTheRed/last-day-english-translation/blob/master/gamedata/configs/gameplay/character_desc_mlr.xml">character_desc_mlr.xml</a>
+<li><a href="/thorbits/lost-path-english-translation/tree/master/gamedata/configs">Configs</a>
+ 
+axr_options.ltx - 
 
-https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/scripts
+localization.ltx - 
 
-axr_main_options.script
-loadscreen.script
-lostpath.script
-lostpath_armor.script
-lostpath_art.script
-lostpath_barter_army.script
-lostpath_barter_dolg.script
-lostpath_barter_freedom.script
-lostpath_barter_isg.script
-lostpath_barter_killer.script
-lostpath_detector.script
-lostpath_drop.script
-lostpath_faction_change.script
-lostpath_faction_resource.script
-lostpath_flash.script
-lostpath_message.script
-lostpath_montage.script
-lostpath_name.script
-lostpath_special_drop_to_npc.script
-lostpath_visual.script
-news_manager.script
-sim_relations.script
-sim_smart.script
-sim_squad.script
-transitions.script
-ui_main_menu.script
+
+<li><a href="/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">Gameplay</a>
+
+character_desc_lostpath_aes.xml - 
+
+character_desc_lostpath_army.xml - 
+
+character_desc_lostpath_bandit.xml - 
+
+character_desc_lostpath_csky.xml - 
+
+character_desc_lostpath_dolg.xml - 
+
+character_desc_lostpath_ecolog.xml - 
+
+character_desc_lostpath_freedom.xml - 
+
+character_desc_lostpath_mercenary.xml - 
+
+character_desc_lostpath_military.xml - 
+
+character_desc_lostpath_special.xml - 
+
+character_desc_lostpath_stalker.xml - 
+
+character_desc_mlr.xml - 
+
+dialogs_bar.xml - 
+
+dialogs_mlr.xml - 
+
+
+<li><a href="/thorbits/lost-path-english-translation/tree/master/gamedata/scripts">Scripts</a>
+
+axr_main_options.script - 
+
+loadscreen.script - 
+
+lostpath.script - 
+
+lostpath_armor.script - 
+
+lostpath_art.script - 
+
+lostpath_barter_army.script - 
+
+lostpath_barter_dolg.script - 
+
+lostpath_barter_freedom.script - 
+
+lostpath_barter_isg.script - 
+
+lostpath_barter_killer.script - 
+
+lostpath_detector.script - 
+
+lostpath_drop.script - 
+
+lostpath_faction_change.script - 
+
+lostpath_faction_resource.script - 
+
+lostpath_flash.script - 
+
+lostpath_message.script - 
+
+lostpath_montage.script - 
+
+lostpath_name.script - 
+
+lostpath_special_drop_to_npc.script - 
+
+lostpath_visual.script - 
+
+news_manager.script - 
+
+sim_relations.script - 
+
+sim_smart.script - 
+
+sim_squad.script - 
+
+transitions.script - 
+
+ui_main_menu.script - 
+

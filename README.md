@@ -1,22 +1,22 @@
 <h1><a href="https://github.com/thorbits/lost-path-english-translation">English translation for S.T.A.L.K.E.R.: Lost Path</a></h1>
 
 <p>Hello! This is an English translation for a mod by the name of S.T.A.L.K.E.R.: Last Day, a mod for the S.T.A.L.K.E.R. series. Information can be found here: http://www.moddb.com/mods/lost-path</p>
-
-Translation progress by individual files can be found below:
-
+<ul>
+<p>Translation progress by individual files can be found below:</p>
+<ul>
 <p><strong><li><a href="/thorbits/lost-path-english-translation/tree/master/gamedata/configs">Configs</a></strong></p>
- 
+<ul>
 axr_options.ltx - 
-
+<ul>
 localization.ltx - 
-
+<ul>
 
 <p><strong><li><a href="/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">Configs/Gameplay</a></strong></p>
-
+<ul>
 character_desc_lostpath_aes.xml - 
-
+<ul>
 character_desc_lostpath_army.xml - 
-
+<ul>
 character_desc_lostpath_bandit.xml - 
 
 character_desc_lostpath_csky.xml - 

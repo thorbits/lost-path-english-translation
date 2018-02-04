@@ -1,6 +1,6 @@
 <h1><a href="https://github.com/thorbits/lost-path-english-translation">English translation for S.T.A.L.K.E.R.: Lost Path</a></h1>
 
-<p>Hello! This is an English translation for S.T.A.L.K.E.R.: Lost Path, a mod for the S.T.A.L.K.E.R. game series.<br>
+<p>Hello! This is an English translation for <strong>S.T.A.L.K.E.R.: Lost Path</strong>, a mod for the S.T.A.L.K.E.R. game series.<br>
 Information can be found here: http://www.moddb.com/mods/lost-path</p>
 <br>
 <p>Translation progress by individual files can be found below:</p>

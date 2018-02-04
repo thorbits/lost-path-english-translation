@@ -106,7 +106,7 @@ ui_st_screen.xml                      -
 <ul><p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/ui">Configs/ui</a></strong></p>
 <ul>
 ui_ami_position.xml                   - 
-</ul><br>
+<br></ul>
 
 <p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/scripts">Scripts</a></strong></p>
 <ul>

@@ -12,7 +12,7 @@ localization.ltx -
 <br>
 <ul>
 <p><strong><li><a href="/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">Configs/Gameplay</a></strong></p>
-<br>
+</li>
 character_desc_lostpath_aes.xml - 
 <br>
 character_desc_lostpath_army.xml - 
@@ -95,6 +95,6 @@ sim_squad.script -
 transitions.script - 
 <br>
 ui_main_menu.script - 
-</ul></li>
+</ul>
 <br>
 

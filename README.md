@@ -44,7 +44,7 @@ dialogs_bar.xml                       -
 dialogs_mlr.xml                       - 
 <br></ul>
 
-<ul><p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/text/eng">Configs/gameplay/text/eng</a></strong></p>
+<ul><p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/text/eng">Configs/text/eng</a></strong></p>
 mlr_addon.xml                         - 
 <br>
 sgm_add_include.xml                   - 

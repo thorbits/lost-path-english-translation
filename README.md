@@ -1,161 +1,165 @@
 <h1><a href="https://github.com/thorbits/lost-path-english-translation">English translation for S.T.A.L.K.E.R.: Lost Path</a></h1>
 
-<p>Hello! This is an English translation for a mod by the name of S.T.A.L.K.E.R.: Last Day, a mod for the S.T.A.L.K.E.R. series. Information can be found here: http://www.moddb.com/mods/lost-path</p>
+<p>Hello! This is an English translation for the mod S.T.A.L.K.E.R.: Lost Path, a mod for the S.T.A.L.K.E.R. game series. Information can be found here: http://www.moddb.com/mods/lost-path</p>
 <br>
 <p>Translation progress by individual files can be found below:</p>
 
 <p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs">Configs</a></strong></p>
 <ul>
-axr_options.ltx - 
+axr_options.ltx                       - 
 <br>
-localization.ltx - 
+localization.ltx                      - 
 <br></ul>
 
-<ul><p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">Configs/Gameplay</a></strong></p>
-character_desc_lostpath_aes.xml - 
+<ul><p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">Configs/gameplay</a></strong></p>
+character_desc_lostpath_aes.xml       - 
 <br>
-character_desc_lostpath_army.xml - 
+character_desc_lostpath_army.xml      - 
 <br>
-character_desc_lostpath_bandit.xml - 
+character_desc_lostpath_bandit.xml    - 
 <br>
-character_desc_lostpath_csky.xml - 
+character_desc_lostpath_csky.xml      - 
 <br>
-character_desc_lostpath_dolg.xml - 
+character_desc_lostpath_dolg.xml      - 
 <br>
-character_desc_lostpath_ecolog.xml - 
+character_desc_lostpath_ecolog.xml    - 
 <br>
-character_desc_lostpath_freedom.xml - 
+character_desc_lostpath_freedom.xml   - 
 <br>
 character_desc_lostpath_mercenary.xml - 
 <br>
-character_desc_lostpath_military.xml - 
+character_desc_lostpath_military.xml  - 
 <br>
-character_desc_lostpath_special.xml - 
+character_desc_lostpath_special.xml   - 
 <br>
-character_desc_lostpath_stalker.xml - 
+character_desc_lostpath_stalker.xml   - 
 <br>
-character_desc_mlr.xml - 
+character_desc_mlr.xml                - 
 <br>
-dialogs_bar.xml - 
+dialogs_bar.xml                       - 
 <br>
-dialogs_mlr.xml - 
+dialogs_mlr.xml                       - 
 <br></ul>
 
-<ul><p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">Configs/Gameplay</a></strong></p>
-mlr_addon.xml
+<ul><p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/text/eng">Configs/gameplay/text/eng</a></strong></p>
+mlr_addon.xml                         - 
 <br>
-sgm_add_include.xml
+sgm_add_include.xml                   - 
 <br>
-sgm_script_texts.xml
+sgm_script_texts.xml                  - 
 <br>
-st_closecaption.xml
+st_closecaption.xml                   - 
 <br>
-st_dialogs.xml
+st_dialogs.xml                        -  
 <br>
-st_dialogs_garbage.xml
+st_dialogs_garbage.xml                - 
 <br>
-st_drx_addons.xml
+st_drx_addons.xml                     - 
 <br>
-st_dynamic_news.xml
+st_dynamic_news.xml                   - 
 <br>
-st_generate_fnames.xml
+st_generate_fnames.xml                - 
 <br>
-st_generate_snames.xml
+st_generate_snames.xml                - 
 <br>
-st_items_awr.xml
+st_items_awr.xml                      - 
 <br>
-st_items_fieldcraft.xml
+st_items_fieldcraft.xml               - 
 <br>
-st_items_outfit_addon.xml
+st_items_outfit_addon.xml             - 
 <br>
-st_items_rad.xml
+st_items_rad.xml                      - 
 <br>
-st_items_soup_addon.xml
+st_items_soup_addon.xml               - 
 <br>
-st_lostpath_addons.xml
+st_lostpath_addons.xml                - 
 <br>
-st_lostpath_gui.xml
+st_lostpath_gui.xml                   - 
 <br>
-st_lostpath_main.xml
+st_lostpath_main.xml                  - 
 <br>
-st_lostpath_outfits.xml
+st_lostpath_outfits.xml               - 
 <br>
-st_lostpath_quest.xml
+st_lostpath_quest.xml                 - 
 <br>
-st_lostpath_scripts.xml
+st_lostpath_scripts.xml               - 
 <br>
-st_lostpath_treasure.xml
+st_lostpath_treasure.xml              - 
 <br>
-st_lostpath_weapons_csgo.xml
+st_lostpath_weapons_csgo.xml          - 
 <br>
-stable_treasure_manager.xml
+stable_treasure_manager.xml           - 
 <br>
-ui_st_encyclopedia_awr.xml
+ui_st_encyclopedia_awr.xml            - 
 <br>
-ui_st_encyclopedia_quest_info.xml
+ui_st_encyclopedia_quest_info.xml     - 
 <br>
-ui_st_faction_starts.xml
+ui_st_faction_starts.xml              - 
 <br>
-ui_st_loadscreen.xml
+ui_st_loadscreen.xml                  - 
 <br>
-ui_st_mm.xml
+ui_st_mm.xml                          - 
 <br>
-ui_st_screen.xml
+ui_st_screen.xml                      - 
+</ul><br>
+
+<ul><p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/ui">Configs/ui</a></strong></p>
+<ul>
+ui_ami_position.xml                   - 
 </ul><br>
 
 <p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/scripts">Scripts</a></strong></p>
 <ul>
-axr_main_options.script - 
+axr_main_options.script               - 
 <br>
-loadscreen.script - 
+loadscreen.script                     - 
 <br>
-lostpath.script - 
+lostpath.script                       - 
 <br>
-lostpath_armor.script - 
+lostpath_armor.script                 - 
 <br>
-lostpath_art.script - 
+lostpath_art.script                   - 
 <br>
-lostpath_barter_army.script - 
+lostpath_barter_army.script           - 
 <br>
-lostpath_barter_dolg.script - 
+lostpath_barter_dolg.script           - 
 <br>
-lostpath_barter_freedom.script - 
+lostpath_barter_freedom.script        - 
 <br>
-lostpath_barter_isg.script - 
+lostpath_barter_isg.script            - 
 <br>
-lostpath_barter_killer.script - 
+lostpath_barter_killer.script         - 
 <br>
-lostpath_detector.script - 
+lostpath_detector.script              - 
 <br>
-lostpath_drop.script - 
+lostpath_drop.script                  - 
 <br>
-lostpath_faction_change.script - 
+lostpath_faction_change.script        - 
 <br>
-lostpath_faction_resource.script - 
+lostpath_faction_resource.script      - 
 <br>
-lostpath_flash.script - 
+lostpath_flash.script                 - 
 <br>
-lostpath_message.script - 
+lostpath_message.script               - 
 <br>
-lostpath_montage.script - 
+lostpath_montage.script               - 
 <br>
-lostpath_name.script - 
+lostpath_name.script                  - 
 <br>
-lostpath_special_drop_to_npc.script - 
+lostpath_special_drop_to_npc.script   - 
 <br>
-lostpath_visual.script - 
+lostpath_visual.script                - 
 <br>
-news_manager.script - 
+news_manager.script                   - 
 <br>
-sim_relations.script - 
+sim_relations.script                  - 
 <br>
-sim_smart.script - 
+sim_smart.script                      - 
 <br>
-sim_squad.script - 
+sim_squad.script                      - 
 <br>
-transitions.script - 
+transitions.script                    - 
 <br>
-ui_main_menu.script - 
+ui_main_menu.script                   - 
 </ul>
 <br>
-

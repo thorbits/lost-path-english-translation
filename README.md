@@ -1,13 +1,13 @@
-<h1><a href="https://github.com/thorbits/lost-path-english-translation">English translation for S.T.A.L.K.E.R.: Lost Path</a></h1>
+<br><center><h1><a href="https://github.com/thorbits/lost-path-english-translation">English translation for S.T.A.L.K.E.R.: Lost Path</a></h1></center>
 
 <p>Hello! This is an English translation for <b>S.T.A.L.K.E.R.: Lost Path</b>, a mod for the S.T.A.L.K.E.R. game series.<br>
 Information on the mod can be found here <a href="http://www.moddb.com/mods/lost-path">Lost Path page on Moddb (english)</a> and here <a href="http://vk.com/lp_coc">Lost Path page on Vk (russian)</a>.</p><br>
 
 <p>This translation is currently updated for <b>Lost Path version 0.4.010</b>, Lost Path version 0.5.001 compatibility not yet tested.</p>
 
-<p>Lost Path already includes a "gamedata/configs/text/eng" folder by default, the files presented here are updates to these files and others files like scripts necessary for a full translation.</p>
+<p>Lost Path already includes a "gamedata/configs/text/eng" folder by default, the files presented here are updates to these files and others files like scripts necessary for a full translation.</p><br>
 
-<p>Translation progress per individual files can be found below: (not commented yet)</p><br>
+<p>Translation progress per individual files can be found below: (not commented yet)</p>
 
 <p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs">gamedata/configs</a></strong></p>
 <ul>

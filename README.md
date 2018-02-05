@@ -1,11 +1,3 @@
-<html>
-<head>
-<style>
-h1 {text-align:center;}
-</style>
-</head>
-<body>
-
 <h1><a href="https://github.com/thorbits/lost-path-english-translation">English translation for S.T.A.L.K.E.R.: Lost Path</a></h1>
 
 <p>Hello! This is an English translation for <b>S.T.A.L.K.E.R.: Lost Path</b>, a mod for the S.T.A.L.K.E.R. game series.<br>
@@ -184,6 +176,3 @@ ui_main_menu.script
 </ul></li>
 <br>
 <pre>If you have comments or questions about this translation, message me on <a href="http://www.moddb.com/members/thorbits">Moddb</a>.</pre>
-
-</body>
-</html>

@@ -10,9 +10,9 @@ Information on the mod can be found here <a href="http://www.moddb.com/mods/lost
 <p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs">gamedata/configs</a></strong></p>
 <ul>
 axr_options.ltx &rarr;
-<br>
+<br />
 localization.ltx &rarr;
-<br></ul>
+<br /></ul>
 
 <p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">gamedata/configs/gameplay</a></strong></p>
 <ul style="list-style-type:circle">

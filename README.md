@@ -172,4 +172,4 @@ ui_main_menu.script &rarr;
 
 
 <br />
-<pre>If you have comments or questions about this translation, message me on<a href="http://www.moddb.com/members/thorbits"> Moddb</a>.</pre>
+<pre>If you have comments or questions about this translation, message me on <a href="http://www.moddb.com/members/thorbits">Moddb</a>.</pre>

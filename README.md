@@ -10,42 +10,42 @@ Information on the mod can be found here <a href="http://www.moddb.com/mods/lost
 <p>Translation progress per individual files can be found below: (not commented yet)</p>
 
 <p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs">gamedata/configs</a></strong></p>
-<ul>
-axr_options.ltx &rarr;
-<br />
-localization.ltx &rarr;
-<br /></ul></li>
+<ul>axr_options.ltx
+<ul><br> &rarr; </ul>
+localization.ltx</ul>
+<ul><br> &rarr; </ul></li>
 
 <p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">gamedata/configs/gameplay</a></strong></p>
 <ul>
-character_desc_lostpath_aes.xml &rarr;
-<br />
-character_desc_lostpath_army.xml &rarr;
-<br />
-character_desc_lostpath_bandit.xml &rarr;
-<br />
-character_desc_lostpath_csky.xml &rarr;
-<br />
-character_desc_lostpath_dolg.xml &rarr;
-<br />
-character_desc_lostpath_ecolog.xml &rarr;
-<br />
-character_desc_lostpath_freedom.xml &rarr;
-<br />
-character_desc_lostpath_mercenary.xml &rarr;
-<br />
-character_desc_lostpath_military.xml &rarr;
-<br />
-character_desc_lostpath_special.xml &rarr;
-<br />
-character_desc_lostpath_stalker.xml &rarr;
-<br />
-character_desc_mlr.xml &rarr;
-<br />
-dialogs_bar.xml &rarr;
-<br />
-dialogs_mlr.xml &rarr;
-<br /></ul></li>
+character_desc_lostpath_aes.xml
+<br> &rarr; 
+character_desc_lostpath_army.xml
+<br> &rarr; 
+character_desc_lostpath_bandit.xml
+<br> &rarr; 
+character_desc_lostpath_csky.xml
+<br> &rarr; 
+character_desc_lostpath_dolg.xml
+<br> &rarr; 
+character_desc_lostpath_ecolog.xml
+<br> &rarr; 
+character_desc_lostpath_freedom.xml
+<br> &rarr; 
+character_desc_lostpath_mercenary.xml
+<br> &rarr; 
+character_desc_lostpath_military.xml
+<br> &rarr; 
+character_desc_lostpath_special.xml
+<br> &rarr; 
+character_desc_lostpath_stalker.xml
+<br> &rarr; 
+character_desc_mlr.xml
+<br> &rarr; 
+dialogs_bar.xml
+<br> &rarr; 
+dialogs_mlr.xml
+<br> &rarr; 
+</ul></li>
 
 <p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/text/eng">gamedata/configs/text/eng</a></strong></p>
 <ul style="list-style-type:circle">

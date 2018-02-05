@@ -5,7 +5,7 @@ Information on the mod can be found here <a href="http://www.moddb.com/mods/lost
 
 <p>This translation is currently updated for <b>Lost Path version 0.4.010</b>, Lost Path version 0.5.001 compatibility not yet tested.</p>
 
-<p>Translation progress by individual files can be found below:</p>
+<p>Translation progress per individual files can be found below: (not commented yet)</p>
 
 <p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs">gamedata/configs</a></strong></p>
 <ul>

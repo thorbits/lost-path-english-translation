@@ -16,96 +16,96 @@ localization.ltx &rarr;
 
 <p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">gamedata/configs/gameplay</a></strong></p>
 <ul style="list-style-type:circle">
-character_desc_lostpath_aes.xml       - 
+character_desc_lostpath_aes.xml &rarr;
 <br>
-character_desc_lostpath_army.xml      - 
+character_desc_lostpath_army.xml &rarr;
 <br>
-character_desc_lostpath_bandit.xml    - 
+character_desc_lostpath_bandit.xml &rarr;
 <br>
-character_desc_lostpath_csky.xml      - 
+character_desc_lostpath_csky.xml &rarr;
 <br>
-character_desc_lostpath_dolg.xml      - 
+character_desc_lostpath_dolg.xml &rarr;
 <br>
-character_desc_lostpath_ecolog.xml    - 
+character_desc_lostpath_ecolog.xml &rarr;
 <br>
-character_desc_lostpath_freedom.xml   - 
+character_desc_lostpath_freedom.xml &rarr;
 <br>
-character_desc_lostpath_mercenary.xml - 
+character_desc_lostpath_mercenary.xml &rarr;
 <br>
-character_desc_lostpath_military.xml  - 
+character_desc_lostpath_military.xml &rarr;
 <br>
-character_desc_lostpath_special.xml   - 
+character_desc_lostpath_special.xml &rarr;
 <br>
-character_desc_lostpath_stalker.xml   - 
+character_desc_lostpath_stalker.xml &rarr;
 <br>
-character_desc_mlr.xml                - 
+character_desc_mlr.xml &rarr;
 <br>
-dialogs_bar.xml                       - 
+dialogs_bar.xml &rarr;
 <br>
-dialogs_mlr.xml                       - 
+dialogs_mlr.xml &rarr;
 <br></ul></li>
 
 <p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/text/eng">gamedata/configs/text/eng</a></strong></p>
 <ul style="list-style-type:circle">
-mlr_addon.xml                         - 
+mlr_addon.xml &rarr;
 <br>
-sgm_add_include.xml                   - 
+sgm_add_include.xml &rarr;
 <br>
-sgm_script_texts.xml                  - 
+sgm_script_texts.xml &rarr;
 <br>
-st_closecaption.xml                   - 
+st_closecaption.xml &rarr;
 <br>
-st_dialogs.xml                        -  
+st_dialogs.xml &rarr;
 <br>
-st_dialogs_garbage.xml                - 
+st_dialogs_garbage.xml &rarr;
 <br>
-st_drx_addons.xml                     - 
+st_drx_addons.xml &rarr;
 <br>
-st_dynamic_news.xml                   - 
+st_dynamic_news.xml &rarr;
 <br>
-st_generate_fnames.xml                - 
+st_generate_fnames.xml &rarr;
 <br>
-st_generate_snames.xml                - 
+st_generate_snames.xml &rarr;
 <br>
-st_items_awr.xml                      - 
+st_items_awr.xml &rarr;
 <br>
-st_items_fieldcraft.xml               - 
+st_items_fieldcraft.xml &rarr;
 <br>
-st_items_outfit_addon.xml             - 
+st_items_outfit_addon.xml &rarr;
 <br>
-st_items_rad.xml                      - 
+st_items_rad.xml &rarr;
 <br>
-st_items_soup_addon.xml               - 
+st_items_soup_addon.xml &rarr;
 <br>
-st_lostpath_addons.xml                - 
+st_lostpath_addons.xml &rarr;
 <br>
-st_lostpath_gui.xml                   - 
+st_lostpath_gui.xml &rarr;
 <br>
-st_lostpath_main.xml                  - 
+st_lostpath_main.xml &rarr;
 <br>
-st_lostpath_outfits.xml               - 
+st_lostpath_outfits.xml &rarr;
 <br>
-st_lostpath_quest.xml                 - 
+st_lostpath_quest.xml &rarr;
 <br>
-st_lostpath_scripts.xml               - 
+st_lostpath_scripts.xml &rarr;
 <br>
-st_lostpath_treasure.xml              - 
+st_lostpath_treasure.xml &rarr;
 <br>
-st_lostpath_weapons_csgo.xml          - 
+st_lostpath_weapons_csgo.xml &rarr;
 <br>
-stable_treasure_manager.xml           - 
+stable_treasure_manager.xml &rarr;
 <br>
-ui_st_encyclopedia_awr.xml            - 
+ui_st_encyclopedia_awr.xml &rarr;
 <br>
-ui_st_encyclopedia_quest_info.xml     - 
+ui_st_encyclopedia_quest_info.xml &rarr;
 <br>
-ui_st_faction_starts.xml              - 
+ui_st_faction_starts.xml &rarr;
 <br>
-ui_st_loadscreen.xml                  - 
+ui_st_loadscreen.xml &rarr;
 <br>
-ui_st_mm.xml                          - 
+ui_st_mm.xml &rarr;
 <br>
-ui_st_screen.xml                      - 
+ui_st_screen.xml &rarr;
 <br></ul></li>
 
 <p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/ui">gamedata/configs/ui</a></strong></p>

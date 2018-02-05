@@ -14,7 +14,8 @@ axr_options.ltx                       -
 localization.ltx                      - 
 <br></ul>
 
-<ul><p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">gamedata/configs/gameplay</a></strong></p>
+<p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">gamedata/configs/gameplay</a></strong></p>
+<ul>
 character_desc_lostpath_aes.xml       - 
 <br>
 character_desc_lostpath_army.xml      - 
@@ -44,7 +45,8 @@ dialogs_bar.xml                       -
 dialogs_mlr.xml                       - 
 <br></ul>
 
-<ul><p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/text/eng">gamedata/configs/text/eng</a></strong></p>
+<p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/text/eng">gamedata/configs/text/eng</a></strong></p>
+<ul>
 mlr_addon.xml                         - 
 <br>
 sgm_add_include.xml                   - 
@@ -106,7 +108,8 @@ ui_st_mm.xml                          -
 ui_st_screen.xml                      - 
 <br></ul>
 
-<ul><p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/ui">gamedata/configs/ui</a></strong></p>
+<p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/ui">gamedata/configs/ui</a></strong></p>
+<ul>
 ui_ami_position.xml                   - 
 <br></ul>
 

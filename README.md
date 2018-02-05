@@ -43,7 +43,7 @@ character_desc_mlr.xml                -
 dialogs_bar.xml                       - 
 <br>
 dialogs_mlr.xml                       - 
-<br></ul>
+<br></ul></li>
 
 <p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/text/eng">gamedata/configs/text/eng</a></strong></p>
 <ul>
@@ -106,12 +106,12 @@ ui_st_loadscreen.xml                  -
 ui_st_mm.xml                          - 
 <br>
 ui_st_screen.xml                      - 
-<br></ul>
+<br></ul></li>
 
 <p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/ui">gamedata/configs/ui</a></strong></p>
 <ul>
 ui_ami_position.xml                   - 
-<br></ul>
+<br></ul></li>
 
 <p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/scripts">gamedata/scripts</a></strong></p>
 <ul>
@@ -166,5 +166,4 @@ sim_squad.script                      -
 transitions.script                    - 
 <br>
 ui_main_menu.script                   - 
-</ul>
-<br>
+<br></ul></li>

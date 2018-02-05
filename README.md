@@ -8,14 +8,14 @@ Information on the mod can be found here <a href="http://www.moddb.com/mods/lost
 <p>Translation progress per individual files can be found below: (not commented yet)</p>
 
 <p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs">gamedata/configs</a></strong></p>
-<ul>
+<ul style="list-style-type:circle">
 axr_options.ltx                       - 
 <br>
 localization.ltx                      - 
 <br></ul>
 
 <p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">gamedata/configs/gameplay</a></strong></p>
-<ul>
+<ul style="list-style-type:circle">
 character_desc_lostpath_aes.xml       - 
 <br>
 character_desc_lostpath_army.xml      - 
@@ -46,7 +46,7 @@ dialogs_mlr.xml                       -
 <br></ul></li>
 
 <p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/text/eng">gamedata/configs/text/eng</a></strong></p>
-<ul>
+<ul style="list-style-type:circle">
 mlr_addon.xml                         - 
 <br>
 sgm_add_include.xml                   - 
@@ -109,12 +109,12 @@ ui_st_screen.xml                      -
 <br></ul></li>
 
 <p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/ui">gamedata/configs/ui</a></strong></p>
-<ul>
+<ul style="list-style-type:circle">
 ui_ami_position.xml                   - 
 <br></ul></li>
 
 <p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/scripts">gamedata/scripts</a></strong></p>
-<ul>
+<ul style="list-style-type:circle">
 axr_main_options.script               - 
 <br>
 loadscreen.script                     - 

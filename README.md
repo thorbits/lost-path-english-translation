@@ -9,7 +9,7 @@ Information on the mod can be found here <a href="http://www.moddb.com/mods/lost
 
 <p>Translation progress per individual files can be found below: (not commented yet)</p><br>
 
-<p>&#9762;<strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs">gamedata/configs</a></strong></p>
+<p>&#9762; <strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs">gamedata/configs</a></strong></p>
 <ul>
 axr_options.ltx
 <br> &rarr; <br>
@@ -17,7 +17,7 @@ localization.ltx
 <br> &rarr; <br>
 </ul>
 
-<p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">gamedata/configs/gameplay</a></strong></p>
+<p>&#9762; <strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">gamedata/configs/gameplay</a></strong></p>
 <ul>
 character_desc_lostpath_aes.xml
 <br> &rarr; <br>
@@ -47,9 +47,9 @@ dialogs_bar.xml
 <br> &rarr; <br>
 dialogs_mlr.xml
 <br> &rarr; <br>
-</ul></li>
+</ul>
 
-<p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/text/eng">gamedata/configs/text/eng</a></strong></p>
+<p>&#9762; <strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/text/eng">gamedata/configs/text/eng</a></strong></p>
 <ul>
 mlr_addon.xml
 <br> &rarr; <br>
@@ -111,15 +111,15 @@ ui_st_mm.xml
 <br> &rarr; <br>
 ui_st_screen.xml
 <br> &rarr; <br>
-</ul></li>
+</ul>
 
-<p><li><strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/ui">gamedata/configs/ui</a></strong></p>
+<p>&#9762; <strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/ui">gamedata/configs/ui</a></strong></p>
 <ul>
 ui_ami_position.xml
 <br> &rarr; <br>
-</ul></li>
+</ul>
 
-<p><strong><li><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/scripts">gamedata/scripts</a></strong></p>
+<p>&#9762; <strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/scripts">gamedata/scripts</a></strong></p>
 <ul>
 axr_main_options.script
 <br> &rarr; <br>
@@ -173,6 +173,6 @@ transitions.script
 <br> &rarr; <br>
 ui_main_menu.script
 <br> &rarr; <br>
-</ul></li>
+</ul>
 <br>
 <pre>If you have comments or questions about this translation, message me on <a href="http://www.moddb.com/members/thorbits">Moddb</a>.</pre>

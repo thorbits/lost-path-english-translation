@@ -86,7 +86,7 @@ st_lostpath_addons.xml
 st_lostpath_gui.xml
 <br>&#8627; <em></em><br>
 st_lostpath_main.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 st_lostpath_outfits.xml
 <br>&#8627; <em>incomplete</em><br>
 st_lostpath_quest.xml

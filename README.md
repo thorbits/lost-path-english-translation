@@ -14,7 +14,7 @@ Information on the mod can be found here <a href="http://www.moddb.com/mods/lost
 axr_options.ltx
 <br>&#8627; <br>
 localization.ltx
-<br>&#8627; <br>
+<br>&#8627; <em>done</em><br>
 </ul>
 
 <p>&#9762; <strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">gamedata/configs/gameplay</a></strong></p>

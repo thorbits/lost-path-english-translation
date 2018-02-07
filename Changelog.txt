@@ -1,4 +1,5 @@
 0.1.1
+updated st_lostpath_main.xml
 updated ui_st_mm.xml
 updated ui_st_loadscreen.xml
 added lootmoney.script

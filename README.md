@@ -125,6 +125,8 @@ axr_main_options.script
 <br>&#8627; <em>done</em><br>
 loadscreen.script
 <br>&#8627; <em>done</em><br>
+lootmoney.script
+<br>&#8627; <em>done</em><br>
 lostpath.script
 <br>&#8627; <em>done</em><br>
 lostpath_armor.script

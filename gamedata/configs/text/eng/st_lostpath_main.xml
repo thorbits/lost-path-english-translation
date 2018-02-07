@@ -1,260 +1,328 @@
 <?xml version="1.0" encoding="windows-1251" ?>
-<string_table>	
+<string_table>
+	
 	<string id="st_treasure">
-		<text>Заложить тайник</text>
+		<text>Establish a cache</text>
 	</string>
+	
 	<string id="st_serv">
-		<text>установить</text>
+		<text>Install</text>
 	</string>
+	
 	<string id="st_rem_serv">
 		<text>снять</text>
 	</string>
+	
 	<string id="st_pda_research">
-		<text>осмотреть</text>
-	</string>
-	<string id="st_pda_charge">
-		<text>зарядить</text>
-	</string>
-	<string id="st_noenergy">
-		<text>Недостаточно заряда батареек</text>
+		<text>Inspect</text>
 	</string>
 	
+	<string id="st_pda_charge">
+		<text>Charge</text>
+	</string>
+	
+	<string id="st_noenergy">
+		<text>There is not enough battery power</text>
+	</string>	
 	
 	<string id="st_charging_pda">
-		<text>Вы точно хотите попробовать зарядить КПК?</text>
-	</string>
-	<string id="st_serv_noinstall">
-		<text>Данный бронежилет не поддерживает установку сервопривода.</text>
-	</string>
-	<string id="st_serv_noreinstall">
-		<text>Данный бронежилет не содержит сервопривода.</text>
-	</string>
-	<string id="st_serv_install">
-		<text>Вы точно хотите установить сервопривод?</text>
-	</string>
-	<string id="st_serv_reinstall">
-		<text>Вы точно хотите снять сервопривод?</text>
+		<text>Are you sure you want to charge your PDA?</text>
 	</string>
 	
+	<string id="st_serv_noinstall">
+		<text>This armor does not have support for servo.</text>
+	</string>
+	
+	<string id="st_serv_noreinstall">
+		<text>This armor does not have a servo.</text>
+	</string>
+	
+	<string id="st_serv_install">
+		<text>Are you sure you want to install the servo?</text>
+	</string>
+	
+	<string id="st_serv_reinstall">
+		<text>Are you sure you want to remove the servo?</text>
+	</string>
+		
 	<string id="st_upgr_mat">
-		<text>Стоимость</text>
+		<text>Cost</text>
 	</string>
+	
 	<string id="materials_up_name">
-		<text>Набор деталей</text>
+		<text>Set of parts</text>
 	</string>
+	
 	<string id="materials_up_descr">
-		<text>Набор деталей необходимых для апгрейда любым механиком</text>
+		<text>The set of parts required to upgrade any mechanic</text>
 	</string>
-
 	
 	<string id="ui_mm_passive_npc_const">
-		<text>Минимум пассивных НПС</text>
+		<text>Minimum of passive NPCs</text>
 	</string>
+	
 	<string id="ui_mm_active_npc_const">
-		<text>Минимум активных НПС</text>
+		<text>Minimum of active NPCs</text>
 	</string>
+	
 	<string id="ui_mm_defend_min">
-		<text>Время респавна защиты (мин)</text>
+		<text>Respawn time for defense (min)</text>
 	</string>
+	
 	<string id="ui_mm_defend_max">
-		<text>Время респавна зашиты (макс)</text>
+		<text>Respawn time for defense (max)</text>
 	</string>
+	
 	<string id="ui_mm_attack_min">
-		<text>Время респавна атаки (мин)</text>
+		<text>Respawn time for attack (min)</text>
 	</string>
+	
 	<string id="ui_mm_attack_max">
-		<text>Время респавна атаки (макс)</text>
+		<text>Respawn time for attack (max)</text>
 	</string>
+	
 	<string id="ui_mm_patrol_min">
-		<text>Время респавна патруля (мин)</text>
+		<text>Respawn time for patrol (min)</text>
 	</string>
+	
 	<string id="ui_mm_patrol_max">
-		<text>Время респавна патруля (макс)</text>
+		<text>Respawn time for patrol (max)</text>
 	</string>
+	
 	<string id="ui_mm_res_coeff">
-		<text>Влияние кол-ва ресурсов на респавн</text>
+		<text>Number of resources on respawn</text>
 	</string>
+	
 	<string id="ui_mm_base_coeff">
-		<text>Влияние кол-ва баз на респавн</text>
+		<text>Number of bases on respawn</text>
 	</string>
+	
 	<string id="ui_mm_limit_attack">
-		<text>Минимум для атаки (мсек)</text>
+		<text>Minimum for attack (ms)</text>
 	</string>
+	
 	<string id="ui_mm_limit_defend">
-		<text>Минимум для защиты (мсек)</text>
+		<text>Minimum for defense (ms)</text>
 	</string>
+	
 	<string id="ui_mm_update">
-		<text>Время обновления информации (мсек)</text>
+		<text>Information update time (ms)</text>
 	</string>
 	
 	<string id="ui_mm_default_pop">
-		<text>Вместимость смарта</text>
+		<text>Smart capacity</text>
 	</string>
+	
 	<string id="ui_mm_lair_pop">
-		<text>Вместимость логова</text>
+		<text>Lair capacity</text>
 	</string>
+	
 	<string id="ui_mm_base_pop">
-		<text>Вместимость базы</text>
+		<text>Base capacity</text>
 	</string>
+	
 	<string id="ui_mm_res_pop">
-		<text>Вместимость точки ресурсов</text>
+		<text>Resource point capacity</text>
 	</string>
+	
 	<string id="ui_mm_territory_pop">
-		<text>Вместимость территории</text>
+		<text>Territory capacity</text>
 	</string>
 	
 	<string id="ui_mm_power">
-		<text>Сила по умолчанию</text>
+		<text>Default Power</text>
 	</string>
+	
 	<string id="ui_mm_faction_boost">
-		<text>Усиление фракции</text>
+		<text>Strengthen faction</text>
 	</string>
+	
 	<string id="ui_mm_def_boost">
-		<text>Усиление в защите</text>
+		<text>Enhance defense</text>
 	</string>
 	
 	<string id="ui_mm_strong_min">
-		<text>Сила | Сильный мутант (мин)</text>
+		<text>Strength | Strong mutants (min)</text>
 	</string>
+	
 	<string id="ui_mm_strong_max">
-		<text>Сила | Сильный мутант (макс)</text>
+		<text>Strength | Strong mutants (max)</text>
 	</string>
+	
 	<string id="ui_mm_heavy_min">
-		<text>Сила | Сложный мутант (мин)</text>
+		<text>Strength | Heavy mutants (min)</text>
 	</string>
+	
 	<string id="ui_mm_heavy_max">
-		<text>Сила | Сложный мутант (макс)</text>
+		<text>Strength | Heavy mutants (max)</text>
 	</string>
+	
 	<string id="ui_mm_zombie_min">
-		<text>Сила | Зомби (мин)</text>
+		<text>Strength | Zombies (min)</text>
 	</string>
+	
 	<string id="ui_mm_zombie_max">
-		<text>Сила | Зомби (макс)</text>
+		<text>Strength | Zombies (max)</text>
 	</string>
+	
 	<string id="ui_mm_dog_min">
-		<text>Сила | Собаки, кошки (мин)</text>
+		<text>Strength | Dogs & Cats (min)</text>
 	</string>
+	
 	<string id="ui_mm_dog_max">
-		<text>Сила | Собаки, кошки (макс)</text>
+		<text>Strength | Dogs & Cats (max)</text>
 	</string>
+	
 	<string id="ui_mm_rat_min">
-		<text>Сила | Мелкие мутанты (мин)</text>
+		<text>Strength | Small mutants (min)</text>
 	</string>
+	
 	<string id="ui_mm_rat_max">
-		<text>Сила | Мелкие мутанты (макс)</text>
+		<text>Strength | Small mutants (max)</text>
 	</string>
+	
 	<string id="ui_mm_novice_min">
-		<text>Сила | Новички (мин)</text>
+		<text>Strength | Rookie (min)</text>
 	</string>
+	
 	<string id="ui_mm_novice_max">
-		<text>Сила | Новички (макс)</text>
+		<text>Strength | Rookie (max)</text>
 	</string>
+	
 	<string id="ui_mm_advanced_min">
-		<text>Сила | Опытные (мин)</text>
+		<text>Strength | Experienced (min)</text>
 	</string>
+	
 	<string id="ui_mm_advanced_max">
-		<text>Сила | Опытные (макс)</text>
+		<text>Strength | Experienced (max)</text>
 	</string>
+	
 	<string id="ui_mm_veteran_min">
-		<text>Сила | Ветераны (мин)</text>
+		<text>Strength | Veteran (min)</text>
 	</string>
+	
 	<string id="ui_mm_veteran_max">
-		<text>Сила | Ветераны (макс)</text>
+		<text>Strength | Veteran (max)</text>
 	</string>
+	
 	<string id="ui_mm_special_min">
-		<text>Сила | Уникальные (мин)</text>
+		<text>Strength | Master (min)</text>
 	</string>
+	
 	<string id="ui_mm_special_max">
-		<text>Сила | Уникальные (макс)</text>
+		<text>Strength | Master (max)</text>
 	</string>
 	
 	<string id="ui_mm_zombied_min">
-		<text>Усиление фракции : Зомби (мин)</text>
+		<text>Strength : Zombies (min)</text>
 	</string>
+	
 	<string id="ui_mm_zombied_max">
-		<text>Усиление фракции : Зомби (макс)</text>
+		<text>Strength : Zombies (max)</text>
 	</string>
+	
 	<string id="ui_mm_stalker_min">
-		<text>Усиление фракции : Сталкеры (мин)</text>
+		<text>Strength : Loners (min)</text>
 	</string>
+	
 	<string id="ui_mm_stalker_max">
-		<text>Усиление фракции : Сталкеры (макс)</text>
+		<text>Strength : Loners (max)</text>
 	</string>
+	
 	<string id="ui_mm_bandit_min">
-		<text>Усиление фракции : Бандиты (мин)</text>
+		<text>Strength : Bandits (min)</text>
 	</string>
+	
 	<string id="ui_mm_bandit_max">
-		<text>Усиление фракции : Бандиты (макс)</text>
+		<text>Strength : Bandits (max)</text>
 	</string>
+	
 	<string id="ui_mm_dolg_min">
-		<text>Усиление фракции : Долг (мин)</text>
+		<text>Strength : Duty (min)</text>
 	</string>
+	
 	<string id="ui_mm_dolg_max">
-		<text>Усиление фракции : Долг (макс)</text>
+		<text>Strength : Duty (max)</text>
 	</string>
+	
 	<string id="ui_mm_freedom_min">
-		<text>Усиление фракции : Свобода (мин)</text>
+		<text>Strength : Freedom (min)</text>
 	</string>
+	
 	<string id="ui_mm_freedom_max">
-		<text>Усиление фракции : Свобода (макс)</text>
+		<text>Strength : Freedom (max)</text>
 	</string>
+	
 	<string id="ui_mm_army_min">
-		<text>Усиление фракции : Армия (мин)</text>
+		<text>Strength : Military (min)</text>
 	</string>
+	
 	<string id="ui_mm_army_max">
-		<text>Усиление фракции : Армия (макс)</text>
+		<text>Strength : Military (max)</text>
 	</string>
+	
 	<string id="ui_mm_isg_min">
-		<text>Усиление фракции : ИИГ (мин)</text>
+		<text>Strength : ISG (min)</text>
 	</string>
+	
 	<string id="ui_mm_isg_max">
-		<text>Усиление фракции : ИИГ (макс)</text>
+		<text>Strength : ISG (max)</text>
 	</string>
+	
 	<string id="ui_mm_killer_min">
-		<text>Усиление фракции : Наемники (мин)</text>
+		<text>Strength : Mercenaries (min)</text>
 	</string>
+	
 	<string id="ui_mm_killer_max">
-		<text>Усиление фракции : Наемники (макс)</text>
+		<text>Strength : Mercenaries (max)</text>
 	</string>
+	
 	<string id="ui_mm_ecolog_min">
-		<text>Усиление фракции : Экологи (мин)</text>
+		<text>Strength : Ecologists (min)</text>
 	</string>
+	
 	<string id="ui_mm_ecolog_max">
-		<text>Усиление фракции : Экологи (макс)</text>
+		<text>Strength : Ecologists (max)</text>
 	</string>
+	
 	<string id="ui_mm_csky_min">
-		<text>Усиление фракции : Чистое Небо (мин)</text>
+		<text>Strength : Clear Sky (min)</text>
 	</string>
+	
 	<string id="ui_mm_csky_max">
-		<text>Усиление фракции : Чистое Небо (макс)</text>
+		<text>Strength : Clear Sky (max)</text>
 	</string>
+	
 	<string id="ui_mm_darkstalker_min">
-		<text>Усиление фракции : Темные сталкеры (мин)</text>
+		<text>Strength : Darkstalkers (min)</text>
 	</string>
+	
 	<string id="ui_mm_darkstalker_max">
-		<text>Усиление фракции : Темные сталкеры (макс)</text>
+		<text>Strength : Darkstalkers (max)</text>
 	</string>
+	
 	<string id="ui_mm_monolith_min">
-		<text>Усиление фракции : Монолит (мин)</text>
+		<text>Strength : Monolith (min)</text>
 	</string>
+	
 	<string id="ui_mm_monolith_max">
-		<text>Усиление фракции : Монолит (макс)</text>
+		<text>Strength : Monolith (max)</text>
 	</string>
 	
 	<string id="ui_mm_default_mutant">
-		<text>Количество мутантов</text>
+		<text>Number of mutants</text>
 	</string>
+	
 	<string id="ui_mm_sarcofag">
-		<text>Количество мутантов на ЧАЭС</text>
+		<text>Number of mutants in CNPP</text>
 	</string>
+	
 	<string id="ui_mm_zaton">
-		<text>Количество мутантов на Севере Зоны</text>
+		<text>Number of mutants in North Zone</text>
 	</string>
+	
 	<string id="ui_mm_pripyat">
-		<text>Количество мутантов в Лесу</text>
+		<text>Number of mutants in Forest</text>
 	</string>
-	
-	
-	
 	
 </string_table>

@@ -177,5 +177,5 @@ transitions.script
 ui_main_menu.script
 <br>&#8627; <em>done</em><br>
 </ul>
-<br>
+<br><hr>
 <pre>If you have comments or questions about this translation, message me on <a href="http://www.moddb.com/mods/lost-path/downloads/stalker-lost-path-english-translation-01">Moddb</a>.</pre>

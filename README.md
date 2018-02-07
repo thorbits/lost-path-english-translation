@@ -106,7 +106,7 @@ ui_st_encyclopedia_quest_info.xml
 ui_st_faction_starts.xml
 <br>&#8627; <em></em><br>
 ui_st_loadscreen.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>version displayed needs to be updated to current lost path version</em><br>
 ui_st_mm.xml
 <br>&#8627; <em></em><br>
 ui_st_screen.xml
@@ -116,63 +116,63 @@ ui_st_screen.xml
 <p>&#9762; <strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/ui">gamedata/configs/ui</a></strong></p>
 <ul>
 ui_ami_position.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 </ul>
 
 <p>&#9762; <strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/scripts">gamedata/scripts</a></strong></p>
 <ul>
 axr_main_options.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 loadscreen.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 lostpath.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 lostpath_armor.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 lostpath_art.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 lostpath_barter_army.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 lostpath_barter_dolg.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 lostpath_barter_freedom.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 lostpath_barter_isg.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 lostpath_barter_killer.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 lostpath_detector.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 lostpath_drop.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 lostpath_faction_change.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 lostpath_faction_resource.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 lostpath_flash.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 lostpath_message.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 lostpath_montage.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 lostpath_name.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 lostpath_special_drop_to_npc.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 lostpath_visual.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 news_manager.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 sim_relations.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 sim_smart.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 sim_squad.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 transitions.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 ui_main_menu.script
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 </ul>
 <br>
 <pre>If you have comments or questions about this translation, message me on <a href="http://www.moddb.com/members/thorbits">Moddb</a>.</pre>

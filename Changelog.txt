@@ -1,8 +1,8 @@
 0.1.1
 updated st_lostpath_main.xml
-updated ui_st_mm.xml
 updated ui_st_loadscreen.xml
-added lootmoney.script
-updated ui_main_menu.script
+updated ui_st_mm.xml
 updated axr_main_options.script
 updated lostpath_visual.script
+updated ui_main_menu.script
+added lootmoney.script

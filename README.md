@@ -7,7 +7,7 @@ Information on the mod can be found here <a href="http://www.moddb.com/mods/lost
 
 <p>Lost Path already includes a "gamedata/configs/text/eng" folder by default, the files presented here are updates to these files and others files like scripts necessary for a full translation. Some files may need to be removed/added in the future.</p><br>
 
-<p>Translation progress per individual files can be found below: (not commented yet)</p><br>
+<p>Translation progress per individual files can be found below: (not fully updated)</p><br>
 
 <p>&#9762; <strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs">gamedata/configs</a></strong></p>
 <ul>
@@ -66,7 +66,7 @@ st_dialogs_garbage.xml
 st_drx_addons.xml
 <br>&#8627; <em></em><br>
 st_dynamic_news.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>incomplete</em><br>
 st_generate_fnames.xml
 <br>&#8627; <em></em><br>
 st_generate_snames.xml
@@ -76,7 +76,7 @@ st_items_awr.xml
 st_items_fieldcraft.xml
 <br>&#8627; <em></em><br>
 st_items_outfit_addon.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>incomplete</em><br>
 st_items_rad.xml
 <br>&#8627; <em></em><br>
 st_items_soup_addon.xml
@@ -88,7 +88,7 @@ st_lostpath_gui.xml
 st_lostpath_main.xml
 <br>&#8627; <em></em><br>
 st_lostpath_outfits.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>incomplete</em><br>
 st_lostpath_quest.xml
 <br>&#8627; <em></em><br>
 st_lostpath_scripts.xml

@@ -66,7 +66,7 @@ function actor_on_update()
 		db.actor:set_visual_name(new_visual)
 		if act == true then
 			snd = [[actor\gas_breath_1_1]]
-			news_manager.send_tip(db.actor, "%c[0,255,255,30]A closed breathing system is installed.", nil, nil, nil, nil)
+			news_manager.send_tip(db.actor, "%c[0,255,255,30]A closed breathing system is installed", nil, nil, nil, nil)
 		elseif deact == true then
 			snd = [[actor\gas_breath_1_2]]
 		end

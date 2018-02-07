@@ -3,12 +3,12 @@
 <p>Hello! This is an English translation for <b>S.T.A.L.K.E.R.: Lost Path</b>, a mod for the S.T.A.L.K.E.R. game series.<br>
 Information on the mod can be found here <a href="http://www.moddb.com/mods/lost-path">Lost Path page on Moddb</a> (english) and here <a href="http://vk.com/lp_coc">Lost Path page on Vk</a> (russian).</p><br>
 
-<p>Information on the translation and download link can also be found here <a href="http://www.moddb.com/mods/lost-path/downloads/stalker-lost-path-english-translation">Lost Path English translation page on Moddb</a><br>
+<p>Information on the translation and download link can also be found here <a href="http://www.moddb.com/mods/lost-path/downloads/stalker-lost-path-english-translation">Lost Path English translation page on Moddb</a>.<br>
 This translation is currently updated for <b>Lost Path version 0.5.001</b>.</p>
 
 <p>Lost Path already includes a "gamedata/configs/text/eng" folder by default, the files presented here are updates to these files and others files like scripts necessary for a full translation. Some files may need to be removed/added in the future.</p><br>
-
-<p>Translation progress per individual files can be found below: (not fully updated)</p><br>
+<hr>
+<p>Translation progress per individual files can be found below: (not fully updated)</p>
 
 <p>&#9762; <strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs">gamedata/configs</a></strong></p>
 <ul>

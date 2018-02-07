@@ -10,7 +10,7 @@ Information on the mod can be found here <a href="http://www.moddb.com/mods/lost
 <p>Translation progress per individual files can be found below: (not commented yet)</p><br>
 
 <p>&#9762; <strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs">gamedata/configs</a></strong></p>
-<ul>
+<ul>&#124;
 axr_options.ltx
 <br> &#10072;&rarr; <br>
 localization.ltx

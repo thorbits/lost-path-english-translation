@@ -35,6 +35,7 @@ added dialogs_mlr_arena.xml
 added dialogs_wth.xml
 added lootmoney.ltx
 updated st_items_fieldcraft.xml
+added st_items_quest.xml
 added st_land_names.xml
 --------------------
 02/08 0.1.2

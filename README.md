@@ -20,6 +20,16 @@ localization.ltx
 
 <p>&#9762; <strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">gamedata/configs/gameplay</a></strong></p>
 <ul>
+character_desc_agroprom.xml
+<br>&#8627; <em>done</em><br>
+character_desc_bar.xml
+<br>&#8627; <em>done</em><br>
+character_desc_darkvalley.xml
+<br>&#8627; <em>done</em><br>
+character_desc_deadcity.xml
+<br>&#8627; <em>done</em><br>
+character_desc_escape.xml
+<br>&#8627; <em>done</em><br>
 character_desc_general_actor.xml
 <br>&#8627; <em>done</em><br>
 character_desc_general_army.xml

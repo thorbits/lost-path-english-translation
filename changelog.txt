@@ -33,6 +33,7 @@ added dialogs_lostpath.xml
 updated dialogs_mlr.xml
 added dialogs_mlr_arena.xml
 added dialogs_wth.xml
+added lootmoney.ltx
 --------------------
 02/08 0.1.2
 --------------------

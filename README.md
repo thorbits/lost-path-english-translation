@@ -164,8 +164,16 @@ st_lostpath_achievement.xml
 <br>&#8627; <em>done, need revision</em><br>
 st_lostpath_addons.xml
 <br>&#8627; <em></em><br>
+st_lostpath_dialog.xml
+<br>&#8627; <em>done, need revision</em><br>
+st_lostpath_drop.xml
+<br>&#8627; <em>done, need revision</em><br>
+st_lostpath_filter.xml
+<br>&#8627; <em>done, need revision</em><br>
+st_lostpath_flesh.xml
+<br>&#8627; <em>done, need revision</em><br>
 st_lostpath_gui.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 st_lostpath_main.xml
 <br>&#8627; <em>done</em><br>
 st_lostpath_outfits.xml

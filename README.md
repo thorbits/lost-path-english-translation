@@ -59,13 +59,13 @@ sgm_add_include.xml
 sgm_script_texts.xml
 <br>&#8627; <em></em><br>
 st_closecaption.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 st_dialogs.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 st_dialogs_garbage.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>incomplete</em><br>
 st_drx_addons.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 st_dynamic_news.xml
 <br>&#8627; <em>incomplete</em><br>
 st_generate_fnames.xml

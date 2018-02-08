@@ -112,6 +112,12 @@ dialogs_wth.xml
 <br>&#8627; <em>incomplete</em><br>
 </ul>
 
+<p>&#9762; <strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/scripts">gamedata/configs/scripts</a></strong></p>
+<ul>
+lootmoney.ltx
+<br>&#8627; <em>done</em><br>
+</ul>
+
 <p>&#9762; <strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/text/eng">gamedata/configs/text/eng</a></strong></p>
 <ul>
 mlr_addon.xml

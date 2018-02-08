@@ -45,7 +45,7 @@ character_desc_lostpath_stalker.xml
 character_desc_mlr.xml
 <br>&#8627; <em></em><br>
 dialogs_bar.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 dialogs_mlr.xml
 <br>&#8627; <em></em><br>
 </ul>

@@ -3,7 +3,7 @@
 <string_table>
 	
 	<string id="isg_exo_outfit_name">
-		<text>"Researchers" exoskeleton </text>
+		<text>Researchers exoskeleton </text>
 	</string>
 
 	<string id="isg_exo_outfit_description">
@@ -11,7 +11,7 @@
 	</string>
 
 	<string id="isg_heavy_outfit_name">
-		<text>ÏÑ7-3M "Battleship"</text>
+		<text>Researchers ÏÑ7-3M "Battleship"</text>
 	</string>
 
 	<string id="isg_heavy_outfit_description">
@@ -19,7 +19,7 @@
 	</string>
 
 	<string id="isg_heavy_proto_name">
-		<text>ÏÑ7-3ms "Battleship"</text>
+		<text>Researchers ÏÑ7-3ms "Battleship"</text>
 	</string>
 
 	<string id="isg_heavy_proto_description">
@@ -35,39 +35,43 @@
 	</string>
 
 	<string id="isg_outfit_proto_name">
-		<text>Jumpsuit "IIG" (servo)</text>
+		<text>Researchers proto-exoskeleton</text>
 	</string>
 
 	<string id="isg_outfit_proto_description">
-		<text>the Jumpsuit is a combination of the two-layer rubberized fabric lined in plexiglass with built-in vest. Created specifically for members of the now-defunct "International Research Group" on the basis of the Stalker suit "dawn". Features built-in containers for artifacts.</text>
+		<text>Created specifically for members of the International Research Group, the jumpsuit is a combination of the two-layer rubberized fabric lined in Plexiglas with built-in body armor and fitted with parts from an exoskeleton for additional protection. This suit is modeled after the popular Sunrise suit.</text>
 	</string>
 
 	<string id="military_novice_name">
-		<text>the Costume of the recruit</text>
+		<text>Military outfit</text>
 	</string>
 
+	<string id="military_novice_description">
+		<text>A poor protective outfit contracted by government bureaucrats outsourcing to the lowest bidder. It slightly increases bullet, shrapnel and bite protection. For soldiers serving in the Zone, it is as good as walking naked amidst rifle bullets and anomalies.</text>
+	</string>
+	
 	<string id="helm_exo_name">
-		<text>Heavy battle helmet</text>
+		<text>Exohelm</text>
 	</string>
 
 	<string id="helm_exo_descr">
-		<text>OK perfect balance exoskeleton, because of all the available helmets provides maximum protection for the head, though, and has a very high price.</text>
+		<text>This helmet resembles that of an ordinary exoskeleton, but differs sightly from its standard counterpart and has differing protective characteristics. Good protection from gunfire and high caliber rounds in combination with anomaly protection make this helmet one of the best in its category.</text>
 	</string> 
 
 	<string id="bandit_heavy_outfit_name">
-		<text>Heavy breeschoten "Bandits"</text>
+		<text>Bandit Berill-5M armored suit</text>
 	</string>
 
 	<string id="bandit_heavy_outfit_description">
-		<text>a Modified Heavy broascast group "the Bandits" from old stocks of military TB. This is worn by cool guys who have credibility. Provides good protection from bullets and shrapnel, while not reducing the mobility of the fighter.</text>
+		<text>Created specifically for members of the Bandits, this item comprises military PS5 series body armor with beryllium sputter modified for use in the Zone. Designed for assault operations in highly radioactive areas, it is ineffective in areas of high anomalous activity.</text>
 	</string>
 
 	<string id="csky_outfit_proto_name">
-		<text>coverall "dawn-ERS" (servo)</text>
+		<text>Clear Sky proto-exoskeleton</text>
 	</string>
 
 	<string id="csky_outfit_proto_description">
-		<text>coverall "dawn", painted in camouflage group "Clean Sky". Despite the fact that the suit barely protects from pistol bullets, is popular because of low prices and high potential for modification. Has a built-in container for artifacts.</text>
+		<text>A Clear Sky branded sunrise bodysuit fitted with parts from an exoskeleton for additional protection. Despite the fact that the body armor is incapable of protecting the wearer from even pistol bullets, the suit enjoys great popularity within Clear Sky members due to its low cost and modification potential.</text>
 	</string>
 
 	<string id="army_radiation_outfit_name">
@@ -83,15 +87,15 @@
 	</string>
 
 	<string id="army_commander_proto_description">
-		<text>Army bronekostyum SKAT-9M created to conduct assault operations in the areas of activity anomalies. In stock: heavy army bronekostyum series PSZ-12P, built-in compensation suit, helmet Sphere-12M. Provides excellent protection against bullet and shrapnel hits, it does not reduce the mobility of the soldier. In the presence of a balanced system of protection from anomalous exposure.</text>
+		<text>This modern military armored suit is designed for assault operations in anomalous areas. Mainly designed for Spetsnaz units for the purposes of high risk operations. Comprises a PSZ-12p heavy military armored suit, built-in compensation suit, and an anomalous protection bodysuit. The armor provides excellent protection against bullet and fragmentation damage, without greatly reducing the wearer's mobility.</text>
 	</string>
 
 	<string id="army_heavy_proto_name">
-		<text>Army bronekostyum "Bulat" (servo)</text>
+		<text>SKAT-9 proto-exoskeleton</text>
 	</string>
 
 	<string id="army_heavy_proto_description">
-		<text>Modern army bronekostyum to conduct assault operations in areas of anomalous activity. Armored elements are made of a ballistic fabric that is used as the basis of high-strength fiber "Armos" maslovodoottalkivayuschaya treatment. Components: heavy armor of the series PSZ-12P bodysuit abnormal protection and compensation suit. Provides excellent protection against bullets and fragments while convenient, hardly limits the mobility of the carrier. Not equipped with containers for artifacts.</text>
+		<text>This modern military armored suit is designed for assault operations in anomalous areas. Comprises a PSZ-12p heavy military armored suit, built-in compensation suit, an anomalous protection bodysuit, mounted exoskeleton. The armor provides excellent protection against bullet and fragmentation damage, without reducing the wearer's mobility.</text>
 	</string>
 
 	<string id="monolith_outfit_proto_name">
@@ -99,103 +103,103 @@
 	</string>
 
 	<string id="monolith_outfit_proto_description">
-		<text>An armor made by either Monolithians or an unknown manufacturer. It includes a flak vest of unknown origin and also features unique modifications creating a slight resistance to radiation. System has mounted exoskeleton.</text>
+		<text>Stalker suit from the Monolith faction fitted with parts from an exoskeleton for additional protection. The producer is unknown. Its protective properties are slightly worse then those of the PSZ-9a military bulletproof vest. Its structure is similar to the suit popular with neutral stalkers which combines a bulletproof vest and a radiation protection suit. It provides good protection from gunfire.</text>
 	</string>
 
 	<string id="stalker_outfit_proto_name">
-		<text>coverall "dawn" (servo)</text>
+		<text>Sunrise suit proto-exoskeleton</text>
 	</string>
 
 	<string id="stalker_outfit_proto_description">
-		<text>Produced by "craftsmen" jumpsuit "dawn" is an effective combination of a light military bulletproof vest and a jumpsuit made of aramid fabric. Despite the fact that the suit barely protects from pistol bullets, is popular because of low prices and high potential for modification. Equipped with container for artifacts.</text>
+		<text>This DIY stalker bodysuit is a combination of twin-layered rubberized cloth with Plexiglas lining and built-in body armor. Despite the fact that the body armor is often strained by anything beyond even pistol bullets, the suit enjoys great popularity due to its low cost and modification potential.</text>
 	</string>
 
 	<string id="csky_heavy_proto_name">
-		<text>Heavy breeschoten "clear Sky" (servo)</text>
+		<text>Clear Sky Berill-5M proto-exoskeleton</text>
 	</string>
 
 	<string id="csky_heavy_proto_description">
-		<text>the Elite gear assault groups of the "Clean sky", created in an artisan workshop by skilled craftsmen ERS, the project on creation of the reservation is headed Novikov made armor was modeled after army's TB. Provides good protection from bullets and shrapnel, while not reducing the mobility of the fighter. Included Helmet Sphere12 with modified psi-protection and PNV 2nd generation. </text>
+		<text>Created specifically for members of Clear Sky, this item comprises military PS5 series body armor with beryllium sputter fitted with parts from an exoskeleton for additional protection. Designed for assault operations in highly radioactive areas, it is ineffective in areas of high anomalous activity.</text>
 	</string>
 
 	<string id="mono_heavy_proto_name">
-		<text>Heavy breeschoten "Monolith" (servo)</text>
+		<text>Monolith Berill-5M proto-exoskeleton</text>
 	</string>
 
 	<string id="mono_heavy_proto_description">
-		<text>Redone with heavy broascast group "Monolith" under the symbols of his group. Apparently this costume was worn by the military before they became the monolith. Provides good protection from bullets and shrapnel, while not reducing the mobility of the soldier. </text>
+		<text> An armored suit from the Monolith faction fitted with parts from an exoskeleton for additional protection. The producer is unknown. Designed for assault operations in highly radioactive areas, it is ineffective in areas of high anomalous activity.</text>
 	</string>
 
 	<string id="merc_heavy_proto_name">
-		<text>Heavy breeschoten "Mercenaries" (servo)</text>
+		<text>Mercenary Berill-5M proto-exoskeleton</text>
 	</string>
 
 	<string id="merc_heavy_proto_description">
-		<text>equipment of an Elite assault troops "Mercenaries", modeled on the military "TB". Provides good protection from bullets and shrapnel, while not reducing the mobility of the soldier.</text>
+		<text>Created specifically for members of the Mercenaries, this item comprises military PS5 series body armor with beryllium sputter fitted with parts from an exoskeleton for additional protection. Designed for assault operations in highly radioactive areas, it is ineffective in areas of high anomalous activity.</text>
 	</string>
 	
 	<string id="ecolog_guard_proto_name">
-		<text>Science jumpsuit "Sunrise" (servo)</text>
+		<text>Ecologist guard proto-exoskeleton</text>
 	</string>
 
 	<string id="ecolog_guard_proto_description">
-		<text>Successful combination of rubberized ballistic fabric and a monolithic ceramic organoplastics of armor. Created on the basis of the Stalker "Dawn" for researchers. Is equipped with two containers for the artifacts.</text>
+		<text>Created specifically for members of the Ecologists, this bodysuit is a combination of a bodysuit of twin-layered rubberized cloth with Plexiglas lining and built-in body armor fitted with parts from an exoskeleton for additional protection. This suit is modeled after the popular Sunrise suit.</text>
 	</string>
 
 	<string id="bandit_heavy_proto_name">
-		<text>Heavy breeschoten "Bandits" (servo)</text>
+		<text>Bandits Berill-5M proto-exoskeleton</text>
 	</string>
 
 	<string id="bandit_heavy_proto_description">
-		<text>a Modified Heavy broascast group "the Bandits" from old stocks of military TB. This is worn by cool guys who have credibility. Provides good protection from bullets and shrapnel, while not reducing the mobility of the fighter.</text>
+		<text>Customized by the Bandits, this item comprises military PS5 series body armor with beryllium sputter fitted with parts from an exoskeleton for additional protection. Designed for assault operations in highly radioactive areas, it is ineffective in areas of high anomalous activity.</text>
 	</string>
 
 	<string id="bandit_heavy_name">
-		<text>Heavy breeschoten "Bandits"</text>
+		<text>Bandit Berill-5M armored suit</text>
 	</string>
 	
 	<string id="bandit_heavy_description">
-		<text>a Modified Heavy broascast group "the Bandits" from old stocks of military TB. This is worn by cool guys who have credibility. Provides good protection from bullets and shrapnel, while not reducing the mobility of the fighter.</text>
+		<text>Customized by the Bandits, this item comprises military PS5 series body armor with beryllium sputter modified for use in the Zone. Designed for assault operations in highly radioactive areas, it is ineffective in areas of high anomalous activity.</text>
 	</string>
 
 	<string id="freedom_heavy_proto_name">
-		<text>Heavy breeschoten "Freedom" (servo)</text>
+		<text>Freedom Berill-5M proto-exoskeleton</text>
 	</string>
 
 	<string id="freedom_heavy_proto_description">
-		<text>a Modified Heavy broascast group "Freedom" from old stocks of military TB. This is worn by elite units of freedom. Provides good protection from bullets and shrapnel, while not reducing the mobility of the fighter. Included Helmet Sphere12 with modified psi-protection and PNV 2nd generation.</text>
+		<text>Customized by Freedom craftsmen, this item comprises military PS5 series body armor with beryllium sputter fitted with parts from an exoskeleton for additional protection. Designed for assault operations in highly radioactive areas, it is ineffective in areas of high anomalous activity.</text>
 	</string>
 
 	<string id="freedom_outfit_proto_name">
-		<text>PS4-5M "Freedom" M2S</text>
+		<text>Freedom proto-exoskeleton</text>
 	</string>
 
 	<string id="freedom_outfit_proto_description">
-		<text>a Modernized version of the suit of Freedom. The average army flak jacket plus the overhead reinforcing zirconium elements give good protection against machine-gun bullets and shrapnel at different distances. The suit material consists of two layers: specially treated leather and aramid fabric Twaron. Gives some protection from various abnormal effects and radiation. Equipped with container for artifacts.</text>
+		<text>A lightweight stalker bodysuit, made by Freedom craftsmen and fitted with parts from an exoskeleton for additional protection. The suit's fabric is treated with Horizon, a special solution developed by the faction by trial and error, to increase resistance to anomalies.</text>
 	</string>
 
 	<string id="dolg_heavy_proto_name">
-		<text>PS3-9Äñ "Armor of the Debt"</text>
+		<text>Duty PSZ-9d proto-exoskeleton</text>
 	</string>
 
 	<string id="dolg_heavy_proto_description">
-		<text>Early model of the suit of Debt the body armor of special forces series PS3-9, adapted for use in the Zone. The right combination of rigid and flexible elements made it possible to provide the highest possible level of protection while retaining the ease of operation and mobility of the fighter. Able to protect against machine-gun bullets, but very bulky and almost never provides protection from abnormal influences. Installation of containers for artifacts is not provided, but is possible to install various auxiliary systems.</text>
+		<text>This early model of the Duty bodysuit is the Spetsnaz PSZ-9 body armor fitted with parts from an exoskeleton for additional protection. The suit is capable of stopping a rifle bullet, however, this level of protection comes at the cost of its weight, bulkiness and virtually non-existent anomaly protection. Mounted exoskeleton provides extra carry weight.</text>
 	</string>
 
 	<string id="dolg_heavy_proto_h_name">
-		<text>PS3-9Äñ "Armor of the Debt"</text>
+		<text>Duty PSZ-9d proto-exoskeleton</text>
 	</string>
 	
 	<string id="dolg_heavy_proto_h_description">
-		<text>an Improved model of the PS3 jumpsuit-9D was developed for riot Duty. Included is a helmet with modified psi and radiatsionnoi protection and PNV 2nd generation.</text>
+		<text>This early model of the Duty bodysuit is the Spetsnaz PSZ-9 body armor fitted with parts from an exoskeleton for additional protection. The suit is capable of stopping a rifle bullet, however, this level of protection comes at the cost of its weight, bulkiness and virtually non-existent anomaly protection. Mounted exoskeleton provides extra carry weight.</text>
 	</string>
 
 	<string id="dolg_outfit_proto_name">
-		<text>PS5-MS "Universal protection"</text>
+		<text>Duty PS5-M proto-exoskeleton</text>
 	</string>
 
 	<string id="dolg_outfit_proto_description">
-		<text>Modern model jumpsuit "Debt". More suited to new recruits of the stalkers, who are accustomed to a relatively easy costume. In contrast to series PS3, has ballistic soft armor of Kevlar. Provides little protection from anomalous exposure, but it can stop a pistol bullet. Containers for artifacts is not provided, but is possible to install various auxiliary systems.</text>
+		<text>This modern version of the Duty bodysuit has been fitted with parts from an exoskeleton for additional protection. Unlike the PSZ series, the rest of the suit provides reasonable protection against anomalies while also being capable of stopping a pistol bullet.</text>
 	</string>
 
 	<string id="stalker_reinforced_outfit_name">
@@ -215,67 +219,67 @@
 	</string>
 
 	<string id="freedom_skat_outfit_name">
-		<text>Heavy breeschoten "Freedom"</text>
+		<text>Freedom SKAT-9 "Bulat" armored suit</text>
 	</string>
 
 	<string id="freedom_skat_outfit_description">
-		<text>a Modified Heavy broascast group "Freedom" from old stocks of military TB. This is worn by elite units of freedom. Provides good protection from bullets and shrapnel while not reducing the mobility of the fighter. Included Helmet Sphere-12 with modified psi-protection and PNV 2nd generation.</text>
+		<text>This modern military armored suit is designed for assault operations in anomalous areas. Mainly designed for Spetsnaz units for the purposes of high risk operations. Comprises a PSZ-12p heavy military armored suit, built-in compensation suit, and an anomalous protection bodysuit. The armor provides excellent protection against bullet and fragmentation damage, without greatly reducing the wearer's mobility.</text>
 	</string>
 
 	<string id="killer_skat_outfit_name">
-		<text>Heavy breeschoten "Mercenaries"</text>
+		<text>Mercenary SKAT-9 "Bulat" armored suit</text>
 	</string>
 
 	<string id="killer_skat_outfit_description">
-		<text>equipment of an Elite assault troops "Mercenaries", modeled on the military "TB". Provides good protection from bullets and shrapnel, while not reducing the mobility of the fighter. Included Helmet Sphere-12 with modified psi-protection and PNV 2nd generation.</text>
+		<text>This modern military armored suit is designed for assault operations in anomalous areas. Mainly designed for Spetsnaz units for the purposes of high risk operations. Comprises a PSZ-12p heavy military armored suit, built-in compensation suit, and an anomalous protection bodysuit. The armor provides excellent protection against bullet and fragmentation damage, without greatly reducing the wearer's mobility.</text>
 	</string>
 
 	<string id="monolith_skat_outfit_name">
-		<text>Heavy breeschoten "Monolith"</text>
+		<text>Monolith SKAT-9 "Bulat" armored suit</text>
 	</string>
 
 	<string id="monolith_skat_outfit_description">
-		<text>Redone with Heavy broascast group "Monolith" under the symbols of his group. Apparently this costume was worn by the military before they became the monolith. Provides good protection from bullets and shrapnel, while not reducing the mobility of the fighter. Included Helmet Sphere-12 with modified psi-protection and PNV 2nd generation.</text>
+		<text>This modern military armored suit is designed for assault operations in anomalous areas. Mainly designed for Spetsnaz units for the purposes of high risk operations. Comprises a PSZ-12p heavy military armored suit, built-in compensation suit, and an anomalous protection bodysuit. The armor provides excellent protection against bullet and fragmentation damage, without greatly reducing the wearer's mobility.</text>
 	</string>
 
 	<string id="csky_skat_outfit_name">
-		<text>Heavy breeschoten "clear Sky"</text>
+		<text>Clear Sky SKAT-9 "Bulat" armored suit</text>
 	</string>
 
 	<string id="csky_skat_outfit_description">
-		<text>the Elite gear assault groups of the "Clean sky", created in an artisan workshop by skilled craftsmen ERS, the project on creation of the reservation is headed Novikov made armor was modeled after army's "TB". Provides good protection from bullets and shrapnel, while not reducing the mobility of the fighter. Included Helmet Sphere-12 with modified psi-protection and PNV 2nd generation.</text>
+		<text>This modern military armored suit is designed for assault operations in anomalous areas. Mainly designed for Spetsnaz units for the purposes of high risk operations. Comprises a PSZ-12p heavy military armored suit, built-in compensation suit, and an anomalous protection bodysuit. The armor provides excellent protection against bullet and fragmentation damage, without greatly reducing the wearer's mobility.</text>
 	</string>
 
 	<string id="dolg_skat_outfit_name">
-		<text>PS3-9D "Debt"</text>
+		<text>Duty SKAT-9 "Bulat" armored suit</text>
 	</string>
 
 	<string id="dolg_skat_outfit_description">
-		<text>an Improved model of the PS3 jumpsuit-9D was developed for riot Duty. Comes with the Helmet Sphere-12 with a modified psi and radiatsionnoi protection and PNV 2nd generation.</text>
+		<text>This modern military armored suit is designed for assault operations in anomalous areas. Mainly designed for Spetsnaz units for the purposes of high risk operations. Comprises a PSZ-12p heavy military armored suit, built-in compensation suit, and an anomalous protection bodysuit. The armor provides excellent protection against bullet and fragmentation damage, without greatly reducing the wearer's mobility.</text>
 	</string>
 
 	<string id="duty_skat_outfit_name">
-		<text>PS3-9D "Debt"</text>
+		<text>Duty SKAT-9 "Bulat" armored suit</text>
 	</string>
 
 	<string id="duty_skat_outfit_description">
-		<text>an Improved model of the PS3 jumpsuit-9D was developed for riot Duty. It comes with a Tactical helmet with modified psi and radiatsionnoi protection and PNV 2nd generation.</text>
+		<text>This modern military armored suit is designed for assault operations in anomalous areas. Mainly designed for Spetsnaz units for the purposes of high risk operations. Comprises a PSZ-12p heavy military armored suit, built-in compensation suit, and an anomalous protection bodysuit. The armor provides excellent protection against bullet and fragmentation damage, without greatly reducing the wearer's mobility.</text>
 	</string>
 
 	<string id="army_skat_1_name">
-		<text>Heavy áðîíåñêîñòþìì12</text>
+		<text>SKAT-9 "Bulat" armored suit</text>
 	</string>
 
 	<string id="army_skat_1_description">
-		<text>comes with Heavy breeschoten and Helmet Sphere-12 with a modified psi and radiatsionnoi protection and PNV 2nd generation.</text>
+		<text>This modern military armored suit is designed for assault operations in anomalous areas. Mainly designed for Spetsnaz units for the purposes of high risk operations. Comprises a PSZ-12p heavy military armored suit, built-in compensation suit, and an anomalous protection bodysuit. The armor provides excellent protection against bullet and fragmentation damage, without greatly reducing the wearer's mobility.</text>
 	</string>
 
 	<string id="army_skat_2_name">
-		<text>Heavy broadcasthost</text>
+		<text>SKAT-9 "Bulat" armored suit</text>
 	</string>
 
 	<string id="army_skat_2_description">
-		<text>comes with Heavy breeschoten and Tactical helmet with modified psi and radiatsionnoi protection and PNV 2nd generation.</text>
+		<text>This modern military armored suit is designed for assault operations in anomalous areas. Mainly designed for Spetsnaz units for the purposes of high risk operations. Comprises a PSZ-12p heavy military armored suit, built-in compensation suit, and an anomalous protection bodysuit. The armor provides excellent protection against bullet and fragmentation damage, without greatly reducing the wearer's mobility.</text>
 	</string>
 
 	<string id="shram_outfit_name">

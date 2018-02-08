@@ -136,7 +136,7 @@
 		<text>They say that there's something valuable hidden on the Duty's territory in the switchboard.</text>
 	</string>
 	<string id="st_l05_bar_inventory_box_0010_name">
-		<text>Swithboard with a secret stash</text>
+		<text>Switchboard with a secret stash</text>
 	</string>
 	<string id="st_l05_bar_inventory_box_0011_descr">
 		<text>I stuck the chest in top of the tower in front of the Duty - no one will notice it</text>
@@ -241,7 +241,7 @@
 		<text>Supplies in the chest</text>
 	</string>
 	<string id="st_gar_smart_terrain_5_2_box_descr">
-		<text>While the dutyers were shooting, I hid the habar in the train car. Somehow I have to get in to pick it up. And to thank the Duty.</text>
+		<text>While the dutyers were shooting, I hid the box in the train car. Somehow I have to get in to pick it up. And to thank the Duty.</text>
 	</string>
 	<string id="st_gar_smart_terrain_5_2_box_name">
 		<text>Chest at the heavily armed military checkpoint</text>

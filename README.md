@@ -20,6 +20,8 @@ localization.ltx
 
 <p>&#9762; <strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">gamedata/configs/gameplay</a></strong></p>
 <ul>
+character_desc_general_actor.xml
+<br>&#8627; <em></em><br>
 character_desc_lostpath_aes.xml
 <br>&#8627; <em></em><br>
 character_desc_lostpath_army.xml

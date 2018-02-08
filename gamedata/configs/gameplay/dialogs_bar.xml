@@ -743,11 +743,11 @@
 <dialog id="vano"> 
 <phrase_list>
 <phrase id="0">
-   <text>vano_0</text>
+   <text />
 <next>1</next>
 </phrase>
 <phrase id="1">
-<text>vano_1</text>
+<text />
 </phrase>
  </phrase_list>
     </dialog>

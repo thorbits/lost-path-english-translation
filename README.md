@@ -78,7 +78,27 @@ character_desc_lostpath_special.xml
 <br>&#8627; <em>done</em><br>
 character_desc_lostpath_stalker.xml
 <br>&#8627; <em>done</em><br>
+character_desc_marsh.xml
+<br>&#8627; <em>done</em><br>
+character_desc_military.xml
+<br>&#8627; <em>done</em><br>
 character_desc_mlr.xml
+<br>&#8627; <em>done</em><br>
+character_desc_pripyat.xml
+<br>&#8627; <em>done</em><br>
+character_desc_red_forest.xml
+<br>&#8627; <em>done</em><br>
+character_desc_sarcofag.xml
+<br>&#8627; <em>done</em><br>
+character_desc_simulation.xml
+<br>&#8627; <em>done</em><br>
+character_desc_underpass.xml
+<br>&#8627; <em>done</em><br>
+character_desc_warlab.xml
+<br>&#8627; <em>done</em><br>
+character_desc_yantar.xml
+<br>&#8627; <em>done</em><br>
+character_desc_zaton.xml
 <br>&#8627; <em>done</em><br>
 dialogs_bar.xml
 <br>&#8627; <em>done</em><br>

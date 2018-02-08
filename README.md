@@ -22,6 +22,28 @@ localization.ltx
 <ul>
 character_desc_general_actor.xml
 <br>&#8627; <em></em><br>
+character_desc_general_army.xml
+<br>&#8627; <em></em><br>
+character_desc_general_csky.xml
+<br>&#8627; <em></em><br>
+character_desc_general_darkstalker.xml
+<br>&#8627; <em></em><br>
+character_desc_general_dolg.xml
+<br>&#8627; <em></em><br>
+character_desc_general_ecolog.xml
+<br>&#8627; <em></em><br>
+character_desc_general_eoc.xml
+<br>&#8627; <em></em><br>
+character_desc_general_freedom.xml
+<br>&#8627; <em></em><br>
+character_desc_general_isg.xml
+<br>&#8627; <em></em><br>
+character_desc_general_killer.xml
+<br>&#8627; <em></em><br>
+character_desc_general_monolith.xml
+<br>&#8627; <em></em><br>
+character_desc_general_stalker
+<br>&#8627; <em></em><br>
 character_desc_lostpath_aes.xml
 <br>&#8627; <em></em><br>
 character_desc_lostpath_army.xml

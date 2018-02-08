@@ -102,6 +102,8 @@ character_desc_zaton.xml
 <br>&#8627; <em>done</em><br>
 dialogs_bar.xml
 <br>&#8627; <em>done</em><br>
+dialogs_lostpath.xml
+<br>&#8627; <em>incomplete</em><br>
 dialogs_mlr.xml
 <br>&#8627; <em>incomplete</em><br>
 </ul>

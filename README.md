@@ -154,6 +154,10 @@ st_items_rad.xml
 <br>&#8627; <em>incomplete</em><br>
 st_items_soup_addon.xml
 <br>&#8627; <em>done</em><br>
+st_items_weapons.xml
+<br>&#8627; <em>incomplete</em><br>
+st_items_weapons_upgrades.xml
+<br>&#8627; <em>incomplete</em><br>
 st_land_names.xml
 <br>&#8627; <em>done</em><br>
 st_lostpath_addons.xml

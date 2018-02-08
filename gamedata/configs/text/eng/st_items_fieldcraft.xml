@@ -17,7 +17,7 @@
 		<text>Trigger mechanism</text>
 	</string>
 	<string id="st_trigger_descr">
-		<text>The trigger mechanism and assembly from an unknown firearm. Most triggers are very similar, and there's no reasno this one couldn't be shaved down to fit almost any weapon.\n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] • %c[0,140,140,140] military item\n%c[255,238,153,26] • %c[0,140,140,140] usable for:%c[0,170,170,170] weapon maintenance (+5%)</text>
+		<text>The trigger mechanism and assembly from an unknown firearm. Most triggers are very similar, and there's no reason this one couldn't be shaved down to fit almost any weapon.\n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] • %c[0,140,140,140] military item\n%c[255,238,153,26] • %c[0,140,140,140] usable for:%c[0,170,170,170] weapon maintenance (+5%)</text>
 	</string>
 	<string id="st_triggerrusty">
 		<text>Trigger mechanism (rusted)</text>

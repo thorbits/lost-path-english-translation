@@ -3,7 +3,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_dark2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_darkstalker_0</class>
     <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\darkstalker\</snd_config>
@@ -27,7 +27,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_dark4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_darkstalker_0</class>
     <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\darkstalker\</snd_config>
@@ -51,7 +51,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_dark1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_darkstalker_0</class>
     <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\darkstalker\</snd_config>
@@ -76,7 +76,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_dark1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_darkstalker_1</class>
     <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\darkstalker\</snd_config>
@@ -100,7 +100,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_dark2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_darkstalker_1</class>
     <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\darkstalker\</snd_config>
@@ -124,7 +124,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_dark3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_darkstalker_1</class>
     <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\darkstalker\</snd_config>
@@ -149,7 +149,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_dark1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_darkstalker_2</class>
     <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\darkstalker\</snd_config>
@@ -173,7 +173,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_dark2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_darkstalker_2</class>
     <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\darkstalker\</snd_config>
@@ -197,7 +197,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_dark1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_darkstalker_2</class>
     <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\darkstalker\</snd_config>
@@ -222,7 +222,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_dark2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_darkstalker_3</class>
     <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\darkstalker\</snd_config>
@@ -246,7 +246,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_dark1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_darkstalker_3</class>
     <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\darkstalker\</snd_config>
@@ -270,7 +270,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_dark3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_darkstalker_3</class>
     <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\darkstalker\</snd_config>
@@ -295,7 +295,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_darkk</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_darkstalker_4</class>
     <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\darkstalker\</snd_config>
@@ -319,7 +319,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_darkk</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_darkstalker_4</class>
     <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\darkstalker\</snd_config>
@@ -343,7 +343,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_dark6</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_darkstalker_4</class>
     <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\darkstalker\</snd_config>

@@ -3,7 +3,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_0</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -25,7 +25,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_0</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -47,7 +47,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_0</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -69,7 +69,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1_gas</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_0</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -91,7 +91,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_0</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -114,7 +114,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_1</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -136,7 +136,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_1</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\csky\</snd_config>
@@ -158,7 +158,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_1</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -180,7 +180,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_1</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -202,7 +202,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_2_gas</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_1</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -225,7 +225,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_1</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\csky\</snd_config>
@@ -248,7 +248,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_1</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\csky\</snd_config>
@@ -271,7 +271,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_sun</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_1</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\csky\</snd_config>
@@ -294,7 +294,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_oldgas</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_1</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -317,7 +317,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_1</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -340,7 +340,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_1</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -363,7 +363,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_sun</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_1</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\csky\</snd_config>
@@ -386,7 +386,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_sun</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_1</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\csky\</snd_config>
@@ -410,7 +410,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -432,7 +432,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -454,7 +454,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_5_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -476,7 +476,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -498,7 +498,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_5_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -520,7 +520,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -542,7 +542,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_5_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -564,7 +564,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -586,7 +586,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\csky\</snd_config>
@@ -609,7 +609,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\csky\</snd_config>
@@ -632,7 +632,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_sun</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\csky\</snd_config>
@@ -655,7 +655,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_oldgas</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -678,7 +678,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -701,7 +701,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -724,7 +724,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_sun</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\csky\</snd_config>
@@ -747,7 +747,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_sun</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\csky\</snd_config>
@@ -770,7 +770,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -792,7 +792,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -814,7 +814,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -836,7 +836,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -858,7 +858,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -880,7 +880,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -902,7 +902,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -924,7 +924,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -946,7 +946,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -968,7 +968,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -990,7 +990,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -1012,7 +1012,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -1034,7 +1034,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -1056,7 +1056,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -1078,7 +1078,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_1_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_2</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\csky\</snd_config>
@@ -1101,7 +1101,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_3</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -1123,7 +1123,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_3</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -1145,7 +1145,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_3</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -1167,7 +1167,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_3</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -1189,7 +1189,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_3</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -1211,7 +1211,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_3</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -1233,7 +1233,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_3</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -1255,7 +1255,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_3</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -1277,7 +1277,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_3</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -1299,7 +1299,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_3</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -1324,7 +1324,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_blue_exo</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_4</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -1346,7 +1346,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_blue_exo</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_4</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -1368,7 +1368,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_4</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -1390,7 +1390,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_4</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -1412,7 +1412,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_csky_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_4</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -1434,7 +1434,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_nebo_exo</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_4</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -1456,7 +1456,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_nebo_exo</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_4</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -1478,7 +1478,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_nebo_exo</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_4</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -1500,7 +1500,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_nebo_exo</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_4</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -1522,7 +1522,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_nebo_exo</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_4</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>
@@ -1544,7 +1544,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_nebo_exo</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_csky_4</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\csky\</snd_config>

@@ -3,7 +3,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -26,7 +26,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -49,7 +49,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1w</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -72,7 +72,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -95,7 +95,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -118,7 +118,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -141,7 +141,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -164,7 +164,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -187,7 +187,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -210,7 +210,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1w_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -233,7 +233,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -256,7 +256,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -279,7 +279,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -302,7 +302,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -325,7 +325,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_a</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -348,7 +348,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_a</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -371,7 +371,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_a</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -394,7 +394,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_a</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -417,7 +417,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_a</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -440,7 +440,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_a</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -463,7 +463,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_a</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -486,7 +486,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1_gas</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -509,7 +509,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1_gas</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -532,7 +532,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1w_gas</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -555,7 +555,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1_gas</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -578,7 +578,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1_gas</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -601,7 +601,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1_gas</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -624,7 +624,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1_gas</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -647,7 +647,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -670,7 +670,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -693,7 +693,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1w</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -716,7 +716,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -739,7 +739,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -762,7 +762,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -785,7 +785,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_0</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -809,7 +809,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -832,7 +832,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -855,7 +855,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -878,7 +878,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -901,7 +901,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -924,7 +924,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -947,7 +947,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -970,7 +970,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -993,7 +993,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1016,7 +1016,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1039,7 +1039,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -1062,7 +1062,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -1085,7 +1085,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -1108,7 +1108,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -1131,7 +1131,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -1154,7 +1154,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2mask1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -1177,7 +1177,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2mask1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -1200,7 +1200,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2mask1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -1223,7 +1223,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2mask1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -1246,7 +1246,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2mask1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -1269,7 +1269,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -1292,7 +1292,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -1315,7 +1315,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -1338,7 +1338,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -1361,7 +1361,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -1384,7 +1384,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1407,7 +1407,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1430,7 +1430,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1453,7 +1453,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1476,7 +1476,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -1499,7 +1499,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -1522,7 +1522,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2mask1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -1545,7 +1545,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2mask1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -1568,7 +1568,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -1591,7 +1591,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -1614,7 +1614,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1637,7 +1637,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1660,7 +1660,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1683,7 +1683,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1706,7 +1706,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1729,7 +1729,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1752,7 +1752,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1775,7 +1775,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1798,7 +1798,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1821,7 +1821,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1844,7 +1844,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1867,7 +1867,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1890,7 +1890,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1913,7 +1913,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1936,7 +1936,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1959,7 +1959,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1982,7 +1982,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2005,7 +2005,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2028,7 +2028,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2051,7 +2051,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2074,7 +2074,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2097,7 +2097,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2120,7 +2120,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2143,7 +2143,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2166,7 +2166,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2189,7 +2189,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2212,7 +2212,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2mask1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2235,7 +2235,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2258,7 +2258,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2281,7 +2281,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2304,7 +2304,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2327,7 +2327,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2350,7 +2350,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2373,7 +2373,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2396,7 +2396,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2419,7 +2419,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2442,7 +2442,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2465,7 +2465,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2488,7 +2488,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2511,7 +2511,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2534,7 +2534,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2557,7 +2557,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2580,7 +2580,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2603,7 +2603,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2627,7 +2627,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2650,7 +2650,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2673,7 +2673,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2696,7 +2696,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2719,7 +2719,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2742,7 +2742,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2765,7 +2765,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2788,7 +2788,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2811,7 +2811,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2834,7 +2834,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2857,7 +2857,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2880,7 +2880,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2903,7 +2903,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2926,7 +2926,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2949,7 +2949,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2972,7 +2972,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2mask1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -2995,7 +2995,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2mask1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -3018,7 +3018,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2mask1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -3041,7 +3041,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2mask1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -3064,7 +3064,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2mask1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -3087,7 +3087,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -3110,7 +3110,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -3133,7 +3133,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -3156,7 +3156,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -3179,7 +3179,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -3202,7 +3202,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -3225,7 +3225,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3248,7 +3248,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -3271,7 +3271,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3294,7 +3294,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3317,7 +3317,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2mask1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -3340,7 +3340,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -3363,7 +3363,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3386,7 +3386,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2mask1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -3409,7 +3409,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -3432,7 +3432,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3455,7 +3455,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3478,7 +3478,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3501,7 +3501,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3524,7 +3524,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3547,7 +3547,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3570,7 +3570,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3593,7 +3593,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3616,7 +3616,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3639,7 +3639,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3662,7 +3662,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3685,7 +3685,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3708,7 +3708,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3731,7 +3731,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3754,7 +3754,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3777,7 +3777,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3800,7 +3800,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3823,7 +3823,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3846,7 +3846,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3869,7 +3869,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3892,7 +3892,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3915,7 +3915,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -3938,7 +3938,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3961,7 +3961,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -3984,7 +3984,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4007,7 +4007,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4030,7 +4030,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2mask1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -4053,7 +4053,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -4076,7 +4076,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4099,7 +4099,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -4122,7 +4122,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -4145,7 +4145,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -4168,7 +4168,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -4191,7 +4191,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -4214,7 +4214,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -4237,7 +4237,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -4260,7 +4260,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -4283,7 +4283,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -4306,7 +4306,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -4330,7 +4330,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4353,7 +4353,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4376,7 +4376,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4399,7 +4399,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4422,7 +4422,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4445,7 +4445,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4468,7 +4468,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4491,7 +4491,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4514,7 +4514,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4537,7 +4537,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4560,7 +4560,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4583,7 +4583,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4606,7 +4606,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4629,7 +4629,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4652,7 +4652,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4675,7 +4675,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4698,7 +4698,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4721,7 +4721,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4744,7 +4744,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4767,7 +4767,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4790,7 +4790,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4813,7 +4813,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4836,7 +4836,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4859,7 +4859,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4882,7 +4882,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4905,7 +4905,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4928,7 +4928,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4951,7 +4951,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4974,7 +4974,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -4997,7 +4997,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5020,7 +5020,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5043,7 +5043,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5066,7 +5066,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5089,7 +5089,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5112,7 +5112,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5135,7 +5135,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5158,7 +5158,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5181,7 +5181,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5204,7 +5204,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5227,7 +5227,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5250,7 +5250,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5273,7 +5273,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5296,7 +5296,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5319,7 +5319,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5342,7 +5342,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5365,7 +5365,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5388,7 +5388,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5411,7 +5411,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5434,7 +5434,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5457,7 +5457,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5480,7 +5480,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5503,7 +5503,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5526,7 +5526,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5549,7 +5549,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5572,7 +5572,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5595,7 +5595,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5618,7 +5618,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_exo_proto</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5641,7 +5641,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Soldier_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_3</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5665,7 +5665,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_4</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5688,7 +5688,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_4</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5711,7 +5711,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_4</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5734,7 +5734,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_4</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5757,7 +5757,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_4</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5780,7 +5780,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_4</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5803,7 +5803,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_4</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5826,7 +5826,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_4_new</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_4</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -5849,7 +5849,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_4</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>

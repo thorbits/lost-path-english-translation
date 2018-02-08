@@ -146,6 +146,8 @@ st_items_fieldcraft.xml
 <br>&#8627; <em>done</em><br>
 st_items_outfit_addon.xml
 <br>&#8627; <em>incomplete</em><br>
+st_items_quest.xml
+<br>&#8627; <em>done</em><br>
 st_items_rad.xml
 <br>&#8627; <em>incomplete</em><br>
 st_items_soup_addon.xml

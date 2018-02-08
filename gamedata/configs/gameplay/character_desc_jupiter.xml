@@ -5,7 +5,7 @@
 		<name>Рабинович</name>
 		<icon>ui_inGame2_rabi</icon>
 		<map_icon x="1" y="0"></map_icon>
-		<bio>Торговец на Янове. Связан с монолитовцами.</bio>
+		<bio>An experienced stalker. No detailed information is available.</bio>
 		<class>jup_a6_freedom_trader_ashot</class>
 		<community>trader</community> <terrain_sect>stalker_terrain</terrain_sect>
 		<snd_config>characters_voice\uni_01\rabi\</snd_config>
@@ -29,7 +29,7 @@
 		<icon>ui_inGame2_Gonta</icon>
 		<map_icon x="1" y="0">
 		</map_icon>
-		<bio>Опытный сталкер.Охотник на мутантов.</bio>
+		<bio>An experienced stalker. No detailed information is available.</bio>
 		<class>jup_b19_freedom_yar</class>
 		<community>stalker</community>
 		<terrain_sect>stalker_terrain</terrain_sect>
@@ -58,7 +58,7 @@
     <icon>ui_inGame2_neutral_3</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_a12_stalker_assaulter</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -97,7 +97,7 @@
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_a12_stalker_diplomat</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -130,7 +130,7 @@
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_a12_stalker_prisoner</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -157,7 +157,7 @@
     <icon>ui_inGame2_bandit_3_mask</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_a12_bandit_chief</class>
     <community>bandit</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -185,7 +185,7 @@
     <icon>ui_inGame2_bandit_1</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_a12_bandit_guard</class>
     <community>monolith</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -213,7 +213,7 @@
     <icon>ui_inGame2_nodata</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Фанатик с Юпитера.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_a12_bandit_cashier</class>
     <community>monolith</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -242,7 +242,7 @@
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_a12_merc_cover</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -272,7 +272,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b207_merc_illicit_dealer</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\killer\</snd_config>
@@ -299,7 +299,7 @@
     <name>jup_b207_merc_leader_name</name>
     <icon>ui_inGame2_merc_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b207_merc_leader</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\killer\</snd_config>
@@ -325,7 +325,7 @@
     <name>st_jup_b207_duty_security_squad_leader_name</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b207_duty_security_squad_leader</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -352,7 +352,7 @@
     <name>st_jup_b207_freedom_recon_squad_leader_name</name>
     <icon>ui_inGame2_Freedom_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b207_freedom_recon_squad_leader</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\freedom\</snd_config>
@@ -379,7 +379,7 @@
     <name>st_jup_b207_freedom_assault_squad_leader_name</name>
     <icon>ui_inGame2_Freedom_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b207_freedom_assault_squad_leader</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\freedom\</snd_config>
@@ -408,7 +408,7 @@
     <icon>ui_inGame2_bandit_3</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_a10_bandit_leader</class>
     <community>bandit</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -439,7 +439,7 @@
     <icon>ui_inGame2_Vano</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_a10_stalker_vano</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -482,7 +482,7 @@
     <icon>ui_inGame2_Brodyaga_monolit</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_monolith_squad_leader_monolith_skin</class>
     <community>monolith</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -510,7 +510,7 @@
     <icon>ui_inGame2_Brodyaga_monolit</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_monolith_squad_leader_duty_skin</class>
     <community>dolg</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -544,7 +544,7 @@
     <name>jup_b4_monolith_squad_leader_name</name>
     <icon>ui_inGame2_Brodyaga_monolit</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_monolith_squad_leader_freedom_skin</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -578,7 +578,7 @@
     <icon>ui_inGame2_Brodyaga_monolit</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_monolith_squad_leader_duty_mon_skin</class>
     <community>dolg</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -612,7 +612,7 @@
     <name>jup_b4_monolith_squad_leader_name</name>
     <icon>ui_inGame2_Brodyaga_monolit</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_monolith_squad_leader_freedom_mon_skin</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -646,7 +646,7 @@
     <icon>ui_inGame2_monolit_3</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_monolith_squad_soldier_1_monolith_skin</class>
     <community>monolith</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -674,7 +674,7 @@
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_monolith_squad_soldier_1_duty_skin</class>
     <community>dolg</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -703,7 +703,7 @@
     <name>jup_b4_monolith_squad_soldier_1_name</name>
     <icon>ui_inGame2_Freedom_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_monolith_squad_soldier_1_freedom_skin</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\freedom\</snd_config>
@@ -732,7 +732,7 @@
     <icon>ui_inGame2_monolit_3</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_monolith_squad_soldier_2_monolith_skin</class>
     <community>monolith</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -760,7 +760,7 @@
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_monolith_squad_soldier_2_duty_skin</class>
     <community>dolg</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -789,7 +789,7 @@
     <name>jup_b4_monolith_squad_soldier_2_name</name>
     <icon>ui_inGame2_Freedom_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_monolith_squad_soldier_2_freedom_skin</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\freedom\</snd_config>
@@ -818,7 +818,7 @@
     <icon>ui_inGame2_monolit_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_monolith_squad_soldier_3_monolith_skin</class>
     <community>monolith</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -846,7 +846,7 @@
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_monolith_squad_soldier_3_duty_skin</class>
     <community>dolg</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -875,7 +875,7 @@
     <name>jup_b4_monolith_squad_soldier_3_name</name>
     <icon>ui_inGame2_Freedom_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_monolith_squad_soldier_3_freedom_skin</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\freedom\</snd_config>
@@ -904,7 +904,7 @@
     <icon>ui_inGame2_monolit_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_monolith_squad_soldier_4_monolith_skin</class>
     <community>monolith</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -932,7 +932,7 @@
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_monolith_squad_soldier_4_duty_skin</class>
     <community>dolg</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -961,7 +961,7 @@
     <name>jup_b4_monolith_squad_soldier_4_name</name>
     <icon>ui_inGame2_Freedom_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_monolith_squad_soldier_4_freedom_skin</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\freedom\</snd_config>
@@ -989,7 +989,7 @@
     <icon>ui_inGame2_monolit_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_monolith_squad_soldier_5_monolith_skin</class>
     <community>monolith</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1017,7 +1017,7 @@
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_monolith_squad_soldier_5_duty_skin</class>
     <community>dolg</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1046,7 +1046,7 @@
     <name>jup_b4_monolith_squad_soldier_5_name</name>
     <icon>ui_inGame2_Freedom_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_monolith_squad_soldier_5_freedom_skin</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\freedom\</snd_config>
@@ -1074,7 +1074,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_freedom_help</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\freedom\</snd_config>
@@ -1101,7 +1101,7 @@
     <name>GENERATE_NAME_lieutenant</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_duty_help</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1128,7 +1128,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b4_freedom_leader</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\freedom\</snd_config>
@@ -1161,7 +1161,7 @@
     <icon>ui_inGame2_Ozerskiy</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b6_scientist_biochemist</class>
     <community>ecolog</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1184,7 +1184,7 @@
     <icon>ui_inGame2_German</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b6_scientist_nuclear_physicist</class>
     <community>ecolog</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1210,7 +1210,7 @@
     <name>jup_b9_shliachin_name</name>
     <icon>ui_inGame2_Soldier_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b9_shliachin</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1238,7 +1238,7 @@
     <icon>ui_inGame2_neutral_1</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b10_stalker_drunk</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1266,7 +1266,7 @@
     <icon>ui_inGame2_neutral_1</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b10_stalker_drunk_dead</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1350,7 +1350,7 @@
     <icon>ui_inGame2_eco_tech</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b6_scientist_tech</class>
     <community>ecolog</community>
     <mechanic_mode>1</mechanic_mode>
@@ -1378,7 +1378,7 @@
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b1_stalker_1</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1409,7 +1409,7 @@
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b1_stalker_2</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1440,7 +1440,7 @@
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b1_stalker_3</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1471,7 +1471,7 @@
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b1_stalker_4</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1502,7 +1502,7 @@
     <icon>ui_inGame2_ecolog_white</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b1_pro_stalker_1</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1532,7 +1532,7 @@
     <icon>ui_inGame2_neutral_3</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b1_pro_stalker_2</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1561,7 +1561,7 @@
     <icon>ui_inGame2_neutral_nauchniy</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b1_pro_stalker_3</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1590,7 +1590,7 @@
     <icon>ui_inGame2_neutral_nauchniy</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b1_pro_stalker_4</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1619,7 +1619,7 @@
     <icon>ui_inGame2_neutral_3</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b6_stalker_assaulter</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1655,7 +1655,7 @@
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b6_stalker_diplomat</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1691,7 +1691,7 @@
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b6_stalker_prisoner</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1727,7 +1727,7 @@
     <icon>ui_inGame2_Gonta</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b6_stalker_gonta</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1773,7 +1773,7 @@
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b6_stalker_garmata</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1807,7 +1807,7 @@
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b6_stalker_crab</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1840,7 +1840,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b6_freedom_stalker_1</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\freedom\</snd_config>
@@ -1873,7 +1873,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b6_freedom_stalker_2</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\freedom\</snd_config>
@@ -1906,7 +1906,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b6_freedom_stalker_3</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\freedom\</snd_config>
@@ -1939,7 +1939,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b6_freedom_stalker_4</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\freedom\</snd_config>
@@ -1971,7 +1971,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b6_duty_stalker_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -2004,7 +2004,7 @@
     <name>GENERATE_NAME_lieutenant</name>
     <icon>ui_inGame2_Dolg_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b6_duty_stalker_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -2036,7 +2036,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b6_duty_stalker_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -2069,7 +2069,7 @@
     <name>GENERATE_NAME_lieutenant</name>
     <icon>ui_inGame2_Dolg_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b6_duty_stalker_4</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -2103,7 +2103,7 @@
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b25_stalker_senya</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -2131,7 +2131,7 @@
     <icon>ui_inGame2_Flint</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b25_freedom_flint</class>
     <community>freedom</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -2166,7 +2166,7 @@
     <icon>ui_inGame2_Kostoprav</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_a6_stalker_medik</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -2204,7 +2204,7 @@
     <icon>ui_inGame2_Zulus</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b15_zulus</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -2243,7 +2243,7 @@
     <icon>ui_inGame2_neutral_1</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b202_stalker_snag</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -2273,7 +2273,7 @@
     <icon>ui_inGame2_Gavaets</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_a6_stalker_barmen</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -2302,7 +2302,7 @@
     <icon>ui_inGame2_bandit_3</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b202_bandit</class>
     <community>bandit</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -2332,7 +2332,7 @@
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b19_merc_1</class>
     <community>killer</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -2360,7 +2360,7 @@
     <icon>ui_inGame2_merc_4</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b19_merc_2</class>
     <community>killer</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -2388,7 +2388,7 @@
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b19_merc_3</class>
     <community>killer</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -2416,7 +2416,7 @@
     <icon>ui_inGame2_merc_4</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b19_merc_4</class>
     <community>killer</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -2444,7 +2444,7 @@
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b19_merc_5</class>
     <community>killer</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -2473,7 +2473,7 @@
     <icon>ui_inGame2_Garik</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b43_stalker_assistant</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -2506,7 +2506,7 @@
     <name>jup_b46_duty_founder_name</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b46_duty_founder</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -2525,7 +2525,7 @@
     <name>jup_b46_duty_founder_squad_01_name</name>
     <icon>ui_inGame2_Dolg_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b46_duty_founder_squad_01</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -2539,7 +2539,7 @@
     <name>jup_b46_duty_founder_squad_02_name</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b46_duty_founder_squad_02</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -2553,7 +2553,7 @@
     <name>jup_b46_duty_founder_squad_03_name</name>
     <icon>ui_inGame2_Dolg_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b46_duty_founder_squad_03</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -2567,7 +2567,7 @@
     <name>jup_b46_duty_founder_squad_04_name</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b46_duty_founder_squad_04</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -2615,7 +2615,7 @@
     <name>jup_a6_duty_leader</name>
     <icon>ui_inGame2_Shulga</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_a6_duty_leader</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -2654,7 +2654,7 @@
     <name>jup_a10_stalker_vano</name>
     <icon>ui_inGame2_Vano_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b218_vano_in_suit</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2686,7 +2686,7 @@
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b47_merc_07</class>
     <community>killer</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -2715,7 +2715,7 @@
     <icon>ui_inGame2_merc_4</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b47_merc_06</class>
     <community>killer</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -2744,7 +2744,7 @@
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b47_merc_05</class>
     <community>killer</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -2773,7 +2773,7 @@
     <icon>ui_inGame2_merc_4</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b47_merc_04</class>
     <community>killer</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -2802,7 +2802,7 @@
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b47_merc_03</class>
     <community>killer</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -2831,7 +2831,7 @@
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b47_merc_02</class>
     <community>killer</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -2860,7 +2860,7 @@
     <icon>ui_inGame2_merc_4</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b47_merc_01</class>
     <community>killer</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -2915,7 +2915,7 @@
     <name>jup_b4_monolith_squad_leader_name</name>
     <icon>ui_inGame2_Brodyaga_monolit</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b219_monolith_squad_leader_freedom_skin</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2941,7 +2941,7 @@
     <name>jup_a10_stalker_vano</name>
     <icon>ui_inGame2_Vano_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b219_vano</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -2970,7 +2970,7 @@
     <icon>ui_inGame2_Sokolov_ecolog</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b219_soldier</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -2998,7 +2998,7 @@
     <icon>ui_inGame2_Zulus</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_b219_zulus</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>

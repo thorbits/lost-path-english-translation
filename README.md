@@ -79,7 +79,7 @@ st_items_fieldcraft.xml
 st_items_outfit_addon.xml
 <br>&#8627; <em>incomplete</em><br>
 st_items_rad.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>incomplete</em><br>
 st_items_soup_addon.xml
 <br>&#8627; <em></em><br>
 st_lostpath_addons.xml
@@ -91,21 +91,21 @@ st_lostpath_main.xml
 st_lostpath_outfits.xml
 <br>&#8627; <em>incomplete</em><br>
 st_lostpath_quest.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 st_lostpath_scripts.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 st_lostpath_treasure.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 st_lostpath_weapons_csgo.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>incomplete</em><br>
 stable_treasure_manager.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>need revision</em><br>
 ui_st_encyclopedia_awr.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>incomplete</em><br>
 ui_st_encyclopedia_quest_info.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 ui_st_faction_starts.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 ui_st_loadscreen.xml
 <br>&#8627; <em>done, reminder: lost path version number displayed needs to be updated to latest version</em><br>
 ui_st_mm.xml

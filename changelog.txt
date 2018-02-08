@@ -4,7 +4,7 @@
 updated dialogs_bar.xml
 updated mlr_addon.xml
 updated st_closecaption.xml
-updated st_lostpath_outfits.xml (still incomplete)
+updated st_lostpath_outfits.xml
 --------------------
 02/07 0.1.1
 --------------------

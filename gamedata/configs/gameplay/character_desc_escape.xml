@@ -4,7 +4,7 @@
     <specific_character id="esc_2_12_stalker_trader" no_random = "1">
     <name>escape_trader_name</name>
     <icon>ui_inGame2_sid</icon>
-    <bio>escape_trader_bio</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>trader</class>
     <community>trader</community>
     <map_icon x="1" y="0"/>
@@ -40,7 +40,7 @@
     <icon>ui_inGame2_nimble</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Îïûòíûé ñòàëêåð. Äåòàëüíàÿ èíôîðìàöèÿ îòñóòñòâóåò.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>esc_2_12_stalker_nimble</class>
     <community>trader</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -78,7 +78,7 @@
     <specific_character id="esc_2_12_stalker_wolf" team_default = "1">
     <name>esc_wolf_name</name>
     <icon>ui_inGame2_wolf</icon>
-    <bio>esc_wolf_bio</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>esc_2_12_stalker_wolf</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <map_icon x="1" y="0"/>
@@ -107,7 +107,7 @@
     <specific_character id="esc_2_12_stalker_fanat" team_default = "1">
     <name>esc_fanat_name</name>
     <icon>ui_inGame2_fanatic</icon>
-    <bio>esc_fanat_bio</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>esc_2_12_stalker_fanat</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <map_icon x="1" y="0"/>
@@ -135,7 +135,7 @@
     <specific_character id="esc_smart_terrain_5_7_loner_mechanic_stalker" team_default="1">
     <name>esc_smart_terrain_5_7_loner_mechanic_stalker_name</name>
     <icon>ui_inGame2_loner_tech</icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>esc_smart_terrain_5_7_loner_mechanic_stalker</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>

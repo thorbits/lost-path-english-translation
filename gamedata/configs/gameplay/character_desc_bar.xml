@@ -136,7 +136,7 @@
     <name>st_bar_duty_security_squad_leader_name</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>bar_duty_security_squad_leader</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -164,7 +164,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Dolg_3</icon>
     <map_icon x="4" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>bar_dolg_general_zoneguard_stalker</class>
     <community>dolg</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -227,7 +227,7 @@
     <name>Азот</name>
     <icon>ui_inGame2_Azot</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>bar_visitors_stalker_mechanic</class>
     <community>trader</community> 
 	<terrain_sect>stalker_terrain</terrain_sect>
@@ -258,7 +258,7 @@
         <name>bar_arny_name</name>
         <icon>ui_inGame2_arnie</icon>
         <map_icon x="1" y="6"></map_icon>
-        <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+        <bio>An experienced stalker. No detailed information is available.</bio>
         <class>bar_arena_manager</class>
         <community>trader</community> <terrain_sect>stalker_terrain</terrain_sect>
         <money min="600" max="2000" infinitive="0"></money>
@@ -287,7 +287,7 @@
     <name>bar_lelik_name</name>
     <icon>ui_inGame2_lelik_guard</icon>
     <map_icon x="0" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>bar_arena_guard</class>
     <community>trader</community> <terrain_sect>stalker_terrain</terrain_sect>
     <money min="200" max="600" infinitive="0"></money>
@@ -312,7 +312,7 @@
     <name>bar_beast_name</name>
     <icon>ui_inGame2_Zombied_4</icon>
     <map_icon x="2" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>bar_arena_savage</class>
     <community>arena_enemy</community> <terrain_sect>stalker_terrain</terrain_sect>
     <money min="2000" max="5000" infinitive="0"></money>

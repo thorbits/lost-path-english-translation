@@ -3,7 +3,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_0</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -26,7 +26,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_0</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -49,7 +49,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_dutygas_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_0</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -72,7 +72,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_dutygas_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_0</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -95,7 +95,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_Dolg_1_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_0</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -118,7 +118,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_Dolg_1_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_0</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -141,7 +141,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_duty_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_0</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -164,7 +164,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_duty_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_0</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -187,7 +187,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_Dolg_1_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_0</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -210,7 +210,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_Dolg_1_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_0</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -233,7 +233,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_duty_bala</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_0</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -256,7 +256,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_duty_bala</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_0</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -279,7 +279,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_duty_bala</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_0</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -302,7 +302,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_duty_bala</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_0</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -325,7 +325,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_duty_bala</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_0</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -348,7 +348,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_duty_bala</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_0</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -371,7 +371,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_duty_bala</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_0</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -394,7 +394,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_duty_bala</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_0</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -418,7 +418,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -441,7 +441,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -464,7 +464,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_1_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -487,7 +487,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_1_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -510,7 +510,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_dutygas_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -533,7 +533,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_dutygas_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -556,7 +556,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_duty_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -579,7 +579,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_duty_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -602,7 +602,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_1_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -625,7 +625,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -648,7 +648,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_1_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -671,7 +671,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_1_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -694,7 +694,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_duty_bala</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -717,7 +717,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_duty_bala</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -740,7 +740,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_duty_bala</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -763,7 +763,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_duty_bala</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -786,7 +786,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_duty_bala</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -809,7 +809,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_duty_bala</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -832,7 +832,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_duty_bala</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_1</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -856,7 +856,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -879,7 +879,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -902,7 +902,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_1_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -925,7 +925,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_1_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -948,7 +948,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_dutygas_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -971,7 +971,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_dutygas_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -994,7 +994,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -1017,7 +1017,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -1040,7 +1040,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -1063,7 +1063,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_duty_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -1086,7 +1086,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_duty_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -1109,7 +1109,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -1132,7 +1132,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_0</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -1155,7 +1155,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_1_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -1178,7 +1178,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_duty_bala</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -1201,7 +1201,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_duty_bala</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -1224,7 +1224,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_duty_bala</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -1247,7 +1247,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_seva</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_2</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -1271,7 +1271,7 @@
     <name>GENERATE_NAME_lieutenant</name>
     <icon>ui_inGame2_Dolg_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -1294,7 +1294,7 @@
     <name>GENERATE_NAME_lieutenant</name>
     <icon>ui_inGame2_Dolg_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1317,7 +1317,7 @@
     <name>GENERATE_NAME_lieutenant</name>
     <icon>ui_inGame2_Dolg_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1340,7 +1340,7 @@
     <name>GENERATE_NAME_lieutenant</name>
     <icon>ui_inGame2_Dolg_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1363,7 +1363,7 @@
     <name>GENERATE_NAME_lieutenant</name>
     <icon>ui_inGame2_Dolg_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1386,7 +1386,7 @@
     <name>GENERATE_NAME_lieutenant</name>
     <icon>ui_inGame2_Dolg_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
@@ -1409,7 +1409,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4e</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1432,7 +1432,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4e</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1455,7 +1455,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4e</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1478,7 +1478,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4e</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1501,7 +1501,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_bulat</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1524,7 +1524,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_bulat</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1547,7 +1547,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_bulat</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1570,7 +1570,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4e</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1593,7 +1593,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4e</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1616,7 +1616,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4e</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1639,7 +1639,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_bulat</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_3</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1663,7 +1663,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_4</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1686,7 +1686,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_4</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1709,7 +1709,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_4</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1732,7 +1732,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_4</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1755,7 +1755,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4e</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_4</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1778,7 +1778,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4e</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_4</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1801,7 +1801,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4e</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_4</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1824,7 +1824,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4e</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_4</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1847,7 +1847,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_dolg_exo_proto</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_4</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1870,7 +1870,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_dolg_exo_proto_skat</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_4</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1893,7 +1893,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_seva</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_4</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1916,7 +1916,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_seva</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_4</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1939,7 +1939,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_4</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
@@ -1962,7 +1962,7 @@
     <name>GENERATE_NAME_captain</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_duty_4</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>

@@ -4,7 +4,7 @@
     <specific_character id="val_smart_terrain_7_4_bandit_trader_stalker" team_default="1">
     <name>Боров</name>
     <icon>ui_inGame2_borov</icon>
-    <bio>Авторитетный бандит.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>val_smart_terrain_7_4_bandit_trader_stalker</class>
     <community>bandit</community>
     <map_icon x="1" y="0"/>
@@ -43,7 +43,7 @@
     <specific_character id="val_smart_terrain_7_3_bandit_mechanic_stalker" team_default="1">
     <name>val_smart_terrain_7_3_bandit_mechanic_stalker_name</name>
     <icon>ui_inGame2_bandit_tech</icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>val_smart_terrain_7_3_bandit_mechanic_stalker</class>
     <community>bandit</community>
     <map_icon x="1" y="0"/>
@@ -84,7 +84,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="0" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>dar_corpse_1</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <rank>2405</rank>
@@ -100,7 +100,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="0" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>dar_corpse_2</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <rank>1677</rank>
@@ -117,7 +117,7 @@
     <name>dar_kalugin_name</name>
     <icon>ui_inGame2_ucheniy_3</icon>
     <map_icon x="0" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>dar_corpse_kalugin</class>
     <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
     <rank>2052</rank>
@@ -133,7 +133,7 @@
     <name>dar_rockatansky_name</name>
     <icon>ui_inGame2_ucheniy_4</icon>
     <map_icon x="0" y="6"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>dar_corpse_ecolog_guard</class>
     <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
     <money min="2000" max="5000" infinitive="0"></money>

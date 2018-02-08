@@ -3,7 +3,7 @@
     <name>GENERATE_NAME_senior_sergeant</name>
     <icon>ui_inGame2_dutygas_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_dolg_trader</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -35,7 +35,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_dutygas_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_dolg_mechanic</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -66,7 +66,7 @@
     <name>GENERATE_NAME_senior_sergeant</name>
     <icon>ui_inGame2_dutygas_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_dolg_barmen</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -96,7 +96,7 @@
     <name>GENERATE_NAME_senior_sergeant</name>
     <icon>ui_inGame2_dutygas_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_dolg_medik</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -125,7 +125,7 @@
     <name>Наставник</name>
     <icon>ui_inGame2_dutygas_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_dolg_leader</class>
     <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -160,7 +160,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_freedom_trader</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -192,7 +192,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_freedom_mechanic</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -223,7 +223,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_freedom_barmen</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -253,7 +253,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_freedom_medik</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -282,7 +282,7 @@
     <name>Наставник</name>
     <icon>ui_inGame2_Freedom_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_freedom_leader</class>
     <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -318,7 +318,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_bandit_trader</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -350,7 +350,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_2a_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_bandit_mechanic</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -381,7 +381,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_bandit_barmen</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -411,7 +411,7 @@
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_bandit_medik</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -440,7 +440,7 @@
     <name>Наставник</name>
     <icon>ui_inGame2_bandit_5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_bandit_leader</class>
     <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -474,7 +474,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_killer_trader</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -506,7 +506,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_killer_mechanic</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -537,7 +537,7 @@
     <name>Наставник</name>
     <icon>ui_inGame2_merc_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_killer_leader</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -572,7 +572,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_killer_barmen</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -602,7 +602,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_merc_4</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_killer_medik</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -631,7 +631,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_stalker_trader</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -663,7 +663,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_stalker_mechanic</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -694,7 +694,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_stalker_barmen</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -724,7 +724,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_stalker_medik</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -753,7 +753,7 @@
     <name>Наставник</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_stalker_leader</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -787,7 +787,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Soldier_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_army_trader</class>
     <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -818,7 +818,7 @@
     <name>Наставник</name>
     <icon>ui_inGame2_Soldier_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_army_leader</class>
     <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -853,7 +853,7 @@
     <name>GENERATE_NAME_private</name>
     <icon>ui_inGame2_Soldier_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_army_mechanic</class>
     <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -884,7 +884,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Soldier_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_army_barmen</class>
     <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -914,7 +914,7 @@
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Soldier_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_army_medik</class>
     <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -943,7 +943,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_mono_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_monolith_trader</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -974,7 +974,7 @@
     <name>Наставник</name>
     <icon>ui_inGame2_mono_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_monolith_leader</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1007,7 +1007,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolith2_gp5</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_monolith_mechanic</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1038,7 +1038,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_mono_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_monolith_barmen</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1068,7 +1068,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_mono_old</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_monolith_medik</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1097,7 +1097,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_ecolog_trader</class>
     <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1129,7 +1129,7 @@
     <name>Наставник</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_ecolog_leader</class>
     <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1163,7 +1163,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_ecolog_mechanic</class>
     <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1194,7 +1194,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_ecolog_barmen</class>
     <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1224,7 +1224,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_ecolog_medik</class>
     <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1253,7 +1253,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_csky_trader</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1284,7 +1284,7 @@
     <name>Наставник</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_csky_leader</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1318,7 +1318,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_npc_u_nebo_3</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_csky_mechanic</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1349,7 +1349,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_csky_barmen</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1379,7 +1379,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_csky_medik</class>
     <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1407,7 +1407,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_isg_trader</class>
     <community>isg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1438,7 +1438,7 @@
     <name>Наставник</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_isg_leader</class>
     <community>isg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1473,7 +1473,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_isg_mechanic</class>
     <community>isg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1504,7 +1504,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_isg_barmen</class>
     <community>isg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1534,7 +1534,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_isg_medik</class>
     <community>isg</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1563,7 +1563,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_darkstalker_trader</class>
     <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1594,7 +1594,7 @@
     <name>Наставник</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_darkstalker_leader</class>
     <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1628,7 +1628,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_darkstalker_mechanic</class>
     <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1659,7 +1659,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_darkstalker_barmen</class>
     <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -1689,7 +1689,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>ќпытный сталкер. ?етальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
 
     <class>sim_default_darkstalker_medik</class>
     <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>

@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="windows-1451" ?>
+<game_dialogs>
+		<dialog id="wolf_about_girl">
+		<dont_has_info>wolf_about_girl</dont_has_info>
+		<phrase_list>
+            <phrase id="0">
+                <text>Привет, наставник! Что интересного можешь рассказать?</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+				<text>Привет. Да тут к нам в лагерь забрела девушка одна. Я в подробности особо не вдавался, мне известно что ей нужна помощь. Если захочешь помочь - не стесняйся. Учти, что она новенькая в Зоне и тебе с ней придется очень тяжко.</text>
+				<next>2</next>
+				<next>3</next>
+            </phrase>
+			<phrase id="2">
+				<text>Хм... звучит очень интересно. Делать мне особо нечего, так что давай.</text>
+				<give_info>wolf_about_girl</give_info> 
+				<next>4</next>
+            </phrase>
+			<phrase id="3">
+				<text>Не охота мне с новичками возиться.</text>
+				<give_info>wolf_about_girl</give_info> 
+            </phrase>
+			<phrase id="4">
+				<text>В общем-то она обитает где-то в лагере. Координаты я скину тебе на КПК.</text>
+				<action>lostpath_quest.start_wolf</action>
+            </phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="esc_girl_first_dialog">
+		<precondition>dialogs_axr_companion.is_not_actor_companion</precondition>
+		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
+		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
+		<has_info>wolf_about_girl</has_info>
+		<dont_has_info>esc_girl_help_1</dont_has_info>
+		<phrase_list>
+            <phrase id="0">
+                <text>Привет! Не часто встретишь новые лица у нас в лагере, а уж тем более девушку.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+				<text>Привет. Меня зовут Алиса. Я только пришла в Зону.</text>
+				<next>2</next>
+            </phrase>
+			<phrase id="2">
+				<text>[...]</text>
+				<next>3</next>
+            </phrase>
+			<phrase id="3">
+				<text>Мне нужна помощь, хотя бы первое время. Поможешь мне?</text>
+				<next>4</next>
+            </phrase>
+			<phrase id="4">
+				<text>Как я могу помогать человеку о котором ничего не знаю?</text>
+				<next>5</next>
+            </phrase>
+			<phrase id="5">
+				<text>Ой, извини. Совсем вылетело из головы. В Зону я сама ушла и причина у меня довольно необычная. Вот как ты думаешь, от чего люди обычно в Зону уходят?</text>
+				<next>6</next>
+            </phrase>
+			<phrase id="6">
+				<text>Денег позаработать, от закона убежать, ну или ищут тут кого-то. Разве ты не по этим причинам попала сюда?</text>
+				<next>7</next>
+            </phrase>
+			<phrase id="7">
+				<text>Просто приключений на жопу захотелось.. Ха-ха. На самом деле я много читала про Зону на большой земле и всегда хотела попасть сюда. Для меня Зона это нечто необычное и интересное. Родом я из Санкт-Петербурга, я только универ окончила и сюда отправилась. Пришлось накопить денег для прохода в Зону и стартового снаряжения.</text>
+				<next>8</next>
+            </phrase>
+			<phrase id="8">
+				<text>Ты проход оплачивала?</text>
+				<next>9</next>
+            </phrase>
+			<phrase id="9">
+				<text>Ну конечно. Я не настолько опытна, чтобы через забор лазить. Книги книгами, а вот опыта у меня никакого нету. Я разве что стрелять умею и все. У меня с собой только пропуск в Зону, КПК, пистолет и все.</text>
+				<next>10</next>
+            </phrase>
+			<phrase id="10">
+				<text>Как так получилось, что ты практически пустая сюда пришла?</text>
+				<next>12</next>
+            </phrase>
+			<phrase id="12">
+				<text>На самом деле у меня было гораздо больше. Я специально денег накопила, чтобы у Сидоровича закупиться. Я перед заходом в Зону договорилась на оплату, а на КПП такую цену заломили, что у меня денег вообще не осталось. От собак убегала и попала сюда. Меня Волк тут с Фанатом встретили, накормили, напоили, да ствол дали.</text>
+				<next>13</next>
+            </phrase>
+			<phrase id="13">
+				<text>И чем я могу тебе помочь?</text>
+				<next>14</next>
+            </phrase>
+			<phrase id="14">
+				<text>Я хочу стать настоящим сталкером и познать Зону такой, какая она есть.</text>
+				<next>15</next>
+            </phrase>
+			<phrase id="15">
+				<text>Ха-ха. Сталкером говоришь? Ну хорошо. У тебя еда-то хотя бы есть?</text>
+				<next>16</next>
+            </phrase>
+			<phrase id="16">
+				<text>Неа.</text>
+				<next>17</next>
+            </phrase>
+			<phrase id="17">
+				<text>Придется нам еду сначала раздобыть. Вместе всяко путь держать интереснее. Главное слушай меня и не отставай.</text>
+                <action>dialogs_axr_companion.become_actor_companion</action>
+				<action>lostpath_quest.girl_1</action>
+				<give_info>wolf_about_girl_done</give_info>
+				<give_info>esc_girl_help_1</give_info>
+				<next>18</next>
+            </phrase>
+			<phrase id="18">
+				<text>Хорошо, я тебя поняла.</text>
+            </phrase>			
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="esc_girl_conserva">
+		<has_info>esc_girl_help_1</has_info>
+		<dont_has_info>wolf_search_eat_done</dont_has_info>
+		<precondition>lostpath_quest.has_conserva</precondition>
+		<phrase_list>
+            <phrase id="0">
+                <text>Алиса, я нашел тушенку. Держи, это тебе на первое время.</text>
+				<action>lostpath_quest.transfer_conserva</action>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Спасибо.</text>
+                <give_info>wolf_search_eat_done</give_info>
+            </phrase>    
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="esc_girl_start_kit">
+		<has_info>wolf_search_eat_done</has_info>
+		<dont_has_info>esc_girl_start_kit</dont_has_info>
+		<phrase_list>
+            <phrase id="0">
+                <text>Алиса. Нам бы снарягу раздобыть, поэтому собирайся и в ходку.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Я готова, куда пойдем?</text>
+                <action>lostpath_quest.girl_2</action>
+				<give_info>esc_girl_start_kit</give_info>
+				<next>2</next>
+            </phrase> 
+			<phrase id="2">
+                <text>Я думаю, нужно наведаться к Сидоровичу и спросить что у него интересное есть.</text>
+				<next>3</next>
+            </phrase>	
+			<phrase id="3">
+                <text>Хорошо, пойдем.</text>
+            </phrase>		
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="esc_girl_sidor_dialog">
+		<has_info>esc_girl_start_kit</has_info>
+		<dont_has_info>esc_girl_sidor_start</dont_has_info>
+		<dont_has_info>esc_girl_sidor_done</dont_has_info>
+		<phrase_list>
+            <phrase id="0">
+                <text>Привет, Сидорович. Тут такое дело. Есть у тебя какая-нибудь интересная работенка для компании новичков?</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Привет, сталкер. Что тебя интересует?</text>
+				<next>2</next>
+            </phrase> 
+			<phrase id="2">
+                <text>Сам понимаешь мы новички, снаряжения особо у нас нету, поэтому нам нужно что-нибудь простенькое, чтобы разжиться.</text>
+				<next>3</next>
+            </phrase>	
+			<phrase id="3">
+                <text>Ну хорошо. Дело одно есть. Надеюсь, стрелять умеете. В общем-то на КПП военные настолько обнаглели, что постоянно пресуют нас и жить нам мешают. Постоянные набеги на деревню уже вымотали наших ребят. Можете выбить военных с блокпоста?</text>
+				<next>4</next>
+			</phrase>	
+			<phrase id="4">
+                <text>Ну ты дал, дядя. У нас из оружия только два ПМа и все. Может дашь нам что-нибудь?</text>
+				<next>5</next>
+            </phrase>
+			<phrase id="5">
+                <text>Хе-хе. Стволы хочешь.. Ну ладно, есть у меня парочка стволов, что мне не жалко. Будем считать, что это ваш аванс.. Вот, держи.</text>
+				<next>6</next>
+            </phrase>	
+			<phrase id="6">
+                <text>Вот так бы сразу. Спасибо за оружие, мы беремся за задание.</text>
+				<give_info>esc_girl_sidor_start</give_info>
+				<action>lostpath_quest.sidor_quest</action>
+            </phrase>	
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="esc_girl_sidor_wpn_2">
+		<has_info>esc_girl_sidor_start</has_info>
+		<dont_has_info>esc_girl_take_wpn_done</dont_has_info>
+		<precondition>lostpath_quest.has_sidor_wpn</precondition>
+		<phrase_list>
+            <phrase id="0">
+                <text>Алиса, я поговорил с Сидоровичем и он дал нам работу. Он выдал нам оружие, вот, держи.</text>
+				<action>lostpath_quest.transfer_sidor_wpn</action>
+                <give_info>esc_girl_take_wpn_done</give_info>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Спасибо. И какая у нас работа?</text>
+				<next>2</next>
+            </phrase>   
+            <phrase id="2">
+                <text>Сидорович попросил зачистить КПП военных.</text>
+				<next>3</next>
+            </phrase>    
+            <phrase id="3">
+                <text>Что??? Ты видел сколько их? Это явно самоубийство!</text>
+				<next>4</next>
+            </phrase>   
+            <phrase id="4">
+                <text>С такими стволами проблем не будет. Тем более мы можем выдвинуться ночью, тогда нам будет легче их убить. Ты же не хочешь, чтобы они пришли сюда первые и убили нас?..</text>
+				<next>5</next>
+            </phrase> 
+            <phrase id="5">
+                <text>Я тебя поняла.. Надеюсь, оно того стоит...</text>
+            </phrase> 
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="esc_girl_sidor_kpp">
+		<has_info>esc_girl_take_wpn_done</has_info>
+		<has_info>esc_girl_sidor_start</has_info>
+		<dont_has_info>esc_girl_sidor_done</dont_has_info>
+		<precondition>xr_conditions.esc_kpp</precondition>
+		<phrase_list>
+            <phrase id="0">
+                <text>Мы захватили КПП. Работа выполнена.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Ого! Неплохо для банды новичков. Я удивлен.</text>
+				<next>2</next>
+            </phrase>   
+            <phrase id="2">
+                <text>Это было не сложно.</text>
+				<next>3</next>
+            </phrase>    
+            <phrase id="3">
+                <text>Как и договаривались, вот ваш гонорар.</text>
+				<action>lostpath_quest.tranfer_kpp</action>
+				<give_info>esc_girl_sidor_done</give_info>
+				<next>4</next>
+            </phrase>   
+            <phrase id="4">
+                <text>Спасибо, есть еще какая-нибудь работка?</text>
+				<next>5</next>
+            </phrase> 
+            <phrase id="5">
+                <text>Конечно.</text>
+            </phrase> 
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="esc_girl_sidor_kpp_nagrada">
+		<has_info>esc_girl_take_wpn_done</has_info>
+		<has_info>esc_girl_sidor_start</has_info>
+		<has_info>esc_girl_sidor_done</has_info>
+		<dont_has_info>esc_girl_take_kpp_nagrada</dont_has_info>
+		<precondition>lostpath_quest.has_kpp</precondition>
+		<phrase_list>
+            <phrase id="0">
+                <text>Сидорович нам неплохо заплатил, этого хватит на первое время.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>И сколько же это вот все стоило?</text>
+				<next>2</next>
+            </phrase>   
+            <phrase id="2">
+                <text>Он нам дал два рюкзака, два набора батареек и 10 тысяч деревянных. Я думаю будет справедливо разделить их поровну.</text>
+				<next>3</next>
+            </phrase>    
+            <phrase id="3">
+                <text>Поддерживаю.</text>
+				<next>4</next>
+            </phrase>   
+            <phrase id="4">
+                <text>Вот, держи.</text>
+				<action>lostpath_quest.transfer_girl_kpp</action>
+				<action>lostpath_quest.girl_3</action>
+				<give_info>esc_girl_take_kpp_nagrada</give_info>
+				<next>5</next>
+            </phrase> 
+            <phrase id="5">
+                <text>Может быть у него есть что-нибудь еще?</text>
+            </phrase> 
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="esc_sidor_smarts">
+		<has_info>esc_girl_take_kpp_nagrada</has_info>
+		<dont_has_info>esc_girl_sidor_quest_1_start</dont_has_info>
+		<dont_has_info>esc_girl_sidor_quest_1_done</dont_has_info>
+		<phrase_list>
+            <phrase id="0">
+                <text>Я по поводу работы.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Хорошо. В общем у меня есть список территорий, которые надо захватить.</text>
+				<next>2</next>
+            </phrase>   
+            <phrase id="2">
+                <text>Хорошо, высылай в КПК.</text>
+				<give_info>esc_girl_sidor_quest_1_start</give_info>
+				<action>lostpath_quest.sidor_quest_1</action>
+				<next>3</next>
+            </phrase>    
+            <phrase id="3">
+                <text>Увидимся.</text>
+            </phrase>   
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="esc_sidor_smart_1">
+		<has_info>esc_girl_sidor_quest_1_start</has_info>
+		<dont_has_info>esc_girl_sidor_quest_1_done</dont_has_info>
+		<dont_has_info>esc_girl_sidor_smart_1_done</dont_has_info>
+		<precondition>xr_conditions.esc_sidor_smart_1</precondition>
+		<phrase_list>
+            <phrase id="0">
+                <text>Мы захватили территорию. Работа выполнена.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Молодцы.</text>
+				<give_info>esc_girl_sidor_smart_1_done</give_info>
+            </phrase>   
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="esc_sidor_smart_2">
+		<has_info>esc_girl_sidor_quest_1_start</has_info>
+		<dont_has_info>esc_girl_sidor_quest_1_done</dont_has_info>
+		<dont_has_info>esc_girl_sidor_smart_2_done</dont_has_info>
+		<precondition>xr_conditions.esc_sidor_smart_2</precondition>
+		<phrase_list>
+            <phrase id="0">
+                <text>Мы захватили территорию. Работа выполнена.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Молодцы.</text>
+				<give_info>esc_girl_sidor_smart_2_done</give_info>
+            </phrase>   
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="esc_sidor_smart_3">
+		<has_info>esc_girl_sidor_quest_1_start</has_info>
+		<dont_has_info>esc_girl_sidor_quest_1_done</dont_has_info>
+		<dont_has_info>esc_girl_sidor_smart_3_done</dont_has_info>
+		<precondition>xr_conditions.esc_sidor_smart_3</precondition>
+		<phrase_list>
+            <phrase id="0">
+                <text>Мы захватили территорию. Работа выполнена.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Молодцы.</text>
+				<give_info>esc_girl_sidor_smart_3_done</give_info>
+            </phrase>   
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="esc_sidor_smart_4">
+		<has_info>esc_girl_sidor_quest_1_start</has_info>
+		<dont_has_info>esc_girl_sidor_quest_1_done</dont_has_info>
+		<dont_has_info>esc_girl_sidor_smart_4_done</dont_has_info>
+		<precondition>xr_conditions.esc_sidor_smart_4</precondition>
+		<phrase_list>
+            <phrase id="0">
+                <text>Мы захватили территорию. Работа выполнена.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Молодцы.</text>
+				<give_info>esc_girl_sidor_smart_4_done</give_info>
+            </phrase>   
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="esc_girl_smarts">
+		<has_info>esc_girl_sidor_quest_1_start</has_info>
+		<dont_has_info>esc_girl_smarts_done</dont_has_info>
+		<phrase_list>
+            <phrase id="0">
+                <text>Сидорович дал нам новое задание. Он попросил захватить некоторый список территорий.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>И какие же они?</text>
+				<next>2</next>
+            </phrase>   
+            <phrase id="2">
+                <text>Болота: Южный хутор, Темная Лощина: Заправка, Свалка: Депо, Армейские склады: Брошенный хутор.</text>
+				<give_info>esc_girl_smarts_done</give_info>
+				<next>3</next>
+            </phrase> 
+			<phrase id="3">
+				<text>Я поняла, хорошо.</text>
+				<action>lostpath_quest.go_to_matis</action>
+				<give_info>esc_girl_matis</give_info>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="esc_girl_smarts_help">
+		<has_info>esc_girl_smarts_done</has_info>
+		<phrase_list>
+            <phrase id="0">
+                <text>Напомни мне список территорий, что нужно захватить.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Болота: Южный хутор, Темная Лощина: Заправка, Свалка: Депо, Армейские склады: Брошенный хутор.</text>
+            </phrase>   
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="esc_girl_detector">
+		<has_info>wolf_about_girl_done</has_info>
+		<dont_has_info>esc_girl_det</dont_has_info>
+		<phrase_list>
+            <phrase id="0">
+                <text>Слушай, Алиса. Давай-ка найдем тебе детектор. Хотя бы "Отклик".</text>
+				<give_info>esc_girl_det</give_info>
+				<action>lostpath_quest.girl_detector</action>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>А что такое детектор?</text>
+				<next>2</next>
+            </phrase>   
+            <phrase id="2">
+                <text>Устройство, которое позволяет собирать артефакты.</text>
+            </phrase>      
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="esc_girl_detector_1">
+		<precondition>lostpath_quest.has_detector_simple</precondition>
+		<dont_has_info>esc_girl_det1</dont_has_info>
+		<phrase_list>
+            <phrase id="0">
+                <text>Слушай, Алиса. Вот тебе детектор. Уж лучше такой, чем никакой.</text>
+				<give_info>esc_girl_det1</give_info>
+				<action>lostpath_quest.transfer_detector_simple</action>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Спасибо большое! Я теперь смогу искать артефакты?</text>
+				<next>2</next>
+            </phrase>   
+            <phrase id="2">
+                <text>Да. Если соберешь артефакты - пойдем к ученым их продавать.</text>
+            </phrase>      
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="esc_girl_detector_2">
+		<precondition>lostpath_quest.has_detector_advanced</precondition>
+		<dont_has_info>esc_girl_det2</dont_has_info>
+		<has_info>esc_girl_det1</has_info>
+		<phrase_list>
+            <phrase id="0">
+                <text>Алиса, я нашел тебе новый детектор. Это "Медведь". Получше твоего "Отклика" будет. На, возьми.</text>
+				<give_info>esc_girl_det2</give_info>
+				<action>lostpath_quest.transfer_detector_advanced</action>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Спасибо большое!</text>
+				<next>2</next>
+            </phrase>   
+            <phrase id="2">
+                <text>Всегда пожалуйста.</text>
+            </phrase>      
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="esc_girl_detector_3">
+		<precondition>lostpath_quest.has_detector_elite</precondition>
+		<dont_has_info>esc_girl_det3</dont_has_info>
+		<has_info>esc_girl_det2</has_info>
+		<phrase_list>
+            <phrase id="0">
+                <text>Это лучший детектор, что могут найти сталкеры. Велесом зовут в честь древнего Бога. Он тебе пригодится.</text>
+				<give_info>esc_girl_det3</give_info>
+				<action>lostpath_quest.transfer_detector_elite</action>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Спасибо тебе большое! Я насобираю нам артефактов и мы будем богаты.</text>
+				<next>2</next>
+            </phrase>   
+            <phrase id="2">
+                <text>Ох, если бы все было так просто.</text>
+            </phrase>      
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="esc_girl_matis_about">
+		<has_info>esc_girl_matis</has_info>
+		<dont_has_info>esc_girl_about_matis</dont_has_info>
+		<phrase_list>
+            <phrase id="0">
+                <text>Слушай, Алиса. Что за Матис и откуда он тебя знает?</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Друг у меня был.. В общем это длинная история...</text>
+				<next>2</next>
+            </phrase>   
+            <phrase id="2">
+                <text>Насколько мне известно мы никуда не торопимся.. Рассказывай, раз уж мы одна команда.</text>
+				<next>3</next>
+            </phrase>  
+            <phrase id="3">
+                <text>Ну это правда не очень интересно..</text>
+				<next>4</next>
+            </phrase>   
+            <phrase id="4">
+                <text>Алиса, я жду.</text>
+				<next>5</next>
+            </phrase>   
+            <phrase id="5">
+                <text>Ладно. Был у меня друг Лёха. Мы с ним учились вместе в институте. В я про Зону от него узнала. Он постоянно говорил о ней, очень хотел сюда поехать. Я отговаривала его, мол опасно это все и не известно что там. Он уехал даже не попрощавшись.. Только пара его тетрадок с записями осталась, именно оттуда я и узнала с кем надо договориться, сколько заплатить и как добраться сюда. Пока я изучала весь материал я решила сама сюда поехать, но не искать его, а просто стать сталкершей. Настолько меня вдохновили его рассказы и записи, что я решила сама попробовать себя в этой роли.</text>
+				<next>6</next>
+            </phrase>   
+            <phrase id="6">
+                <text>[...]</text>
+				<next>7</next>
+            </phrase>      
+            <phrase id="7">
+                <text>Пол года я копила деньги и решила поехать сюда. Очень хорошо, что я встретила Волка и тебя. Если бы не вы - точно загнулась бы, ведь я совсем новенькая тут, да и стреляю не очень хорошо. В общем Леха просил к нему отправиться и помочь. Он что-то сказал про группу диггеров... Я не до конца разобрала его сообщение, поэтому давай поскорее туда пойдем? Лощина вообще опасное место?</text>
+				<next>8</next>
+            </phrase>  
+            <phrase id="8">
+                <text>Ну сталкеров можно редко встретить, там только две стоянки. Одну обычно стараются держать бандиты, чтобы трясти сталкеров и бабки с них. А вот мутантов там полно, нужно быть аккуратнее. Да и дробовик бы раздобыть, чтобы легче их отстреливать было. Ладно, хорош болтать. В путь.</text>
+				<action>lostpath_quest.ds_matis</action>
+				<action>dialogs.break_dialog</action>
+				<give_info>esc_girl_about_matis</give_info>
+            </phrase>                     
+		</phrase_list>
+		</dialog>
+		
+		<!-- DARK SCAPE QUEST'S -->
+		
+		<!-- 
+		
+		Квестовая линейка Матиса.
+		Общая суть узнать кто такой Матис,
+		помочь ему по просьбе Алисы и получить
+		какой-то опыт и навык в игре.
+		
+		-->
+		
+		<dialog id="ds_matis_about">
+		<dont_has_info>ds_matis_about_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>Привет, мы с Алисой услышали твой сигнал, ты просил о помощи.</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Привет. Меня Матисом кличут, можно просто Лёха. Я тут типо за старшего. Чтобы поручить тебе дело, я должен убедиться, что ты сгодишься. Хорошо?</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>Ну давай попробуем.</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>Значит смотри. С тобой как? Как с совсем "зеленым" или у тебя есть какой-то навык?</text>
+				<next>31</next>
+				<next>32</next>
+			</phrase>
+			
+			<phrase id="31">
+				<text>Я совсем "зеленый", давай все подробненько.</text>
+				<give_info>quest_ds_matis_dogs_novice</give_info>
+				<next>41</next>
+			</phrase>
+			<phrase id="32">
+				<text>Навык у меня есть, так что давай всё сразу, без лишней болтовни.</text>
+				<give_info>quest_ds_matis_dogs_master</give_info>
+				<next>42</next>
+			</phrase>
+			
+			<phrase id="41">
+				<text>Значит смотри. Это наш лагерь, его ты сможешь найти в своем ПДА, там будет моя метка и метка сталкеров (потому что лагерь принадлежит нам). Я дам тебе задания, только ты учти, вокруг много аномалий и животные тут не дружелюбные. Будь аккуратнее, еще одного трупа нам не хватало. Если нужна будет помощь - отбежишь к лагерю, тут помогут.</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="42">
+				<text>Тогда без лишней болтовни приступим.</text>
+				<next>5</next>
+			</phrase>
+			
+			<phrase id="5">
+				<text>Окей.</text>
+				<give_info>ds_matis_about_done</give_info>
+			</phrase>
+			
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="quest_ds_ak74_dialog">
+		<dont_has_info>quest_ds_ak74_done</dont_has_info>
+		<dont_has_info>quest_ds_ak74_give</dont_has_info>
+		<has_info>ds_matis_about_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>Ты сказал, что есть какое-то поручение.</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Да, один из моих людей профукал свой автомат у толкчка. Он очень важен ему, это не далеко, найди, а? От лагеря на север пойдешь, найдешь толчок, там он и лежит.</text>
+				<give_info>quest_ds_ak74_give</give_info>
+				<action>dialogs_lostpath.give_ds_ak74_quest</action>
+				<action>dialogs_lostpath.spawn_ds_ak74u_q</action>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>И это все для чего ты нас позвал сюда?</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>Сдурел что ли? Не, просто я не могу посылать людей на поиски, так как мы лагерь охраняем. Сам видишь, что людей у нас тут очень мало.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>Ладно, поищу я твой автомат.</text>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="quest_ds_ak74_done">
+		<dont_has_info>quest_ds_ak74_done</dont_has_info>
+		<has_info>quest_ds_ak74_give</has_info>
+		<precondition>dialogs_lostpath.has_ds_ak74u_q</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<has_info>quest_has_ak74_ds</has_info>
+				<text>Ну и вонь же там стоит, поэтому сами не пошли? Вот, держи. А за что гравировка на автомате?</text>
+				<action>dialogs_lostpath.transfer_ds_ak74u_q</action>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Да за старые заслуги, как-нибудь потом расскажу. Большое тебе спасибо за автомат.</text>
+				<give_info>quest_ds_ak74_done</give_info>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="ds_matis_dogs_dialog">
+		<has_info>quest_ds_ak74_done</has_info>
+		<dont_has_info>quest_ds_matis_dogs_done</dont_has_info>
+		<dont_has_info>quest_ds_matis_dogs_give</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>Автомат мы тебе принесли, еще какая-то помощь требуется от нас?</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Конечно. Вот тебе ствол, что ты вытащил из толчка. На север от нашего лагеря стая собак обитает. Это не сложно, хочу проверить твой навык стрельбы. Ствол не потеряй, он мне еще пригодится.</text>
+				<give_info>quest_ds_matis_dogs_give</give_info>
+				<action>dialogs_lostpath.give_stvol</action>
+				<action>dialogs_lostpath.give_ds_dogs_quest</action>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>Ох уж эти проверки... Ладно, скоро вернемся.</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="ds_matis_dogs_done">
+		<dont_has_info>quest_ds_matis_dogs_done</dont_has_info>
+		<has_info>quest_ds_matis_dogs_give</has_info>
+		<has_info>quest_ds_matis_dogs_death</has_info>
+		<precondition>dialogs_lostpath.has_ds_ak74u_q</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<has_info>quest_has_pm</has_info>
+				<text>Собаки мертвы, а я стою перед тобой. Это было высьма неинтересно и не сложно.</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Молодец, это было на разогрев. Вот, держи награду:</text>
+				<give_info>quest_ds_matis_dogs_done</give_info>
+				<action>dialogs_lostpath.transfer_ds_ak74u_q</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="ds_matis_boar_dialog">
+		<dont_has_info>quest_ds_matis_boar_give</dont_has_info>
+		<dont_has_info>quest_ds_matis_boar_done</dont_has_info>
+		<has_info>quest_ds_matis_dogs_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>Что опять придумаешь на проверку? Опять кого-нибудь пошмалять?</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Конечно. Возле лагеря кабаны организовали логово, по ночам нападают. Убей их, пожалуйста. Ты уж извини, что так много проверок, я хочу тебя подготовить ко всему.</text>
+				<give_info>quest_ds_matis_boar_give</give_info>
+				<action>dialogs_lostpath.give_ds_boar_quest</action>
+				<action>dialogs_lostpath.give_shotgun</action>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>Ха, это проще простого.</text>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="ds_matis_boar_done">
+		<dont_has_info>quest_ds_matis_boar_done</dont_has_info>
+		<has_info>quest_ds_matis_boar_give</has_info>
+		<has_info>quest_ds_matis_boar_death</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>Кабаны больше не будут беспокоить ваш лагерь.</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Молодец, обрез оставь себе.</text>
+				<give_info>quest_ds_matis_boar_done</give_info>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="dialog_matis_to_clesh">
+		<dont_has_info>matis_to_clesh</dont_has_info>
+		<has_info>quest_ds_matis_boar_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>Слушай, Матис. Запарился я тут бегать живность гасить. У тебя есть что-то стоящее или мы пойдем?</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Да есть. Клещу нужны были свободные руки, спроси у него, может что-нибудь найдет для тебя.</text>
+				<give_info>matis_to_clesh</give_info>
+				<action>dialogs_lostpath.give_ds_search_clesh</action>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>Хорошо</text>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="clesh_hello">
+		<dont_has_info>clesh_start_dialog</dont_has_info>
+		<has_info>matis_to_clesh</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>Привет. Меня Матис к тебе отправил. Сказал, что у тебя работка есть.</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Хм. Привет. Да, есть у меня для тебя дельце.</text>
+				<give_info>clesh_start_dialog</give_info>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="clesh_pda_dialog">
+		<dont_has_info>clesh_pda_give</dont_has_info>
+		<dont_has_info>clesh_pda_shulc</dont_has_info>
+		<dont_has_info>clesh_pda_done</dont_has_info>
+		<has_info>clesh_start_dialog</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>Что нужно делать?</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Группа диггеров несла нам очень важную информацию, но по пути они попали на стаю диких псов и их разорвали. В общем мне нужны эти документы любой ценой, понимаешь? Тут на севере есть мост, где-то там они и полегли. Спрятать далеко они все-равно бы не успели, так что поищи там и тащи все, что сможешь найти.</text>
+				<give_info>clesh_pda_give</give_info>
+				<action>dialogs_lostpath.give_ds_pda_quest</action>
+				<action>dialogs_lostpath.spawn_death_digger</action>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>Я тебя понял.</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="quest_ds_pda_to_shulc">
+		<dont_has_info>clesh_pda_done</dont_has_info>
+		<dont_has_info>clesh_pda_shulc</dont_has_info>
+		<has_info>clesh_pda_give</has_info>
+		<precondition>dialogs_lostpath.has_ds_pda_digger</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>Я нашел ПДА, но он зашифрован, я не могу его посмотреть.</text>
+				<action>dialogs_lostpath.transfer_ds_pda_digger</action>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Вижу. Смотри, сам я его открыть не смогу, у нас по этой части Шульц. Сходи к нему, пускай он посмотрит.</text>
+				<give_info>clesh_pda_shulc</give_info>
+				<give_info>ds_pda_back_lager</give_info>
+				<action>dialogs_lostpath.give_ds_pda_digger</action>
+				<action>dialogs_lostpath.give_ds_pda_shulc_quest</action>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>Окей</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="quest_ds_pda_shulc">
+		<dont_has_info>clesh_pda_done</dont_has_info>
+		<has_info>clesh_pda_shulc</has_info>
+		<has_info>clesh_pda_give</has_info>
+		<precondition>dialogs_lostpath.has_ds_pda_digger</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>Шульц, привет. Я нашел ПДА, меня к тебе Клещ отправил. Посмотри, пожалуйста.</text>
+				<action>dialogs_lostpath.transfer_ds_pda_digger</action>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Так, так, так. Агааа... Секундочку... Я понял. Смотри, там сказано, что они на мосту припрятали все, что нам несли. Так что тебе там искать. Скажи об этом Клещу и иди ищи.</text>
+				<give_info>clesh_pda_shulc_info</give_info>
+				<action>dialogs_lostpath.give_ds_pda_digger_unlock</action>
+				<action>dialogs_lostpath.give_ds_pda_clesh_quest</action>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>Спасибо.</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="quest_ds_documents_dialog">
+		<dont_has_info>clesh_pda_done</dont_has_info>
+		<has_info>clesh_pda_shulc_info</has_info>
+		<has_info>clesh_pda_give</has_info>
+		<precondition>dialogs_lostpath.has_ds_pda_digger_unlock</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>Клещ, Шульц разблокировал ПДА, там указано где искать документы, которые они вам несли. Я пойду их искать, там недалеко от моста. ПДА забери себе.</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Хорошо, я жду тебя в лагере.</text>
+				<action>dialogs_lostpath.transfer_ds_pda_digger_unlock</action>
+				<action>dialogs_lostpath.give_ds_documents_quest</action>
+				<action>dialogs_lostpath.spawn_ds_documents</action>
+				<give_info>clesh_pda_done</give_info>
+				<give_info>clesh_documents_give</give_info>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>Увидимся.</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="quest_ds_documents_done">
+		<dont_has_info>clesh_documents_done</dont_has_info>
+		<has_info>clesh_documents_give</has_info>
+		<has_info>clesh_pda_done</has_info>
+		<precondition>dialogs_lostpath.has_ds_documents</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>Клещ, вот те документы, что там были.</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Дай-ка я посмотрю.. Интересно... Ну-ка ну-ка..</text>
+				<action>dialogs_lostpath.transfer_ds_documents</action>
+				<give_info>clesh_documents_done</give_info>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>Ладно, я пойду.</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="matis_end">
+		<has_info>clesh_documents_done</has_info>
+		<dont_has_info>matis_end</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>Документы на руках, Алексей.</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Спасибо, дружище, даже не знаю чтобы мы без вас делали. Откуда ты знаешь как меня зовут?</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>Ну дак Алиса мне рассказала. Она сказала, что вы давние друзья и очень просила помочь тебе.</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>Очень хорошо, что вы все-таки получили от меня сообщение. Да, мы учились вместе. Я без нее ушел в Зону... Как видишь я стал весьма опытным сталкером и теперь держу всю Лощину. На нас постоянно нападают бандиты. Эх, если бы не та ночь... так жалко ребят, совсем зеленые еще были.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>Как так вышло, что новички оказались ночью с документами далеко от лагеря?</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>Была у меня группа новичков, которую мы готовили в диггеры. Бармен попросил у меня этих ребят к себе на подработку. Ну я и не стал ему отказывать, ведь в обмен он предложил те самые документы, что ты мне принес.</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>[...]</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>Маршрут был чистый и все было просчитано. Но что-то случилось и с ними прекратилась связь, потом вообще некролог в ЕСС пришел. Ты на месте был, ты не замечал чего-то странного?</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>Я видел у ребят укусы, похожие на работу кровососа. У одного было пулевое..</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>Думаешь это был контролер или киллер?</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>Я могу лишь предпологать о наличии чего-то подобного. Очень странно, что ни КПК, ни документы не пропали. Ребят просто убили.</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>Вот и я понять не могу в чем дело. Ну ладно, не забивай голову ерундой. Спасибо тебе за помощь. Присмотри за Алисой, пожалуйста. Нельзя ей с нами оставаться, опасно это.</text>
+				<next>12</next>
+			</phrase>
+			<phrase id="12">
+				<text>Я сделаю все, что будет в моих силах.</text>
+				<next>13</next>
+			</phrase>
+			<phrase id="13">
+				<text>Спасибо друг, заскакивай на огонек.</text>
+				<next>14</next>
+			</phrase>
+			<phrase id="14">
+				<text>Увидимся.</text>
+				<give_info>matis_end</give_info>
+				<action>lostpath_quest.barman_sms</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="alisa_pered_barom">
+		<dont_has_info>alisa_pered_barom</dont_has_info>
+		<dont_has_info>bar_barman_done</dont_has_info>
+		<has_info>matis_end</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>Нам Барман хочет подогнать работу. Что думаешь на этот счет?</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Ну вполне неплохо, я думаю стоит сходить к нему и узнать. Слушай, хотела спросить...</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>О чем?</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>Я передумала, извини. Потом спрошу. Давай лучше в бар пойдем.</text>
+				<give_info>alisa_pered_barom</give_info>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<!-- GARBAGE QUEST'S -->
+		
+		<!-- 
+		
+		Квестовая линейка диггеров.
+		Немного информации о баре, бармене
+		и происходящем на свалке от местных ребят.
+		
+		-->
+		
+		<!-- BAR QUEST'S -->
+		
+		<!-- 
+		
+		Квестовая линейка Бармена.
+		Общая суть узнать про основные группировки,
+		помочь Бармену с перетаскиванием оборудования
+		и вступление в какой-нибудь клан.
+		
+		-->
+				
+		<dialog id="barman_jobs">
+		<dont_has_info>bar_barman_done</dont_has_info>
+		<has_info>matis_end</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>Привет, Барман. Мы получили сообщение от тебя. Какую работу ты хотел нам предложить?</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Как ты знаешь военные обосновались на Армейких складах. Мне нужны люди, которые смогут мне со складов у поставщика забрать моё оборудование.</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>И что нам за это будет?</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>У меня есть два уникальных броника, которые позволяют переносить больше веса. Типо ткристического комбенезона. Ну что, согласны?</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>Куда мы денемся.. Скидывай координаты.</text>
+				<action>lostpath_quest.gyfi</action>
+				<action>lostpath_quest.barman_skladi</action>
+				<give_info>bar_barman_done</give_info>
+			</phrase>			
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="gyfi_start">
+		<has_info>bar_barman_done</has_info>
+		<dont_has_info>bar_gyfi_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>Я получил от тебя сообщение.</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Привет, сталкер. Да, я присылал тебе сообщение. Ты наверняка не знаешь, что мы за клан такой...</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>Да, впервые слышу.</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>В общем тебя наш Батя видеть хотел. Он в бункере сидит, ждет тебя. Не знаю зачем ты ему сдался, даже не спрашивай..</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>Понял.</text>
+				<give_info>bar_gyfi_start</give_info>
+				<action>lostpath_quest.valerian</action>
+			</phrase>			
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="valerian_start">
+		<has_info>bar_gyfi_start</has_info>
+		<dont_has_info>bar_valerian_start</dont_has_info>
+		<dont_has_info>bar_valerian_fail</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>Валерьян.. Легенда Зоны.. в старой базе Долга... хм...</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>И я рад тебя видеть, сталкер. В общем такое дело. Я тут пробил по некоторым каналам. Мне доложили, что ты вполне надежный человек, в Зоне тебя мало кто знает и это наш шанс.</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>Что именно ты хочешь?</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>Мне нужен человек, который не засвечен в причастности к исследователям и их союзникам. Ты отлично подходишь на эту роль. Тем более у тебя напарница, которую никто не знает. Сам знаешь как мужики на баб в зоне реагируют.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>Это меня и пугает..</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>В общем мне нужна от тебя помощь. Знаешь клан "Свобода"?</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>Нет, я с кланами не особо знаком.</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>Мне нужно, чтобы ты собрал некоторую информацию. Так как ты вольный сталкер, то тебя спокойно пустят на базу. Разговоришь их, узнаешь информацию и доложишь мне.</text>
+				<next>9</next>
+				<action>lostpath_quest.clans</action>
+			</phrase>
+			<phrase id="9">
+				<text>Решили через нейтрального сталкера загасить своего противника?</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>На войне все средства хороши. Ну что, поможешь?</text>
+				<next>11</next>
+				<next>12</next>
+			</phrase>
+			<phrase id="12">
+				<text>Нет, это дичь.</text>
+				<give_info>bar_valerian_fail</give_info>
+			</phrase>
+			<phrase id="11">
+				<text>Да, ты можешь на меня рассчитывать.</text>
+				<give_info>bar_valerian_start</give_info>
+				<action>lostpath_quest.freedom</action>
+			</phrase>			
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="barman_done">
+		<precondition>lostpath_quest.safes</precondition>
+		<dont_has_info>safes_done</dont_has_info>
+		<has_info>bar_barman_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>Твоё оборудование у нас.</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Отлично, давай сюда.</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>Тяжеловато с ними ходить, конечно.</text>
+				<action>lostpath_quest.transfer_safes</action>
+				<give_info>safes_done</give_info>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>Спасибо вам большое. Я обязательно замолвлю за вас словечко в Долге, Свободе, ЧН или ИИГ.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>Хорошо, нам нужно немного подумать насчет выбора.</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>Я вас понял.</text>
+			</phrase>
+		</phrase_list>
+		</dialog>
+</game_dialogs>

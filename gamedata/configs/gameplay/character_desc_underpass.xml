@@ -4,7 +4,7 @@
     <name>jup_a10_stalker_vano</name>
     <icon>ui_inGame2_neutral_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pas_b400_vano</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -32,7 +32,7 @@
     <icon>ui_inGame2_ecolog_green</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pas_b400_sokolov</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -60,7 +60,7 @@
     <icon>ui_inGame2_Dolg_1</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pas_b400_zulus</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -88,7 +88,7 @@
     <icon>ui_inGame2_monolit_1</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pas_b400_wanderer</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -114,7 +114,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pas_b400_monolith_sniper</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\monolith\</snd_config>
@@ -142,7 +142,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_1</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pas_b400_monolith_sniper</class>
     <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\monolith\</snd_config>

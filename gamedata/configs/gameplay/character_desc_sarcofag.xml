@@ -4,7 +4,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_monolit_1</icon>
     <map_icon x="3" y="0"></map_icon>
-    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sar_monolith_commander</class>
     <community>monolith</community>
     <terrain_sect>stalker_terrain</terrain_sect>

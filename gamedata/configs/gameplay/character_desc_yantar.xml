@@ -156,7 +156,7 @@
     <icon>ui_inGame2_merc_4</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>yan_merc_01</class>
     <community>ecolog</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -184,7 +184,7 @@
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>yan_merc_02</class>
     <community>ecolog</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -213,7 +213,7 @@
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>yan_merc_03</class>
     <community>ecolog</community>
     <terrain_sect>stalker_terrain</terrain_sect>

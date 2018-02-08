@@ -6,7 +6,7 @@
     <icon>ui_inGame2_Soldier_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a17_military_captain_tarasov</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -36,7 +36,7 @@
     <icon>ui_inGame2_Soldier_3</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a17_military_prapor_valentyr</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -65,7 +65,7 @@
     <icon>ui_inGame2_Soldier_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a17_military_sergeant_morozov</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -94,7 +94,7 @@
     <icon>ui_inGame2_Soldier_3</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a17_military_lieutenant_podorojniy</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -123,7 +123,7 @@
     <icon>ui_inGame2_Kovalskiy</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a17_military_colonel_kovalski</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -163,7 +163,7 @@
     <icon>ui_inGame2_monolit_3</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a17_monolith_preacher</class>
     <community>monolith</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -191,7 +191,7 @@
     <icon>ui_inGame2_Sokolov</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a15_sokolov</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -233,7 +233,7 @@
     <icon>ui_inGame2_Sokolov_ecolog</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a15_sokolov_sci</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -262,7 +262,7 @@
     <icon>ui_inGame2_Sokolov</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a15_sokolov_sci_head</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -292,7 +292,7 @@
     <icon>ui_inGame2_Soldier_4</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a22_military_merkulov</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -320,7 +320,7 @@
     <icon>ui_inGame2_Soldier_4</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a22_military_skelja</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -348,7 +348,7 @@
     <icon>ui_inGame2_Soldier_3</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a22_military_yarmoshuk</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -378,7 +378,7 @@
     <icon>ui_inGame2_Soldier_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a15_military_recon_leader</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -406,7 +406,7 @@
     <icon>ui_inGame2_Soldier_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a15_military_recon_1</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -433,7 +433,7 @@
     <icon>ui_inGame2_Soldier_4</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a15_military_recon_2</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -460,7 +460,7 @@
     <icon>ui_inGame2_Soldier_4</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a15_military_recon_3</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -486,7 +486,7 @@
     <icon>ui_inGame2_Soldier_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a21_sentry_lieutenant_stecenko</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -513,7 +513,7 @@
     <icon>ui_inGame2_Rogovets</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a25_army_medic</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -547,7 +547,7 @@
     <name>pri_b306_envoy_name</name>
     <icon>ui_inGame2_merc_durad</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_b306_envoy</class>
     <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -571,7 +571,7 @@
     <name>st_actor_name</name>
     <icon>ui_inGame2_Hero</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a15_actor</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -594,7 +594,7 @@
     <name>jup_a10_stalker_vano</name>
     <icon>ui_inGame2_Vano_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a15_vano</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
@@ -617,7 +617,7 @@
     <icon>ui_inGame2_Sokolov_ecolog</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a15_sokolov_scene</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -641,7 +641,7 @@
     <icon>ui_inGame2_Zulus</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a15_zulus</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -666,7 +666,7 @@
     <icon>ui_inGame2_Brodyaga_monolit</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a15_wanderer</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -690,7 +690,7 @@
     <icon>ui_inGame2_Soldier_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a15_military_tarasov</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -714,7 +714,7 @@
     <icon>ui_inGame2_Soldier_4</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a15_military_2</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -738,7 +738,7 @@
     <icon>ui_inGame2_Soldier_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a15_military_3</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -762,7 +762,7 @@
     <icon>ui_inGame2_Soldier_3</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a15_military_4</class>
     <community>army</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -787,7 +787,7 @@
     <icon>ui_inGame2_Soldier_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a22_army_signaller</class>
     <community>stalker</community>
     <mechanic_mode>1</mechanic_mode>
@@ -828,7 +828,7 @@
     <icon>ui_inGame2_merc_4</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_b35_merc_leader</class>
     <community>killer</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -856,7 +856,7 @@
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_b35_merc_grenade_launcher_1</class>
     <community>killer</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -883,7 +883,7 @@
     <icon>ui_inGame2_merc_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_b35_merc_grenade_launcher_2</class>
     <community>killer</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -910,7 +910,7 @@
     <icon>ui_inGame2_ecolog_green</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_b35_envoy</class>
     <community>killer</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -937,7 +937,7 @@
     <icon>ui_inGame2_ecolog_green</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_b35_guard_envoy_1</class>
     <community>killer</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -965,7 +965,7 @@
     <icon>ui_inGame2_ecolog_green</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_b35_guard_envoy_2</class>
     <community>killer</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -994,7 +994,7 @@
     <icon>ui_inGame2_monolit_2</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_b36_monolith_sniper</class>
     <community>monolith</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1020,7 +1020,7 @@
     <icon>ui_inGame2_monolit_3</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_b36_monolith_master_hiding_place</class>
     <community>monolith</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1047,7 +1047,7 @@
     <icon>ui_inGame2_monolit_3</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_b36_monolith_marine_sniper</class>
     <community>monolith</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1073,7 +1073,7 @@
     <icon>ui_inGame2_Strelok</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_b305_strelok</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1108,7 +1108,7 @@
     <name>pri_a28_evac_com_name</name>
     <icon>ui_inGame2_Soldier_2</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_a28_evac_com</class>
     <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\military\</snd_config>
@@ -1134,7 +1134,7 @@
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_stalker_pri_a16</class>
     <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
@@ -1166,7 +1166,7 @@
     <icon>ui_inGame2_Dyadka_Yar</icon>
     <map_icon x="1" y="0">
     </map_icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_medic_stalker</class>
     <community>stalker</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -1194,7 +1194,7 @@
     <specific_character id="pri_monolith_monolith_trader_stalker" team_default="1">
     <name>pri_monolith_monolith_trader_stalker_name</name>
     <icon>ui_inGame2_monolith_trade</icon>
-    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_monolith_monolith_trader_stalker</class>
     <community>monolith</community>
     <map_icon x="1" y="0"/>
@@ -1220,7 +1220,7 @@
         <specific_character id="pri_monolith_monolith_mechanic_stalker" team_default="1">
         <name>pri_monolith_monolith_mechanic_stalker_name</name>
         <icon>ui_inGame2_monolith_tech</icon>
-        <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+        <bio>An experienced stalker. No detailed information is available.</bio>
         <class>pri_monolith_monolith_mechanic_stalker</class>
         <community>monolith</community>
         <map_icon x="1" y="0"/>

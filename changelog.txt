@@ -18,6 +18,7 @@ added character_desc_general_isg.xml
 added character_desc_general_killer.xml
 added character_desc_general_monolith.xml
 added character_desc_general_stalker
+added character_desc_jupiter.xml
 updated dialogs_mlr.xml
 --------------------
 02/08 0.1.2

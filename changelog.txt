@@ -29,6 +29,7 @@ added character_desc_underpass.xml
 added character_desc_warlab.xml
 added character_desc_yantar.xml
 added character_desc_zaton.xml
+added dialogs_lostpath.xml
 updated dialogs_mlr.xml
 --------------------
 02/08 0.1.2

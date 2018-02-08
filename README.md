@@ -54,6 +54,8 @@ character_desc_general_monolith.xml
 <br>&#8627; <em>done</em><br>
 character_desc_general_stalker
 <br>&#8627; <em>done</em><br>
+character_desc_jupiter.xml
+<br>&#8627; <em>done</em><br>
 character_desc_lostpath_aes.xml
 <br>&#8627; <em>done</em><br>
 character_desc_lostpath_army.xml

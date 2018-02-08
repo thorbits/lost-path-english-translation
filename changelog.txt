@@ -1,6 +1,7 @@
 0.1.2 preview
 --------------------
 updated dialogs_bar.xml
+updated st_closecaption.xml
 updated st_lostpath_outfits.xml (still incomplete)
 
 --------------------

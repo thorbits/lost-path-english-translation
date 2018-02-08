@@ -106,6 +106,10 @@ dialogs_lostpath.xml
 <br>&#8627; <em>incomplete</em><br>
 dialogs_mlr.xml
 <br>&#8627; <em>incomplete</em><br>
+dialogs_mlr_arena.xml
+<br>&#8627; <em>incomplete</em><br>
+dialogs_wth.xml
+<br>&#8627; <em>incomplete</em><br>
 </ul>
 
 <p>&#9762; <strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/text/eng">gamedata/configs/text/eng</a></strong></p>

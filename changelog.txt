@@ -19,6 +19,16 @@ added character_desc_general_killer.xml
 added character_desc_general_monolith.xml
 added character_desc_general_stalker
 added character_desc_jupiter.xml
+added character_desc_marsh.xml
+added character_desc_military.xml
+added character_desc_pripyat.xml
+added character_desc_red_forest.xml
+added character_desc_sarcofag.xml
+added character_desc_simulation.xml
+added character_desc_underpass.xml
+added character_desc_warlab.xml
+added character_desc_yantar.xml
+added character_desc_zaton.xml
 updated dialogs_mlr.xml
 --------------------
 02/08 0.1.2

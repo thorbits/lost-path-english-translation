@@ -1,0 +1,1646 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<game_dialogs>	
+	
+		<dialog id="tm_reward_task">
+		<phrase_list>
+			<phrase id="2">
+				<text>Пока незачто тебе награду выдавать.</text>
+				<precondition>task_objects.rewarder_hasnt_reward</precondition>
+			</phrase>
+			<phrase id="1">
+				<text>Да, держи.</text>
+				<precondition>task_objects.rewarder_has_reward</precondition>
+				<action>task_objects.rewarder_give_reward</action>
+			</phrase>
+			<phrase id="0">
+				<text>Есть что-то для меня?</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+		</phrase_list>
+		</dialog>
+	
+		<!-- Закупка фильтров и аккумуляторов -->
+		
+		<dialog id="buy_filter"> 
+			<init_func>dialog_manager.script_trade</init_func>
+        </dialog>
+		
+		<!-- Компаньоны -->
+		
+		<!-- Базовый -->
+		
+		<dialog id="companion_dialog"> 
+		<precondition>dialogs_axr_companion.is_not_actor_companion</precondition>
+		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
+		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
+        <phrase_list>
+            <phrase id="0">
+                <text>Слушай, как насчет действовать вместе?</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Давай, вместе-то безопаснее.</text>
+                <next>2</next>
+                <next>3</next>
+            </phrase>
+        <phrase id="2">
+                <text>Выдвигаемся за мной.</text>
+                <action>dialogs_axr_companion.become_actor_companion</action>
+            </phrase>
+        <phrase id="3">
+                <text>Я передумал, позже поговорим.</text>
+            </phrase>
+        </phrase_list>
+        </dialog>	
+		
+		<!-- Зулус  -->
+		
+		<dialog id="companion_dialog_zulus_help">
+		<precondition>dialogs_axr_companion.is_not_actor_companion</precondition>
+		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
+		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
+		<dont_has_info>companion_quest_zulus_give</dont_has_info>
+		<dont_has_info>companion_quest_zulus_done</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>Cлушай, как насчет действовать вместе?</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Я не против, но у меня совсем не осталось патрон. Не мог бы ты принести мне патроны?</text>
+                <next>2</next>
+                <next>3</next>
+            </phrase>
+			<phrase id="2">
+				<text>Без проблем, сколько тебе нужно?</text>
+				<next>4</next>
+				</phrase>
+			<phrase id="3">
+				<text>Нет, извини.</text>
+				<action>dialogs.break_dialog</action>
+				</phrase>
+			<phrase id="4">
+				<text>Принеси мне 3 пачки.</text>
+				<next>5</next>
+				</phrase>
+			<phrase id="5">
+				<text>Хорошо</text>
+				<action>dialogs_lostpath.companion_quest_zulus</action>
+				<give_info>companion_quest_zulus_give</give_info>
+				</phrase>
+        </phrase_list>
+        </dialog>	
+		
+		<dialog id="companion_dialog_zulus">
+		<precondition>dialogs_axr_companion.is_not_actor_companion</precondition>
+		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
+		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
+		<precondition>dialogs_lostpath.check_ammo_zulus</precondition>
+		<has_info>companion_quest_zulus_give</has_info>
+		<dont_has_info>companion_quest_zulus_done</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>Я принес твои патроны</text>
+				<give_info>companion_quest_zulus_done</give_info>
+				<action>dialogs_lostpath.transfer_ammo_zulus</action>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Спасибо тебе большое. Я готов выдвигаться</text>
+				<action>dialogs_axr_companion.become_actor_companion</action>
+                <next>2</next>
+            </phrase>
+			<phrase id="2">
+				<text>Отлично. За мной.</text>
+				<action>dialogs.break_dialog</action>
+				</phrase>
+        </phrase_list>
+        </dialog>	
+		
+		<!-- Платный Шрам  -->
+		
+		<dialog id="companion_dialog_shram"> <!-- ГГ не Ветеран -->
+		<precondition>dialogs_axr_companion.is_not_actor_companion</precondition>
+		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
+		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
+		<precondition>lostpath_check_money.shram_have_money</precondition>
+		<precondition>lostpath_companions.check_rank_actor_no_veteran</precondition>
+        <phrase_list>
+            <phrase id="0">
+                <text>Привет, Шрам. Мне нужно сопровождение.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Привет, я вожу за деньги. Это тебе будет стоить 150 тысяч деревянных.</text>
+                <next>2</next>
+                <next>3</next>
+            </phrase>
+        <phrase id="2">
+                <text>Хорошо. Вот, держи.</text>
+				<action>dialogs_lostpath.give_money_150000</action>
+                <action>dialogs_axr_companion.become_actor_companion</action>
+				<action>lostpath_message.send_message_shram</action>
+            </phrase>
+        <phrase id="3">
+                <text>Я передумал, позже поговорим.</text>
+            </phrase>
+        </phrase_list>
+        </dialog>	
+		
+		<dialog id="companion_dialog_shram_no_money">
+		<precondition>dialogs_axr_companion.is_not_actor_companion</precondition>
+		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
+		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
+		<precondition>lostpath_check_money.shram_no_money</precondition>
+		<precondition>lostpath_companions.check_rank_actor_no_veteran</precondition>
+        <phrase_list>
+            <phrase id="0">
+                <text>Привет, Шрам. Напомни, сколько стоит сопровождение?</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Привет, я вожу за деньги. Это тебе будет стоить 150 тысяч деревянных.</text>
+                <next>2</next>
+            </phrase>
+        <phrase id="2">
+                <text>У меня столько нет.</text>
+            </phrase>
+        </phrase_list>
+        </dialog>	
+		
+		<!-- Йога -->
+		
+		<dialog id="companion_dialog_yoga"> 
+		<precondition>dialogs_axr_companion.is_not_actor_companion</precondition>
+		<precondition>dialogs_axr_companion.is_room_in_actor_squad</precondition>
+		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
+        <phrase_list>
+            <phrase id="0">
+                <text>Опа. Какие люди. Йога, слушай, а погнали со мной по Зоне фраеров щемить?</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Ну давай, все-равно делать нечего.</text>
+                <next>2</next>
+                <next>3</next>
+            </phrase>
+        <phrase id="2">
+                <text>Выдвигаемся за мной.</text>
+                <action>dialogs_axr_companion.become_actor_companion</action>
+            </phrase>
+        <phrase id="3">
+                <text>Я передумал, позже поговорим.</text>
+            </phrase>
+        </phrase_list>
+        </dialog>	
+		
+		<dialog id="chu_info">
+		<phrase_list>
+            <phrase id="0">
+                <text>chu_info_1</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>chu_info_2</text>
+                <next>2</next>
+            </phrase>
+		<phrase id="2">
+                <text>chu_info_3</text>
+        </phrase>				
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="master_info">
+		<phrase_list>
+            <phrase id="0">
+                <text>master_info_1</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>master_info_2</text>
+                <next>2</next>
+            </phrase>
+        <phrase id="2">
+                <text>master_info_3</text>
+				<next>3</next>
+            </phrase>
+        <phrase id="3">
+                <text>master_info_4</text>
+				<next>4</next>
+			</phrase>
+		<phrase id="4">
+                <text>master_info_5</text>
+        </phrase>				
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="tiran_info">
+		<phrase_list>
+            <phrase id="0">
+                <text>Расскажи о себе</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Как видишь Тиран я. Был у меня отряд на Дикой территории, сейчас им командует Волкодав. Отряд был больше, это все что осталось после прорыва долговцев.</text>
+                <next>2</next>
+            </phrase>
+        <phrase id="2">
+                <text>А что случилось?</text>
+				<next>3</next>
+            </phrase>
+        <phrase id="3">
+                <text>Мы осваивали Дикую территорию и не знали, что на янтарь есть другой подход - со стороны НИИ Агропрома. Тогда еще его занимали долговцы, прежде чем перебраться в Бар. Они прошли на янтарь и попали в Мертвый город... Мда... Много тогда наших полегло... Я и часть моего отряда бросились в погоню с Дикой территории на Янтарь. Хорошо, что мы успели. Маленькая часть долговцев прошла в Мертвый город. Туда сначала прошел разведотряд, а потом уже основные силы должны были идти. В общем мы перебили всю ударную группу "Долга", а потом пошли добивать разведчиков... В общем много моих людей полегло... Уходя на Янтарь я оставил командование отрядом Волкодаву, они называют себя "Псами". Не знаю, как они, надо бы вернуться к ним.</text>
+				<next>4</next>
+			</phrase>
+		<phrase id="4">
+                <text>Интересно, спасибо за рассказ.</text>
+        </phrase>				
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="volkodav_group">
+		<phrase_list>
+            <phrase id="0">
+                <text>Расскажи о себе</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Я снайпер из отряда "Псов". Мы с Волкодавом держим подходы на дикую территорию со стороны Бара.</text>
+                <next>2</next>
+            </phrase>
+        <phrase id="2">
+                <text>И от кого вы охраняетесь?</text>
+				<next>3</next>
+            </phrase>
+        <phrase id="3">
+                <text>Тут часто пытаются пройти Долговцы или сталкеры, а мы их не пускаем. Нечего им тут делать. За территорией находится Янтарь с учеными. Ну а там и выход в мертвый город к нашей базе. Нечего чужакам тут делать. Как к нашей базе вышли несколько отрядов долга, так нас сюда и прислали, чтобы охраняли.</text>
+				<next>4</next>
+			</phrase>
+		<phrase id="4">
+                <text>Интересно, спасибо за рассказ.</text>
+        </phrase>
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="cherep_group">
+		<phrase_list>
+            <phrase id="0">
+                <text>Привет, а вы кто?</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>Привет. Мы из отряда Черепа - элита "Долга".</text>
+                <next>2</next>
+				<next>4</next>
+            </phrase>
+        <phrase id="2">
+                <text>А с кем можно поговорить насчет сотрудничества?</text>
+				<next>3</next>
+            </phrase>
+        <phrase id="3">
+                <text>А вон наш командир стоит - Череп. Вот ты к нему и иди.</text>
+            </phrase>
+		<phrase id="4">
+                <text>Счастливо.</text>
+            </phrase>				
+        </phrase_list>
+		</dialog>
+
+		
+		
+		<!-- BAR "100" RENTGEN QUEST'S -->
+		
+		<dialog id="bar_zulus_about">
+		<dont_has_info>bar_zulus_about_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+					<text>Эм... привет, а ты кто?</text>
+					<next>1</next>
+			</phrase>
+			<phrase id="1">
+					<text>О, привет. Я Зулус, а ты видимо тут недавно?</text>
+					<next>2</next>
+			</phrase>
+			<phrase id="2">
+					<text>Ну да. Слушай, что это за место?</text>
+					<next>3</next>
+			</phrase>
+			<phrase id="3">
+					<text>Это База "Долга". Тут недалеко бар есть, можешь сходить туда, расслабиться.</text>
+					<next>4</next>
+			</phrase>
+			<phrase id="4">
+					<text>Ммм, расслабиться. Звучит неплохо</text>
+					<next>5</next>
+			</phrase>
+			<phrase id="5">
+					<text>[...]</text>
+					<next>6</next>
+			</phrase>
+			<phrase id="6">
+					<text>А там подзаработать можно?</text>
+					<next>7</next>
+			</phrase>
+			<phrase id="7">
+					<text>Ну вот это уже другое дело. Ты пока осмотрись вокруг, а я пока дельце тебе поищу. Хорошо?</text>
+					<give_info>bar_zulus_about_done</give_info>
+					<next>8</next>
+			</phrase>
+			<phrase id="8">
+					<text>Лады, будь здоров!</text>
+					<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="bar_zulus_svoboda_docs_0">
+		<dont_has_info>bar_zulus_svoboda_docs_start</dont_has_info>
+		<dont_has_info>bar_zulus_svoboda_docs_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>Здаров. Нашел что-нибудь интересненькое для меня?</text>
+				<next>1</next>	
+			</phrase>
+			<phrase id="1">
+				<text>Конечно. Значит так. Мне нужны одни свободовские документы. Предупреждаю сразу: Воронин не вкурсе, я помогаю Черепу. И мне нужна твоя помощь. В общем смотри. Тебе надо будет пробраться на хутор и под видом обычного сталкера найти мне документы в каком-то из домов. Там на хуторе обычно отряды свободы патрулируют, поэтому Череп и не может туда тихо пробраться, наша надежда - ты. Я дам тебе костюм сталкерский, оденешь и они будут думать, что ты обычный сталкер, не тронут тебя. Постарайся сделать все очень аккуратно. Как только мы получим документы, так Череп сразу пойдет отбивать хутор. Понял меня?</text>
+				<action>dialogs_lostpath.zulus_svoboda_docs_start</action>
+				<next>2</next>	
+			</phrase>
+			<phrase id="2">
+				<text>Понял</text>
+				<next>3</next>	
+			</phrase>
+			<phrase id="3">
+				<text>Вот, держи:</text>
+				<action>dialogs_lostpath.give_stalker_outfit</action>
+				<next>4</next>	
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="bar_zulus_svoboda_docs_1">
+		<has_info>bar_zulus_svoboda_docs_start</has_info>
+		<dont_has_info>bar_zulus_svoboda_docs_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>Смотри, документы я нашел. Интересненький материал.</text>
+				<next>1</next>	
+			</phrase>
+			<phrase id="1">
+				<text>Ну-ка посмотрим.. Ммм... у них там какое-то разногласие в группировке.. </text>
+				<next>2</next>	
+			</phrase>
+			<phrase id="2">
+				<text>[...]</text>
+				<next>3</next>	
+			</phrase>
+			<phrase id="3">
+				<text>Это наш шанс. Короче, ты должен помочь Черепу. Лови его координаты.  Все, до встречи.</text>
+				<action>dialogs_lostpath.zulus_svoboda_docs_stop</action>
+				<action>dialogs_lostpath.zulus_to_cherep_start</action>
+				<next>4</next>	
+			</phrase>
+		</phrase_list>
+		</dialog>
+	
+	<dialog id="yoga"> 
+<phrase_list>
+<phrase id="0">
+   <text>yoga_0</text>
+<next>1</next>
+</phrase>
+<phrase id="1">
+<text>yoga_1</text>
+</phrase>
+ </phrase_list>
+    </dialog>
+
+<dialog id="yoga_start"> 
+<phrase_list>
+<phrase id="0">
+   <text>yoga_start_0</text>
+</phrase>
+</phrase_list>
+</dialog>
+
+<dialog id="buy_rep">
+		<precondition>dialogs_lostpath.buy_prec</precondition>
+		<phrase_list>
+            <phrase id="0">
+                <text>Я хотел бы внести вклад в развитие клана.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+				<text>Хорошо. Пожертвования принимаются по 100 тысяч деревянных.</text>
+				<next>2</next>
+				<next>3</next>
+            </phrase>
+			<phrase id="2">
+				<text>Вот, держи.</text>
+				<action>dialogs_lostpath.buy_rep</action>
+				<next>4</next>
+            </phrase>
+			<phrase id="3">
+				<text>Я передумал, извини</text>
+            </phrase>
+			<phrase id="4">
+				<text>Спасибо тебе, клан ценит твой вклад!</text>
+            </phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="friendly_to_actor">
+		<precondition>dialogs_axr_companion.is_actor_companion</precondition>
+		<precondition>lostpath_companions.is_not_actor_group</precondition>
+		<phrase_list>
+            <phrase id="0">
+                <text>Слушай, как насчет присоединиться к моему клану?</text>
+                <next>10</next>
+                <next>11</next>
+            </phrase>
+            <phrase id="10">
+                <precondition>lostpath_companions.random_to_actor</precondition> 
+				<text>Звучит интересно. Почему бы и нет.</text>
+				<action>lostpath_companions.change_group_hero</action>
+            </phrase>
+			<phrase id="11">
+				<text>Знаешь, мне и тут хорошо.</text>
+			</phrase>		
+			</phrase_list>
+		</dialog>
+		
+		<dialog id="cherep_friendly_dialog">
+		<precondition>xr_conditions.is_squad_commander</precondition>	
+		<precondition>dialogs_axr_companion.is_not_actor_companion</precondition>
+		<precondition>dialogs_axr_companion.is_actor_friend</precondition>
+        <phrase_list>
+            <phrase id="0">
+                <text>axr_phrase_friend_companion_ask_join</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>axr_phrase_friend_companion_answer_join</text>
+				<action>dialogs_axr_companion.become_actor_companion</action>
+            </phrase>
+        </phrase_list>
+    </dialog>
+		
+		<dialog id="dolg_barter">
+		<phrase_list>
+            <precondition>lostpath_factions.actor_dolg</precondition>
+			<phrase id="0">
+                <text>Я хотел бы обменять репутацию на оружие</text>
+                <next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Хорошо, выбирай.</text>
+				<next>200</next>
+				<next>202</next>
+				<next>204</next>
+				<next>206</next>
+				<next>208</next>
+				<next>500</next>
+				<next>502</next>
+				<next>504</next>
+				<next>506</next>
+				<next>999</next>
+			</phrase>
+			
+			<phrase id="200">
+				<precondition>lostpath_barter_dolg.prec_dolg_ak12</precondition>
+				<text>АК-12 [300]</text>
+				<next>201</next>
+			</phrase>
+			<phrase id="201">
+				<text>Держи</text>
+				<action>lostpath_barter_dolg.barter_ak12</action>
+				<action>lostpath_barter_dolg.goodwill_to_dolg_ak12</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="202">
+				<precondition>lostpath_barter_dolg.prec_dolg_val</precondition>
+				<text>АС Вал [600]</text>
+				<next>203</next>
+			</phrase>
+			<phrase id="203">
+				<text>Держи</text>
+				<action>lostpath_barter_dolg.barter_val</action>
+				<action>lostpath_barter_dolg.goodwill_to_dolg_val</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="204">
+				<precondition>lostpath_barter_dolg.prec_dolg_groza</precondition>
+				<text>Гроза С14 [450]</text>
+				<next>205</next>
+			</phrase>
+			<phrase id="205">
+				<text>Держи</text>
+				<action>lostpath_barter_dolg.barter_groza</action>
+				<action>lostpath_barter_dolg.goodwill_to_dolg_groza</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="206">
+				<precondition>lostpath_barter_dolg.prec_dolg_svu</precondition>
+				<text>СВУмк2 [900]</text>
+				<next>207</next>
+			</phrase>
+			<phrase id="207">
+				<text>Держи</text>
+				<action>lostpath_barter_dolg.barter_svu</action>
+				<action>lostpath_barter_dolg.goodwill_to_dolg_svu</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="208">
+				<precondition>lostpath_barter_dolg.prec_dolg_svd</precondition>
+				<text>СВД [900]</text>
+				<next>209</next>
+			</phrase>
+			<phrase id="209">
+				<text>Держи</text>
+				<action>lostpath_barter_dolg.barter_svd</action>
+				<action>lostpath_barter_dolg.goodwill_to_dolg_svd</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="500">
+				<precondition>lostpath_barter_dolg.prec_dolg_545x39</precondition>
+				<text>5.45х39 (обычный) [30]</text>
+				<next>501</next>
+			</phrase>
+			<phrase id="501">
+				<text>Держи</text>
+				<action>lostpath_barter_dolg.barter_545x39</action>
+				<action>lostpath_barter_dolg.goodwill_to_dolg_545x39</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="502">
+				<precondition>lostpath_barter_dolg.prec_dolg_545x39_ap</precondition>
+				<text>5.45х39 (бронебойный) [40]</text>
+				<next>503</next>
+			</phrase>
+			<phrase id="503">
+				<text>Держи</text>
+				<action>lostpath_barter_dolg.barter_545x39_ap</action>
+				<action>lostpath_barter_dolg.goodwill_to_dolg_545x39_ap</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="504">
+				<precondition>lostpath_barter_dolg.prec_dolg_9x39</precondition>
+				<text>9х39 (обычный) [50]</text>
+				<next>505</next>
+			</phrase>
+			<phrase id="505">
+				<text>Держи</text>
+				<action>lostpath_barter_dolg.barter_9x39</action>
+				<action>lostpath_barter_dolg.goodwill_to_dolg_9x39</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="506">
+				<precondition>lostpath_barter_dolg.prec_dolg_9x39_ap</precondition>
+				<text>9х39 (бронебойный) [60]</text>
+				<next>507</next>
+			</phrase>
+			<phrase id="507">
+				<text>Держи</text>
+				<action>lostpath_barter_dolg.barter_9x39_ap</action>
+				<action>lostpath_barter_dolg.goodwill_to_dolg_9x39_ap</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="998">
+				<text>Спасибо</text>
+			</phrase>
+			<phrase id="999">
+				<text>Я ничего не нашел</text>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="army_barter">
+		<phrase_list>
+            <precondition>lostpath_factions.actor_army</precondition>
+            <phrase id="0">
+                <text>Я хотел бы обменять репутацию на оружие</text>
+                <next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Хорошо, выбирай.</text>
+				<next>200</next>
+				<next>202</next>
+				<next>204</next>
+				<next>206</next>
+				<next>208</next>
+				<next>500</next>
+				<next>502</next>
+				<next>504</next>
+				<next>506</next>
+				<next>999</next>
+			</phrase>
+			
+			<phrase id="200">
+				<precondition>lostpath_barter_army.prec_army_ak12</precondition>
+				<text>АК-12 [300]</text>
+				<next>201</next>
+			</phrase>
+			<phrase id="201">
+				<text>Держи</text>
+				<action>lostpath_barter_army.barter_ak12</action>
+				<action>lostpath_barter_army.goodwill_to_army_ak12</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="202">
+				<precondition>lostpath_barter_army.prec_army_val</precondition>
+				<text>АС Вал [600]</text>
+				<next>203</next>
+			</phrase>
+			<phrase id="203">
+				<text>Держи</text>
+				<action>lostpath_barter_army.barter_val</action>
+				<action>lostpath_barter_army.goodwill_to_army_val</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="204">
+				<precondition>lostpath_barter_army.prec_army_groza</precondition>
+				<text>Гроза С14 [450]</text>
+				<next>205</next>
+			</phrase>
+			<phrase id="205">
+				<text>Держи</text>
+				<action>lostpath_barter_army.barter_groza</action>
+				<action>lostpath_barter_army.goodwill_to_army_groza</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="206">
+				<precondition>lostpath_barter_army.prec_army_svu</precondition>
+				<text>СВУмк2 [900]</text>
+				<next>207</next>
+			</phrase>
+			<phrase id="207">
+				<text>Держи</text>
+				<action>lostpath_barter_army.barter_svu</action>
+				<action>lostpath_barter_army.goodwill_to_army_svu</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="208">
+				<precondition>lostpath_barter_army.prec_army_svd</precondition>
+				<text>СВД [900]</text>
+				<next>209</next>
+			</phrase>
+			<phrase id="209">
+				<text>Держи</text>
+				<action>lostpath_barter_army.barter_svd</action>
+				<action>lostpath_barter_army.goodwill_to_army_svd</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="500">
+				<precondition>lostpath_barter_army.prec_army_545x39</precondition>
+				<text>5.45х39 (обычный) [30]</text>
+				<next>501</next>
+			</phrase>
+			<phrase id="501">
+				<text>Держи</text>
+				<action>lostpath_barter_army.barter_545x39</action>
+				<action>lostpath_barter_army.goodwill_to_army_545x39</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="502">
+				<precondition>lostpath_barter_army.prec_army_545x39_ap</precondition>
+				<text>5.45х39 (бронебойный) [40]</text>
+				<next>503</next>
+			</phrase>
+			<phrase id="503">
+				<text>Держи</text>
+				<action>lostpath_barter_army.barter_545x39_ap</action>
+				<action>lostpath_barter_army.goodwill_to_army_545x39_ap</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="504">
+				<precondition>lostpath_barter_army.prec_army_9x39</precondition>
+				<text>9х39 (обычный) [50]</text>
+				<next>505</next>
+			</phrase>
+			<phrase id="505">
+				<text>Держи</text>
+				<action>lostpath_barter_army.barter_9x39</action>
+				<action>lostpath_barter_army.goodwill_to_army_9x39</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="506">
+				<precondition>lostpath_barter_army.prec_army_9x39_ap</precondition>
+				<text>9х39 (бронебойный) [60]</text>
+				<next>507</next>
+			</phrase>
+			<phrase id="507">
+				<text>Держи</text>
+				<action>lostpath_barter_army.barter_9x39_ap</action>
+				<action>lostpath_barter_army.goodwill_to_army_9x39_ap</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="998">
+				<text>Спасибо</text>
+			</phrase>
+			<phrase id="999">
+				<text>Я ничего не нашел</text>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="freedom_barter">
+		<phrase_list>
+            <precondition>lostpath_factions.actor_free</precondition>
+            <phrase id="0">
+                <text>Я хотел бы обменять репутацию на оружие</text>
+                <next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Хорошо, выбирай.</text>
+				<next>200</next>
+				<next>202</next>
+				<next>204</next>
+				<next>206</next>
+				<next>208</next>
+				<next>500</next>
+				<next>502</next>
+				<next>504</next>
+				<next>506</next>
+				<next>999</next>
+			</phrase>
+			
+			<phrase id="200">
+				<precondition>lostpath_barter_freedom.prec_freedom_sig550</precondition>
+				<text>SIG 550 [300]</text>
+				<next>201</next>
+			</phrase>
+			<phrase id="201">
+				<text>Держи</text>
+				<action>lostpath_barter_freedom.barter_sig550</action>
+				<action>lostpath_barter_freedom.goodwill_to_freedom_sig550</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="202">
+				<precondition>lostpath_barter_freedom.prec_freedom_g36</precondition>
+				<text>G36 [600]</text>
+				<next>203</next>
+			</phrase>
+			<phrase id="203">
+				<text>Держи</text>
+				<action>lostpath_barter_freedom.barter_g36</action>
+				<action>lostpath_barter_freedom.goodwill_to_freedom_g36</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="204">
+				<precondition>lostpath_barter_freedom.prec_freedom_scar</precondition>
+				<text>FN Scar H [450]</text>
+				<next>205</next>
+			</phrase>
+			<phrase id="205">
+				<text>Держи</text>
+				<action>lostpath_barter_freedom.barter_scar</action>
+				<action>lostpath_barter_freedom.goodwill_to_freedom_scar</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="206">
+				<precondition>lostpath_barter_freedom.prec_freedom_svu</precondition>
+				<text>СВУмк2 [900]</text>
+				<next>207</next>
+			</phrase>
+			<phrase id="207">
+				<text>Держи</text>
+				<action>lostpath_barter_freedom.barter_svu</action>
+				<action>lostpath_barter_freedom.goodwill_to_freedom_svu</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="208">
+				<precondition>lostpath_barter_freedom.prec_freedom_svd</precondition>
+				<text>СВД [900]</text>
+				<next>209</next>
+			</phrase>
+			<phrase id="209">
+				<text>Держи</text>
+				<action>lostpath_barter_freedom.barter_svd</action>
+				<action>lostpath_barter_freedom.goodwill_to_freedom_svd</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="500">
+				<precondition>lostpath_barter_freedom.prec_freedom_545x39</precondition>
+				<text>5.45х39 (обычный) [30]</text>
+				<next>501</next>
+			</phrase>
+			<phrase id="501">
+				<text>Держи</text>
+				<action>lostpath_barter_freedom.barter_545x39</action>
+				<action>lostpath_barter_freedom.goodwill_to_freedom_545x39</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="502">
+				<precondition>lostpath_barter_freedom.prec_freedom_545x39_ap</precondition>
+				<text>5.45х39 (бронебойный) [40]</text>
+				<next>503</next>
+			</phrase>
+			<phrase id="503">
+				<text>Держи</text>
+				<action>lostpath_barter_freedom.barter_545x39_ap</action>
+				<action>lostpath_barter_freedom.goodwill_to_freedom_545x39_ap</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="504">
+				<precondition>lostpath_barter_freedom.prec_freedom_9x39</precondition>
+				<text>9х39 (обычный) [50]</text>
+				<next>505</next>
+			</phrase>
+			<phrase id="505">
+				<text>Держи</text>
+				<action>lostpath_barter_freedom.barter_9x39</action>
+				<action>lostpath_barter_freedom.goodwill_to_freedom_9x39</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="506">
+				<precondition>lostpath_barter_freedom.prec_freedom_9x39_ap</precondition>
+				<text>9х39 (бронебойный) [60]</text>
+				<next>507</next>
+			</phrase>
+			<phrase id="507">
+				<text>Держи</text>
+				<action>lostpath_barter_freedom.barter_9x39_ap</action>
+				<action>lostpath_barter_freedom.goodwill_to_freedom_9x39_ap</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="998">
+				<text>Спасибо</text>
+			</phrase>
+			<phrase id="999">
+				<text>Я ничего не нашел</text>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="killer_barter">
+		<phrase_list>
+            <precondition>lostpath_factions.actor_merc</precondition>
+            <phrase id="0">
+                <text>Я хотел бы обменять репутацию на оружие</text>
+                <next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Хорошо, выбирай.</text>
+				<next>200</next>
+				<next>202</next>
+				<next>204</next>
+				<next>206</next>
+				<next>208</next>
+				<next>500</next>
+				<next>502</next>
+				<next>504</next>
+				<next>506</next>
+				<next>999</next>
+			</phrase>
+			
+			<phrase id="200">
+				<precondition>lostpath_barter_killer.prec_killer_sig550</precondition>
+				<text>SIG 550 [300]</text>
+				<next>201</next>
+			</phrase>
+			<phrase id="201">
+				<text>Держи</text>
+				<action>lostpath_barter_killer.barter_sig550</action>
+				<action>lostpath_barter_killer.goodwill_to_killer_sig550</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="202">
+				<precondition>lostpath_barter_killer.prec_killer_g36</precondition>
+				<text>G36 [600]</text>
+				<next>203</next>
+			</phrase>
+			<phrase id="203">
+				<text>Держи</text>
+				<action>lostpath_barter_killer.barter_g36</action>
+				<action>lostpath_barter_killer.goodwill_to_killer_g36</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="204">
+				<precondition>lostpath_barter_killer.prec_killer_scar</precondition>
+				<text>FN Scar H [450]</text>
+				<next>205</next>
+			</phrase>
+			<phrase id="205">
+				<text>Держи</text>
+				<action>lostpath_barter_killer.barter_scar</action>
+				<action>lostpath_barter_killer.goodwill_to_killer_scar</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="206">
+				<precondition>lostpath_barter_killer.prec_killer_svu</precondition>
+				<text>СВУмк2 [900]</text>
+				<next>207</next>
+			</phrase>
+			<phrase id="207">
+				<text>Держи</text>
+				<action>lostpath_barter_killer.barter_svu</action>
+				<action>lostpath_barter_killer.goodwill_to_killer_svu</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="208">
+				<precondition>lostpath_barter_killer.prec_killer_svd</precondition>
+				<text>СВД [900]</text>
+				<next>209</next>
+			</phrase>
+			<phrase id="209">
+				<text>Держи</text>
+				<action>lostpath_barter_killer.barter_svd</action>
+				<action>lostpath_barter_killer.goodwill_to_killer_svd</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="500">
+				<precondition>lostpath_barter_killer.prec_killer_545x39</precondition>
+				<text>5.45х39 (обычный) [30]</text>
+				<next>501</next>
+			</phrase>
+			<phrase id="501">
+				<text>Держи</text>
+				<action>lostpath_barter_killer.barter_545x39</action>
+				<action>lostpath_barter_killer.goodwill_to_killer_545x39</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="502">
+				<precondition>lostpath_barter_killer.prec_killer_545x39_ap</precondition>
+				<text>5.45х39 (бронебойный) [40]</text>
+				<next>503</next>
+			</phrase>
+			<phrase id="503">
+				<text>Держи</text>
+				<action>lostpath_barter_killer.barter_545x39_ap</action>
+				<action>lostpath_barter_killer.goodwill_to_killer_545x39_ap</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="504">
+				<precondition>lostpath_barter_killer.prec_killer_9x39</precondition>
+				<text>9х39 (обычный) [50]</text>
+				<next>505</next>
+			</phrase>
+			<phrase id="505">
+				<text>Держи</text>
+				<action>lostpath_barter_killer.barter_9x39</action>
+				<action>lostpath_barter_killer.goodwill_to_killer_9x39</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="506">
+				<precondition>lostpath_barter_killer.prec_killer_9x39_ap</precondition>
+				<text>9х39 (бронебойный) [60]</text>
+				<next>507</next>
+			</phrase>
+			<phrase id="507">
+				<text>Держи</text>
+				<action>lostpath_barter_killer.barter_9x39_ap</action>
+				<action>lostpath_barter_killer.goodwill_to_killer_9x39_ap</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="998">
+				<text>Спасибо</text>
+			</phrase>
+			<phrase id="999">
+				<text>Я ничего не нашел</text>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="isg_barter">
+		<phrase_list>
+            <precondition>lostpath_factions.actor_isg</precondition>
+            <phrase id="0">
+                <text>Я хотел бы обменять репутацию на оружие</text>
+                <next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>Хорошо, выбирай.</text>
+				<next>200</next>
+				<next>202</next>
+				<next>204</next>
+				<next>206</next>
+				<next>208</next>
+				<next>500</next>
+				<next>502</next>
+				<next>504</next>
+				<next>506</next>
+				<next>999</next>
+			</phrase>
+			
+			<phrase id="200">
+				<precondition>lostpath_barter_isg.prec_isg_gauss</precondition>
+				<text>Гаусс [1000]</text>
+				<next>201</next>
+			</phrase>
+			<phrase id="201">
+				<text>Держи</text>
+				<action>lostpath_barter_isg.barter_gauss</action>
+				<action>lostpath_barter_isg.goodwill_to_isg_gauss</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="202">
+				<precondition>lostpath_barter_isg.prec_isg_val</precondition>
+				<text>АС Вал [600]</text>
+				<next>203</next>
+			</phrase>
+			<phrase id="203">
+				<text>Держи</text>
+				<action>lostpath_barter_isg.barter_val</action>
+				<action>lostpath_barter_isg.goodwill_to_isg_val</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="204">
+				<precondition>lostpath_barter_isg.prec_isg_groza</precondition>
+				<text>Гроза С14 [450]</text>
+				<next>205</next>
+			</phrase>
+			<phrase id="205">
+				<text>Держи</text>
+				<action>lostpath_barter_isg.barter_groza</action>
+				<action>lostpath_barter_isg.goodwill_to_isg_groza</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="206">
+				<precondition>lostpath_barter_isg.prec_isg_svu</precondition>
+				<text>СВУмк2 [900]</text>
+				<next>207</next>
+			</phrase>
+			<phrase id="207">
+				<text>Держи</text>
+				<action>lostpath_barter_isg.barter_svu</action>
+				<action>lostpath_barter_isg.goodwill_to_isg_svu</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="208">
+				<precondition>lostpath_barter_isg.prec_isg_baloon</precondition>
+				<text>Артефакт "Пузырь" [900]</text>
+				<next>209</next>
+			</phrase>
+			<phrase id="209">
+				<text>Держи</text>
+				<action>lostpath_barter_isg.barter_baloon</action>
+				<action>lostpath_barter_isg.goodwill_to_isg_baloon</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="500">
+				<precondition>lostpath_barter_isg.prec_isg_545x39</precondition>
+				<text>5.45х39 (обычный) [30]</text>
+				<next>501</next>
+			</phrase>
+			<phrase id="501">
+				<text>Держи</text>
+				<action>lostpath_barter_isg.barter_545x39</action>
+				<action>lostpath_barter_isg.goodwill_to_isg_545x39</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="502">
+				<precondition>lostpath_barter_isg.prec_isg_545x39_ap</precondition>
+				<text>5.45х39 (бронебойный) [40]</text>
+				<next>503</next>
+			</phrase>
+			<phrase id="503">
+				<text>Держи</text>
+				<action>lostpath_barter_isg.barter_545x39_ap</action>
+				<action>lostpath_barter_isg.goodwill_to_isg_545x39_ap</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="504">
+				<precondition>lostpath_barter_isg.prec_isg_9x39</precondition>
+				<text>9х39 (обычный) [50]</text>
+				<next>505</next>
+			</phrase>
+			<phrase id="505">
+				<text>Держи</text>
+				<action>lostpath_barter_isg.barter_9x39</action>
+				<action>lostpath_barter_isg.goodwill_to_isg_9x39</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="506">
+				<precondition>lostpath_barter_isg.prec_isg_9x39_ap</precondition>
+				<text>9х39 (бронебойный) [60]</text>
+				<next>507</next>
+			</phrase>
+			<phrase id="507">
+				<text>Держи</text>
+				<action>lostpath_barter_isg.barter_9x39_ap</action>
+				<action>lostpath_barter_isg.goodwill_to_isg_9x39_ap</action>
+				<next>998</next>
+			</phrase>
+			
+			<phrase id="998">
+				<text>Спасибо</text>
+			</phrase>
+			<phrase id="999">
+				<text>Я ничего не нашел</text>
+			</phrase>
+		</phrase_list>
+		</dialog>
+		
+		<dialog id="darkstalker_about">
+		<phrase_list>
+            <phrase id="0">
+                <text>Слушай, я хотел бы спросить</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+				<text>Спрашивай, что интересно</text>
+				<next>2</next>
+				<next>3</next>
+            </phrase>
+			<phrase id="2">
+                <text>Что с тобой случилось?</text>
+                <next>6</next>
+            </phrase>
+			<phrase id="6">
+                <text>Ну как видишь я мутировал. Жил на территории нынешней ЧЗО, мутировал, думал жизнь кончена. Потом пришли "родители" и пообещали мне нормальную жизнь, если я буду воевать с теми, кто ее портит. Вот я и помогаю своим братьям монолитовцам и таким же мутантам.</text>
+            </phrase>
+			<phrase id="3">
+                <text>Почему вы сотрудничаете с "ИИГ"?</text>
+                <next>7</next>
+            </phrase>
+			<phrase id="7">
+                <text>Потому что только они нас не трогают и помогают нам. Мы смогли договориться с их руководством о взаимовыгодном сотрудничестве. Родители это одобрили.</text>
+            </phrase>
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="isg_history">
+		<phrase_list>
+            <phrase id="0">
+                <text>Расскажи какую-нибудь байку</text>
+                <next>1</next>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+            </phrase>
+            <phrase id="1">
+                <precondition>dialogs_wth.isg_history_1</precondition> 
+				<text>isg_history_1</text>
+				<next>10</next>
+            </phrase>
+		<phrase id="2">
+                <precondition>dialogs_wth.isg_history_2</precondition> 
+				<text>isg_history_2</text>
+				<next>10</next>
+        </phrase>	
+		<phrase id="3">
+                <precondition>dialogs_wth.isg_history_3</precondition> 
+				<text>isg_history_3</text>
+				<next>10</next>
+        </phrase>
+		<phrase id="4">
+                <precondition>dialogs_wth.isg_history_4</precondition> 
+				<text>isg_history_4</text>
+				<next>10</next>
+        </phrase>		
+		<phrase id="5">
+                <precondition>dialogs_wth.isg_history_5</precondition> 
+				<text>isg_history_5</text>
+				<next>10</next>
+        </phrase>		
+		<phrase id="10">
+                <text>Очень интересно, спасибо за рассказ</text>
+            </phrase>		
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="wth_history">
+		<phrase_list>
+            <phrase id="0">
+                <text>Расскажи какую-нибудь байку</text>
+                <next>1</next>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+                <next>6</next>
+				<next>7</next>
+				<next>8</next>
+				<next>9</next>
+				<next>10</next>
+                <next>11</next>
+				<next>12</next>
+				<next>13</next>
+				<next>14</next>
+				<next>15</next>
+        </phrase>
+        <phrase id="1">
+        <precondition>dialogs_wth.history_1</precondition> 
+			<text>history_1</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="2">
+        <precondition>dialogs_wth.history_2</precondition> 
+			<text>history_2</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="3">
+        <precondition>dialogs_wth.history_3</precondition> 
+			<text>history_3</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="4">
+        <precondition>dialogs_wth.history_4</precondition> 
+			<text>history_4</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="5">
+        <precondition>dialogs_wth.history_5</precondition> 
+			<text>history_5</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="6">
+        <precondition>dialogs_wth.history_6</precondition> 
+			<text>history_6</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="7">
+        <precondition>dialogs_wth.history_7</precondition> 
+			<text>history_7</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="8">
+        <precondition>dialogs_wth.history_8</precondition> 
+			<text>history_8</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="9">
+        <precondition>dialogs_wth.history_9</precondition> 
+			<text>history_9</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="10">
+        <precondition>dialogs_wth.history_10</precondition> 
+			<text>history_10</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="11">
+        <precondition>dialogs_wth.history_11</precondition> 
+			<text>history_11</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="12">
+        <precondition>dialogs_wth.history_12</precondition> 
+			<text>history_12</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="13">
+        <precondition>dialogs_wth.history_13</precondition> 
+			<text>history_13</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="14">
+        <precondition>dialogs_wth.history_14</precondition> 
+			<text>history_14</text>
+			<next>20</next>
+        </phrase>
+        <phrase id="15">
+        <precondition>dialogs_wth.history_14</precondition> 
+			<text>history_15</text>
+			<next>20</next>
+        </phrase>
+		
+        <phrase id="20">
+			<text>Очень интересно, спасибо за рассказ</text>
+        </phrase>
+		
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="join_dolg">
+		<dont_has_info>join_dolg</dont_has_info>
+		<precondition>lostpath_factions.join_dolg_prec</precondition>
+		<phrase_list>
+			<phrase id="0">
+                <text>Я хотел бы стать солдатом «Долга».</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+				<text>Ты - вольный сталкер, так? Что, почувствовал всё-таки, что Зона - опухоль на теле Земли? Хорошо. «Долг» всегда готов принять в свои ряды человека, верного определённым идеалам. Один из наших идеалов - дисциплина, так что после вступления в «Долг» быть разгильдяем у тебя уже не получится. Не испугался? Готов стать одним из нас?</text>
+				<next>2</next>
+				<next>3</next>
+            </phrase>	
+			<phrase id="2">
+				<text>Готов. Жду приказа!</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<text>Никак нет.</text>
+			</phrase>
+			<phrase id="4">
+				<text>Хорошо. Прежде всего у нас тут железная дисциплина и строгая субординация. Приказы не обсуждаются, а выполняются. Основная наша задача - борьба с порождениями Зоны и анархистами из «Свободы». Когда-нибудь мы очистим мир от монстров, аномалий и «свободовцев». Если этого не сделать, завтра Зона может прийти в наши дома и прибрать наших близких. Наш долг - освободить мир от этой язвы! Ясно, боец?</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>Так точно. Готов служить «Долгу»!</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>Отлично. Солдат, поздравляю со вступлением в «Долг». У тебя появился код, который даёт возможность прослушивать радиообмен между нашими отрядами и получать мои приказы. Так, вроде всё. Приступить к несению долга!</text>
+				<action>lostpath_factions.join_dolg</action>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>Есть!</text>
+			</phrase>
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="join_free">
+		<dont_has_info>join_free</dont_has_info>
+		<precondition>lostpath_factions.join_free_prec</precondition>
+		<phrase_list>
+			<phrase id="0">
+                <text>Я хочу влиться в «Свободу».</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+				<text>Ты - вольный сталкер, как я погляжу. Ну что же, большая часть моих ребят - бывшие сталкеры. Между нашими кланами много схожего. Но всё-таки мы разные. Так что хорошенько подумай: если вступишь в «Свободу», то потеряешь всё, чего добился в среде сталкеров. Согласен на такое?</text>
+				<next>2</next>
+				<next>3</next>
+            </phrase>	
+			<phrase id="2">
+				<text>Согласен. Ну, теперь можно вздохнуть воздухом «Свободы»!</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<text>Нет, извини.</text>
+			</phrase>
+			<phrase id="4">
+				<text>Дыши полной грудью, брат, но не забывай: свобода - это осознанная необходимость.</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>[...]</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>Ну что же, тогда отныне ты боец нашего клана! База «Свободы» - твой дом. В твой КПК я загружу кодек для приёма радиоволн от других наших подразделений и бойцов.</text>
+				<action>lostpath_factions.join_free</action>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>Есть!</text>
+			</phrase>
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="join_csky">
+		<dont_has_info>join_csky</dont_has_info>
+		<precondition>lostpath_factions.join_csky_prec</precondition>
+		<phrase_list>
+			<phrase id="0">
+                <text>Я хочу вступить в «Чистое Небо».</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+				<text>Мы малоизвестный клан, который прячется в родной гавани. После последнего прорыва на ЧАЭС нас осталось еще меньше. Ты готов примкнуть к клану отшельников?</text>
+				<next>2</next>
+				<next>3</next>
+            </phrase>	
+			<phrase id="2">
+				<text>Да, я согласен.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<text>Нет, извини.</text>
+			</phrase>
+			<phrase id="4">
+				<text>Хм.. не ожидал.. похвально.</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>[...]</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>Ну что же, тогда отныне ты боец нашего маленького клана! База «Чистого Неба» - твой дом. Я уже залил тебе в КПК коды для переговоров на частоте нашей группировки.</text>
+				<action>lostpath_factions.join_csky</action>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>Спасибо</text>
+			</phrase>
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="join_army">
+		<dont_has_info>join_army</dont_has_info>
+		<precondition>lostpath_factions.join_army_prec</precondition>
+		<phrase_list>
+			<phrase id="0">
+                <text>Я хочу стать солдатом.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+				<text>Боец, у нас главная дисциплина. После вступления в нашы ряды нельзя будет разгильдийничать, ты готов?</text>
+				<next>2</next>
+				<next>3</next>
+            </phrase>	
+			<phrase id="2">
+				<text>Так точно.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<text>Нет, извини.</text>
+			</phrase>
+			<phrase id="4">
+				<text>Хорошо. Прежде всего у нас тут железная дисциплина и строгая субординация. Приказы не обсуждаются, а выполняются. Ясно, боец?</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>[...]</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>Ну что же, тогда отныне ты боец регулярной армии! Наши основные базы - твой дом. Ключ для переговоров на частоте нашего клана ты уже получил. Так, вроде все. К выполнению своих обязанностей приступить!</text>
+				<action>lostpath_factions.join_army</action>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>Так точно.</text>
+			</phrase>
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="join_merc">
+		<dont_has_info>join_merc</dont_has_info>
+		<precondition>lostpath_factions.join_merc_prec</precondition>
+		<phrase_list>
+			<phrase id="0">
+                <text>Я хочу вступить в синдикат.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+				<text>Хм, сталкер. У нас живут по понятиям, ты готов?</text>
+				<next>2</next>
+				<next>3</next>
+            </phrase>	
+			<phrase id="2">
+				<text>Да.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<text>Нет, извини.</text>
+			</phrase>
+			<phrase id="4">
+				<text>Хорошо. Тогда получай заказы и выполняй их. Никаких свидетелей не должно быть.</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>[...]</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>Ну что же, тогда отныне ты боец нашего клана. Все, иди.</text>
+				<action>lostpath_factions.join_merc</action>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>Спасибо.</text>
+			</phrase>
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="join_isg">
+		<dont_has_info>join_isg</dont_has_info>
+		<precondition>lostpath_factions.join_isg_prec</precondition>
+		<phrase_list>
+			<phrase id="0">
+                <text>Я хочу в ИИГ.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+				<text>Хм, сталкер. Ты доказал, что ты можешь быть полезен. Ты готов?</text>
+				<next>2</next>
+				<next>3</next>
+            </phrase>	
+			<phrase id="2">
+				<text>Да.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<text>Нет, извини.</text>
+			</phrase>
+			<phrase id="4">
+				<text>Ну что же, тогда отныне член нашего клана. Наш дом - твой дом.</text>
+				<action>lostpath_factions.join_isg</action>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>Спасибо.</text>
+			</phrase>
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="join_ecolog">
+		<dont_has_info>join_ecolog</dont_has_info>
+		<precondition>lostpath_factions.join_ecolog_prec</precondition>
+		<phrase_list>
+			<phrase id="0">
+                <text>Я хотел бы стать научным сотрудником.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+				<text>Вы уверены?</text>
+				<next>2</next>
+				<next>3</next>
+            </phrase>	
+			<phrase id="2">
+				<text>Да.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<text>Нет, извини.</text>
+			</phrase>
+			<phrase id="4">
+				<text>Хорошо. Отныне вы один из нас.</text>
+				<action>lostpath_factions.join_ecolog</action>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>Спасибо.</text>
+			</phrase>
+        </phrase_list>
+		</dialog>
+		
+		<dialog id="join_darkstalker">
+		<dont_has_info>join_darkstalker</dont_has_info>
+		<precondition>lostpath_factions.join_darkstalker_prec</precondition>
+		<phrase_list>
+			<phrase id="0">
+                <text>Я хотел бы вступить в темные сталкеры.</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+				<text>Сталкер, тебя же жизнь не поколечила. Ты готов к жизни отшельника и скитаниям по Зоне?</text>
+				<next>2</next>
+				<next>3</next>
+            </phrase>	
+			<phrase id="2">
+				<text>Да.</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<text>Нет, извини.</text>
+			</phrase>
+			<phrase id="4">
+				<text>Хорошо. Тогда помни, что Монолит наши братья, а ИИГ наши друзья... </text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>Понял.</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>Ну что же, тогда отныне ты член нашего клана отшельников. Помни о родителях и не забывай братьев своих.</text>
+				<action>lostpath_factions.join_darkstalker</action>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>Понял.</text>
+			</phrase>
+        </phrase_list>
+		</dialog>
+</game_dialogs>

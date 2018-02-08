@@ -1,6 +1,11 @@
 --------------------
 0.1.3 preview
 --------------------
+added character_desc_agroprom.xml
+added character_desc_bar.xml
+added character_desc_darkvalley.xml
+added character_desc_deadcity.xml
+added character_desc_escape.xml
 added character_desc_general_actor.xml
 added character_desc_general_army.xml
 added character_desc_general_csky.xml

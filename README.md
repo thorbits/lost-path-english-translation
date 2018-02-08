@@ -55,9 +55,9 @@ dialogs_mlr.xml
 mlr_addon.xml
 <br>&#8627; <em></em><br>
 sgm_add_include.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 sgm_script_texts.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 st_closecaption.xml
 <br>&#8627; <em>done</em><br>
 st_dialogs.xml

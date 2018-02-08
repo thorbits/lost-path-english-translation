@@ -160,6 +160,8 @@ st_items_weapons_upgrades.xml
 <br>&#8627; <em>incomplete</em><br>
 st_land_names.xml
 <br>&#8627; <em>done</em><br>
+st_lostpath_achievement.xml
+<br>&#8627; <em>done, need revision</em><br>
 st_lostpath_addons.xml
 <br>&#8627; <em></em><br>
 st_lostpath_gui.xml

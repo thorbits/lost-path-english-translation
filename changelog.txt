@@ -37,6 +37,8 @@ added lootmoney.ltx
 updated st_items_fieldcraft.xml
 updated st_items_outfit.xml
 added st_items_quest.xml
+added st_items_weapons.xml
+added st_items_weapons_upgrades.xml
 added st_land_names.xml
 --------------------
 02/08 0.1.2

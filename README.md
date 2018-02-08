@@ -8,7 +8,7 @@ This translation is currently updated for <b>Lost Path version 0.5.001</b>.</p>
 
 <p>Lost Path already includes a "gamedata/configs/text/eng" folder by default, the files presented here are updates to these files and others files like scripts necessary for a full translation. Some files may need to be removed/added in the future.</p><br><hr>
 
-<p>Translation progress per individual files can be found below: (not fully updated)</p>
+<p>Translation progress per individual files can be found below:</p>
 
 <p>&#9762; <strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs">gamedata/configs</a></strong></p>
 <ul>
@@ -21,51 +21,51 @@ localization.ltx
 <p>&#9762; <strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs/gameplay">gamedata/configs/gameplay</a></strong></p>
 <ul>
 character_desc_general_actor.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_general_army.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_general_csky.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_general_darkstalker.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_general_dolg.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_general_ecolog.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_general_eoc.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_general_freedom.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_general_isg.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_general_killer.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_general_monolith.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_general_stalker
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_lostpath_aes.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_lostpath_army.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_lostpath_bandit.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_lostpath_csky.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_lostpath_dolg.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_lostpath_ecolog.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_lostpath_freedom.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_lostpath_mercenary.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_lostpath_military.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_lostpath_special.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_lostpath_stalker.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 character_desc_mlr.xml
 <br>&#8627; <em>done</em><br>
 dialogs_bar.xml

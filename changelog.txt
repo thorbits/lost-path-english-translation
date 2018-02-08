@@ -1,4 +1,20 @@
 --------------------
+0.1.3 preview
+--------------------
+added character_desc_general_actor.xml
+added character_desc_general_army.xml
+added character_desc_general_csky.xml
+added character_desc_general_darkstalker.xml
+added character_desc_general_dolg.xml
+added character_desc_general_ecolog.xml
+added character_desc_general_eoc.xml
+added character_desc_general_freedom.xml
+added character_desc_general_isg.xml
+added character_desc_general_killer.xml
+added character_desc_general_monolith.xml
+added character_desc_general_stalker
+updated dialogs_mlr.xml
+--------------------
 02/08 0.1.2
 --------------------
 updated dialogs_bar.xml

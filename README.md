@@ -137,9 +137,9 @@ st_drx_addons.xml
 st_dynamic_news.xml
 <br>&#8627; <em>incomplete</em><br>
 st_generate_fnames.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 st_generate_snames.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 st_items_awr.xml
 <br>&#8627; <em></em><br>
 st_items_fieldcraft.xml

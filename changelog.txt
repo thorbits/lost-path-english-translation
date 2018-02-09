@@ -11,6 +11,7 @@ updated st_generate_fnames.xml
 updated st_generate_snames.xml
 updated ui_st_encyclopedia_awr.xml
 added ui_st_pda.xml
+updated ui_st_keybinding.xml
 added lostpath_loot_pda.script
 added lostpath_quest.script
 

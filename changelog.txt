@@ -2,6 +2,7 @@
 0.1.4 preview
 --------------------
 updated st_lostpath_dialog.xml
+updated st_lostpath_drop.xml
 
 --------------------
 02/09 0.1.3

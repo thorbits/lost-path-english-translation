@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+	<string id="pda_btn_factions">
+		<text>Factions</text>
+	</string>
+	<string id="pda_btn_factions_hint">
+		<text>Factions Statistics</text>
+	</string>
+
+	<string id="Next">
+		<text>Next</text>
+	</string>
+	<string id="Back">
+		<text>Back</text>
+	</string>
+
+	<string id="pda_mesto">
+		<text>Location:</text>
+	</string>
+	<string id="pda_points">
+		<text>Faction strength:</text>
+	</string>
+	<string id="pda_base">
+		<text>Number of bases:</text>
+	</string>
+	<string id="pda_res">
+		<text>Resource points:</text>
+	</string>
+	<string id="pda_last">
+		<text>Faction members:</text>
+	</string>
+	<string id="pda_friend">
+		<text>Relationship:</text>
+	</string>
+	<string id="pda_friend_1">
+		<text>Friends</text>
+	</string>
+	<string id="pda_friend_2">
+		<text>Enemies</text>
+	</string>
+	<string id="pda_friend_3">
+		<text>Neutral</text>
+	</string>
+
+
+</string_table>

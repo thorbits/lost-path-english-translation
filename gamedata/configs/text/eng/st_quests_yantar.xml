@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="windows-1251" ?>
-<string_table>
-	<!-- ESCORT ECOGS TASK -->
+
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+
+	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
+	<!--
+	<!-- DYNAMIC TASK TEXT  STRINGS
+	<!--
+	<!--	Modified by DoctorX
+	<!--	for DoctorX Questlines 1.6
+	<!--	October 07, 2016
+	<!--
+	<!-- ----------------------------------------------------------------------------------------- -->
+
+	<!-- ----------------------------------------------------------------------------------------- -->
+	<!-- Semenov (Ecog Honcho) Research Hunt Task -->
+
+	
+	
 	<string id="yan_ecolog_semenov_task_1_name">
-		<text>Escort Semenov</text>
+		<text>Semenov Research Hunt</text>
 	</string>
 	<string id="yan_ecolog_semenov_task_1_text">
 		<text>Assistant Semenov has contracted you to escort him around the local area to kill mutants so that he can retrieve fresh tissue samples and analyse the corpses with his scanning equipment.</text>
@@ -13,9 +30,9 @@
 	<string id="yan_ecolog_semenov_task_1_finish">
 		<text>Thank you for your assistance, friend. I have all the tissue samples I need. Here is your payment... Come back and see me again some time.</text>
 	</string>
-	<!-- FIND MUTANT PARTS FOR ECOGS TASK -->
+
 	<string id="yan_stalker_sakharov_task_1_name">
-		<text>Procure "%s"</text>
+		<text>%s Tissue Sample for Sakharov</text>
 	</string>
 	<string id="yan_stalker_sakharov_task_1_text">
 		<text>Sakharov needs a tissue sample from a %s.</text>
@@ -29,14 +46,13 @@
 	<string id="yan_stalker_sakharov_task_1_fetch_finish">
 		<text>Thank you, sir. This will help immensely in my research.</text>
 	</string>
-	<!-- WAIT FOR PSI HELMET CALIBRATION TASK -->
+	<!-- yan_stalker_sakharov -->
 	<string id="yan_stalker_sakharov_psi_helmet_upgrade_name">
-		<text>Collect the psi-helmet</text>
+		<text>Pick up Psi-Helmet</text>
 	</string>
 	<string id="yan_stalker_sakharov_psi_helmet_upgrade_text">
 		<text>Professor Sakharov has agreed to recalibrate the psi-protection helmet. He asked you to come back to pick it up in a couple days.</text>
 	</string>
-	<!-- TURN OFF MIRACLE MACHINE TASK -->
 	<string id="brain_machine_deactivate_name">
 		<text>Disable the Miracle Machine</text>
 	</string>
@@ -44,5 +60,5 @@
 		<text>The Miracle Machine prevents stalkers from travelling between Yantar and the Dead City. Disabling it will require advanced psi-protective equipment.</text>
 	</string>
 
-	
+
 </string_table>

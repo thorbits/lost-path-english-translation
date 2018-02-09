@@ -1,28 +1,45 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
+	<string id="scripts_trade">
+		<text>I would like to buy something.</text>
+	</string>
+	
+	<string id="trade_good">
+		<text>Good.</text>
+	</string>
+	
+	<string id="buy_item">
+		<text>Give me my goods.</text>
+	</string>
+	<string id="not_buy_item">
+		<text>Sorry, I do not have that much money.</text>
+	</string>
+	
+	
+	
 	<string id="chu_info_1">
-	<text>How did you get to the Mercenaries?</text>
+		<text>How did you end up in the Mercenaries?</text>
 	</string>
 	<string id="chu_info_2">
-	<text>Go talk with the Master.</text>
+		<text>Go talk to the Master.</text>
 	</string>
 	<string id="chu_info_3">
-	<text>Okay.</text>
+		<text>Okay.</text>
 	</string>
-
+	
 	<string id="master_info_1">
-	<text>How did you get to the Mercenaries?</text>
+		<text>How did you end up in the Mercenaries?text>
 	</string>
 	<string id="master_info_2">
-	 <text>Well, as you can see turned out to be. I was going on the Radar and I was able to negotiate with one group of mercenaries on sovmestnoi outing, as I'm a man was known and experienced, they came in contact. As it turned out, the Mercenaries attacked Dolgovtsev and asked me to help, I agreed. We joined the squad, the Tyrant and acted together.</text>
+		<text>Well as you see it turned out. I was going to Radar and I managed to negotiate with one squad of mercenaries about a joint sally, since I was a well-known and experienced person, they went to the contact. As it turned out to be mercenaries attacked Dolgovtsy and I was asked to help, I agreed. We joined the detachment of Tirana and acted together.</text>
 	</string>
 	<string id="master_info_3">
-	<text>Stuffed too with you?</text>
+		<text>Was the Scarecrow with you, too?</text>
 	</string>
 	<string id="master_info_4">
-	<text>Yes. Together we helps the detachment of the Tyrant RAID Dolgovtsev going to the Base of Mercenaries. After that and joined the Syndicate.</text>
+		<text>Yes. Together we helped the Tiran detachment to raid the Dolgovites, who were gathering at the Base of Mercenaries. After that, they joined the Syndicate.</text>
 	</string>
 	<string id="master_info_5">
-	<text>Interesting, thanks for the story.</text>
+		<text>Interesting, thanks for the story.</text>
 	</string>
 </string_table>

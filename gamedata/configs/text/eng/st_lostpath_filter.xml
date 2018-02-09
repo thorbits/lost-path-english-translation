@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="windows-1251" ?>
+
 <string_table>
-	
-	
-	
+		
 	<string id="filter_descr">
 		<text>In many emergencies, gas masks are required, as they allow the purification of contaminated air. The filter helps with providing clean air but gets dirty over time and can no more clean air efficiently and must be replaced. Helpful in emergency situations, one such filter is enough for about 5 minutes.</text>
 	</string>
@@ -65,4 +64,5 @@
 	<string id="st_helm_exo_filter">
 		<text>Exohelm (with filter)</text>
 	</string>
+	
 </string_table>

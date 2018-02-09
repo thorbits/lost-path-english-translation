@@ -1,6 +1,7 @@
 --------------------
 0.1.4 preview
 --------------------
+updated st_dynamic_news.xml
 updated st_lostpath_dialog.xml
 updated st_lostpath_drop.xml
 updated st_lostpath_filter.xml

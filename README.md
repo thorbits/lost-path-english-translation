@@ -186,6 +186,8 @@ st_lostpath_treasure.xml
 <br>&#8627; <em>done</em><br>
 st_lostpath_weapons_csgo.xml
 <br>&#8627; <em>incomplete</em><br>
+st_monster_names.xml
+<br>&#8627; <em>done</em><br>
 st_notepad.xml
 <br>&#8627; <em>done</em><br>
 st_quests_general.xml

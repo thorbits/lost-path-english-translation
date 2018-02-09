@@ -1,0 +1,199 @@
+local esc_3_16_id, mar_11_11_id, ds_kem2_id, gar_3_5_id, mil_7_4_id
+
+function start_wolf()
+	local squad = alun_utils.create_squad("esc_girl_squad", "esc_smart_terrain_2_12")
+	task_manager.get_task_manager():give_task("wolf_about_girl")
+end
+
+function girl_1()
+	task_manager.get_task_manager():give_task("wolf_search_eat")	
+end
+
+function girl_2()
+	task_manager.get_task_manager():give_task("esc_girl_sidor")
+end
+
+function girl_3()
+	task_manager.get_task_manager():give_task("esc_girl_sidor2")
+end
+
+function sidor_quest_1()
+	task_manager.get_task_manager():give_task("esc_sidor_smarts")
+	task_manager.get_task_manager():give_task("esc_sidor_smart_1")
+	task_manager.get_task_manager():give_task("esc_sidor_smart_2")
+	task_manager.get_task_manager():give_task("esc_sidor_smart_3")
+	task_manager.get_task_manager():give_task("esc_sidor_smart_4")
+end
+
+function sidor_quest(first_speaker, second_speaker)
+    dialogs.relocate_item_section(second_speaker, "wpn_mp5sd", "in") 
+    dialogs.relocate_item_section(second_speaker, "wpn_mp5sd", "in") 
+	dialogs.relocate_item_section(second_speaker, "ammo_9x19_fmj", "in") 
+	dialogs.relocate_item_section(second_speaker, "ammo_9x19_fmj", "in") 
+	dialogs.relocate_item_section(second_speaker, "ammo_9x19_pbp", "in") 
+	dialogs.relocate_item_section(second_speaker, "ammo_9x19_pbp", "in") 
+	
+	task_manager.get_task_manager():give_task("esc_girl_take_wpn_1")
+	task_manager.get_task_manager():give_task("esc_girl_kpp")
+	
+	local squad = alun_utils.create_squad("stalker_sim_squad_novice", "esc_smart_terrain_2_12")
+	sim_squad.set_target(squad, esc_3_16_id)
+	squad.current_action = 0
+	squad.current_target_id = esc_3_16_id
+	squad.assigned_target_id = esc_3_16_id
+	
+	squad = alun_utils.create_squad("stalker_sim_squad_novice", "esc_smart_terrain_2_12")
+	sim_squad.set_target(squad, esc_3_16_id)
+	squad.current_action = 0
+	squad.current_target_id = esc_3_16_id
+	squad.assigned_target_id = esc_3_16_id
+	
+	alun_utils.create_squad("army_sim_squad_novice", "esc_smart_terrain_3_16")
+	alun_utils.create_squad("army_sim_squad_novice", "esc_smart_terrain_3_16")
+	alun_utils.create_squad("army_sim_squad_novice", "esc_smart_terrain_3_16")
+end
+
+function girl_detector()
+	task_manager.get_task_manager():give_task("esc_girl_detectors")	
+end
+
+function go_to_matis()
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Матис:\\n%c[255,160,160,160]Алиса, если ты меня слышишь - ответь. Я тебе в личные сообщения...", nil, nil, nil, nil)
+	xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+end
+
+function ds_matis()
+	task_manager.get_task_manager():give_task("quest_go_to_matis")	
+end
+
+function barman_sms()
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Бармен:\\n%c[255,160,160,160]Сталкер, есть работенка. Жду тебя и Алису в Баре «100 рентген».", nil, nil, nil, nil)
+	xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+	task_manager.get_task_manager():give_task("bar_barman")	
+end
+
+function isg_bar_sms()
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Гуфи:\\n%c[255,160,160,160]Сталкер, это территория исследователей. Мы пускаем всех нейтралов в бар, но будем приглядывать за тобой. Веди себя культурно и все будет хорошо. Я слышал, что Бармен тебя ждет, дуй к нему.", nil, nil, nil, nil)
+	xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+	task_manager.get_task_manager():give_task("bar_barman")	
+end
+
+function gyfi()
+	news_manager.send_tip(db.actor, "%c[255,255,160,0]Гуфи:\\n%c[255,160,160,160]Сталкер. Зайди ко мне, разговор есть.", nil, nil, nil, nil)
+	xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+	task_manager.get_task_manager():give_task("bar_gyfi")	
+end
+
+function barman_skladi()
+	--alife():create("safe_1",vector():set(-177.880859375,-3.0587770938873,3.0477075576782),136896,2189)
+	--alife():create("safe_2",vector():set(-218.92320251465,-17.041749954224,241.9453125),136983,2009)
+	--alife():create("safe_3",vector():set(-247.48233032227,-6.4023470878601,300.89837646484),137056,2006)
+	--alife():create("safe_4",vector():set(88.139060974121,-6.1614842414856,341.04132080078),363169,2132)
+	--alife():create("safe_5",vector():set(102.37330627441,-7.6158962249756,166.13078308105),372333,2019)
+	--task_manager.get_task_manager():give_task("bar_safes")	
+end
+
+function transfer_safes(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "safe_1")
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "safe_2")
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "safe_3")
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "safe_4")
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "safe_5")
+end
+
+function valerian()
+	task_manager.get_task_manager():give_task("bar_valerian")
+end
+
+function clans()
+	task_manager.get_task_manager():give_task("clans")	
+end
+
+function freedom()
+	task_manager.get_task_manager():give_task("bar_valerian_freedom")	
+end
+-- ---------------------------------------------------------------------------------
+-- Проверка наличия трофейного АКС-74У
+function has_conserva()
+    if db.actor:object("conserva") then
+        return true
+    end
+    return false
+end
+-- ---------------------------------------------------------------------------------
+
+function has_sidor_wpn()
+    if db.actor:object("wpn_mp5sd") and db.actor:object("ammo_9x19_fmj") and db.actor:object("ammo_9x19_pbp") then
+        return true
+    end
+    return false
+end
+
+function has_detector_simple()
+	if db.actor:object("detector_simple") then
+        return true
+    end
+    return false
+end
+
+function transfer_detector_simple(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "detector_simple")
+end
+
+function has_detector_advanced()
+	if db.actor:object("detector_advanced") then
+        return true
+    end
+    return false
+end
+
+function transfer_detector_advanced(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "detector_advanced")
+end
+
+function has_detector_elite()
+	if db.actor:object("detector_elite") then
+        return true
+    end
+    return false
+end
+
+function transfer_detector_elite(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "detector_elite")
+end
+
+function transfer_sidor_wpn(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "wpn_mp5sd")
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "ammo_9x19_fmj")
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "ammo_9x19_pbp")
+end
+
+function tranfer_kpp(first_speaker, second_speaker)
+	dialogs.relocate_item_section(second_speaker, "batteries_cell", "in") 
+    dialogs.relocate_item_section(second_speaker, "batteries_cell", "in") 
+	dialogs.relocate_item_section(second_speaker, "itm_backpack", "in") 
+	dialogs.relocate_item_section(second_speaker, "itm_backpack", "in") 
+	dialogs.relocate_money(second_speaker, 10000, "in")
+	
+	task_manager.get_task_manager():give_task("esc_girl_take_nagrada_1")
+end
+
+function has_kpp()
+    if db.actor:object("batteries_cell") and db.actor:object("itm_backpack") and xr_conditions.actor_has_money_5000() == true then
+        return true
+    end
+    return false
+end
+
+function transfer_girl_kpp(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "batteries_cell")
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "itm_backpack")
+	dialogs.relocate_money(second_speaker, 5000, "out")
+end
+
+-- ---------------------------------------------------------------------------------
+-- Передача трофейного АКС-74У
+function transfer_conserva(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "conserva")
+end
+-- ---------------------------------------------------------------------------------

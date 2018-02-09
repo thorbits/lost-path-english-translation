@@ -189,7 +189,7 @@ st_lostpath_weapons_csgo.xml
 stable_treasure_manager.xml
 <br>&#8627; <em>done</em><br>
 ui_st_encyclopedia_awr.xml
-<br>&#8627; <em>incomplete</em><br>
+<br>&#8627; <em>done,need revision</em><br>
 ui_st_encyclopedia_quest_info.xml
 <br>&#8627; <em>done</em><br>
 ui_st_faction_starts.xml

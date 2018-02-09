@@ -9,6 +9,7 @@ updated st_lostpath_flesh.xml
 updated st_lostpath_achievement.xml
 updated st_generate_fnames.xml
 updated st_generate_snames.xml
+updated st_monster_names.xml
 updated st_notepad.xml
 updated st_quests_general.xml
 updated st_quests_jupiter.xml

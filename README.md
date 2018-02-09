@@ -250,6 +250,8 @@ lostpath_montage.script
 <br>&#8627; <em>done</em><br>
 lostpath_name.script
 <br>&#8627; <em>done</em><br>
+lostpath_quest.script
+<br>&#8627; <em></em><br>
 lostpath_special_drop_to_npc.script
 <br>&#8627; <em>done</em><br>
 lostpath_visual.script

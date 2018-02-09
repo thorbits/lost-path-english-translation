@@ -3,6 +3,7 @@
 --------------------
 updated st_lostpath_dialog.xml
 updated st_lostpath_drop.xml
+updated st_lostpath_filter.xml
 
 --------------------
 02/09 0.1.3

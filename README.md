@@ -4,7 +4,7 @@
 Information on the mod can be found here <a href="http://www.moddb.com/mods/lost-path">Lost Path page on Moddb</a> (english) and here <a href="http://vk.com/lp_coc">Lost Path page on Vk</a> (russian).</p><br>
 
 <p>Information on the translation and download link can also be found here <a href="http://www.moddb.com/mods/lost-path/downloads/stalker-lost-path-english-translation">Lost Path English translation page</a> on Moddb.<br>
-This translation is currently updated for <b>Lost Path version 0.5.001</b>.</p>
+This translation is currently updated for <b>Lost Path version 0.5.001</b>.</p><br>
 
 <p>Lost Path already includes a "gamedata/configs/text/eng" folder by default, the files presented here are updates to these files and others files like scripts necessary for a full translation. Some files may need to be removed/added in the future.</p><hr>
 

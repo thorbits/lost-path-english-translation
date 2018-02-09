@@ -182,6 +182,8 @@ st_lostpath_quest.xml
 <br>&#8627; <em>done</em><br>
 st_lostpath_scripts.xml
 <br>&#8627; <em>done</em><br>
+st_lostpath_system.xml
+<br>&#8627; <em>done</em><br>
 st_lostpath_treasure.xml
 <br>&#8627; <em>done</em><br>
 st_lostpath_upgrade.xml

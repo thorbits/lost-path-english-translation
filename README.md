@@ -194,6 +194,8 @@ ui_st_encyclopedia_quest_info.xml
 <br>&#8627; <em>done</em><br>
 ui_st_faction_starts.xml
 <br>&#8627; <em>done</em><br>
+ui_st_keybinding.xml
+<br>&#8627; <em>done</em><br>
 ui_st_loadscreen.xml
 <br>&#8627; <em>done, reminder-lost path version number displayed needs to be updated to latest version</em><br>
 ui_st_mm.xml

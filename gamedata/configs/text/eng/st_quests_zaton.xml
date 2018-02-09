@@ -11,131 +11,6 @@
 <===========================================================-->
 
 <string_table>
-
-
-	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- STORYLINE TASK TEXT  STRINGS
-	<!--
-	<!--	Modified by DoctorX
-	<!--	for DoctorX Questlines 1.6
-	<!--	October 07, 2016
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
-
-	<!-- ----------------------------------------------------------------------------------------- -->
-	<!-- Beard (Loner Trader) Default Storyline Task -->
-
-	<string id="drx_sl_zat_a2_stalker_barmen_default_task_name">
-		<text>Get Next Task</text>
-	</string>
-	<string id="drx_sl_zat_a2_stalker_barmen_default_task_text">
-		<text>Receive your next task.</text>
-	</string>
-	<string id="drx_sl_zat_a2_stalker_barmen_default_task_about">
-		<text>Ha ha! I'm glad you are here, stalker. I know a man who could use your help. See if you can be of assistance to him.</text>
-	</string>
-	<string id="drx_sl_zat_a2_stalker_barmen_default_task_finish">
-		<text>Good luck stalker.</text>
-	</string>
-
-	<!-- ----------------------------------------------------------------------------------------- -->
-	<!-- Beard (Loner Trader) Retrieve PDA Storyline Task -->
-
-	<string id="drx_sl_zat_a2_stalker_barmen_task_1_name">
-		<text>Retrieve PDA for Beard</text>
-	</string>
-	<string id="drx_sl_zat_a2_stalker_barmen_task_1_text">
-		<text>Beard has a PDA stashed away that contains some dirt on Owl.</text>
-	</string>
-	<string id="drx_sl_zat_a2_stalker_barmen_task_1_about">
-		<text>Haha! Look who it is! Well, my friend, have I got the deal for you! That prick Owl thinks he can shut me down but I know a little something about him. There is a PDA I have stashed away that has everything I need to put him in his place. Bring it to me, stalker. I will make it worth your while.</text>
-	</string>
-	<string id="drx_sl_zat_a2_stalker_barmen_task_1_finish">
-		<text>Ha! You got it! Good man, stalker! Here, have a drink on me!</text>
-	</string>
-
-	<!-- ----------------------------------------------------------------------------------------- -->
-	<!-- Beard (Loner Trader) Search and Rescue Storyline Task -->
-
-	<string id="drx_sl_zat_a2_stalker_barmen_task_2_name">
-		<text>Stalker Search and Rescue</text>
-	</string>
-	<string id="drx_sl_zat_a2_stalker_barmen_task_2_text">
-		<text>Monolith have captured a stalker. Find him and rescue him.</text>
-	</string>
-	<string id="drx_sl_zat_a2_stalker_barmen_task_2_about">
-		<text>Stalker, Monolith bitches have captured one of your comrades. They headed off in that direction. Save him!</text>
-	</string>
-	<string id="drx_sl_zat_a2_stalker_barmen_task_2_finish">
-		<text>Haha! Look at the pair of you, hard to tell who lost the fight, haha! Come, come, drink up! Have some vodka and feel no more pain!</text>
-	</string>
-
-	<!-- ----------------------------------------------------------------------------------------- -->
-	<!-- Noah (Loner Honcho) Default Storyline Task -->
-
-	<string id="drx_sl_zat_b18_noah_default_task_name">
-		<text>Get Next Task</text>
-	</string>
-	<string id="drx_sl_zat_b18_noah_default_task_text">
-		<text>Receive your next task.</text>
-	</string>
-	<string id="drx_sl_zat_b18_noah_default_task_about">
-		<text>If ya ain't bringin' me no dead mutants there ain't nothing we got to talk about. Better keep on walking.</text>
-	</string>
-	<string id="drx_sl_zat_b18_noah_default_task_finish">
-		<text>Good luck stalker.</text>
-	</string>
-
-	<!-- ----------------------------------------------------------------------------------------- -->
-	<!-- Noah (Loner Honcho) Dog Food Storyline Task -->
-
-	<string id="drx_sl_zat_b18_noah_task_1_name">
-		<text>Find %s for Noah's Dog</text>
-	</string>
-	<string id="drx_sl_zat_b18_noah_task_1_text">
-		<text>Noah's mutant pet is hungry for %s. Better find some soon before it turns on the old coot.</text>
-	</string>
-	<string id="drx_sl_zat_b18_noah_task_1_about">
-		<text>Where the hell you been boy? I'm out of dog food! This little bastard's gonna eat me out of house and home. He's a looker though, ain't he? Just like his master.</text>
-	</string>
-	<string id="drx_sl_zat_b18_noah_task_1_fetch_about">
-		<text>Well what the hell you standing there for? Get me some damn %s to feed my dog!</text>
-	</string>
-	<string id="drx_sl_zat_b18_noah_task_1_fetch_finish">
-		<text>About damn time! Here you go boy, eat up. He's such a pretty boy. Look how full that coat is. What? You still here? Here, take this if it will get you to go away.</text>
-	</string>
-
-	<!-- ----------------------------------------------------------------------------------------- -->
-	<!-- Noah (Loner Honcho) Exterminate Mutant Infestation Storyline Task -->
-
-	<string id="drx_sl_zat_b18_noah_task_2_name">
-		<text>Exterminate Noah's Mutant Infestation</text>
-	</string>
-	<string id="drx_sl_zat_b18_noah_task_2_text">
-		<text>The old coot Noah is having trouble keeping the area clear of mutants. Help the old guy out.</text>
-	</string>
-	<string id="drx_sl_zat_b18_noah_task_2_about">
-		<text>You're late! There's mutants everywhere out here! You expect me to keep killing them all? Get the hell out there and get rid of them damn things!</text>
-	</string>
-	<string id="drx_sl_zat_b18_noah_task_2_finish">
-		<text>You've been gone all day! How the hell long does it take to kill a couple damn mutants? Take your damn pay and get the hell off my boat. And pet my dog on the way out will you? He loves attention and stalker fingers.</text>
-	</string>
-
-	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
-
-
-	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- DYNAMIC TASK TEXT  STRINGS
-	<!--
-	<!--	Modified by DoctorX
-	<!--	for DoctorX Questlines 1.6
-	<!--	October 07, 2016
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
-
-	<!-- ----------------------------------------------------------------------------------------- -->
 	<!-- Beard (Loner Trader) Clear Mutants from SkadovskTask -->
 
 	<string id="zat_a2_stalker_barmen_task_1_name">
@@ -184,6 +59,41 @@
 		<text>Ah, you killed him! Well, that's effective diplomacy! Good man! Free drinks for you!</text>
 	</string>
 
+
+        <!-- СКЕЛЯ КВЕСТЫ БОРОДЫ -->
+
+        <string id="zat_a2_stalker_barmen_task_14_name">
+		<text>Добыть часть тела монстра</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_14_text">
+		<text>Борода просит добыть часть мутанта : %s.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_14_about">
+		<text>Появился заказ на части монстров от ученых, берешься?</text>
+	</string>
+        <string id="zat_a2_stalker_barmen_task_14_fetch_about">
+		<text>Добудь пожалуйста %s.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_14_finish">
+		<text>Держи барыш.</text>
+
+	</string>
+
+        <string id="zat_a2_stalker_barmen_task_15_name">
+		<text>Добыть мясо монстра</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_15_text">
+		<text>Борода просит добыть мясо мутанта : %s.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_15_about">
+		<text>Я решил попробовать сделать что-ниубдь съедобное из мяса местной фауны, так что нужно отправиться и добыть мясо мутантов. Берешься?</text>
+	</string>
+        <string id="zat_a2_stalker_barmen_task_15_fetch_about">
+		<text>Добудь пожалуйста %s.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_15_finish">
+		<text>Держи барыш.</text>
+	</string>
 
 	<!---	zat_b7_bandit_boss_sultan_task --->
 	<string id="zat_b7_bandit_boss_sultan_task_1_name">

@@ -1,6 +1,6 @@
 <h1><a href="https://github.com/thorbits/lost-path-english-translation">English translation for S.T.A.L.K.E.R.: Lost Path</a></h1>
 
-<p>Hello! This is an English translation for <b>S.T.A.L.K.E.R.: Lost Path</b>, a mod for the S.T.A.L.K.E.R. game series.<br>
+<br><p>Hello! This is an English translation for <b>S.T.A.L.K.E.R.: Lost Path</b>, a mod for the S.T.A.L.K.E.R. game series.<br>
 Information on the mod can be found here <a href="http://www.moddb.com/mods/lost-path">Lost Path page on Moddb</a> (english) and here <a href="http://vk.com/lp_coc">Lost Path page on Vk</a> (russian).</p><br>
 
 <p>Information on the translation and download link can also be found here <a href="http://www.moddb.com/mods/lost-path/downloads/stalker-lost-path-english-translation">Lost Path English translation page</a> on Moddb.<br>

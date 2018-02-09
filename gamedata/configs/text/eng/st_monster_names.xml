@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="yan_tonnel_snork_1">
+		<text>Specimen №1</text>
+	</string>
+	<string id="yan_tonnel_snork_2">
+		<text>Specimen №2</text>
+	</string>
+	<string id="yan_tonnel_snork_3">
+		<text>Specimen №3</text>
+	</string>
+	<string id="yan_tonnel_snork_4">
+		<text>Specimen №4</text>
+	</string>
+	<string id="yan_tonnel_snork_5">
+		<text>Specimen №5</text>
+	</string>
+	<string id="yan_tonnel_snork_6">
+		<text>Specimen №6</text>
+	</string>
+	<string id="yan_tonnel_gigant">
+		<text>Specimen №7</text>
+	</string>
+	<string id="bar_arena_savage">
+		<text>Zombified</text>
+	</string>
+	<string id="bar_arena_bloodsucker">
+		<text>Bloodsucker</text>
+	</string>
+	<string id="bar_arena_burer">
+		<text>Burer</text>
+	</string>
+	<string id="bar_arena_pseudodog">
+		<text>Pseudodog</text>
+	</string>
+	<string id="bar_arena_snork">
+		<text>Snork</text>
+	</string>
+</string_table>

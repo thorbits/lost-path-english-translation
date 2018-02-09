@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_cev_plastin_1_name">
+<text>"Kevlar implant level I"</text>
+</string>
+<string id="st_cev_plastin_1_descr">
+<text>%c[default]Item Bonus:\n%c[255,238,153,26]• %c[default]Increase bullet resistance %c[255,238,15,26](%c[255,1,128,54]when installed by a mechanic%c[255,238,15,26])\n%c[default]Specialized protective element, with which you can increase protection against bullet wounds.</text>
+</string>
+<string id="st_cev_plastin_2_name">
+<text>"Kevlar implant level II"</text>
+</string>
+ <string id="st_cev_plastin_2_descr">
+<text>%c[default]Item Bonus:\n%c[255,238,153,26]• %c[default]Increase bullet resistance %c[255,238,15,26](%c[255,1,128,54]when installed by a mechanic%c[255,238,15,26])\n%c[default]Specialized protective element, with which you can increase protection against bullet wounds.</text>
+</string>
+<string id="st_cev_plastin_3_name">
+<text>"Kevlar implant level III"</text>
+</string>
+<string id="st_cev_plastin_3_descr">
+ <text>%c[default]Item Bonus:\n%c[255,238,153,26]• %c[default]Increase bullet resistance %c[255,238,15,26](%c[255,1,128,54]when installed by a mechanic%c[255,238,15,26])\n%c[default]Specialized protective element, with which you can increase protection against bullet wounds.</text>
+</string>
+<string id="st_cev_plastin_4_name">
+<text>"Kevlar implant level IV"</text>
+</string>
+<string id="st_cev_plastin_4_descr">
+ <text>%c[default]Item Bonus:\n%c[255,238,153,26]• %c[default]Increase bullet resistance %c[255,238,15,26](%c[255,1,128,54]when installed by a mechanic%c[255,238,15,26])\n%c[default]Specialized protective element, with which you can increase protection against bullet wounds.</text>
+</string>
+<string id="st_cev_plastin_5_name">
+<text>"Kevlar implant level V"</text>
+</string>
+<string id="st_cev_plastin_5_descr">
+ <text>%c[default]Item Bonus:\n%c[255,238,153,26]• %c[default]Increase bullet resistance %c[255,238,15,26](%c[255,1,128,54]when installed by a mechanic%c[255,238,15,26])\n%c[default]Specialized protective element, with which you can increase protection against bullet wounds.</text>
+</string>
+
+<string id="st_up_binoc_1_name">
+<text>Carbon-plastic components</text>
+</string>
+<string id="st_up_binoc_1_descr">
+<text>Replacing the metal with carbon fiber reinforced plastic reduces the weight of the binoculars without losing functionality.</text>
+</string>
+
+ <string id="st_up_binoc_2_name">
+<text>high contrast optics</text>
+</string>
+<string id="st_up_binoc_2_descr">
+<text>Modification Attiki, which is to increase the contrast. Helps to monitor when there is insufficient lighting.\n----------------------------------------\n%c[255,238,153,26]Enable/disable highlighting of binoculars, you can press "$$ACTION_NIGHT_VISION$$".%c[default]</text>
+</string>
+
+<string id="st_up_binoc_3_name">
+<text>multiples</text>
+</string>
+<string id="st_up_binoc_3_descr">
+ <text>Installation of more powerful lenses to monitor for a few long distances.</text>
+</string>
+
+<string id="st_up_charge">
+<text>charge</text>
+</string>
+<string id="st_upgr_enough_materials">
+<text>is not enough</text>
+</string>
+<string id="ammo-gauss_u">
+<text>battery</text>
+</string>
+<string id="st_upgr_required_materials">
+<text>Necessary materials</text>
+</string>
+</string_table>

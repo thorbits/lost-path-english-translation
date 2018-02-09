@@ -77,7 +77,7 @@
 		<text>Rusty 7.62mm barrel [V]</text>
 	</string>
 	<string id="st_barrel_4_rusty_descr">
-		<text>A barrel from a 7.62mm rifle. In it's current state it's unusable.\n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] Х %c[0,140,140,140] military product\n%c[255,238,153,26]\n%c[0,153,255,255] Х %c[0,140,140,140] chance of successful repair/restoration: -\n%c[255,238,153,26]</text>
+		<text>A barrel from a винтовки 7.62mm. In it's current state it's unusable.\n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] Х %c[0,140,140,140] military product\n%c[255,238,153,26]\n%c[0,153,255,255] Х %c[0,140,140,140] chance of successful repair/restoration: -\n%c[255,238,153,26]</text>
 	</string>
 	<string id="st_barrel_5_good">
 		<text>Functional 7.92mm barrel [V]</text>
@@ -434,7 +434,7 @@
 		<text>Functional sliding bolt carrier with locking bolt</text>
 	</string>
 	<string id="st_bolt_carrier_6_good_descr">
-		<text>Properly functioning sliding bolt carrier with locking bolt. In appearance, the bolt carrier seems almost new. The bottom rim of cups has no wear. The rammer, and the skeleton of the shutter are still in oil. \n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] Х %c[0,140,140,140] military part\n%c[255,238,153,26]\n%c[0,153,255,255] Х %c[0,140,140,140] chance of success when used for repairs: 90%\n%c[255,238,153,26]</text>
+		<text>Properly functioning sliding bolt carrier with locking bolt. In appearance, the bolt carrier seems almost new. ƒно и венчик чашечки не имеют износа. ƒосылатель, и остов затвора еще в масле. \n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] Х %c[0,140,140,140] military part\n%c[255,238,153,26]\n%c[0,153,255,255] Х %c[0,140,140,140] chance of success when used for repairs: 90%\n%c[255,238,153,26]</text>
 	</string>
 	<string id="st_bolt_carrier_6_worn">
 		<text>Worn sliding bolt carrier with locking bolt</text>
@@ -878,7 +878,7 @@
 		<text>Functional handguard [R]</text>
 	</string>
 	<string id="st_gas_tube_2_good_descr">
-		<text>Functional handguard from a pump shotgun. In appearence, in good condition. \n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] Х %c[0,140,140,140] military part\n%c[255,238,153,26]\n%c[0,153,255,255] Х %c[0,140,140,140] chance of success when used for repairs: 90%\n%c[255,238,153,26]</text>
+		<text>Functional with aвижное handguard от помпового ружь€. In appearence, in good condition. \n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] Х %c[0,140,140,140] military part\n%c[255,238,153,26]\n%c[0,153,255,255] Х %c[0,140,140,140] chance of success when used for repairs: 90%\n%c[255,238,153,26]</text>
 	</string>
 	<string id="st_gas_tube_2_worn">
 		<text>Worn handguard [R]</text>
@@ -1094,7 +1094,7 @@
 		<text>9mm weapon repair kit [ј/PP]</text>
 	</string>
 	<string id="st_barrelkit_9x_auto_descr">
-		<text>A special kit with tools designed for replacing barrels of automatic rifles at a mechanic's workshop. It can only be used with parts of the 9mm caliber or the .45 caliber at a mechanic's workshop.\n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] Х %c[0,140,140,140] military part\n%c[255,238,153,26] Х %c[0,140,140,140] must be used with:%c[0,170,170,170] mechanic's vise</text>
+		<text>A special kit with tools designed for replacing barrels of automatic rifles at a mechanic's workshop. It can only be used with parts of the 9mm caliber or, при расточке, the .45 caliber at a mechanic's workshop.\n \n%c[0,140,140,140]PROPERTIES:\n%c[0,153,255,255] Х %c[0,140,140,140] military part\n%c[255,238,153,26] Х %c[0,140,140,140] must be used with:%c[0,170,170,170] mechanic's vise</text>
 	</string>
 	<string id="st_barrelkit_9_auto_sil">
 		<text>9mm weapon repair kit for silenced weapons [ј/PP]</text>
@@ -1451,7 +1451,34 @@
 	<string id="st_awr_dialog_16">
 		<text>Just another reminder not to forget your stuff. Good luck.</text>
 	</string>
-<!-- Help -->
+	
+	<!-- Sell dialog -->
+	<string id="st_awr_sell_dialog_1">
+		<text>I need spare parts, do you know who can offer them?</text>
+	</string>
+	<string id="st_awr_sell_dialog_2">
+		<text>Well, mechanics like me have all sort of useful stuff you can think of. I got a decent stock over here in case you need some, for the right price of course.</text>
+	</string>
+	<string id="st_awr_sell_dialog_3">
+		<text>And what are your prices?</text>
+	</string>
+	<string id="st_awr_sell_dialog_4">
+		<text>Well, for new parts I want 300. The worn ones for 150. About the rest of the junk, i want 250 for new parts, and 125 for worn out items. Eh, 60 should be enough for rusty parts. There's not much you can do with them you know...</text>
+	</string>
+	<string id="st_awr_sell_dialog_5">
+		<text>Hmmm, your prices are so-so. But I have nowhere to get these junk from. Damn it! here, take the money.</text>
+	</string>
+	<string id="st_awr_sell_dialog_6">
+		<text>That's a bit expensive for me. Guess I'll think about it.</text>
+	</string>
+	<string id="st_awr_sell_dialog_7">
+		<text>There will be more in the future, you know where to find me if you need anything.</text>
+	</string>
+	<string id="st_awr_sell_dialog_8">
+		<text>Uh, thanks man.</text>
+	</string>
+		
+	<!-- Help -->
 	<string id="st_awr_help_0">
 		<text>Instructions</text>
 	</string>

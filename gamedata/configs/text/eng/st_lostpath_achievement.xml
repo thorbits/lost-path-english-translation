@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 	<string id="st_achievement_16_name">
-<text>"the watchdogs"</text>
-</string>
-<string id="st_achievement_16_hint">
-<text>The elimination squad of Wolfhound</text>
-</string>
-<string id="st_achievement_16_descr">
-<text>the Dogs will no longer interfere with the stalkers to go through the Wild Territory. Now the output can take any group.</text>
-</string>
-<string id="st_achievement_16_unlock">
-<text>the achievement of "watchdogs"</text>
-</string>
-
-<string id="st_achievement_17_name">
-<text>"Like an angry bear!"</text>
-</string>
-<string id="st_achievement_17_hint">
- <text>Obtained for the elimination of detachment of Tachenko. Dolgovtsev you do not forgive.</text>
-</string>
-<string id="st_achievement_17_descr">
-<text>the Liquidation of the detachment of General Tachenko weakened the presence of Debt to Zaton</text>
-</string>
-<string id="st_achievement_17_unlock">
-<text>the achievement "Like an angry bear!"</text>
-</string>
-
-<string id="st_achievement_18_name">
-<text>"Executioner"</text>
-</string>
-<string id="st_achievement_18_hint">
-<text>Obtained for the elimination of General Voronin. Dolgovtsev you do not forgive.</text>
-</string>
-<string id="st_achievement_18_descr">
- <text>the Headless Debt was left without its leader, a great chance to destroy the weakened group.</text>
-</string>
-<string id="st_achievement_18_unlock">
-<text>the achievement "the Executioner"</text>
-</string>
-
-<string id="st_achievement_19_name">
-<text>"License to murder"</text>
-</string>
-<string id="st_achievement_19_hint">
-<text>Obtained for the elimination of Lukas. Svoboda will not forgive.</text>
-</string>
-<string id="st_achievement_19_descr">
-<text>the Headless Liberty was left without its leader, this is your Chance.</text>
-</string>
- <string id="st_achievement_19_unlock">
-<text>the achievement of "License to kill"</text>
-</string>
-
-<string id="st_achievement_20_name">
-<text>"Monolith"</text>
-</string>
-<string id="st_achievement_20_hint">
-<text>to Destroy all airborne units of the military at Chernobyl</text>
-</string>
-<string id="st_achievement_20_descr">
-<text>the Military operation failed "Monolith" thanks to you. You destroyed units: Quartet, Falcon, Vulture, Falcon, Owl, Harrier, Hawk, Kite, Kestrel.</text>
-</string>
-<string id="st_achievement_20_unlock">
- <text>the achievement of Operation "Monolith"</text>
-</string>
+		<text>"Watchdogs"</text>
+	</string>
+	<string id="st_achievement_16_hint">
+		<text>Received for the liquidation of the wild dogs pack</text>
+	</string>
+	<string id="st_achievement_16_descr">
+		<text>Wild dogs will no longer prevent stalkers from crossing the Wild Territory. Now any factions can use this path.</text>
+	</string>
+	<string id="st_achievement_16_unlock">
+		<text>Achievement unlocked: "Watchdogs"</text>
+	</string>
+	
+	<string id="st_achievement_17_name">
+		<text>"As an evil bear!"</text>
+	</string>
+	<string id="st_achievement_17_hint">
+		<text>Received for the liquidation of General Tachenko detachment.Duty will not forgive you this.</text>
+	</string>
+	<string id="st_achievement_17_descr">
+		<text>The liquidation of General Tachenko detachment weakened the presence of Duty in the area.</text>
+	</string>
+	<string id="st_achievement_17_unlock">
+		<text>Achievement unlocked: "As an evil bear!"</text>
+	</string>
+	
+	<string id="st_achievement_18_name">
+		<text>"Executioner"</text>
+	</string>
+	<string id="st_achievement_18_hint">
+		<text>Received for the liquidation of General Voronin. Duty will not forgive you this.</text>
+	</string>
+	<string id="st_achievement_18_descr">
+		<text>The decapitated Duty remains without its leader, an excellent chance to destroy the weakened faction.</text>
+	</string>
+	<string id="st_achievement_18_unlock">
+		<text>Achievement unlocked: "Executioner"</text>
+	</string>
+	
+	<string id="st_achievement_19_name">
+		<text>"License for murder"</text>
+	</string>
+	<string id="st_achievement_19_hint">
+		<text>Received for the liquidation of Lukash. Freedom will not forgive you this.</text>
+	</string>
+	<string id="st_achievement_19_descr">
+		<text>Decapitated Freedom remains without its leader, an excellent chance to destroy the weakened faction.</text>
+	</string>
+	<string id="st_achievement_19_unlock">
+		<text>Achievement unlocked: "License for murder"</text>
+	</string>
+	
+	<string id="st_achievement_20_name">
+		<text>Operation "Monolith"</text>
+	</string>
+	<string id="st_achievement_20_hint">
+		<text>Destroy all the landing troops of the military at the Chernobyl nuclear power plant</text>
+	</string>
+	<string id="st_achievement_20_descr">
+		<text>The military failed the operation "Monolith" thanks to you. You destroyed the units: Quartet, Falcon, Griffin, Peregrine Falcon, Owl, Lun, Hawk, Kite, Kestrel.</text>
+	</string>
+	<string id="st_achievement_20_unlock">
+		<text>Achievement unlocked: Monolith Operation</text>
+	</string>
 </string_table>

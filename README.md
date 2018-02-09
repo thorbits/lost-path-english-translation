@@ -242,6 +242,8 @@ lostpath_faction_resource.script
 <br>&#8627; <em>done</em><br>
 lostpath_flash.script
 <br>&#8627; <em>done</em><br>
+lostpath_loot_pda.script
+<br>&#8627; <em></em><br>
 lostpath_message.script
 <br>&#8627; <em>done</em><br>
 lostpath_montage.script

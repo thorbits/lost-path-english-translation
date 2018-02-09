@@ -8,7 +8,7 @@ This translation is currently updated for <b>Lost Path version 0.5.001</b>.</p>
 
 <p>Lost Path already includes a "gamedata/configs/text/eng" folder by default, the files presented here are updates to these files and others files like scripts necessary for a full translation. Some files may need to be removed/added in the future.</p><br><hr>
 
-<p>Translation progress per individual files can be found below:</p>
+<p>Translation progress per individual files can be found below:</p><br>
 
 <p>&#9762; <strong><a href="https://github.com/thorbits/lost-path-english-translation/tree/master/gamedata/configs">gamedata/configs</a></strong></p>
 <ul>

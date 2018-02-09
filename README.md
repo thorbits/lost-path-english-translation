@@ -186,6 +186,18 @@ st_lostpath_treasure.xml
 <br>&#8627; <em>done</em><br>
 st_lostpath_weapons_csgo.xml
 <br>&#8627; <em>incomplete</em><br>
+st_notepad.xml
+<br>&#8627; <em>done</em><br>
+st_quests_general.xml
+<br>&#8627; <em>done, need revision</em><br>
+st_quests_jupiter.xml
+<br>&#8627; <em>done</em><br>
+st_quests_pripyat2.xml
+<br>&#8627; <em>done</em><br>
+st_quests_yantar.xml
+<br>&#8627; <em>done</em><br>
+st_quests_zaton.xml
+<br>&#8627; <em>done</em><br>
 stable_treasure_manager.xml
 <br>&#8627; <em>done</em><br>
 ui_st_encyclopedia_awr.xml

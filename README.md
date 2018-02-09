@@ -141,7 +141,7 @@ st_generate_fnames.xml
 st_generate_snames.xml
 <br>&#8627; <em>done</em><br>
 st_items_awr.xml
-<br>&#8627; <em></em><br>
+<br>&#8627; <em>done</em><br>
 st_items_fieldcraft.xml
 <br>&#8627; <em>done</em><br>
 st_items_outfit.xml
@@ -161,7 +161,7 @@ st_items_weapons_upgrades.xml
 st_land_names.xml
 <br>&#8627; <em>done</em><br>
 st_lostpath_achievement.xml
-<br>&#8627; <em>done, need revision</em><br>
+<br>&#8627; <em>done</em><br>
 st_lostpath_addons.xml
 <br>&#8627; <em>done</em><br>
 st_lostpath_dialog.xml

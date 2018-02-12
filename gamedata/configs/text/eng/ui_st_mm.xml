@@ -93,7 +93,7 @@
 	</string>
 	
 	<string id="gd_novice">
-		<text>Rookie</text>
+		<text>Novice</text>
 	</string>
 	
 	<string id="gd_veteran">
@@ -165,7 +165,7 @@
 	</string>
 	
 	<string id="ui_mm_anisotropic">
-		<text>Anisotropic</text>
+		<text>Anisotropic filtering</text>
 	</string>
 	
 	<string id="ui_mm_apply">
@@ -313,7 +313,7 @@
 	</string>
 	
 	<string id="ui_mm_master_volume">
-		<text>SFX volume</text>
+		<text>SFX Volume</text>
 	</string>
 	
 	<string id="ui_mm_mouse_sense">
@@ -353,7 +353,7 @@
 	</string>
 	
 	<string id="ui_mm_novice">
-		<text>Rookie</text>
+		<text>Novice</text>
 	</string>
 	
 	<string id="ui_mm_npc_torch">
@@ -413,11 +413,11 @@
 	</string>
 	
 	<string id="ui_mm_r2_shafts_value">
-		<text>Sun shafts intensity</text>
+		<text>Sun shaft intensity</text>
 	</string>
 	
 	<string id="ui_mm_r2_gloss_factor">
-		<text>Gloss factor</text>
+		<text>Specular reflectivity (gloss factor)</text>
 	</string>
 	
     <string id="ui_mm_r__actor_shadow">
@@ -429,11 +429,11 @@
 	</string>
 	
 	<string id="ui_mm_r3_DX10_1">
-		<text>Use DirectX 10.1</text>
+		<text>Use DX 10.1</text>
 	</string>
 	
 	<string id="ui_mm_r3_MSAA">
-		<text>Full screen smoothing</text>
+		<text>Full screen anti-aliasing</text>
 	</string>
 
 	<string id="ui_mm_r3_dynamic_wet_surfaces">
@@ -684,7 +684,7 @@
 	</string>
 	
 	<string id="ui_mm_food_irradiate">
-		<text>Radiation from food</text>
+		<text>Irradiated food</text>
 	</string>
 	
 	<string id="ui_mm_mask_hud">
@@ -716,11 +716,11 @@
 	</string>
 	
 	<string id="ui_mm_weapon_heat">
-		<text>Weapon overheat</text>
+		<text>Weapon overheating</text>
 	</string>
 	
 	<string id="ui_mm_weapon_heat_ui">
-		<text>Weapon overheat UI</text>
+		<text>Weapon overheating UI</text>
 	</string>
 	
 	<string id="ui_mm_weapon_mags">
@@ -768,7 +768,7 @@
 	</string>
 	
 	<string id="ui_mm_release_dropped_items">
-		<text>Despawn dropped items</text>
+		<text>De-spawn dropped items</text>
 	</string>
 	
 	<string id="ui_mm_hardcore_ai_aim">

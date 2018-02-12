@@ -2,7 +2,7 @@
 <string_table>
 	
 	<string id="st_treasure">
-		<text>Establish a cache</text>
+		<text>Create stash</text>
 	</string>
 	
 	<string id="st_serv">
@@ -10,7 +10,7 @@
 	</string>
 	
 	<string id="st_rem_serv">
-		<text>снять</text>
+		<text>Remove</text>
 	</string>
 	
 	<string id="st_pda_research">
@@ -22,7 +22,7 @@
 	</string>
 	
 	<string id="st_noenergy">
-		<text>There is not enough battery power</text>
+		<text>Not enough battery power</text>
 	</string>	
 	
 	<string id="st_charging_pda">
@@ -314,15 +314,15 @@
 	</string>
 	
 	<string id="ui_mm_sarcofag">
-		<text>Number of mutants in CNPP</text>
+		<text>Number of mutants - CNPP</text>
 	</string>
 	
 	<string id="ui_mm_zaton">
-		<text>Number of mutants in North Zone</text>
+		<text>Number of mutants - North Zone</text>
 	</string>
 	
 	<string id="ui_mm_pripyat">
-		<text>Number of mutants in Forest</text>
+		<text>Number of mutants - Forest</text>
 	</string>
 	
 </string_table>

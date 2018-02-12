@@ -1,7 +1,13 @@
 --------------------
 0.1.5 preview
 --------------------
-
+updated st_lostpath_main.xml
+updated st_lostpath_system.xml
+updated st_items_weapons.xml
+updated ui_st_mm.xml
+added ui_pda_relations_tab.script
+added zone_new.script
+added zone_news_main.script
 
 --------------------
 02/10 0.1.4

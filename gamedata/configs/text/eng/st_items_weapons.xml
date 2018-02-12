@@ -154,33 +154,33 @@
 	</string>
 <!-- insert name -->
 	<string id="ammo-5.45x39-fmj">
-		<text>Патроны 5,45x39 мм 7Н10</text>
+		<text>5.45x39 mm rounds</text>
 	</string>
 	<string id="ammo-5.45x39-fmj_s">
-		<text>5,45x39 7Н10</text>
+		<text>5.45x39 mm rounds</text>
 	</string>
 	<string id="ammo-5.45x39-fmj_descr">
-		<text>Стандартный армейский патрон калибра 5,45x39 мм (индекс 7Н10). Благодаря уменьшению импульса отдачи и увеличению начальной скорости пули, патрон обеспечивает более высокую точность боя, чем его предшественник 7,62x39 мм.</text>
+		<text>Military 5.45x39 7H10 caliber is an improved piercing round for automatic rifles of Warsaw Pact countries. Provides better accuracy than the 7.62 caliber round thanks to reduced recoil and a 100 meter increase in range. Highest pierced armor class: III. Tissue damage rating: medium</text>
 	</string>
 <!-- insert name -->
 	<string id="ammo-5.45x39-ap">
-		<text>Патроны 5,45x39 мм 7Н22</text>
+		<text>5.56x45 mm AP rounds</text>
 	</string>
 	<string id="ammo-5.45x39-ap_s">
-		<text>5,45x39 7Н22</text>
+		<text>5.56x45 mm AP rounds</text>
 	</string>
 	<string id="ammo-5.45x39-ap_descr">
-		<text>Армейский патрон калибра 5,45x39 мм с бронебойной пулей (индекс 7Н22). Внутри пули размещен твердосплавный бронебойный сердечник. Эффективен против бронежилетов.</text>
+		<text>Military 5.45x39 7H22 caliber armor-piercing round for automatic rifles of Warsaw Pact countries. The bullet contains a hard-alloy armor piercing penetrator. Effective against body armor. Highest pierced armor class: IV. Tissue damage rating: medium</text>
 	</string>
 <!-- insert name -->
 	<string id="ammo-5.56x45-ss190">
-		<text>Патроны 5,56х45 мм SS109</text>
+		<text>5.56x45 mm rounds</text>
 	</string>
 		<string id="ammo-5.56x45-ss190_s">
-		<text>5,56х45 SS109</text>
+		<text>5.56x45 mm rounds</text>
 	</string>
 	<string id="ammo-5.56x45-ss190_descr">
-		<text>Патрон с тяжёлой пулей под обозначением SS109 был разработан в 1980-е годы в Бельгии на фирме Fabrique Nationale (изначально он разрабатывался для штурмовой винтовки FN FNC и лёгкого пулемета FN Minimi). К середине 1980-х годов этот патрон был принят в качестве стандартного для всех стран NATO.</text>
+		<text>A standard-issue NATO 5.56x45 caliber round specially designed for accurate automatic fire. Provides good ballistic characteristics, having been designed on the basis of a hunting round. Widely known under its SS109 index. Highest pierced armor class: II. Tissue damage rating: high. SPECIAL: lowered piercing capability, enhanced fragmentation in soft tissue</text>
 	</string>
 <!-- insert name -->
 	<string id="ammo-5.56x45-ap">
@@ -190,7 +190,7 @@
 		<text>5.56x45 mm AP rounds</text>
 	</string>
 	<string id="ammo-5.56x45-ap_descr">
-		<text>Натовский патрон калибра 5,56х45 мм c бронебойной пулей повышенной пробивающей способности. Известен под индексом P112. Эффективен против бронежилетов. Широко используется в стрелковом оружии армий и спецслужб стран NATO.</text>
+		<text>A common NATO military 5.56x45 caliber armor piercing round, known under its SS190/M855 index, widely used by Western security agencies and special forces. Effective against body armor. Highest pierced armor class: IV. Tissue damage rating: medium</text>
 	</string>
 <!-- insert name -->
 	<string id="ammo-9x39-sp5">
@@ -256,11 +256,11 @@
 	<string id="ammo-7.62x39-ap">
 		<text>7.62x39 mm M43 rounds</text>
 	</string>
-	<string id="ammo-7.62x39-ap_descr">
-		<text>7.62x39 M43 is an armor piercing round produced in China, which is why it's often referred to as "7.62x39 CN". This round features a mild steel core which enhances its penetration capabilities. This Chinese round (as well as all other M43 ammunition) is currently banned for import in the US because US federal law classifies the round as an armor-piercing handgun round. This classification is based on materials and bullet design rather than on empirical ability to penetrate armor. Highest pierced armor class: IV. Tissue damage rating: medium</text>
-	</string>
 	<string id="ammo-7.62x39-ap_s">
 		<text>7.62x39 mm M43 rounds</text>
+	</string>
+	<string id="ammo-7.62x39-ap_descr">
+		<text>7.62x39 M43 is an armor piercing round produced in China, which is why it's often referred to as "7.62x39 CN". This round features a mild steel core which enhances its penetration capabilities. This Chinese round (as well as all other M43 ammunition) is currently banned for import in the US because US federal law classifies the round as an armor-piercing handgun round. This classification is based on materials and bullet design rather than on empirical ability to penetrate armor. Highest pierced armor class: IV. Tissue damage rating: medium</text>
 	</string>
 <!-- insert name -->
 	<string id="ammo-7.62x51-fmj">

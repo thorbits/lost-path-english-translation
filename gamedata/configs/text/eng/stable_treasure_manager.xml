@@ -186,11 +186,12 @@
 	<string id="st_l05_bar_inventory_box_0018_name">
 		<text>Secret stash under the cross</text>
 	</string>
-	<string id="st_l05_bar_inventory_box_0019_descr">
-		<text>Hid the chest with the antirad in a pipe by the Arena</text>
+	<string id="st_bar_arena_inventory_box_2_descr">
+		<text>¬ трубе, возле јрены, припр€тал €щичек c антирадом</text>
+
 	</string>
-	<string id="st_l05_bar_inventory_box_0019_name">
-		<text>Small chest</text>
+	<string id="st_bar_arena_inventory_box_2_name">
+		<text>ящичек</text>
 	</string>
 	<string id="st_l05_bar_inventory_box_0020_descr">
 		<text>Hid my crap in a pipe under the tower</text>
@@ -366,10 +367,10 @@
 	<string id="st_l10_radar_inventory_box_0005_name">
 		<text>Goodies of the leader of former faction</text>
 	</string>
-	<string id="st_l06_rostok_inventory_box_descr">
+	<string id="st_l06_rostok_inventory_box_0000_descr">
 		<text>Hid the backpack behind the iron plate</text>
 	</string>
-	<string id="st_l06_rostok_inventory_box_name">
+	<string id="st_l06_rostok_inventory_box_0000_name">
 		<text>Hidden backpack</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0001_descr">
@@ -474,12 +475,7 @@
 	<string id="st_l06_rostok_inventory_box_0016_name">
 		<text>Secret stash in the pipe</text>
 	</string>
-	<string id="st_l06_rostok_inventory_box_0017_descr">
-		<text>Hid the medicine in a chest not far from the construction site</text>
-	</string>
-	<string id="st_l06_rostok_inventory_box_0017_name">
-		<text>Chest with medicine</text>
-	</string>
+
 	<string id="st_l06_rostok_inventory_box_0018_descr">
 		<text>Dragged the chest into the cabin of the crane</text>
 	</string>
@@ -516,12 +512,7 @@
 	<string id="st_l06_rostok_inventory_box_0025_name">
 		<text>Backpack</text>
 	</string>
-	<string id="st_l06_rostok_inventory_box_0023_descr">
-		<text>Stuck all the goods into the log. Don't think they'll find it.</text>
-	</string>
-	<string id="st_l06_rostok_inventory_box_0023_name">
-		<text>Secret stash</text>
-	</string>
+
 	<string id="st_val_smatr_terrain_4_0_box_descr">
 		<text>Threw my things into the pipe. Will pick them up later.</text>
 	</string>

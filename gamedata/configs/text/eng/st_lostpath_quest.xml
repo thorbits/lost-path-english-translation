@@ -1,10 +1,134 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
+	<string id="wolf_about_girl_title">
+		<text>Встретиться с незнакомкой</text>
+	</string>
+	<string id="wolf_about_girl_descr">
+		<text>Волк сказал, что в лагерь пришла девушка. Возможно ей нужна помощь. Надо найти ее и узнать кто она.</text>
+	</string>
+	<string id="wolf_search_eat_title">
+		<text>Найти еду</text>
+	</string>
+	<string id="wolf_search_eat_descr">
+		<text>Как и ожидалось у девушки совсем ничего нет. Нужно ее накормить. Вообще вся эта история очень мутная. Возможно она заслана кем-то сюда или просто такой же новичок как и я. Не знаю, время рассудит. Все-таки я думаю она обычный новичок и ей стоит помочь, просто нужно время от времени поглядывать за ней. Необходимо найти консерву.</text>
+	</string>
+	<string id="wolf_search_eat_done_title">
+		<text>Накормить Алису</text>
+	</string>
+	<string id="wolf_search_eat_done_descr">
+		<text>Нужно отдать Алисе еду. Я сам себе найду поесть, а она такая хрупкая и беспомощная... Хм.. Что-то я не о том задумался..</text>
+	</string>
 	<string id="matis_search_title">
 		<text>The search for Mathis</text>
 	</string>
 	<string id="matis_search_descr">
 		<text>From the PDA information the Stalker I seek is in the Sawmill area. I need to find him.</text>
+	</string>
+
+	<string id="esc_girl_sidor_title">
+		<text>Работа на сидоровича : Встретиться с Сидоровичем</text>
+	</string>
+	<string id="esc_girl_sidor_descr">
+		<text>В лагере есть торговец Сидорович. Надо бы к нему сходить про работу спросить, авось чего-нибудь подкинет.</text>
+	</string>
+	
+	<string id="esc_girl_take_wpn_done_title">
+		<text>Работа на Сидоровича : Передать Алисе оружие</text>
+	</string>
+	<string id="esc_girl_take_wpn_done_descr">
+		<text>Местный торговец Сидорович выдал снаряжение для меня и Алисы. Это новенькие MP5 с глушителем и пара десятков патрон к ним. Я думаю с этим оружием нам будет достаточно легко вынести лагерь военных. Хотя... кто знает..</text>
+	</string>
+	
+	<string id="esc_girl_take_wpn_title">
+		<text>Работа на Сидоровича : Найти Алисе оружие</text>
+	</string>
+	<string id="esc_girl_take_wpn_descr">
+		<text>Где-то я проебал оружие, что выдал Сидорович.. Надо бы найти такое же и отдать его Алисе.</text>
+	</string>
+	
+	<string id="esc_girl_kpp_title">
+		<text>Работа на Сидоровича : Зачистить КПП военных</text>
+	</string>
+	<string id="esc_girl_kpp_descr">
+		<text>Сидорович попросил зачистить КПП военных на Юге Кордона. Хорошо, что оружие выдал, а то совсем не вытянули бы.</text>
+	</string>
+	
+	<string id="esc_girl_kpp_done_title">
+		<text>Работа на Сидоровича : Вернуться к Сидоровичу</text>
+	</string>
+	<string id="esc_girl_kpp_done_descr">
+		<text>КПП зачищен, теперь нужно вернуться к Сидоровичу.</text>
+	</string>
+	
+	<string id="esc_girl_detector_title">
+		<text>Помощь Алисе : Найти Отклик</text>
+	</string>
+	<string id="esc_girl_detector_descr">
+		<text>Алисе нужен детектор. Я ей предложил поискать хотя бы самый простенький. Пускай будет Отклик, чем вообще ничего не будет. Может быть она сможет найти артефакты и с ним.</text>
+	</string>
+	
+	<string id="esc_girl_take_money_1_done_title">
+		<text>Работа на Сидоровича : Отдать Алисе ее долю</text>
+	</string>
+	<string id="esc_girl_take_money_1_done_descr">
+		<text>Сидорович неплохо нам заплатит. Нужно отдай ей её долю.</text>
+	</string>
+	
+	<string id="esc_girl_take_money_1_title">
+		<text>Работа на Сидоровича : Доля Алисы</text>
+	</string>
+	<string id="esc_girl_take_money_1_descr">
+		<text>Нужно отдать долю Алисе. Нужно срочно найти денег и вещей, чтобы отдай ей её долю, иначе это добром не кончится... Раз нам оплатили совместную работу, то я обязан с ней поделиться.</text>
+	</string>
+	
+	<string id="esc_girl_smart_title">
+		<text>Работа на Сидоровича : Вернуться за наградой</text>
+	</string>
+	<string id="esc_girl_smart_descr">
+		<text>Территория захвачена, необходимо забрать свою награду.</text>
+	</string>
+	
+	<string id="esc_girl_smart_1_title">
+		<text>Работа на Сидоровича : Южный хутор</text>
+	</string>
+	<string id="esc_girl_smart_1_descr">
+		<text>Сидорович дал задание захватить территорию.</text>
+	</string>
+	
+	<string id="esc_girl_smart_2_title">
+		<text>Работа на Сидоровича : Заправка</text>
+	</string>
+	<string id="esc_girl_smart_2_descr">
+		<text>Сидорович дал задание захватить территорию.</text>
+	</string>
+	
+	<string id="esc_girl_smart_3_title">
+		<text>Работа на Сидоровича : Депо</text>
+	</string>
+	<string id="esc_girl_smart_3_descr">
+		<text>Сидорович дал задание захватить территорию.</text>
+	</string>
+	
+	<string id="esc_girl_smart_4_title">
+		<text>Работа на Сидоровича : Брошенный хутор</text>
+	</string>
+	<string id="esc_girl_smart_4_descr">
+		<text>Сидорович дал задание захватить территорию.</text>
+	</string>
+	
+	<string id="esc_sidor_smarts_title">
+		<text>Работа на Сидоровича : Осваивание территорий</text>
+	</string>
+	<string id="esc_sidor_smarts_descr">
+		<text>Сидорович дал задание на захват основных точек. Ему нужно, чтобы эти точки захватили сталкеры.</text>
+	</string>
+		
+	<string id="esc_girl_matis_about_title">
+		<text>Нежданный гость : Матис</text>
+	</string>
+	<string id="esc_girl_matis_about_descr">
+		<text>Алисе на КПК в общий чат отправил сообщение какой-то сталкер Матис. Мне известно, что его зовут Леха и он друг Алисы. Он попросил поскорее добраться до него и помочь ему.</text>
+
 	</string>
 	<string id="ds_matis_title">
 		<text>Find Mathis</text>
@@ -105,4 +229,54 @@
 	<string id="companion_quest_zulus_descr">
 		<text>Zulu asked me to find three boxes of ammo for a PKM</text>
 	</string>
+	
+	<string id="bar_barman_title">
+		<text>Бар 100 рентген : Барман</text>
+	</string>
+	<string id="bar_barman_descr">
+		<text>Мне пришло сообщение на КПК от Бармена. Он известен в зоне своим баром и продажей различного оружия. Надо бы сходить к нему, да разузнать что там и как.</text>
+	</string>
+	
+	<string id="bar_gyfi_title">
+		<text>Бар 100 рентген : Гуфи</text>
+	</string>
+	<string id="bar_gyfi_descr">
+		<text>Сталкер Гуфи хочет меня видеть. Не знаю кто это и что за исследователи. Нужно сходить разузнать.</text>
+	</string>
+	
+	<string id="bar_valerian_title">
+		<text>Бар 100 рентген : Валерьян</text>
+	</string>
+	<string id="bar_valerian_descr">
+		<text>Отец Валерьян хочет меня видеть. Не знаю что ему нужно, но я чувствую не к добру это..</text>
+	</string>
+	
+	<string id="bar_valerian_freedom_title">
+		<text>Ложь во спасение : Шпион</text>
+	</string>
+	<string id="bar_valerian_freedom_descr">
+		<text>Мне необходимо пробраться на базу свободы и узнать у них информацию, необходимую для исследователей. Они готовят штурм базы.. Хм.. Ложь во спасение или спасение во лжи? Ведь я могу просто сдать их лидеру свободы, а могу сделать как хотят исследователи. Нужно обсудить с Алисой.</text>
+	</string>
+	
+	<string id="clans_title">
+		<text>Кланы Зоны : сбор информации</text>
+	</string>
+	<string id="clans_descr">
+		<text>В Зоне много кланов. Надо бы собрать информацию о кланах и вступить бы в какой-нибудь из них вместе с Алисой.</text>
+	</string>
+	
+	<string id="safes_title">
+		<text>Работа на Бармена : собрать оборудование</text>
+	</string>
+	<string id="safes_descr">
+		<text>Поставщик раскидал оборудование для Бармена по всем Армейским складам. Там очень любят гулять военные, надо быть аккуратнее.</text>
+	</string>
+	
+	<string id="safes_done_title">
+		<text>Работа на Бармена : вернуть имущество</text>
+
+	</string>
+	<string id="safes_done_descr">
+		<text>Все оборудование на месте, необходимо его вернуть Бармену.</text>
+	</string>	
 </string_table>

@@ -109,10 +109,41 @@
 		<text>Information update time (ms)</text>
 	</string>
 	
-	<string id="ui_mm_default_pop">
-		<text>Smart capacity</text>
+	<string id="ui_mm_spawn_attack_time">
+		<text>Время респавна атакующих (игр. мин)</text>
+	</string> 
+	<string id="ui_mm_spawn_defence_time">
+		<text>Время респавна защищающихся (игр. мин)</text>
+	</string> 
+	
+	<string id="spawn_res">
+		<text>Тратить ресурсы на спавн отрядов</text>
+	</string>
+	<string id="attack_news">
+		<text>Новости с атакующими сквадами</text>
+	</string>
+	<string id="mutant_news">
+		<text>Новости про мутантов</text>
+	</string>
+	<string id="capture_actor_news">
+		<text>Отправлять новости о захвате игроком</text>
+	</string>
+	<string id="capture_news">
+		<text>Отправлять новости о захвате НПС</text>
+	</string>
+	<string id="mutant_news">
+		<text>Отправлять новости о мутантах</text>
+	</string>
+	<string id="night_spawn">
+		<text>Респавн атаки только ночью</text>
+	</string>
+	<string id="disable_alife">
+		<text>Отключить симуляцию по всей Зоне</text>
 	</string>
 	
+	<string id="ui_mm_default_pop">
+		<text>Вместимость смарта</text>
+	</string>
 	<string id="ui_mm_lair_pop">
 		<text>Lair capacity</text>
 	</string>
@@ -166,11 +197,11 @@
 	</string>
 	
 	<string id="ui_mm_dog_min">
-		<text>Strength | Dogs & Cats (min)</text>
+		<text>Strength | Dogs, Cats (min)</text>
 	</string>
 	
 	<string id="ui_mm_dog_max">
-		<text>Strength | Dogs & Cats (max)</text>
+		<text>Strength | Dogs, Cats (max)</text>
 	</string>
 	
 	<string id="ui_mm_rat_min">

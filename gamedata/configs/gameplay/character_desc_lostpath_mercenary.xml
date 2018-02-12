@@ -3,22 +3,23 @@
 <specific_character id="ros_volkodav" team_default="1">
     <name>Волкодав</name>
     <icon>ui_inGame2_merc_4a</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>ros_volkodav</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
     <terrain_sect>stalker_terrain</terrain_sect>
-    <rank>26000</rank>
+    <rank>24900</rank>
     <reputation>2818</reputation>
     <money min="10000" max="100000" infinitive="0"/>
     <visual>actors\stalker_merc\stalker_volkodav</visual>
     <snd_config>characters_voice\human_03\killer\</snd_config>
     <supplies>
         [spawn] \n
-        wpn_lr300_volkodav = 1 \n
-        wpn_desert_eagle = 1 \n
-		pda_volkodav = 1 \n
-		itm_backpack_20_black = 1 \n
+        wpn_lr300_volkodav \n
+		ammo_5.56x45_ap = 7 \n
+        wpn_desert_eagle \n
+		ammo_11.43x23_hydro = 5 \n
+		pda_volkodav \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -27,6 +28,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -37,21 +40,24 @@
 <!-------------------- Снайпер Волкодава --------------------->
 	
 <specific_character id="ros_volkodav_team" team_default="1">
-    <name>GENERATE_NAME_stalker</name>
+    <name>Гавр</name>
     <icon>ui_inGame2_merc_4a</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>sim_default_killer_4</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
     <terrain_sect>stalker_terrain</terrain_sect>
-    <rank>24000</rank>
+    <rank>10800</rank>
     <reputation>2818</reputation>
     <money min="10000" max="100000" infinitive="0"/>
     <visual>actors\stalker_merc\stalker_merc_4</visual>
     <snd_config>characters_voice\human_03\killer\</snd_config>
     <supplies>
         [spawn] \n
-		wpn_vssk = 1 \n
+		wpn_svd = 1 \n
+		ammo_7.62x54_7h14 = 4 \n
+		wpn_desert_eagle \n
+		ammo_11.43x23_hydro = 5 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -60,6 +66,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -73,7 +81,7 @@
 <specific_character id="cit_killers_tiran" team_default="1">
     <name>Тиран</name>
     <icon>ui_inGame2_merc_4a</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>cit_killers_tiran</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -86,7 +94,9 @@
     <supplies>
         [spawn] \n
         wpn_fn2000 \n
+		ammo_5.56x45_ap = 4 \n
         wpn_desert_eagle \n
+		ammo_11.43x23_hydro = 3 \n
 		pda_tiran \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
@@ -97,6 +107,8 @@
 
 		<start_dialog>hello_dialog</start_dialog>
 		<actor_dialog>tiran_info</actor_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -109,12 +121,12 @@
 <specific_character id="cit_killers_master" team_default="1">
     <name>Мастер</name>
     <icon>ui_inGame2_merc_4a</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>cit_killers_master</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
     <terrain_sect>stalker_terrain</terrain_sect>
-    <rank>20900</rank>
+    <rank>17900</rank>
     <reputation>4818</reputation>
     <money min="10000" max="10000" infinitive="0"/>
     <visual>actors\stalker_merc\stalker_merc_4</visual>
@@ -122,7 +134,9 @@
     <supplies>
         [spawn] \n
         wpn_fn2000 \n
+		ammo_5.56x45_ap = 4 \n
         wpn_desert_eagle \n
+		ammo_11.43x23_hydro = 3 \n
 		pda_master \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
@@ -133,6 +147,8 @@
 
 		<start_dialog>hello_dialog</start_dialog>
 		<actor_dialog>master_info</actor_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -145,12 +161,12 @@
 <specific_character id="cit_killers_chu" team_default="1">
     <name>Чучело</name>
     <icon>ui_inGame2_merc_4a</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>cit_killers_chu</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
     <terrain_sect>stalker_terrain</terrain_sect>
-    <rank>22000</rank>
+    <rank>12000</rank>
     <reputation>2818</reputation>
     <money min="10000" max="10000" infinitive="0"/>
     <visual>actors\stalker_ecologist\stalker_neutral_ecolog_2</visual>
@@ -158,7 +174,9 @@
     <supplies>
         [spawn] \n
         wpn_fn2000 \n
+		ammo_5.56x45_ap = 4 \n
         wpn_desert_eagle \n
+		ammo_11.43x23_hydro = 3 \n
 		pda_chu \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
@@ -169,6 +187,8 @@
 
 		<start_dialog>hello_dialog</start_dialog>
 		<actor_dialog>chu_info</actor_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -180,7 +200,7 @@
 <specific_character id="mil_zastava_ara" team_default="1">
     <name>Ара</name>
     <icon>ui_inGame2_merc_trade</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>mil_zastava_ara</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -193,7 +213,9 @@
     <supplies>
         [spawn] \n
         wpn_lr300 \n
+		ammo_5.56x45_ap = 4 \n
         wpn_desert_eagle \n
+		ammo_11.43x23_hydro = 3 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -202,6 +224,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
 	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 	<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -213,7 +237,7 @@
 <specific_character id="mil_zastava_pavlik" team_default="1">
     <name>Павлик</name>
     <icon>ui_inGame2_Freedom_5</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>mil_zastava_pavlik</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -226,7 +250,9 @@
     <supplies>
         [spawn] \n
         wpn_lr300 \n
+		ammo_5.56x45_ap = 4 \n
         wpn_desert_eagle \n
+		ammo_11.43x23_hydro = 3 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -236,6 +262,682 @@
 
 	<start_dialog>hello_dialog</start_dialog>
 	<actor_dialog>chu_info</actor_dialog>
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_universal_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="barchuk" team_default="1">
+    <name>Барчук</name>
+    <icon>ui_inGame2_ecolog_guard_blue</icon>
+    <bio>.</bio>
+    <class>barchuk</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>15000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_ecologist\stalker_ecolog_guard</visual>
+    <snd_config>characters_voice\human_01\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_lr300 \n
+		ammo_5.56x45_ap = 4 \n
+        wpn_usp \n
+		ammo_11.43x23_hydro = 3 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_universal_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="shakal" team_default="1">
+    <name>Шакал</name>
+    <icon>ui_inGame2_ecolog_green</icon>
+    <bio>.</bio>
+    <class>shakal</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>17000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_ecologist\stalker_ecolog_military</visual>
+    <snd_config>characters_voice\human_02\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_g36 \n
+		ammo_5.56x45_ap = 4 \n
+        wpn_usp \n
+		ammo_11.43x23_hydro = 3 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_universal_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="serbin" team_default="1">
+    <name>Альберт Сербин</name>
+    <icon>ui_inGame2_ecolog_blue</icon>
+    <bio>.</bio>
+    <class>serbin</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>19000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_ecologist\stalker_ecolog_blue</visual>
+    <snd_config>characters_voice\human_02\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_fn2000 \n
+		ammo_5.56x45_ap = 4 \n
+        wpn_desert_eagle \n
+		ammo_11.43x23_hydro = 3 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_universal_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="hrebet" team_default="1">
+    <name>Хребет</name>
+    <icon>ui_inGame2_merc_4a</icon>
+    <bio>.</bio>
+    <class>hrebet</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>17600</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_merc\stalker_mercexo4a</visual>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_lr300 \n
+		ammo_5.56x45_ap = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_universal_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="kryk" team_default="1">
+    <name>Крюк</name>
+    <icon>ui_inGame2_mercenary3</icon>
+    <bio>.</bio>
+    <class>kryk</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>17600</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_merc\stalker_mercenary3</visual>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_lr300 \n
+		ammo_5.56x45_ap = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_universal_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="grif" team_default="1">
+    <name>Гриф</name>
+    <icon>ui_inGame2_merc_sun1_merc</icon>
+    <bio>.</bio>
+    <class>grif</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>14000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_merc\stalker_merc_sun1_merc</visual>
+    <snd_config>characters_voice\human_01\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_lr300 \n
+		ammo_5.56x45_ap = 4 \n
+        wpn_sig220 \n
+		ammo_11.43x23_hydro = 3 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_universal_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="black_merc" team_default="1">
+    <name>Чёрный</name>
+    <icon>ui_inGame2_merc_sun1_merc</icon>
+    <bio>.</bio>
+    <class>black_merc</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>14000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_merc\stalker_merc_sun1_merc</visual>
+    <snd_config>characters_voice\human_01\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_lr300 \n
+		ammo_5.56x45_ap = 4 \n
+        wpn_sig220 \n
+		ammo_11.43x23_hydro = 3 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_universal_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="duplet" team_default="1">
+    <name>Дуплет</name>
+    <icon>ui_inGame2_merc_2</icon>
+    <bio>.</bio>
+    <class>duplet</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>10000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_merc\stalker_merc_2</visual>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_l85 \n
+		ammo_5.56x45_ap = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_universal_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="hiryrg" team_default="1">
+    <name>Хирург</name>
+    <icon>ui_inGame2_merc_2</icon>
+    <bio>.</bio>
+    <class>hiryrg</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>10000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_merc\stalker_merc_2</visual>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_l85 \n
+		ammo_5.56x45_ap = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_universal_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="kol" team_default="1">
+    <name>Кол</name>
+    <icon>ui_inGame2_merc_2</icon>
+    <bio>.</bio>
+    <class>kol</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>10000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_merc\stalker_merc_2</visual>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_lr300 \n
+		ammo_5.56x45_ap = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_universal_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="koshei" team_default="1">
+    <name>Кощей</name>
+    <icon>ui_inGame2_merc_2</icon>
+    <bio>.</bio>
+    <class>koshei</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>10000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_merc\stalker_merc_2</visual>
+    <snd_config>characters_voice\human_02\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_lr300 \n
+		ammo_5.56x45_ap = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_universal_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="trup" team_default="1">
+    <name>Труп</name>
+    <icon>ui_inGame2_merc_2</icon>
+    <bio>.</bio>
+    <class>trup</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>10000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_merc\stalker_merc_2</visual>
+    <snd_config>characters_voice\human_02\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_lr300 \n
+		ammo_5.56x45_ap = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_universal_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="tesak" team_default="1">
+    <name>Тесак</name>
+    <icon>ui_inGame2_mercsun_old</icon>
+    <bio>.</bio>
+    <class>tesak</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>16000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_merc\stalker_merc_sun1_old</visual>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_g36 \n
+		ammo_5.56x45_ap = 4 \n
+        wpn_sig220 \n
+		ammo_11.43x23_hydro = 3 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_universal_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="pianist" team_default="1">
+    <name>Пианист</name>
+    <icon>ui_inGame2_merc_2</icon>
+    <bio>.</bio>
+    <class>pianist</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>10000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_merc\stalker_merc_0</visual>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_lr300 \n
+		ammo_5.56x45_ap = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_universal_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="goblin" team_default="1">
+    <name>Гоблин</name>
+    <icon>ui_inGame2_merc_2</icon>
+    <bio>.</bio>
+    <class>goblin</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>10000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_merc\stalker_merc_0</visual>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_l85 \n
+		ammo_5.56x45_ap = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_universal_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="dyb" team_default="1">
+    <name>Дуб</name>
+    <icon>ui_inGame2_merc_2</icon>
+    <bio>.</bio>
+    <class>dyb</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>10000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_merc\stalker_merc_1</visual>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_g36 \n
+		ammo_5.56x45_ap = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_universal_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="gazon" team_default="1">
+    <name>Газон</name>
+    <icon>ui_inGame2_merc_2</icon>
+    <bio>.</bio>
+    <class>gazon</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>10000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_merc\stalker_merc_3</visual>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_lr300 \n
+		ammo_5.56x45_ap = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_universal_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="kirzach" team_default="1">
+    <name>Кирзач</name>
+    <icon>ui_inGame2_merc_2</icon>
+    <bio>.</bio>
+    <class>kirzach</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>10000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_merc\stalker_merc_4</visual>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_l85 \n
+		ammo_5.56x45_ap = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_universal_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="tank" team_default="1">
+    <name>Танк</name>
+    <icon>ui_inGame2_merc_2</icon>
+    <bio>.</bio>
+    <class>tank</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>10000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_merc\stalker_merc2c</visual>
+    <snd_config>characters_voice\human_01\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_lr300 \n
+		ammo_5.56x45_ap = 4 \n
+        wpn_usp \n
+		ammo_11.43x23_hydro = 3 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_universal_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
+
+<specific_character id="rilo" team_default="1">
+    <name>Рыло</name>
+    <icon>ui_inGame2_merc_2</icon>
+    <bio>.</bio>
+    <class>rilo</class>
+    <community>killer</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>10000</rank>
+    <reputation>2818</reputation>
+    <money min="10000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_merc\stalker_merc_2_mask</visual>
+    <snd_config>characters_voice\human_02\killer\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_fn2000 \n
+		ammo_5.56x45_ap = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+	<start_dialog>hello_dialog</start_dialog>
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
 	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 	<actor_dialog>dm_universal_dialog</actor_dialog>

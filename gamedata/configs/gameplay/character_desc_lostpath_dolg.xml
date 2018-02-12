@@ -1,8 +1,8 @@
 	<!-------------------------- DOLG MECHANIC ------------------------>
     <specific_character id="agr_dolg_mechanic" team_default="1">
-    <name>Петрович</name>
+    <name>Громов</name>
     <icon>ui_inGame2_Dolg_1_mask</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>agr_dolg_mechanic</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -15,9 +15,9 @@
     <supplies>
         [spawn] \n
         wpn_ak74 \n
-        ammo_5.45x39_fmj = 1 \n
+        ammo_5.45x39_fmj = 3 \n
         wpn_pm  \n
-        ammo_9x18_fmj = 1 \n
+        ammo_9x18_fmj = 4 \n
         grenade_rgd5 = 1 \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
@@ -38,7 +38,7 @@
 	<name>Колобок</name>
 	<icon>ui_inGame2_Dolg_barman</icon>
 	<map_icon x="1" y="0"></map_icon>
-	<bio>An experienced stalker. No detailed information is available.</bio>
+	<bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 	<class>agr_dolg_barman</class>
 	<community>dolg</community> 
@@ -54,9 +54,9 @@
 
 		[spawn] \n
         wpn_ak74 \n
-        ammo_5.45x39_fmj = 1 \n
+        ammo_5.45x39_fmj = 4 \n
         wpn_pm  \n
-        ammo_9x18_fmj = 1 \n
+        ammo_9x18_fmj = 3 \n
         grenade_rgd5 = 1 \n
 	#include "gameplay\character_items.xml"
 	#include "gameplay\character_food.xml"
@@ -75,7 +75,7 @@
     <name>Череп</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="0" y="0"></map_icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>Сталкер Череп из "Долга". Является его элитой.</bio>
     <class>bar_dolg_cherep</class>
     <community>dolg</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
@@ -87,8 +87,9 @@
     <supplies>
 			[spawn] \n
 			wpn_val_kobra = 1 \n
-			pda_cherep = 1 \n
-			itm_backpack_60 = 1 \n
+			ammo_9x39_pab9 = 5 \n
+			pda_cherep \n
+                        itm_backpack_60 = 1 \n
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
     </supplies>
@@ -108,10 +109,10 @@
 	
 	<!---------------------------БОЙЦЫ ЧЕРЕПА-------------------- -->
     <specific_character id="bar_dolg_cherep_group_1" team_default = "1">
-    <name>GENERATE_NAME_captain</name>
+    <name>Майор Бражников</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="0" y="0"></map_icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>Элита "Долга". Информация отсутствует.</bio>
     <class>bar_dolg_cherep_group_1</class>
     <community>dolg</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
@@ -122,7 +123,8 @@
     <snd_config>characters_voice\human_01\dolg\</snd_config>
     <supplies>
 			[spawn] \n
-			wpn_abakan = 1 \n
+			wpn_val_kobra = 1 \n
+			ammo_9x39_pab9 = 5 \n
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
     </supplies>
@@ -133,10 +135,10 @@
     </specific_character>
 	
 	<specific_character id="bar_dolg_cherep_group_2" team_default = "1">
-    <name>GENERATE_NAME_captain</name>
+    <name>Капитан Некрасов</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="0" y="0"></map_icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>Элита "Долга". Информация отсутствует.</bio>
     <class>bar_dolg_cherep_group_2</class>
     <community>dolg</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
@@ -148,6 +150,7 @@
     <supplies>
 			[spawn] \n
 			wpn_val_kobra = 1 \n
+			ammo_9x39_pab9 = 5 \n
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
     </supplies>
@@ -158,10 +161,10 @@
     </specific_character>
 	
 	<specific_character id="bar_dolg_cherep_group_3" team_default = "1">
-    <name>GENERATE_NAME_captain</name>
+    <name>Капитан Жуков</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="0" y="0"></map_icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>Элита "Долга". Информация отсутствует.</bio>
     <class>bar_dolg_cherep_group_3</class>
     <community>dolg</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
@@ -173,6 +176,7 @@
     <supplies>
 			[spawn] \n
 			wpn_val_kobra = 1 \n
+			ammo_9x39_pab9 = 5 \n
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
     </supplies>
@@ -183,10 +187,10 @@
     </specific_character>
 	
 	<specific_character id="bar_dolg_cherep_group_4" team_default = "1">
-    <name>GENERATE_NAME_captain</name>
+    <name>Лейтенант Дубинин</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="0" y="0"></map_icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>Элита "Долга". Информация отсутствует.</bio>
     <class>bar_dolg_cherep_group_4</class>
     <community>dolg</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
@@ -198,6 +202,7 @@
     <supplies>
 			[spawn] \n
 			wpn_val_kobra = 1 \n
+			ammo_9x39_pab9 = 5 \n
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
     </supplies>
@@ -208,10 +213,10 @@
     </specific_character>
 	
 	<specific_character id="bar_dolg_cherep_group_5" team_default = "1">
-    <name>GENERATE_NAME_captain</name>
+    <name>Лейтенант Щукин</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="0" y="0"></map_icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>Элита "Долга". Информация отсутствует.</bio>
     <class>bar_dolg_cherep_group_5</class>
     <community>dolg</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
@@ -223,6 +228,7 @@
     <supplies>
 			[spawn] \n
 			wpn_val_kobra = 1 \n
+			ammo_9x39_pab9 = 5 \n
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
     </supplies>
@@ -233,10 +239,10 @@
     </specific_character>
 	
 	<specific_character id="bar_dolg_cherep_group_6" team_default = "1">
-    <name>GENERATE_NAME_captain</name>
+    <name>Сержант Титов</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="0" y="0"></map_icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>Элита "Долга". Информация отсутствует.</bio>
     <class>bar_dolg_cherep_group_6</class>
     <community>dolg</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
@@ -248,6 +254,7 @@
     <supplies>
 			[spawn] \n
 			wpn_val_kobra = 1 \n
+			ammo_9x39_pab9 = 5 \n
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
     </supplies>
@@ -258,10 +265,10 @@
     </specific_character>
 	
 	<specific_character id="bar_dolg_cherep_group_7" team_default = "1">
-    <name>GENERATE_NAME_captain</name>
+    <name>Сержант Бруссилов</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="0" y="0"></map_icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>Элита "Долга". Информация отсутствует.</bio>
     <class>bar_dolg_cherep_group_7</class>
     <community>dolg</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
@@ -273,6 +280,7 @@
     <supplies>
 			[spawn] \n
 			wpn_val_kobra = 1 \n
+			ammo_9x39_pab9 = 5 \n
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
     </supplies>
@@ -283,10 +291,10 @@
     </specific_character>
 	
 	<specific_character id="bar_dolg_cherep_group_8" team_default = "1">
-    <name>GENERATE_NAME_captain</name>
+    <name>Рядовой Ильин</name>
     <icon>ui_inGame2_Dolg_4</icon>
     <map_icon x="0" y="0"></map_icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>Элита "Долга". Информация отсутствует.</bio>
     <class>bar_dolg_cherep_group_8</class>
     <community>dolg</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
@@ -298,6 +306,7 @@
     <supplies>
 			[spawn] \n
 			wpn_val_kobra = 1 \n
+			ammo_9x39_pab9 = 5 \n
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
     </supplies>
@@ -312,7 +321,7 @@
     <name>Зулус</name>
     <icon>ui_inGame2_Zulus</icon>
     <map_icon x="0" y="0"></map_icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>Зулус</bio>
     <class>bar_dolg_zulus</class>
     <community>dolg</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
@@ -324,7 +333,8 @@
     <supplies>
 			[spawn_loadout] \n
 			wpn_pkm = 1 \n
-			itm_backpack_40 = 1 \n
+			ammo_pkm_100 = 3 \n
+                        itm_backpack_40 = 1 \n
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
 #include "gameplay\lostpath_npc\zulus.ltx"
@@ -345,7 +355,7 @@
 <specific_character id="zat_fekl" team_default="1">
     <name>Фёкл</name>
     <icon>ui_inGame2_fekl_squad</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>zat_fekl</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -358,7 +368,9 @@
     <supplies>
         [spawn] \n
         wpn_abakan \n
+		ammo_5.45x39_ap = 4 \n
 		wpn_fort \n
+		ammo_9x18_fmj = 3 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -367,6 +379,8 @@
 
 #include "gameplay\character_dialogs_wth_history.xml"
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -379,7 +393,7 @@
 <specific_character id="zat_semen" team_default="1">
     <name>Семён Семёнович</name>
     <icon>ui_inGame2_fekl_squad</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>zat_semen</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -392,7 +406,9 @@
     <supplies>
         [spawn] \n
         wpn_abakan \n
+		ammo_5.45x39_ap = 4 \n
 		wpn_fort \n
+		ammo_9x18_fmj = 3 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -401,6 +417,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -413,7 +431,7 @@
 <specific_character id="zat_lis" team_default="1">
     <name>Лис Бандикут</name>
     <icon>ui_inGame2_fekl_squad</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>zat_lis</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -426,7 +444,9 @@
     <supplies>
         [spawn] \n
         wpn_abakan \n
+		ammo_5.45x39_ap = 4 \n
 		wpn_fort \n
+		ammo_9x18_fmj = 3 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -435,6 +455,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
 		<actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
@@ -449,7 +471,7 @@
 <specific_character id="zat_milutin" team_default="1">
     <name>Милютин</name>
     <icon>ui_inGame2_fekl_squad</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>zat_milutin</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -462,7 +484,9 @@
     <supplies>
         [spawn] \n
         wpn_abakan \n
+		ammo_5.45x39_ap = 4 \n
 		wpn_fort \n
+		ammo_9x18_fmj = 3 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -471,6 +495,8 @@
 #include "gameplay\character_criticals_5.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -483,7 +509,7 @@
 <specific_character id="zat_sudar" team_default="1">
     <name>Сударь</name>
     <icon>ui_inGame2_fekl_squad</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>zat_sudar</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -496,7 +522,9 @@
     <supplies>
         [spawn] \n
         wpn_abakan \n
+		ammo_5.45x39_ap = 4 \n
 		wpn_fort \n
+		ammo_9x18_fmj = 3 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -505,6 +533,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -516,23 +546,24 @@
 <!------------------- Генерал Таченко --------------------->
 
 <specific_character id="zat_tachenko" team_default="1">
-    <name>Генерал</name>
+    <name>Генерал Таченко</name>
     <icon>ui_inGame2_dolg_general</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>zat_tachenko</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
     <terrain_sect>stalker_terrain</terrain_sect>
-    <rank>21500</rank>
+    <rank>23500</rank>
     <reputation>2500</reputation>
     <money min="1000" max="10000" infinitive="0"/>
     <visual>actors\stalker_dolg\stalker_dolg_16</visual>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
     <supplies>
         [spawn] \n
-        wpn_abakan = 1 \n
-		wpn_desert_eagle = 1 \n
-		itm_backpack_60 = 1 \n
+        wpn_abakan \n
+		ammo_5.45x39_ap = 4 \n
+		wpn_desert_eagle \n
+		ammo_11.43x23_hydro = 3\n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -541,6 +572,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -551,9 +584,9 @@
 <!------------------- Полковник Космач --------------------->
 
 <specific_character id="zat_kosmach" team_default="1">
-    <name>GENERATE_NAME_captain</name>
-    <icon>ui_inGame2_Dolg</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <name>Полковник Космач</name>
+    <icon>ui_inGame2_Dolg_3</icon>
+    <bio>.</bio>
     <class>zat_kosmach</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -566,7 +599,9 @@
     <supplies>
         [spawn] \n
         wpn_abakan \n
+		ammo_5.45x39_ap = 4 \n
 		wpn_beretta \n
+		ammo_9x19_pbp = 3 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -575,6 +610,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
 		<actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
@@ -587,10 +624,10 @@
 <!------------------- Майор Чепурной ----------------------->
 
 <specific_character id="zat_chepurnoy" team_default="1">
-    <name>GENERATE_NAME_captain</name>
-    <icon>ui_inGame2_Dolg</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
-    <class>zat_lis</class>
+    <name>Майор Чепурной</name>
+    <icon>ui_inGame2_Dolg_3</icon>
+    <bio>.</bio>
+    <class>zat_chepurnoy</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -602,7 +639,9 @@
     <supplies>
         [spawn] \n
         wpn_abakan \n
+		ammo_5.45x39_ap = 4 \n
 		wpn_beretta \n
+		ammo_9x19_pbp = 3 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -611,6 +650,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -621,10 +662,10 @@
 <!------------------- Лейтенант Бунчук --------------------->
 
 <specific_character id="zat_bynchuk" team_default="1">
-    <name>GENERATE_NAME_lieutenant</name>
-    <icon>ui_inGame2_Dolg</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
-    <class>zat_milutin</class>
+    <name>Лейтенант Бунчук</name>
+    <icon>ui_inGame2_Dolg_3</icon>
+    <bio>.</bio>
+    <class>zat_bynchuk</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -636,8 +677,9 @@
     <supplies>
         [spawn] \n
         wpn_abakan_pso \n
-		wpn_svd \n
+		ammo_5.45x39_ap = 4 \n
 		wpn_beretta \n
+		ammo_9x19_pbp = 3 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -646,6 +688,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -656,10 +700,10 @@
 <!------------------- Лейтенант Захарчук ------------------->
 
 <specific_character id="zat_zaxarchuk" team_default="1">
-    <name>GENERATE_NAME_lieutenant</name>
-    <icon>ui_inGame2_Dolg</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
-    <class>zat_sudar</class>
+    <name>Лейтенант Захарчук</name>
+    <icon>ui_inGame2_Dolg_3</icon>
+    <bio>.</bio>
+    <class>zat_zaxarchuk</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -671,7 +715,9 @@
     <supplies>
         [spawn] \n
 		wpn_svd \n
+		ammo_7.62x54_ap = 3 \n
 		wpn_beretta \n
+		ammo_9x19_pbp = 3 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -680,6 +726,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -690,9 +738,9 @@
 <!------------------- Ст. Лейтенант Смирнов ---------------->
 
 <specific_character id="zat_mechanic_smirnov" team_default="1">
-    <name>Ст. Лейтенант Смирнов</name>
-    <icon>ui_inGame2_Dolg</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <name>Лейтенант Смирнов</name>
+    <icon>ui_inGame2_Dolg_3</icon>
+    <bio>.</bio>
     <class>zat_mechanic_smirnov</class>
     <community>dolg</community>
 	<mechanic_mode>1</mechanic_mode>
@@ -706,7 +754,9 @@
     <supplies>
         [spawn] \n
         wpn_abakan \n
+		ammo_5.45x39_ap = 4 \n
 		wpn_beretta \n
+		ammo_9x19_pbp = 3 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -715,6 +765,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -725,9 +777,9 @@
 <!------------------- Ст. Лейтенант Волков ----------------->
 
 <specific_character id="zat_trader_volkov" team_default="1">
-    <name>Ст. Лейтенант Волков</name>
-    <icon>ui_inGame2_Dolg</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <name>Лейтенант Волков</name>
+    <icon>ui_inGame2_Dolg_3</icon>
+    <bio>.</bio>
     <class>zat_trader_volkov</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -740,7 +792,9 @@
     <supplies>
         [spawn] \n
         wpn_abakan \n
+		ammo_5.45x39_ap = 4 \n
 		wpn_beretta \n
+		ammo_9x19_pbp = 3 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -749,6 +803,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -761,7 +817,7 @@
 <specific_character id="zat_shulga" team_default="1">
     <name>Подполковник Шульга</name>
     <icon>ui_inGame2_Shulga</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>zat_shulga</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -773,9 +829,10 @@
     <snd_config>characters_voice\human_02\dolg\</snd_config>
     <supplies>
         [spawn] \n
-        wpn_groza = 1 \n
-		wpn_sig220 = 1 \n
-		itm_backpack_40 = 1 \n
+        wpn_groza \n
+		ammo_9x39_ap = 4 \n
+		wpn_sig220 \n
+		ammo_11.43x23_fmj = 4 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -784,6 +841,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -797,7 +856,7 @@
 <specific_character id="gar_prapor" team_default="1">
     <name>Прапор</name>
     <icon>ui_inGame2_petrenko</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>gar_prapor</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -810,7 +869,9 @@
     <supplies>
         [spawn] \n
         wpn_spas12 \n
+		ammo_12x70_buck = 6 \n
 		wpn_colt1911 \n
+		ammo_11.43x23_fmj = 4 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -819,6 +880,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -831,7 +894,7 @@
 <specific_character id="gar_brom" team_default="1">
     <name>Бром</name>
     <icon>ui_inGame2_duty_2_old</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>gar_brom</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -844,7 +907,9 @@
     <supplies>
         [spawn] \n
         wpn_groza \n
+		ammo_9x39_pab9 = 4 \n
 		wpn_beretta \n
+		ammo_9x19_pbp = 3 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -853,6 +918,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -865,7 +932,7 @@
 <specific_character id="gar_pulya" team_default="1">
     <name>Пуля</name>
     <icon>ui_inGame2_Dolg_3</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>gar_pulya</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -878,7 +945,9 @@
     <supplies>
         [spawn] \n
         wpn_abakan_pso \n
+		ammo_5.45x39_fmj = 5 \n
 		wpn_colt1911 \n
+		ammo_11.43x23_fmj = 4 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -887,6 +956,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
 		<actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
@@ -901,7 +972,7 @@
 <specific_character id="gar_loxmatiy" team_default="1">
     <name>Сергей Лохматый</name>
     <icon>ui_inGame2_Dolg_2</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>gar_loxmatiy</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -914,7 +985,9 @@
     <supplies>
         [spawn] \n
         wpn_groza \n
+		ammo_9x39_pab9 = 4 \n
 		wpn_pb \n
+		ammo_9x18_pmm = 3 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -923,6 +996,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -935,7 +1010,7 @@
 <specific_character id="gar_barin" team_default="1">
     <name>Барин</name>
     <icon>ui_inGame2_duty_2_old</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>gar_barin</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -948,7 +1023,9 @@
     <supplies>
         [spawn] \n
         wpn_groza \n
+		ammo_9x39_pab9 = 4 \n
 		wpn_pb \n
+		ammo_9x18_pmm = 3 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -957,6 +1034,224 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+
+	<specific_character id="ivantsov" team_default="1">
+    <name>Капитан Иванцов</name>
+    <icon>ui_inGame2_voronin</icon>
+    <bio>.</bio>
+    <class>ivantsov</class>
+    <community>dolg</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>16500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="5000" infinitive="0"/>
+    <visual>actors\stalker_dolg\stalker_do_komandir</visual>
+    <snd_config>characters_voice\human_02\dolg\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_groza \n
+		ammo_9x39_pab9 = 4 \n
+		wpn_pm \n
+		ammo_9x18_pmm = 3 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+	
+	<specific_character id="plichko" team_default="1">
+    <name>Сержант Пличко</name>
+    <icon>ui_inGame2_kitsenko</icon>
+    <bio>.</bio>
+    <class>plichko</class>
+    <community>dolg</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>16500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="5000" infinitive="0"/>
+    <visual>actors\dolg\stalker_do_balon_1</visual>
+    <snd_config>characters_voice\human_02\dolg\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		ammo_9x39_pab9 = 4 \n
+		wpn_pb \n
+		ammo_9x18_pmm = 3 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+	
+	<specific_character id="nalivaiko" team_default="1">
+    <name>Ефрейтор Наливайко</name>
+    <icon>ui_inGame2_Dolg_2</icon>
+    <bio>.</bio>
+    <class>nalivaiko</class>
+    <community>dolg</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>16500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="5000" infinitive="0"/>
+    <visual>actors\stalker_dolg\stalker_dolg_2</visual>
+    <snd_config>characters_voice\human_02\dolg\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+		ammo_5.45x39_ap = 4 \n
+		wpn_pb \n
+		ammo_9x18_pmm = 3 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+	
+	<specific_character id="morgan" team_default="1">
+    <name>Прапорщик Морган</name>
+    <icon>ui_inGame2_petrenko</icon>
+    <bio>.</bio>
+    <class>morgan</class>
+    <community>dolg</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>16500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="5000" infinitive="0"/>
+    <visual>actors\stalker_dolg\stalker_do_balon_3</visual>
+    <snd_config>characters_voice\human_03\dolg\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_abakan \n
+		ammo_5.45x39_ap = 4 \n
+		wpn_pb \n
+		ammo_9x18_pmm = 3 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+	
+	<specific_character id="zvyagintsev" team_default="1">
+    <name>Майор Звягинцев</name>
+    <icon>ui_inGame2_petrenko</icon>
+    <bio>.</bio>
+    <class>zvyagintsev</class>
+    <community>dolg</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>16500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="5000" infinitive="0"/>
+    <visual>actors\stalker_dolg\stalker_do_balon_3</visual>
+    <snd_config>characters_voice\human_02\dolg\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_ak74 \n
+		ammo_5.45x39_ap = 4 \n
+		wpn_pb \n
+		ammo_9x18_pmm = 3 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+	
+	<specific_character id="inkvizitor" team_default="1">
+    <name>Инквизитор</name>
+    <icon>ui_inGame2_Dolg_2</icon>
+    <bio>.</bio>
+    <class>inkvizitor</class>
+    <community>dolg</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>16500</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="5000" infinitive="0"/>
+    <visual>actors\stalker_dolg\stalker_dolg_2</visual>
+    <snd_config>characters_voice\human_03\dolg\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_abakan \n
+		ammo_5.45x39_ap = 4 \n
+		wpn_pb \n
+		ammo_9x18_pmm = 3 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>

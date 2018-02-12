@@ -1,9 +1,9 @@
 <!---------------------- Дегтярев -------------------------->
 
 <specific_character id="aes_degtyarev" team_default="1">
-    <name>Подполковник Дегтярев</name>
+    <name>Полковник Дегтярёв</name>
     <icon>ui_inGame2_Hero</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>aes_degtyarev</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -15,9 +15,11 @@
     <snd_config>characters_voice\human_02\military\</snd_config>
     <supplies>
         [spawn] \n
-        wpn_pkm = 1 \n
-		wpn_beretta = 1 \n
-		itm_backpack_60 = 1 \n
+        wpn_pkm \n
+		ammo_pkm_100 = 3 \n
+		wpn_beretta \n
+		ammo_9x19_fmj = 4 \n
+                itm_backpack_60 = 1 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -26,6 +28,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -36,9 +40,9 @@
 <!------------------------ Лео ----------------------------->
 
 <specific_character id="aes_leo" team_default="1">
-    <name>Майор Леонид</name>
+    <name>Майор Леонидов</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>aes_leo</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -50,9 +54,11 @@
     <snd_config>characters_voice\human_02\military\</snd_config>
     <supplies>
         [spawn] \n
-        wpn_svu = 1 \n
-		wpn_beretta = 1 \n
-		itm_backpack_60 = 1 \n
+        wpn_svu \n
+		ammo_7.62x54_7h1 = 4 \n
+		wpn_beretta \n
+		ammo_9x19_fmj = 4 \n
+                itm_backpack_60 = 1 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -61,9 +67,235 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
 		<actor_dialog>actor_break_dialog</actor_dialog>
 
     </specific_character>
+	
+	
+	<specific_character id="kuznetsov" team_default="1">
+    <name>Майор Кузнецов</name>
+    <icon>ui_inGame2_Kuznetsov</icon>
+    <bio>.</bio>
+    <class>kuznetsov</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>20100</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_soldier\stalker_soldier_4</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_ak74 \n
+		ammo_5.45x39_ap = 3 \n
+		wpn_fort \n
+		ammo_9x18_fmj = 3 \n
+                itm_backpack_40 = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+	
+	<specific_character id="prapor_sher" team_default="1">
+    <name>Прапорщик Шерстюк</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <bio>.</bio>
+    <class>prapor_sher</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>17100</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_soldier\stalker_soldier_2</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+		ammo_5.45x39_ap = 3 \n
+		wpn_pm \n
+		ammo_9x18_fmj = 3 \n
+                itm_backpack = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+	
+	<specific_character id="haletski" team_default="1">
+    <name>Подполковник Халецкий</name>
+    <icon>ui_inGame2_Haletski</icon>
+    <bio>.</bio>
+    <class>haletski</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>24100</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_soldier\stalker_soldier_2_haletski</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+       wpn_val \n
+		ammo_9x39_ap = 6 \n
+		wpn_pm \n
+		ammo_9x18_fmj = 3 \n
+                itm_backpack_60 = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+	
+	<specific_character id="pypin" team_default="1">
+    <name>Сержант Пупин</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <bio>.</bio>
+    <class>pypin</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>8100</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_soldier\stalker_soldier_2</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+		ammo_5.45x39_ap = 3 \n
+		wpn_fort \n
+		ammo_9x18_fmj = 3 \n
+                itm_backpack_40 = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+	
+	<specific_character id="gaikin" team_default="1">
+    <name>Ефрейтор Гайкин</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <bio>.</bio>
+    <class>gaikin</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>7100</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_soldier\stalker_soldier_2</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+		ammo_5.45x39_ap = 3 \n
+		wpn_pm \n
+		ammo_9x18_fmj = 3 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+	
+	<!----------------------- Для сюжета ---------------------------->
+	<specific_character id="nevezychi" team_default="1">
+    <name>Василь Невезучий</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <bio>.</bio>
+    <class>nevezychi</class>
+    <community>army</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>19900</rank>
+    <reputation>2500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_soldier\stalker_soldier_4</visual>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <supplies>
+        [spawn] \n
+       wpn_val \n
+		ammo_9x39_ap = 6 \n
+		wpn_pm \n
+		ammo_9x18_fmj = 3 \n
+                itm_backpack_40 = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+    </specific_character>
+	

@@ -2,22 +2,23 @@
 <!---------------------- Карась -------------------------->	
 
 <specific_character id="ds_dikobraz" team_default="1">
-    <name>Карась</name>
+    <name>Гном</name>
     <icon>ui_inGame2_bandit_trade</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>Опытный бандит.</bio>
     <class>ds_dikobraz</class>
     <community>bandit</community>
     <map_icon x="1" y="0"/>
     <terrain_sect>stalker_terrain</terrain_sect>
     <rank>8139</rank>
     <reputation>784</reputation>
-    <visual>actors\stalker_bandit\stalker_bandit_tr</visual>
+    <visual>actors\stalker_bandit\stalker_bandit_2</visual>
     <snd_config>characters_voice\human_03\bandit\</snd_config>
     <supplies>
         [spawn] \n
         wpn_groza = 1 \n
+		ammo_9x39_ap = 3 \n
         wpn_fort \n
-        ammo_9x18_fmj = 1 \n
+        ammo_9x18_fmj = 4 \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs_2.xml"
@@ -31,19 +32,21 @@
 <specific_character id="ds_maloy" team_default="1">
     <name>Шишак</name>
     <icon>ui_inGame2_bandit_4</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>Бандит ветеран.</bio>
     <class>ds_maloy</class>
     <community>bandit</community>
     <map_icon x="1" y="0"/>
     <terrain_sect>stalker_terrain</terrain_sect>
     <rank>11139</rank>
     <reputation>784</reputation>
-    <visual>actors\stalker_bandit\stalker_bandit_4</visual>
+    <visual>actors\stalker_bandit\stalker_bandit_3_mask</visual>
     <snd_config>characters_voice\human_01\bandit\</snd_config>
     <supplies>
         [spawn] \n
         wpn_ak74u = 1, silencer \n
+		ammo_5.45x39_ap = 4 \n
         wpn_pmm = 1 \n
+		ammo_9x18_fmj = 4 \n
 		itm_backpack_20_black = 1 \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -57,20 +60,22 @@
 <!---------------------- Вася Кабан --------------------------->
 <specific_character id="ds_kengyry" team_default="1">
     <name>Вася Кабан</name>
-    <icon>ui_inGame2_bandit_5</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <icon>ui_inGame2_bandit_4</icon>
+    <bio>Бандит ветеран.</bio>
     <class>ds_kengyry</class>
     <community>bandit</community>
     <map_icon x="1" y="0"/>
     <terrain_sect>stalker_terrain</terrain_sect>
     <rank>11139</rank>
     <reputation>-1784</reputation>
-    <visual>actors\stalker_bandit\stalker_bandit_5</visual>
+    <visual>actors\stalker_bandit\stalker_bandit_4</visual>
     <snd_config>characters_voice\human_01\bandit\</snd_config>
     <supplies>
         [spawn] \n
         wpn_val = 1 \n
+		ammo_9x39_ap = 3 \n
         wpn_desert_eagle = 1 \n
+		ammo_11.43x23_hydro = 4 \n
 	        </supplies>
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -84,7 +89,7 @@
 <specific_character id="ds_biceps" team_default="1">
     <name>Валет</name>
     <icon>ui_inGame2_bandit_3</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>Бандит ветеран.</bio>
     <class>ds_biceps</class>
     <community>bandit</community>
     <map_icon x="1" y="0"/>
@@ -96,7 +101,9 @@
     <supplies>
         [spawn] \n
         wpn_val = 1 \n
+		ammo_9x39_ap = 3 \n
         wpn_pmm = 1 \n
+		ammo_9x18_fmj = 4 \n
 </supplies>
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -108,21 +115,22 @@
 
 <!------------------------ Василь ---------------------------->
 <specific_character id="ds_tigr" team_default="1">
-    <name>Василь</name>
-    <icon>ui_inGame2_vas</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <name>Султан</name>
+    <icon>ui_inGame2_Sultan</icon>
+    <bio>Бандит мастер.Звеньевой братвы.</bio>
     <class>ds_tigr</class>
     <community>bandit</community>
     <map_icon x="1" y="0"/>
     <terrain_sect>stalker_terrain</terrain_sect>
     <rank>23139</rank>
     <reputation>2984</reputation>
-    <visual>actors\stalker_merc\stalker_ki_mask</visual>
-    <snd_config>characters_voice\human_01\bandit\</snd_config>
+    <visual>actors\stalker_bandit\stalker_bandit_3_face_3</visual>
+    <snd_config>characters_voice\human_03\bandit\</snd_config>
     <supplies>
         [spawn] \n
         wpn_vssk = 1 \n
         wpn_pmm = 1 \n
+		ammo_9x18_fmj = 4 \n
 </supplies>
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -134,24 +142,26 @@
 
 <!---------------------- Поляна -------------------------->	
 
-<!----------------------- Сильвер --------------------------->	
+<!----------------------- Йога --------------------------->	
 
 <specific_character id="pol_yoga" team_default="1">
-    <name>Сильвер</name>
-    <icon>ui_inGame2_nodata</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <name>Йога</name>
+    <icon>ui_inGame2_bandit_2</icon>
+    <bio>Телохранитель Борова.</bio>
     <class>pol_yoga</class>
     <community>bandit</community>
     <map_icon x="1" y="0"/>
     <terrain_sect>stalker_terrain</terrain_sect>
     <rank>15139</rank>
     <reputation>-2784</reputation>
-    <visual>actors\stalker_merc\stalker_merc_exo_proto</visual>
-    <snd_config>characters_voice\human_01\killer\</snd_config>
+    <visual>actors\stalker_bandit\stalker_bandit_2</visual>
+    <snd_config>characters_voice\human_02\bandit\</snd_config>
     <supplies>
         [spawn] \n
         wpn_val = 1 \n
+		ammo_9x39_ap = 3 \n
         wpn_fort = 1 \n
+		ammo_9x18_fmj = 4 \n
 	</supplies>
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -159,6 +169,219 @@
 #include "gameplay\character_criticals_6.xml"
 <actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 <actor_dialog>yoga</actor_dialog>
+<actor_dialog>actor_break_dialog</actor_dialog>
+
+</specific_character>
+
+<specific_character id="animalist" team_default="1">
+    <name>Живодёр</name>
+    <icon>ui_inGame2_bandit_1</icon>
+    <bio>.</bio>
+    <class>animalist</class>
+    <community>bandit</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>15139</rank>
+    <reputation>-2784</reputation>
+    <visual>actors\stalker_bandit\stalker_bandit_1</visual>
+    <snd_config>characters_voice\human_01\bandit\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_fort \n
+        ammo_9x18_fmj = 3 \n
+	</supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+#include "gameplay\character_criticals_6.xml"
+<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+<actor_dialog>actor_break_dialog</actor_dialog>
+
+</specific_character>
+
+<specific_character id="kastet" team_default="1">
+    <name>Кастет</name>
+    <icon>ui_inGame2_bandit_2</icon>
+    <bio>.</bio>
+    <class>kastet</class>
+    <community>bandit</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>15139</rank>
+    <reputation>-2784</reputation>
+    <visual>actors\stalker_bandit\stalker_bandit_2</visual>
+    <snd_config>characters_voice\human_02\bandit\</snd_config>
+    <supplies>
+        [spawn] \n
+		wpn_abakan \n
+		ammo_5.45x39_ap = 4 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 3 \n
+	</supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+#include "gameplay\character_criticals_6.xml"
+<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+<actor_dialog>actor_break_dialog</actor_dialog>
+
+</specific_character>
+
+<specific_character id="avoska" team_default="1">
+    <name>Авоська</name>
+    <icon>ui_inGame2_bandit_1</icon>
+    <bio>.</bio>
+    <class>avoska</class>
+    <community>bandit</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>15139</rank>
+    <reputation>-2784</reputation>
+    <visual>actors\stalker_bandit\stalker_bandit_1</visual>
+    <snd_config>characters_voice\human_01\bandit\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_hpsa \n
+		ammo_9x19_fmj = 3 \n
+	</supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+#include "gameplay\character_criticals_6.xml"
+<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+<actor_dialog>actor_break_dialog</actor_dialog>
+
+</specific_character>
+
+<specific_character id="senka" team_default="1">
+    <name>Сенька</name>
+    <icon>ui_inGame2_bandit_1</icon>
+    <bio>.</bio>
+    <class>senka</class>
+    <community>bandit</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>15139</rank>
+    <reputation>-2784</reputation>
+    <visual>actors\stalker_bandit\stalker_bandit_1</visual>
+    <snd_config>characters_voice\human_01\bandit\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_beretta \n
+		ammo_9x19_fmj = 3 \n
+	</supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+#include "gameplay\character_criticals_6.xml"
+<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+<actor_dialog>actor_break_dialog</actor_dialog>
+
+</specific_character>
+
+<specific_character id="koriaga" team_default="1">
+    <name>Коряга</name>
+    <icon>ui_inGame2_bandit_1</icon>
+    <bio>.</bio>
+    <class>koriaga</class>
+    <community>bandit</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>15139</rank>
+    <reputation>-2784</reputation>
+    <visual>actors\stalker_bandit\stalker_bandit_1</visual>
+    <snd_config>characters_voice\human_01\bandit\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_fort \n
+        ammo_9x18_fmj = 3 \n
+	</supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+#include "gameplay\character_criticals_6.xml"
+<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+<actor_dialog>actor_break_dialog</actor_dialog>
+
+</specific_character>
+
+<specific_character id="fraer" team_default="1">
+    <name>Фраер</name>
+    <icon>ui_inGame2_bandit_3</icon>
+    <bio>.</bio>
+    <class>fraer</class>
+    <community>bandit</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>15139</rank>
+    <reputation>-2784</reputation>
+    <visual>actors\stalker_bandit\stalker_bandit_3</visual>
+    <snd_config>characters_voice\human_01\bandit\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_hpsa \n
+		wpn_mp5 \n
+		ammo_9x19_fmj = 6 \n
+	</supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+#include "gameplay\character_criticals_6.xml"
+<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+<actor_dialog>actor_break_dialog</actor_dialog>
+
+</specific_character>
+
+<specific_character id="kocherga" team_default="1">
+    <name>Кочерга</name>
+    <icon>ui_inGame2_bandit_4</icon>
+    <bio>.</bio>
+    <class>kocherga</class>
+    <community>bandit</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>15139</rank>
+    <reputation>-2784</reputation>
+    <visual>actors\stalker_bandit\stalker_bandit_4</visual>
+    <snd_config>characters_voice\human_01\bandit\</snd_config>
+    <supplies>
+        [spawn] \n
+		wpn_groza = 1 \n
+		ammo_9x39_ap = 3 \n
+        wpn_beretta \n
+		ammo_9x19_fmj = 3 \n
+	</supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+#include "gameplay\character_criticals_6.xml"
+<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+<actor_dialog>actor_break_dialog</actor_dialog>
+
+</specific_character>
+
+<specific_character id="vobla" team_default="1">
+    <name>Вобла</name>
+    <icon>ui_inGame2_bandit_1</icon>
+    <bio>.</bio>
+    <class>vobla</class>
+    <community>bandit</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>15139</rank>
+    <reputation>-2784</reputation>
+    <visual>actors\stalker_bandit\stalker_bandit_1</visual>
+    <snd_config>characters_voice\human_01\bandit\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_fort \n
+        ammo_9x18_fmj = 3 \n
+	</supplies>
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+#include "gameplay\character_criticals_6.xml"
+<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 <actor_dialog>actor_break_dialog</actor_dialog>
 
 </specific_character>

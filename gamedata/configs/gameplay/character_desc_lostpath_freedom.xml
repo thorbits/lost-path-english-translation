@@ -1,9 +1,9 @@
 <!--------------------------- Чех -------------------------->
     <specific_character id="mil_chex" team_default = "1">
     <name>Чех</name>
-    <icon>ui_inGame2_nodata</icon>
+    <icon>ui_inGame2_Brodyaga_free</icon>
     <map_icon x="0" y="0"></map_icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>Чех</bio>
     <class>mil_chex</class>
     <community>freedom</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
@@ -15,7 +15,7 @@
     <supplies>
 			[spawn_loadout] \n
 			wpn_sig550 = 1 \n
-			itm_backpack_40 = 1 \n
+			ammo_5.56x45_ap = 4 \n
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
     </supplies>
@@ -33,7 +33,7 @@
 <specific_character id="jup_brodyaga" team_default="1">
     <name>Бродяга</name>
     <icon>ui_inGame2_Brodyaga_free</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>jup_brodyaga</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -46,8 +46,9 @@
     <supplies>
         [spawn] \n
         wpn_svu \n
+		ammo_7.62x54_7h14 = 3 \n
 		wpn_colt1911 \n
-		itm_backpack_40 = 1 \n
+		ammo_11.43x23_hydro = 4 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -56,6 +57,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -68,7 +71,7 @@
 <specific_character id="jup_bronya" team_default="1">
     <name>Броня</name>
     <icon>ui_inGame2_Spooner</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>jup_bronya</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -81,7 +84,9 @@
     <supplies>
         [spawn] \n
         wpn_spas12 \n
+		ammo_12x70_buck = 3 \n
 		wpn_beretta \n
+		ammo_9x19_fmj = 3 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -90,6 +95,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
 		<actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
@@ -104,7 +111,7 @@
 <specific_character id="jup_serp" team_default="1">
     <name>Серп</name>
     <icon>ui_inGame2_military</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>jup_serp</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -117,7 +124,9 @@
     <supplies>
         [spawn] \n
         wpn_lr300 \n
+		ammo_5.56x45_ap = 3 \n
 		wpn_colt1911 \n
+		ammo_11.43x23_hydro = 4 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -126,6 +135,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -138,7 +149,7 @@
 <specific_character id="jup_morj" team_default="1">
     <name>Морж</name>
     <icon>ui_inGame2_free_hood</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>jup_morj</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -151,7 +162,9 @@
     <supplies>
         [spawn] \n
         wpn_ak74m \n
+		ammo_5.45x39_ap = 4 \n
 		wpn_pb \n
+		ammo_9x18_pmm = 3 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -160,6 +173,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -172,7 +187,7 @@
 <specific_character id="jup_foma" team_default="1">
     <name>Фома</name>
     <icon>ui_inGame2_free_hood</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>jup_foma</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -185,7 +200,9 @@
     <supplies>
         [spawn] \n
         wpn_ak74m \n
+		ammo_5.45x39_ap = 4 \n
 		wpn_hpsa \n
+		ammo_9x19_fmj = 3 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -194,6 +211,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -207,7 +226,7 @@
 <specific_character id="mil_ugr" team_default="1">
   <name>Угрюмый</name>
     <icon>ui_inGame2_freedom_0</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>mil_ugr</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -220,7 +239,9 @@
     <supplies>
         [spawn] \n
         wpn_g36 \n
+		ammo_5.56x45_ap = 3 \n
 		wpn_usp \n
+		ammo_11.43x23_hydro = 4 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -229,6 +250,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -242,7 +265,7 @@
 <specific_character id="mil_cap" team_default="1">
   <name>Кэп</name>
     <icon>ui_inGame2_cap</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>mil_cap</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -254,9 +277,10 @@
     <snd_config>characters_voice\human_02\freedom\</snd_config>
     <supplies>
         [spawn] \n
-        wpn_svd \n
+        wpn_g36 \n
+		ammo_5.56x45_ap = 3 \n
 		wpn_usp \n
-			itm_backpack_40 = 1 \n
+		ammo_11.43x23_hydro = 4 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -265,6 +289,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -272,12 +298,12 @@
 
    </specific_character>
  
-<!----------------------- Скромный ----------------------------->
+<!----------------------- Вано ----------------------------->
 
 <specific_character id="mil_vano" team_default="1">
-  <name>Скромный</name>
+  <name>Вано</name>
     <icon>ui_inGame2_Freedom_2</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>mil_vano</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -285,12 +311,14 @@
     <rank>17500</rank>
     <reputation>500</reputation>
     <money min="1000" max="10000" infinitive="0"/>
-    <visual>actors\stalker_freedom\stalker_freedom_2</visual>
+    <visual>actors\stalker_freedom\stalker_freedom_vano</visual>
     <snd_config>characters_voice\human_02\freedom\</snd_config>
     <supplies>
         [spawn] \n
         wpn_g36 \n
+		ammo_5.56x45_ap = 3 \n
 		wpn_usp \n
+		ammo_11.43x23_hydro = 4 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -299,6 +327,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -309,9 +339,9 @@
 <!--------------------- Снайпер 1 -------------------------->
 
 <specific_character id="mil_cap_sniper_1" team_default="1">
-  <name>Снайпер</name>
+  <name>Комендант</name>
     <icon>ui_inGame2_Freedom_2</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>mil_cap_sniper_1</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -324,7 +354,9 @@
     <supplies>
         [spawn] \n
         wpn_svu \n
+		ammo_7.62x54_7h14 = 5 \n
 		wpn_colt1911 \n
+		ammo_11.43x23_hydro = 4 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -333,6 +365,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -343,9 +377,9 @@
 <!--------------------- Снайпер 2 -------------------------->
 
 <specific_character id="mil_cap_sniper_2" team_default="1">
-  <name>Косой</name>
+  <name>Макс</name>
     <icon>ui_inGame2_Freedom_2</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>mil_cap_sniper_2</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -358,7 +392,9 @@
     <supplies>
         [spawn] \n
         wpn_svu \n
+		ammo_7.62x54_7h14 = 4 \n
 		wpn_colt1911 \n
+		ammo_11.43x23_hydro = 4 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -367,6 +403,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -374,12 +412,12 @@
 
    </specific_character>
 
-<!------------------- Бычий глаз ------------------------>
+<!------------------- Гранатометчик ------------------------>
 
 <specific_character id="mil_cap_heavy" team_default="1">
-  <name>Бычий глаз</name>
+  <name>Косой</name>
     <icon>ui_inGame2_Freedom_4</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>mil_cap_heavy</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -391,8 +429,10 @@
     <snd_config>characters_voice\human_02\freedom\</snd_config>
     <supplies>
         [spawn] \n
-        wpn_vssk \n
-		wpn_glock \n
+        wpn_rpg-7 \n
+		ammo_og-7b = 5 \n
+		wpn_colt1911 \n
+		ammo_11.43x23_hydro = 4 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -401,6 +441,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -411,9 +453,9 @@
 <!--------------------- Пулеметчик ------------------------->
 
 <specific_character id="mil_cap_pkm" team_default="1">
-  <name>Кремень</name>
+  <name>Миклуха</name>
     <icon>ui_inGame2_Freedom_4</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>mil_cap_pkm</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -426,7 +468,9 @@
     <supplies>
         [spawn] \n
         wpn_pkm \n
-		wpn_glock \n
+		ammo_pkm_100 = 4 \n
+		wpn_colt1911 \n
+		ammo_11.43x23_hydro = 4 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -435,6 +479,8 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
@@ -445,9 +491,9 @@
 <!---------------------- Разведчик -------------------------->
 
 <specific_character id="mil_cap_razvedka" team_default="1">
-  <name>Штирлиц</name>
+  <name>Кот</name>
     <icon>ui_inGame2_Freedom_4</icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>.</bio>
     <class>mil_cap_razvedka</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -459,8 +505,10 @@
     <snd_config>characters_voice\human_02\freedom\</snd_config>
     <supplies>
         [spawn] \n
-        wpn_vintorez \n
+        wpn_val \n
+		ammo_9x39_ap = 3 \n
 		wpn_usp \n
+		ammo_11.43x23_hydro = 4 \n
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -469,9 +517,163 @@
 #include "gameplay\character_dialogs_wth_history.xml"
 
 		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_universal_dialog</actor_dialog>
 		<actor_dialog>actor_break_dialog</actor_dialog>
 
    </specific_character>
+   
+   <specific_character id="mil_ashot" team_default = "1">
+    <name>Ашот</name>
+    <icon>ui_inGame2_Freedom_4</icon>
+    <map_icon x="0" y="0"></map_icon>
+    <bio>.</bio>
+    <class>mil_ashot</class>
+    <community>freedom</community>
+	<terrain_sect>stalker_terrain</terrain_sect>
+    <money min="5000" max="10000" infinitive="0"></money>
+    <rank>16156</rank>
+    <reputation>3215</reputation>
+    <visual>actors\stalker_freedom\stalker_freedom_7_mask</visual>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <supplies>
+			[spawn] \n
+			wpn_sig550 = 1 \n
+			ammo_5.56x45_ap = 4 \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_6.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_is_actor_companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_patrol</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<specific_character id="mil_slavik" team_default = "1">
+    <name>Повар Славик</name>
+    <icon>ui_inGame2_Freedom_2</icon>
+    <map_icon x="0" y="0"></map_icon>
+    <bio>.</bio>
+    <class>mil_slavik</class>
+    <community>freedom</community>
+	<terrain_sect>stalker_terrain</terrain_sect>
+    <money min="5000" max="10000" infinitive="0"></money>
+    <rank>16156</rank>
+    <reputation>3215</reputation>
+    <visual>actors\stalker_freedom\stalker_freedom_7_mask</visual>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <supplies>
+			[spawn] \n
+			wpn_sig550 = 1 \n
+			ammo_5.56x45_ap = 4 \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_6.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_is_actor_companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_patrol</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<specific_character id="voron" team_default="1">
+  <name>Ворон</name>
+    <icon>ui_inGame2_Freedom_4</icon>
+    <bio>.</bio>
+    <class>voron</class>
+    <community>freedom</community>
+    <map_icon x="1" y="0"/>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <rank>16516</rank>
+    <reputation>500</reputation>
+    <money min="1000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_15</visual>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+		ammo_9x39_ap = 3 \n
+		wpn_usp \n
+		ammo_11.43x23_hydro = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+	</supplies>
+#include "gameplay\character_criticals_5.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+
+		<start_dialog>hello_dialog</start_dialog>
+		<actor_dialog>companion_dialog</actor_dialog>
+		<actor_dialog>dm_companion_leave</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_universal_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+
+   </specific_character>
+   
+   <specific_character id="kostuk" team_default = "1">
+    <name>Костюк</name>
+    <icon>ui_inGame2_Freedom_4</icon>
+    <map_icon x="0" y="0"></map_icon>
+    <bio>.</bio>
+    <class>kostuk</class>
+    <community>freedom</community>
+	<terrain_sect>stalker_terrain</terrain_sect>
+    <money min="5000" max="10000" infinitive="0"></money>
+    <rank>16156</rank>
+    <reputation>3215</reputation>
+    <visual>actors\stalker_freedom\stalker_freedom_7_mask</visual>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <supplies>
+			[spawn] \n
+			wpn_sig550 = 1 \n
+			ammo_5.56x45_ap = 4 \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_6.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_is_actor_companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_patrol</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<specific_character id="kremen" team_default = "1">
+    <name>Кремень</name>
+    <icon>ui_inGame2_Freedom_2</icon>
+    <map_icon x="0" y="0"></map_icon>
+    <bio>.</bio>
+    <class>kremen</class>
+    <community>freedom</community>
+	<terrain_sect>stalker_terrain</terrain_sect>
+    <money min="5000" max="10000" infinitive="0"></money>
+    <rank>16156</rank>
+    <reputation>3215</reputation>
+    <visual>actors\stalker_freedom\stalker_freedom_7_mask</visual>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <supplies>
+			[spawn] \n
+			wpn_sig550 = 1 \n
+			ammo_5.56x45_ap = 4 \n
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_6.xml"
+#include "gameplay\character_dialogs_wth_history.xml"
+	<actor_dialog>companion_dialog</actor_dialog>
+	<actor_dialog>dm_is_actor_companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_patrol</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>

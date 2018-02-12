@@ -3,18 +3,19 @@
     <name>shram_name</name>
     <icon>ui_inGame2_csky_hero</icon>
     <map_icon x="1" y="0">	</map_icon>
-    <bio>An experienced stalker. No detailed information is available.</bio>
+    <bio>Легендарный наёмник Шрам</bio>
     <class>mar_base_shram</class>
     <community>csky</community>
     <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
-    <rank>38000</rank>
+    <rank>29000</rank>
     <reputation>5000</reputation>
     <money min="100000" max="100000" infinitive="0" />
     <visual>actors\stalker_merc\stalker_shram</visual>
     <supplies>
         [spawn] \n
         wpn_vintorez_sk1 = 1 \n
+        ammo_9x39_ap = 10 \n
 		pda_shram = 1 \n
 		itm_backpack_20 = 1 \n
     </supplies>
@@ -23,6 +24,93 @@
 	<actor_dialog>companion_dialog_shram</actor_dialog>
 	<actor_dialog>companion_dialog_shram_no_money</actor_dialog>
 	<actor_dialog>dm_is_actor_companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_patrol</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<specific_character id="lebedev" team_default = "1">
+    <name>Денис Лебедев</name>
+    <icon>ui_inGame2_lebedev</icon>
+    <map_icon x="1" y="0"> </map_icon>
+    <bio>.</bio>
+    <class>lebedev</class>
+    <community>csky</community>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>21940</rank>
+    <reputation>2314</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_2_face_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_usp = 1 \n
+        ammo_11.43x23_fmj = 1 \n
+        wpn_ak74 = 1 \n
+        ammo_5.45x39_fmj = 1 \n
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+   <actor_dialog>dm_is_actor_companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_patrol</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<specific_character id="kalancha" team_default = "1">
+    <name>Профессор Каланча</name>
+    <icon>ui_inGame2_kalancha</icon>
+    <map_icon x="1" y="0"> </map_icon>
+    <bio>.</bio>
+    <class>kalancha</class>
+    <community>csky</community>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>16940</rank>
+    <reputation>2314</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_2_face_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_usp = 1 \n
+        ammo_11.43x23_fmj = 1 \n
+        wpn_ak74 = 1 \n
+        ammo_5.45x39_fmj = 1 \n
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+   <actor_dialog>dm_is_actor_companion_dialog</actor_dialog>
+	<actor_dialog>dm_companion_patrol</actor_dialog>
+	<actor_dialog>dm_companion_leave</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<specific_character id="suslov" team_default = "1">
+    <name>Вениамин Суслов</name>
+    <icon>ui_inGame2_csky_2</icon>
+    <map_icon x="1" y="0"> </map_icon>
+    <bio>.</bio>
+    <class>suslov</class>
+    <community>csky</community>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>16940</rank>
+    <reputation>2314</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_usp = 1 \n
+        ammo_11.43x23_fmj = 1 \n
+        wpn_ak74 = 1 \n
+        ammo_5.45x39_fmj = 1 \n
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+   <actor_dialog>dm_is_actor_companion_dialog</actor_dialog>
 	<actor_dialog>dm_companion_patrol</actor_dialog>
 	<actor_dialog>dm_companion_leave</actor_dialog>
 	<actor_dialog>actor_break_dialog</actor_dialog>

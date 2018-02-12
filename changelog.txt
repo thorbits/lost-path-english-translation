@@ -4,7 +4,7 @@
 
 
 --------------------
-02/12 0.1.6	--> New "Lost Path v0.5.002" compatible version
+02/12 0.1.6	--> "Lost Path v0.5.002" compatible version
 --------------------
 updated stable_treasure_manager.xml
 updated st_items_weapons.xml
@@ -17,9 +17,8 @@ updated lostpath_barter_killer.script
 updated sim_smart.script
 updated sim_squad.script
 updated ui_main_menu.script
-
 --------------------
-02/11 0.1.5	--> Last "Lost Path v0.5.001" compatible version
+02/11 0.1.5	--> "Lost Path v0.5.001" last compatible version
 --------------------
 updated st_lostpath_main.xml
 updated st_lostpath_system.xml
@@ -116,5 +115,5 @@ added lootmoney.script
 --------------------
 02/06 0.1.0
 --------------------
-initial release	--> New "Lost Path v0.5.001" compatible version
+initial release	--> "Lost Path v0.5.001" compatible version
 --------------------

@@ -5,19 +5,6 @@
 function opt_menu_on_init(menu)
 	-- simply add new line and a ui_mm_<name> in ui_st_mm.xml to create a new option. Script automatically does the rest for you
 	
-    -- localization
-	menu.gameplay_options["localization"] = 	{default = "eng",	debug_only = false,	typ = "list",	list = {"eng","rus"},
-		on_accept=function(handler,optMgr,ctrl)
-			local language = ctrl:GetText()
-			if (language and language ~= "") then
-				local loc_ini = ini_file_ex("localization.ltx",true)
-				if (loc_ini:r_value("string_table","language") ~= language) then
-					loc_ini:w_value("string_table","language",language)
-					loc_ini:save()
-					menu.b__require_restart = true
-				end
-			end
-		end}
 	-- slot Hud
 	if (slot_hud) then
 		menu.gameplay_options["slot_hud"]		= {default=false, 	debug_only=false, 	typ="check", on_accept=function(handler,optMgr,ctrl)

@@ -391,12 +391,14 @@ function main_menu:OnKeyboard(dik, keyboard_action)  --virtual function
 		if dik == DIK_keys.DIK_F1 then
 			self:show_position_informer_window()
 		end
-		
+	-- AMI -- ]]	
+	
 		if dik == DIK_keys.DIK_F2 then
-
-			db.actor:give_info_portion("clesh_documents_give")
-			db.actor:give_info_portion("clesh_pda_done")
-			give_object_to_actor("ds_documents")
+			--run_gui(Reputation_isg.Reputation_isg(), false)
+		end
+		
+		if dik == DIK_keys.DIK_K then
+			--xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"killer", 1000}) 
 		end
 		
 		-- Test Lost Path --
@@ -412,25 +414,16 @@ function main_menu:OnKeyboard(dik, keyboard_action)  --virtual function
 			end
 			
 			if dik == DIK_keys.DIK_F3 then
-				db.actor:set_character_community("actor_dolg")
-				game_relations.set_community_goodwill_for_faction("actor_dolg")
-				--db.actor:give_info_portion("bar_deactivate_radar_done")
-				--if string.find(actor_faction, "actor_")then
-					--local str = string.gsub(actor_faction, "actor_", "")
-					--printf("%s %s", actor_faction, str)
-				   --lostpath_faction_resource.res[str] = lostpath_faction_resource.res[str] + 25
-				--end
+				db.actor:set_character_community("actor_killer")
+				game_relations.set_community_goodwill_for_faction("actor_killer")
 			end
 			
 			if dik == DIK_keys.DIK_F4 then
 				db.actor:set_character_community("actor_army")
 				game_relations.set_community_goodwill_for_faction("actor_army")
-				--db.actor:give_info_portion("yan_labx16_switcher_primary_off")
 			end
 		end		
-	-- Test Lost Path --
-		
-	-- AMI -- ]]
+		-- Test Lost Path --
 	
 	
 	

@@ -2,9 +2,24 @@
  #  База скриптов
  #  for Lost Path
  #  author : b4d1k
- #  date   : 11.11.2017
+ #  date   : 11.02.2018
  #  file   : lostpath.script 
 ]]-- -----------------------------------
+
+local string_isg = ""
+local operations_isg = 0
+
+local string_army = text
+local operations_army = 0
+
+local string_dolg = text
+local operations_dolg = 0
+
+local string_freedom = text
+local operations_freedom = 0
+
+local string_merc = text
+local operations_merc = 0
 
 -- ---------------------------------------------------------------------------------
 -- Играем звук в голове ГГ
@@ -232,7 +247,7 @@ function update_pda(itm1, itm2)
 		if (math.random(0, 2) == 1) then 
 			give_object_to_actor("pda_nps_good",1)
 			released(itm2)
-			sim_relations.send_news("Success!", "This PDA was charged and it is usable.", "ui_inGame2_D_gonets_pravosudiya")
+			sim_relations.send_news("Success!", "This PDA is charged and usable.", "ui_inGame2_D_gonets_pravosudiya")
 		else
 			sim_relations.send_news("Failure.", "Could not charge.", "ui_inGame2_Radiopomehi")
 		end

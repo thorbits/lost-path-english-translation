@@ -290,6 +290,12 @@ transitions.script
 <br>&#8627; <em>done</em><br>
 ui_main_menu.script
 <br>&#8627; <em>done</em><br>
+ui_pda_relations_tab.script
+<br>&#8627; <em>done</em><br>
+zone_new.script
+<br>&#8627; <em>done</em><br>
+zone_news_main.script
+<br>&#8627; <em>done</em><br>
 </ul><hr>
 
 <pre>If you have comments or questions about this translation, message me on <a href="http://www.moddb.com/mods/lost-path/downloads/stalker-lost-path-english-translation">Moddb</a>.</pre>

@@ -29,7 +29,6 @@ smart_owners = {}
 hide_sim = false
 local smarts = (lostpath_main.config:r_value("map","enable_show_smart",1))
 
-
 local default_pop   = (lostpath_main.config:r_value("smart_population","default_pop",2))
 local lair_pop      = (lostpath_main.config:r_value("smart_population","lair_pop",2))
 local base_pop      = (lostpath_main.config:r_value("smart_population","base_pop",2))
@@ -37,17 +36,9 @@ local res_pop       = (lostpath_main.config:r_value("smart_population","res_pop"
 local territory_pop = (lostpath_main.config:r_value("smart_population","territory_pop",2))
 
 local spawn_attack_time = (lostpath_main.config:r_value("war_options","spawn_attack_time",2))
-
-
 local spawn_defence_time = (lostpath_main.config:r_value("war_options","spawn_defence_time",2))
 local capture_actor_news = (lostpath_main.config:r_value("scripts","enable_capture_actor_news",1))
 local night_spawn = (lostpath_main.config:r_value("scripts","enable_night_spawn",1))
-
-
-
-
-
-
 
 function set_max_population(smart)
 	if (smart.props) then
@@ -455,7 +446,6 @@ function target_manual_capture(smart)
 			end
 		    
 			task_objects.smart_capture(nagrada, faction)
-
 			xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {faction, rept}) 
 			--xr_sound.set_sound_play(db.actor:id(), "pda_news")
 			
@@ -726,12 +716,6 @@ end
 
 function spawn_defense_squad(smart)
 	local time = level.get_time_days()*60*24+level.get_time_hours()*60+level.get_time_minutes()
-
-
-
-
-
-
 	local faction = smart.owning_faction
 	local npc_in_smart = npc_count_passive(smart, faction)
 	
@@ -752,25 +736,14 @@ end
 
 function spawn_patrol_squad(smart)
 	--printf("# SIM: Spawn Patrol is disabled")
-
 	return 
 end
 
 function spawn_killers_squad(smart)
 	--printf("# SIM: Spawn of Mercenaries is disabled")	
-
 	return 
 end
 function spawn_attack_squad(smart)	
-
-
-
-
-
-
-
-
-
 	local time = level.get_time_days()*60*24+level.get_time_hours()*60+level.get_time_minutes()
 	
 	local fi = sim_factions.faction_information[smart.owning_faction]
@@ -1134,52 +1107,34 @@ function get_simulation_info(smart)
 	if (smart.props) then
 		if (smart.props.base > 0) then
 			type = "Base"
-
 		elseif (smart.props.resource > 0) then
 			type = "Resource Point"
-
 		elseif (smart.props.territory > 0) then
 			type = "Territory"
-
 		elseif (smart.props.lair > 0) then
 			type = "Lair"
-
 		end
 	end	
 	
 	if smart.owning_faction == "none" then
 	   props = props .. "\\n".. type.. "\\n"
 	elseif smart.owning_faction == "zombied" then	
-	   props = props .. "\\n".. type.. ", controlled by zombies \\n"
-
+	   props = props .. "\\n".. type.. ", controlled by zombies\\n"
 	else
 	   props = props .. "\\n".. type.. ", controlled by " .. game.translate_string(smart.owning_faction) .. "\\n"
 	   
         if power == 0 then
-
-
-	        props = props.."\\nStrength absent \\n"
+	        props = props.."\\nStrength absent\\n"
 	    elseif power > 0 and power <= 50 then
-
-
-			props = props.."\\nWeak strength \\n"
+			props = props.."\\nWeak strength\\n"
 		elseif power > 50 and power <= 100 then
-
-
-			props = props.."\\nLow Strength \\n"	
+			props = props.."\\nLow Strength\\n"	
 	    elseif power > 100 and power <= 200 then
-
-
-	        props = props.."\\nAverage strength \\n"
+	        props = props.."\\nAverage strength\\n"
 	    elseif power > 200 and power <= 300 then
-
-
-            props = props.."\\nHigh strength \\n"
+            props = props.."\\nHigh strength\\n"
 		elseif power > 400 then
-
-
-            props = props.."\\nUnreal strength \\n"
-
+            props = props.."\\nUnreal strength\\n"
         end
 	end
 	
@@ -1199,32 +1154,25 @@ function friend_info(smart)
 		if (smart.props.base > 0) then
 			type = "Base"
 		elseif (smart.props.resource > 0) then
-
-
 			type = "Resource Point"
 		elseif (smart.props.territory > 0) then
-
-
 			type = "Territory"
 		elseif (smart.props.lair > 0) then
-
-
 			type = "Lair"
-
 		end
 	end	
 	
 	if (sim_name) then
-		props = type .. " " .. sim_name .. " \\n"
+		props = type .. " " .. sim_name .. "\\n"
 	else
-	    props = type .. " " .. smart:name() .. " \\n"
+	    props = type .. " " .. smart:name() .. "\\n"
 	end
 	
 	props = props.."\\nStrength: "..power.."\\n"
 	
-	props = props.."\\nPopulation: "..npc.. " people(-à) \\n"
+	props = props.."\\nPopulation: "..npc.. " people\\n"
 	
-	props = props.."\\nBelongs to: "..game.translate_string(smart.owning_faction).. " \\n"
+	props = props.."\\nBelongs to: "..game.translate_string(smart.owning_faction).. "\\n"
 	
 	return props
 end
@@ -1242,29 +1190,23 @@ function neutral_info(smart)
 		if (smart.props.base > 0) then
 			type = "Base"
 		elseif (smart.props.resource > 0) then
-
-
 			type = "Resource Point"
 		elseif (smart.props.territory > 0) then
-
-
 			type = "Territory"
 		elseif (smart.props.lair > 0) then
-
-
 			type = "Lair"
 		end
 	end	
 	
 	if (sim_name) then
-		props = type .. " " .. sim_name .. " \\n"
+		props = type .. " " .. sim_name .. "\\n"
 	else
-	    props = type .. " " .. smart:name() .. " \\n"
+	    props = type .. " " .. smart:name() .. "\\n"
 	end
 	
-	props = props.."\\nPopulation: "..npc.. " people(-à) \\n"
+	props = props.."\\nPopulation: "..npc.. " people\\n"
 	
-	props = props.."\\nBelongs to: "..game.translate_string(smart.owning_faction).. " \\n"
+	props = props.."\\nBelongs to: "..game.translate_string(smart.owning_faction).. "\\n"
 	
 	return props
 end
@@ -1282,24 +1224,18 @@ function enemy_info(smart)
 		if (smart.props.base > 0) then
 			type = "Base"
 		elseif (smart.props.resource > 0) then
-
-
 			type = "Resource Point"
 		elseif (smart.props.territory > 0) then
-
-
 			type = "Territory"
 		elseif (smart.props.lair > 0) then
-
-
 			type = "Lair"
 		end
 	end	
 	
 	if (sim_name) then
-		props = type .. " " .. sim_name .. " \\n"
+		props = type .. " " .. sim_name .. "\\n"
 	else
-	    props = type .. " " .. smart:name() .. " \\n"
+	    props = type .. " " .. smart:name() .. "\\n"
 	end
 	
 	return props
@@ -1318,16 +1254,10 @@ function none_info(smart)
 		if (smart.props.base > 0) then
 			type = "Base"
 		elseif (smart.props.resource > 0) then
-
-
 			type = "Resource Point"
 		elseif (smart.props.territory > 0) then
-
-
 			type = "Territory"
 		elseif (smart.props.lair > 0) then
-
-
 			type = "Lair"
 		end
 	end	
@@ -1339,8 +1269,6 @@ function none_info(smart)
 	end
 	
 	props = props .. "Capacity: " .. smart.max_population .. " people\\n"
-	
-
 
 	props = props .. "\\n \\nCapture to place your units\\n"
 		

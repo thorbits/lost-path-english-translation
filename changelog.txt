@@ -1,11 +1,15 @@
 --------------------
-0.1.7 preview	--> "Lost Path v0.5.003" compatible version
+0.1.8 preview
 --------------------
-updated 
+
+
+
+--------------------
+02/13 0.1.7	--> "Lost Path v0.5.003" compatible version
+--------------------
 updated ui_st_loadscreen.xml
 updated sim_smart.script
 updated ui_main_menu.script
-
 --------------------
 02/12 0.1.6	--> "Lost Path v0.5.002" compatible version
 --------------------

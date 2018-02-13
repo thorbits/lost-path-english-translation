@@ -1,13 +1,17 @@
 --------------------
-0.1.7 preview
+0.1.7 preview	--> "Lost Path v0.5.003" compatible version
 --------------------
-
+updated sim_smart.script
+updated sim_squad.script
+updated ui_main_menu.script
+updated 
+updated 
 
 --------------------
 02/12 0.1.6	--> "Lost Path v0.5.002" compatible version
 --------------------
-st_lostpath_main.xml
-st_lostpath_quest.xml
+updated st_lostpath_main.xml
+updated st_lostpath_quest.xml
 updated stable_treasure_manager.xml
 updated st_items_weapons.xml
 updated ui_st_loadscreen.xml

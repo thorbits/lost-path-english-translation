@@ -168,13 +168,6 @@ function smart_terrain_on_update(smart)
 	if smart.props then	
 	    process_mutants(smart)
 		if dist > 5000 and al == sl or al ~= sl then
-
-
-
-
-
-
-
 	        smart_control(smart)
 			
 		    if smart.props.base > 0 then
@@ -191,16 +184,21 @@ function smart_terrain_on_update(smart)
 		       spawn_mutants(smart)
 			end
 		elseif dist < 5000 and al == sl then
-
 		    if smart.props.base > 0 or smart.props.resource > 0 then
 				target_manual_capture(smart)
 			end	   
 	    end
 		
-		if smart.props.base > 0 and faction ~= "none" and faction ~= "trader" then
-			spawn_defense_squad(smart)	
+		if smart.props.base > 0 and faction ~= "none" and faction ~= "trader" and 
+		((dist > 10000 and faction ~= sim_brain.actor_faction) or faction == sim_brain.actor_faction) then
 			spawn_attack_squad(smart)
+			
 			if faction ~= "zombied" then check_npc(smart) end
+		end
+		
+		if faction ~= "none" and faction ~= "trader" and 
+		((dist > 10000 and faction ~= sim_brain.actor_faction) or faction == sim_brain.actor_faction) then
+			spawn_defense_squad(smart)	
 		end
     end	
 	

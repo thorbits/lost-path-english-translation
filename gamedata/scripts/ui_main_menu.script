@@ -394,11 +394,11 @@ function main_menu:OnKeyboard(dik, keyboard_action)  --virtual function
 	-- AMI -- ]]	
 	
 		if dik == DIK_keys.DIK_F2 then
-			--run_gui(Reputation_isg.Reputation_isg(), false)
+			run_gui(Reputation_isg.Reputation_isg(), false)
 		end
 		
 		if dik == DIK_keys.DIK_K then
-			--xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"killer", 1000}) 
+			xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"killer", 1000}) 
 		end
 		
 		-- Test Lost Path --

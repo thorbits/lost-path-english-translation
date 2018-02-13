@@ -641,7 +641,7 @@ function friend_info(squad)
 	   elseif string.find(squad:name(), "mechanic") then spec = "Mechanic"
 	   elseif string.find(squad:name(), "leader") then spec = "Leader"
 	   elseif string.find(squad:name(), "barman") then spec = "Barman"
-	   end
+
 	   
 	   props = props .. "\\nSpecialization: "..spec.." \\n"
 	   
@@ -770,7 +770,7 @@ function neutral_info(squad)
 	   elseif string.find(squad:name(), "mechanic") then spec = "Mechanic"
 	   elseif string.find(squad:name(), "leader") then spec = "Leader"
 	   elseif string.find(squad:name(), "barman") then spec = "Barman"
-	   end
+
 	   
 	   props = props .. "\\nSpecialization: "..spec.." \\n"
 	   

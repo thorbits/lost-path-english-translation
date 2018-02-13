@@ -130,6 +130,8 @@ st_closecaption.xml
 <br>&#8627; <em>done</em><br>
 st_dialogs.xml
 <br>&#8627; <em>done</em><br>
+st_dialogs_bar.xml  
+<br>&#8627; <em>done</em><br>  
 st_dialogs_garbage.xml
 <br>&#8627; <em>incomplete</em><br>
 st_drx_addons.xml
@@ -280,8 +282,12 @@ lostpath_visual.script
 <br>&#8627; <em>done</em><br>
 news_manager.script
 <br>&#8627; <em>done</em><br>
+sim_factions.script
+<br>&#8627; <em>done</em><br>
 sim_relations.script
 <br>&#8627; <em>done</em><br>
+sim_script_to_text.script
+<br>&#8627; <em>incomplete</em><br>
 sim_smart.script
 <br>&#8627; <em>done</em><br>
 sim_squad.script

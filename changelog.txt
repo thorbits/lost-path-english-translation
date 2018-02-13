@@ -4,7 +4,6 @@
 updated 
 updated ui_st_loadscreen.xml
 updated sim_smart.script
-updated sim_squad.script
 updated ui_main_menu.script
 
 --------------------

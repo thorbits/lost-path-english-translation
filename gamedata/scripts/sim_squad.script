@@ -18,7 +18,6 @@ function squad_on_update(squad)
 	   return
 	end
 
-
 	if not (squad.registered_in_simultaion) then	
 
 		if (squad.checked_register) then
@@ -64,7 +63,6 @@ function squad_control(squad)
 	else
 	   squad.rush_to_target = false
 	end
-
 
 	if (squad.sim_combat_manager) then
 		if (squad.online) then
@@ -227,7 +225,6 @@ function create_squad(smart, faction, target, type, number, param)
 			squad = alun_utils.create_squad(faction .."_sim_squad_".. section, smart:name())
 		end
 
-
 		if spawns == true then sim_factions.faction_information[faction].total_power = sim_factions.faction_information[faction].total_power - (fl * bot * 10) end
 	end
 	
@@ -327,7 +324,6 @@ function sim_squad_scripted.sim_squad_scripted.hide(self)
 end
 
 
-
 function get_squad_relation(squad_id)
     local squad = alife_object(squad_id)
 	
@@ -338,7 +334,6 @@ function get_squad_relation(squad_id)
 	if (is_squad_monster[squad.player_id]) then 
 		return "hostile"
 	end
-
 
     local goodwill = 0
     local npc_count = 0
@@ -355,22 +350,16 @@ function get_squad_relation(squad_id)
 		
 	    if delta >= 3000 then
 	       return "very friendly"
-
 	    elseif delta >= 1000 and delta < 3000 then
 	       return "friendly"
-
 	    elseif delta >= -500 and delta < 1000 then
 	       return "neutral"
-
 	    elseif delta < -500 and delta > -1000 then
 	       return "unfriendly"
-
 	    elseif delta < -1000 and delta > -3000 then
 	       return "hostile"
-
 	    elseif delta <= -3000 then
 	       return "very hostile"
-
         end
     end 
 	
@@ -381,19 +370,14 @@ function get_squad_relation(squad_id)
     
 	if relation >= 3000 then
 	   return "very friendly"
-
 	elseif relation >= 1000 and relation < 3000 then
 	   return "friendly"
-
 	elseif relation >= -500 and relation < 1000 then
 	   return "neutral"
-
 	elseif relation < -500 and relation > -1000 then
 	   return "unfriendly"
-
 	elseif relation < -1000 and relation > -3000 then
 	   return "hostile"
-
 	elseif relation <= -3000 then
 	   return "very hostile"
     end
@@ -411,7 +395,6 @@ function squad_relation(squad_id)
 	if (is_squad_monster[squad.player_id]) then 
 		return "enemy"
 	end
-
 
     local goodwill = 0
     local npc_count = 0
@@ -481,22 +464,16 @@ function get_simulation_info(squad)
 	if power then
 		if power >= 70 then
 		   type = "very high"
-
 		elseif power >= 60 then
 		   type = "high"
-
 		elseif power >= 50 then
 		   type = "average"
-
 		elseif power >= 40 then
 			type = "low"
-
 		elseif power >= 30 then
 			type = "very low"
-
 		else
 			type = "minimum"
-
 		end	
 	end
 	
@@ -641,7 +618,6 @@ function friend_info(squad)
 	   elseif string.find(squad:name(), "mechanic") then spec = "Mechanic"
 	   elseif string.find(squad:name(), "leader") then spec = "Leader"
 	   elseif string.find(squad:name(), "barman") then spec = "Barman"
-
 	   
 	   props = props .. "\\nSpecialization: "..spec.." \\n"
 	   
@@ -770,7 +746,6 @@ function neutral_info(squad)
 	   elseif string.find(squad:name(), "mechanic") then spec = "Mechanic"
 	   elseif string.find(squad:name(), "leader") then spec = "Leader"
 	   elseif string.find(squad:name(), "barman") then spec = "Barman"
-
 	   
 	   props = props .. "\\nSpecialization: "..spec.." \\n"
 	   

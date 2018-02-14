@@ -13,7 +13,6 @@ updated st_dialogs_zaton.xml
 updated st_items_weapons.xml
 added sim_factions.script
 added sim_script_to_text.script
-
 --------------------
 02/13 0.1.7	--> "Lost Path v0.5.003" compatible version
 --------------------

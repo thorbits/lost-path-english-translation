@@ -1,6 +1,10 @@
 --------------------
 0.1.9 preview
 --------------------
+updated st_achievement.xml
+updated st_characters.xml
+updated st_dialog_manager.xml
+updated st_treasures.xml
 
 --------------------
 02/14 0.1.8

@@ -126,7 +126,13 @@ sgm_add_include.xml
 <br>&#8627; <em>done</em><br>
 sgm_script_texts.xml
 <br>&#8627; <em>done</em><br>
+st_achievement.xml
+<br>&#8627; <em>done</em><br>
+st_characters.xml
+<br>&#8627; <em>done</em><br>
 st_closecaption.xml
+<br>&#8627; <em>done</em><br>
+st_dialog_manager.xml
 <br>&#8627; <em>done</em><br>
 st_dialogs.xml
 <br>&#8627; <em>done</em><br>
@@ -211,6 +217,8 @@ st_quests_pripyat2.xml
 st_quests_yantar.xml
 <br>&#8627; <em>done</em><br>
 st_quests_zaton.xml
+<br>&#8627; <em>done</em><br>
+st_treasures.xml
 <br>&#8627; <em>done</em><br>
 stable_treasure_manager.xml
 <br>&#8627; <em>done</em><br>

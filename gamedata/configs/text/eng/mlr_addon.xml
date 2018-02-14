@@ -191,7 +191,7 @@
 
 
 	<string id="bar_visitors_sad_veteran_task_1_name">
-		<text>to Learn the fate of his comrades</text>
+		<text>to learn the fate of his comrades</text>
 	</string>
 	<string id="bar_visitors_sad_veteran_task_1_text">
 		<text>member considers it has been asked to inquire about the fate of their comrades, who was last seen in the Cemetery near the chemical machinery of the anomalous zone.</text>
@@ -204,7 +204,7 @@
 	</string>
 
 	<string id="jup_b6_scientist_nuclear_physicist_task_2_name">
-		<text>to Collect bark from trees mutilated</text>
+		<text>to collect bark from mutilated trees</text>
 	</string>
 	<string id="jup_b6_scientist_nuclear_physicist_task_2_text">
 		<text>Herman asked me to help him research the local flora and to go to the Red forest for specimens of the bark.</text>

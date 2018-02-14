@@ -160,7 +160,7 @@
         <text>I don't have enough money.</text>
     </string>
     <string id="bar_arena_manager_game_1451">
-        <text>Let me guess. Someone stole your roubles?</text>
+        <text>Let me guess. Someone stole your rubles?</text>
     </string>
     <string id="bar_arena_manager_game_2">
         <text>There's a pseudodog. A large specimen, but quite beaten up. On the other hand it's a very fierce one, just like my mother-in-law.</text>
@@ -274,7 +274,7 @@
         <text>What are the rules?</text>
     </string>
     <string id="bar_arena_manager_rules_1">
-        <text>Oh, the rules are pretty simple. I invented them myself. For challenges, there's a cage, and a mutant is let inside the cage. You pay money and tell me the time you need to kill the monster. If you make it - you win, if you don't - I win.\nBut for the main course, bandits and the Zone's other degenerates captured by Duty fight in the arena for their crimes. Some are just stalkers who fancy a fight, and not actually criminals, but whoever leaves the arena in the least amount of pieces gets a sizeable reward. If they keep on winning fights, then more stalkers will come to watch, and the combatants win larger rewards.</text>
+        <text>Oh, the rules are pretty simple. I invented them myself. For challenges, there's a cage, and a mutant is let inside the cage. You pay money and tell me the time you need to kill the monster. If you make it - you win, if you don't - I win.\nBut for the main course, bandits and the Zone's other degenerates captured by Duty fight in the arena for their crimes. Some are just stalkers who fancy a fight, and not actually criminals, but whoever leaves the arena in the least amount of pieces gets a sizable reward. If they keep on winning fights, then more stalkers will come to watch, and the combatants win larger rewards.</text>
     </string>
     <string id="bar_arena_manager_start_11">
         <text>Good to see you stalker, welcome to the arena.</text>
@@ -291,7 +291,7 @@
     <string id="bar_arena_manager_start_51">
         <text>Sorry, bro, but you lose. Come again next time if you want.</text>
     </string>
-<!------------------ bar_visitors_barman_stalker_trader ----------->
+
     <string id="bar_visitors_barman_stalker_trader_start_dialog_11">
         <text>Oh, hello. What's up?</text>
     </string>
@@ -301,18 +301,18 @@
     <string id="bar_visitors_barman_stalker_trader_start_dialog_13">
         <text>You here to buy some shit?</text>
     </string>
-<!------------------------- bar_visitors_stalker_mechanic ------------------------>
+
     <string id="bar_visitors_stalker_mechanic_start_dialog_1">
         <text>Hey guy, how goes the Zone? So...I hope you have repair work that needs done... Heh, I need some cash bad.</text>
     </string>
 
 
 <string id="vano_0">
-		<text>Салют.Расскажи о себе.</text>
+		<text>Hello. Tell me about yourself.</text>
 	</string>
 
 <string id="vano_1">
-		<text>Пиривет дорогой!Вах!А что тут рассказывать, я родом из Махачкалы.Пришел в зону совсэм недавно,друзья говорили что здесь жизнь совершенно другая и отличается от той к которой мы все так привыкли.Вот Вано и решил проверить.Любопытство, да.Вано правда пока дальше бара не ходил никуда.Но скоро вот собираюсь куда нибудь подальше рвануть,надоэло на месте сидеть уже.</text>
+		<text>I came from the Makhachkala region. I came to the sovsem zone recently, my friends said that here life is completely different and different from the one to which we are all so accustomed. Here, Vano decided to check it out. The fondness, yes. Vano the truth so far the bar did not go anywhere. But soon I'm going to somewhere far away to jerk, it is necessary to sit still on the spot.</text>
 
 	</string>
 

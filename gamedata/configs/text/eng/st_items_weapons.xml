@@ -4,63 +4,63 @@
 
 <!-- insert name -->
 	<string id="ammo-12x70-buck">
-		<text>Патроны 12/70 дробь</text>
+		<text>12x70 shot rounds</text>
 	</string>
 	<string id="ammo-12x70-buck_s">
-		<text>12/70 дробь</text>
+		<text>12x70 shot rounds</text>
 	</string>
 	<string id="ammo-12x70-buck_descr">
-		<text>Патрон 12-го калибра, снаряжённый дробью диаметром 5 мм (40шт). На близких дистанциях обладает огромным убойным и останавливающим действием. Предназначен для стрельбы только из гладкоствольного оружия.</text>
+		<text>Standard 12-caliber round filled with 6 mm shot. Highly lethal at close range. Only suitable for use with smoothbore weapons. Highest pierced armor class: none. Tissue damage rating: medium - high. SPECIAL: expanding cloud of pellets, short effective range</text>
 	</string>
 <!-- insert name -->
-	<string id="ammo-12.7x55-fmj">
-		<text>Патроны 12,7x55 мм СЦ-130</text>
-	</string>
-	<string id="ammo-12.7x55-fmj_s">
-		<text>12,7x55 мм СЦ-130</text>
-	</string>
-	<string id="ammo-12.7x55-fmj_descr">
-		<text>12,7x55 мм СЦ-130 - российский винтовочный боеприпас с дозвуковой скоростью пули, созданный в ЦКИБ СОО для малошумного и беспламенного поражения защищённых целей и живой силы в тяжёлых бронежилетах на дальностях до 600 метров.</text>
-	</string>
+    <string id="ammo-12.7x55-fmj">
+        <text>12.7x55 mm STs-130 rounds</text>
+    </string>
+    <string id="ammo-12.7x55-fmj_s">
+        <text>12.7x55 mm STs-130 rounds</text>
+    </string>
+    <string id="ammo-12.7x55-fmj_descr">
+        <text>The 12.7x55mm subsonic cartridge is used in the VKS bullpup sniper rifle. The cartridge can carries a projectile weighing 76 grams, yielding massive amounts of kinetic energy. The round can penetrate up to 16 mm of steel at 200 meters or heavy body armor at 100 meters. The accuracy of this cartridge is claimed as to be 1 MOA at 100 meters range. Highest pierced armor class: IV. Tissue damage rating: very high</text>
+    </string>
 <!-- insert name -->
 	<string id="ammo-50-bmg">
-		<text>Патроны 12,7x99 мм NATO</text>
+		<text>12,7x99 mm (.50 bmg) rounds</text>
 	</string>
 	<string id="ammo-50-bmg_s">
-		<text>12,7x99 mm NATO</text>
+		<text>12,7x99 mm (.50 bmg) rounds</text>
 	</string>
 	<string id="ammo-50-bmg_descr">
-		<text>12,7x99 мм (известен под обозначениями «.50 BMG», «12,7x99 mm NATO»)  - крупнокалиберный патрон армий НАТО. Он был создан в 1920-х годах в качестве боеприпаса для крупнокалиберного пулемёта Browning M1921. После Второй мировой войны патрон стандартизован в НАТО и выпускается различными странами-участницами НАТО по единым техническим условиям.</text>
-	</string>
+        <text>The .50 Browning Machine Gun (.50 BMG) or 12.7x99mm NATO is a cartridge developed for the Browning .50 caliber machine gun in the late 1910s. Entering service officially in 1921, the round is based on a greatly scaled up .30-06 cartridge. Highest pierced armor class: V. Tissue damage rating: very high</text>
+    </string>
 <!-- insert name -->
 	<string id="ammo-12x76-zhekan">
-		<text>Патроны 12/76 пуля</text>
+		<text>12x76 slug rounds</text>
 	</string>
 	<string id="ammo-12x76-zhekan_s">
-		<text>12/76 пуля</text>
+		<text>12x76 slug rounds</text>
 	</string>
 	<string id="ammo-12x76-zhekan_descr">
-		<text>Патрон 12-го калибра с безоболочечной пулей. Обычно используется для охоты на крупных животных, но подходит и для других целей: его тяжёлая пуля весом в 39 грамм не пробивает, а фактически продавливает бронежилеты.</text>
+		<text>This heavy 12-caliber slug round is normally used for hunting big game, but is also good for other purposes. Instead of piercing, this hefty slug simply crushes through armor. Highest pierced armor class: III. Tissue damage rating: medium</text>
 	</string>
 <!-- insert name -->
 	<string id="ammo-12x76-dart">
-		<text>Патроны 12/76 (дротик)</text>
+		<text>12x76 dart rounds</text>
 	</string>
 	<string id="ammo-12x76-dart_s">
-		<text>12/76 дротик</text>
+		<text>12x76 dart rounds</text>
 	</string>
 	<string id="ammo-12x76-dart_descr">
-		<text>Пуля-дротик. Оперение стабилизирует пулю, что увеличивает точность боя. Массивное стальное тело пули способно пробить любой бронежилет.</text>
+		<text>12-caliber dart round, normally used for hunting big game but also suitable for other purposes, including puncturing armor. Highest pierced armor class: III. Tissue damage rating: medium</text>
 	</string>
 <!-- insert name -->
 	<string id="ammo-9x18-fmj">
-		<text>Патроны 9х18 мм Пст</text>
+		<text>9x18 mm rounds</text>
 	</string>
 	<string id="ammo-9x18-fmj_s">
-		<text>9х18 Пст</text>
+		<text>9x18 mm rounds</text>
 	</string>
 	<string id="ammo-9x18-fmj_descr">
-        <text>В 1951 году на вооружение Советской Армии принимается 9-мм пистолет системы Макарова и патрон к нему - 9х18 мм. Пуля со стальным сердечником в свинцовой рубашке дает экономию свинца и повышает способность пробивать неметаллические преграды, однако не способна пробить бронежилет, имеющий стальные пластины.</text>
+		<text>A full metal jacket round with a steel penetrator and a lead core under a metal jacket. Provides good stopping power but is ineffective against body armor. Highest pierced armor class: II. Tissue damage rating: low - medium</text>
 	</string>
 <!-- insert name -->
 	<string id="ammo-9x18-pmm">
@@ -70,87 +70,87 @@
 		<text>9х18 ПБМ</text>
 	</string>
 	<string id="ammo-9x18-pmm_descr">
-		<text>This round contains a bullet with enhanced stopping power, while its European +P+ designation indicates "overpressure ammunition" with a 30% increase in muzzle velocity. Ineffective against body armour.</text>
+		<text>This round contains a bullet with enhanced stopping power, while its European +P+ designation indicates "overpressure ammunition" with a 30% increase in muzzle velocity. Ineffective against body armor. Highest pierced armor class: I. Tissue damage rating: medium - high</text>
 	</string>
 <!-- insert name -->
 	<string id="ammo-9x19-fmj">
-		<text>Патроны 9х19 мм</text>
+		<text>9x19 mm FMJ rounds</text>
 	</string>
 	<string id="ammo-9x19-fmj_s">
-		<text>9х19</text>
+		<text>9x19 mm FMJ rounds</text>
 	</string>
 	<string id="ammo-9x19-fmj_descr">
-		<text>This basic 9x19 calibre round with a jacketed bullet has good characteristics while being simple to produce. The round is popular due to the fact that international conventions prohibit the use of expanding ammunition in combat. Ineffective against body armour.</text>
+		<text>This basic 9x19 caliber round with a jacketed bullet has good characteristics while being simple to produce. The round is popular due to the fact that international conventions prohibit the use of expanding ammunition in combat. Ineffective against body armor. Highest pierced armor class: I. Tissue damage rating: medium</text>
 	</string>
 <!-- insert name -->
 	<string id="ammo-9x19-pbp">
-		<text>Патроны 9x19 мм +P+</text>
+		<text>9x19 mm JHP rounds</text>
 	</string>
 	<string id="ammo-9x19-pbp_s">
-		<text>9x19 +P+</text>
+		<text>9x19 mm JHP rounds</text>
 	</string>
 	<string id="ammo-9x19-pbp_descr">
-		<text>Одна из усиленных модификаций патрона 9 mm Parabellum - 9х19 +Р+, т.е. давление в канале ствола очень высокое - этот тип патрона используется в полиции, реже в «гражданских» пистолетах. Эффективен против бронированных целей.</text>
+		<text>This 9x19 caliber jacketed hollow-point bullet with an expanding hollow has high stopping power and low ricochet propensity. Used by police and for self-defense. Ineffective against body armor due to its low penetration potential. Highest pierced armor class: I. Tissue damage rating: high</text>
 	</string>
 <!-- insert name -->	
 	<string id="ammo-5.7x28-fmj">
-		<text>Патроны 5,7x28 мм SS190</text>
+		<text>5,7x28 mm SS190 rounds</text>
 	</string>
 	<string id="ammo-5.7x28-fmj_s">
-		<text>5,7x28 SS190</text>
+		<text>5,7x28 mm SS190 rounds</text>
 	</string>
 	<string id="ammo-5.7x28-fmj_descr">
-		<text>5,7x28 мм SS190 - пистолетный патрон, созданный в 1986 году для замены 9x19 мм Парабеллум. По сравнению с патроном 9x19 мм он обеспечивает большую настильность стрельбы, меньшую отдачу, большую эффективную дальность стрельбы, бронепробиваемость, а также отличается сниженной степенью рикошетирования. Этот патрон занял нишу между пистолетными и промежуточными (автоматными) патронами. Патрон 5,7x28 мм используется в пистолете-пулемёте (Personal defense weapon) FN P90 и пистолете FN Five-seveN.</text>
+		<text>The FN 5.7x28mm is a high velocity cartridge designed and manufactured by FN Herstal. It is a bottlenecked centerfire cartridge that is somewhat similar to the .22 Hornet or .22 K-Hornet. The 5.7x28mm was developed in conjunction with the FN P90 personal defense weapon (PDW) and FN Five-seven pistol, in response to NATO requests for a replacement for the 9x19mm Parabellum cartridge. Highest pierced armor class: III. Tissue damage rating: low - medium</text>
 	</string>
 <!-- insert name -->
 	<string id="ammo-5.7x28-ap">
-		<text>Патроны 5,7x28 мм SS195 JHP</text>
+		<text>5,7x28 mm SS195 rounds</text>
 	</string>
 	<string id="ammo-5.7x28-ap_s">
-		<text>5,7x28 SS195 JHP</text>
+		<text>5,7x28 mm SS195 rounds</text>
 	</string>
 	<string id="ammo-5.7x28-ap_descr">
 		<text>5,7x28 SS195 JHP - патрон с экспансивной пулей, обладает меньшей пробивной способностью, чем SS190, но большим останавливающим действием и убойной силой.</text>
 	</string>
 <!-- insert name -->
 	<string id="ammo-50-ae">
-		<text>Патроны .50 Action Express</text>
+        <text>.50 Action Express rounds</text>
 	</string>
 	<string id="ammo-50-ae_s">
-		<text>.50 AE</text>
+        <text>.50 Action Express rounds</text>
 	</string>
 	<string id="ammo-50-ae_descr">
-        <text>.50 Action Express (также .50 AE, 12.7 x 33, 12,7x32,6 мм) - патрон, разработанный в 1988 году для израильского пистолета Desert Eagle. Один из самых мощных унитарных пистолетных патронов в мире. Имеет тупоконечную пулю, которая обуславливает огромное останавливающее действие данного патрона.</text>
+        <text>.50 Action Express (12.7x33 mm) is a cartridge developed in 1988 for the Israeli Desert Eagle pistol. One of the most powerful pistol cartridges in the world, the .50 AE features a blunt bullet that leads to immense stopping power and the ability to snap your wrist. Highest pierced armor class: III. Tissue damage rating: high</text>
 	</string>
 <!-- insert name -->
 	<string id="ammo-357">
-		<text>Патроны .357 Magnum</text>
+        <text>.357 Magnum rounds</text>
 	</string>
 	<string id="ammo-357_s">
-		<text>Патроны .357 Magnum</text>
+        <text>.357 Magnum rounds</text>
 	</string>
 	<string id="ammo-357_descr">
-        <text>Магнум (лат. Magnum, от magnus - большой, великий) - патрон повышенной мощности, по сравнению с обычным патроном того же калибра. Так же оружие, предназначенное под патрон данного типа.</text>
-	</string>
+        <text>This round was created in 1935 as a joint effort between Smith &amp; Wesson and Remington to produce a more powerful revolver round for American law enforcement. Despite its age, it is still an extremely popular revolver round. Highest pierced armor class: II. Tissue damage rating: medium</text>
+    </string>
 <!-- insert name -->
 	<string id="ammo-11.43x23-fmj">
-		<text>Патроны .45ACP</text>
+		<text>.45 ACP rounds</text>
 	</string>
 	<string id="ammo-11.43x23-fmj_s">
-		<text>Патроны .45ACP</text>
+		<text>.45 ACP rounds</text>
 	</string>
 	<string id="ammo-11.43x23-fmj_descr">
-        <text>Патрон калибра .45ACP (Automatic Colt Pistol) с оболочечной пулей остаётся популярным уже более сотни лет. Тяжёлая пуля при относительно слабом пороховом заряде имеет не слишком большую скоростью, но обладает значительным останавливающим действием. Применяется против личного состава и легкой небронированной техники.</text>
+		<text>The .45 caliber full metal jacket round has enjoyed popularity for a hundred years thanks to its ballistic performance and a relatively small propelling charge. As a result, the bullet in this round is relatively slow but highly accurate and provides considerable stopping power. Highest pierced armor class: II. Tissue damage rating: medium</text>
 	</string>
 <!-- insert name -->
 	<string id="ammo-11.43x23-hydro">
-		<text>Патроны .45ACP Hydra-Shok</text>
+		<text>.45 Hydra-shock rounds</text>
 	</string>
 	<string id="ammo-11.43x23-hydro_s">
-		<text>.45ACP HS</text>
+		<text>.45 Hydra-shock rounds</text>
 	</string>
 	<string id="ammo-11.43x23-hydro_descr">
-		<text>Патрон калибра .45ACP (Automatic Colt Pistol) с пулей Hydra-Shok от компании Federal известна своим высоким останавливающим действием, в течение долгих лет являясь стандартом боеприпаса в этом калибре. Hydra-Shok остается хорошим выбором и сегодня.</text>
+		<text>This unusual .45 ACP caliber round is comprised of a jacketed soft point bullet with a hollow steel core, possessing both their advantages and disadvantages. Highest pierced armor class: II. Tissue damage rating: high</text>
 	</string>
 <!-- insert name -->
 	<string id="ammo-5.45x39-fmj">
@@ -290,7 +290,7 @@
 		<text>7.62x54 mm 7N1 rounds</text>
 	</string>
 	<string id="ammo-7.62x54-7h1_descr">
-		<text>A 7.62 caliber sniper round with a steel penetrator specially designed for the SVD. Unlike the machine gun round, the 7N1 provides tight groupings and excellent penetration characteristics.</text>
+		<text>A 7.62 caliber sniper round with a steel penetrator specially designed for the SVD. Unlike the machine gun round, the 7N1 provides tight groupings and excellent penetration characteristics. Highest pierced armor class: IV. Tissue damage rating: high</text>
 	</string>
 <!-- insert name -->
     <string id="ammo-7.62x54-7h14">
@@ -300,7 +300,7 @@
         <text>7.62x54 mm 7N14 rounds</text>
     </string>
     <string id="ammo-7.62x54-7h14_descr">
-        <text>Russian armor-piercing sniper round specially designed for the SVD, the 7.62x54mm N14 has a steel core to penetrate body armor or light barriers, and a boat-tail base to increase accuracy.</text>
+		<text>The 7.62x54mm N14 is an armor-piercing cartridge. The bullet has a steel core to penetrate body armor or light barriers, and a boat-tail base to increase accuracy. Highest pierced armor class: V. Tissue damage rating: high</text>
     </string>
 <!-- insert name -->
     <string id="ammo-7.62x54-ap">
@@ -310,7 +310,7 @@
         <text>7.62x54 mm PP rounds</text>
     </string>
     <string id="ammo-7.62x54-ap_descr">
-        <text>Cheap 7.62 caliber machine gun round. Its design makes it unsuitable for sniper rifles, so it is used only with the RP-74 machine gun.</text>
+		<text>Cheap 7.62 caliber machine gun round. Its design makes it unsuitable for sniper rifles, so it is used only with the PKM machine gun. It is a high-powered round and thanks to a hard steel core it possesses quite good penetrative capabilities. A heavy round for a heavy gun. Highest pierced armor class: IV. Tissue damage rating: high</text>
     </string>
 <!-- insert name -->
 	<string id="ammo-8,6x70-fmj">
@@ -320,7 +320,7 @@
 		<text>.338 Lapua Magnum rounds</text>
 	</string>
 	<string id="ammo-8,6x70-fmj_descr">
-		<text>The .338 Lapua Magnum is a specialized rimless bottlenecked centerfire cartridge developed for military long-range sniper rifles. The Afghanistan War and Iraq War made it a combat-proven round with ready and substantial ammunition availability. The .338 Lapua is a dual-purpose anti-personnel and anti-materiel round, but its anti-materiel potential is limited. Highest pierced armor class: IV. Tissue damage rating: high</text>
+		<text>The .338 Lapua Magnum is a specialized rimless bottlenecked center-fire cartridge developed for military long-range sniper rifles. The Afghanistan War and Iraq War made it a combat-proven round with ready and substantial ammunition availability. The .338 Lapua is a dual-purpose anti-personnel and anti-materiel round, but its anti-materiel potential is limited. Highest pierced armor class: IV. Tissue damage rating: high</text>
 	</string>
 <!-- insert name -->
   <string id="ammo-gauss">
@@ -338,13 +338,13 @@
   </string>
 <!-- insert name -->
 	<string id="ammo-7.62x54-pkm">
-		<text>Патроны 7,62х54 БП (лента)</text>
+		<text>7.62x54 mm PP rounds</text>
 	</string>
 	<string id="ammo-7.62x54-pkm_s">
-		<text>7,62х54 БП</text>
+		<text>7.62x54 mm PP rounds</text>
 	</string>
 	<string id="ammo-7.62x54-pkm_descr">
-		<text>Cheap 7.62 caliber machine gun round. Its design makes it unsuitable for sniper rifles, so it is used only with the PKM machine gun. It is a high-powered round and thanks to a hard steel core it possesses quite good penetrative capabilities. A heavy round for a heavy gun.</text>
+		<text>Cheap 7.62 caliber machine gun round. Its design makes it unsuitable for sniper rifles, so it is used only with the PKM machine gun. It is a high-powered round and thanks to a hard steel core it possesses quite good penetrative capabilities. A heavy round for a heavy gun. Highest pierced armor class: IV. Tissue damage rating: high</text>
 	</string>
 <!-- insert name -->
     <string id="ammo-og-7b">
@@ -392,7 +392,7 @@
         <text>VOG-25</text>
     </string>
     <string id="ammo-vog-25_descr">
-        <text>Regular fragmentation grenade for the GP-25 Koster underbarrel grenade launcher. This round has a 5 meter kill zone. The VOG-25 grenade is also used in the Tunder S14 complex and Bulldog 6 revolver-type grenade launcher.</text>
+        <text>Regular fragmentation grenade for the GP-25 Koster underbarrel grenade launcher. This round has a 5 meter kill zone. The VOG-25 grenade is also used in the Thunder S14 complex and Bulldog 6 revolver-type grenade launcher.</text>
     </string>
 <!-- insert name -->
 	<string id="ammo-vog-25p">
@@ -422,12 +422,12 @@
 		<text>Optical sight for the Israeli IMI Galil rifle. Magnification: 4.0x, reticule pattern: SUSAT</text>
 	</string>
 <!-- insert name -->
-	<string id="st_addon_scope_4x34">
-		<text>ПО 4x34</text>
-	</string>
-	<string id="st_addon_scope_4x34_descr">
-		<text>Прицелы оптические постоянного и переменного увеличения устанавливаются на охотничье нарезное оружие и предназначены для прицельной наводки его при стрельбе. На оружие прицелы монтируются при помощи специальных кронштейнов.</text>
-	</string>
+    <string id="st_addon_scope_4x34">
+        <text>PO 4x34 scope</text>
+    </string>
+    <string id="st_addon_scope_4x34_descr">
+        <text>Optical sight featuring variable magnification. Used on hunting rifles and are designed for precise focus when shooting. The sights are mounted using special brackets.</text>
+    </string>
 <!-- insert name -->
     <string id="st_addon_scope_1p29">
         <text>1P29 "Tulip" Scope</text>
@@ -440,7 +440,7 @@
 		<text>1PN93-4 "Tot" Scope</text>
 	</string>
 	<string id="st_addon_scope_1pn93_descr">
-		<text>VSS "Vintorez" 4.0x scope. 1ПН93 «Малыш» - серия российских ночных прицелов, предназначенных для наблюдения за полем боя и ведения прицельной стрельбы в условиях плохой видимости. Серия разработана в 1990-х годах в ЦКБ «Точприбор», производитель ОАО «Новосибирский приборостроительный завод» (г. Новосибирск). Конструктивной особенностью приборов является модульная схема, которая позволила с минимумом затрат развернуть производство разного вида прицелов для широкой номенклатуры стрелкового оружия.</text>
+        <text>Russian night sight designed to monitor the battlefield and assist aimed shooting in bad visibility.</text>
 	</string>
 <!-- insert name -->
     <string id="st_addon_scope_kobra-ekp-1s-03">
@@ -478,12 +478,12 @@
         <text>Due to its light weight as well as compact pipeless design, these sights see wide spread use in hunting and for sport. Reliable performance, high optical power, attractive design and trouble-free operation even in extreme weather conditions makes DOCTER sight irreplaceable.</text>
     </string>
 <!-- insert name -->
-	<string id="st_addon_scope_pk-a">
-		<text>Прицел ПК-А</text>
-	</string>
-	<string id="st_addon_scope_pk-a_descr">
-		<text>Коллиматорный прицел ПК-А - современный лёгкий, герметичный, простой в освоении прицел для охотничьих карабинов «Тигр», имеющих боковую планку для установки оптических прицелов. Прицел предназначен для точного наведения на цель оружия АК74Н, РПК74Н, АКМН-1, РПКН-1 при стрельбе в различных условиях освещённости - в дневное время, в сумерках, в условиях плохой видимости и быстроменяющейся освещённости. Прицел герметичен и наполнен сухим азотом во избежание запотевания внутренних оптических поверхностей.</text>
-	</string>
+    <string id="st_addon_scope_pk-a">
+        <text>PK-A scope</text>
+    </string>
+    <string id="st_addon_scope_pk-a_descr">
+        <text>The PK-A red dot sight is a reflex sight produced by BelOMO in Minsk, Belarus. The sight is compatible with side-mounted systems commonly found on AK, SKS, and SVD-type rifles. The sight uses a single red dot within a nitrogen-filled lens setup and has eight brightness levels.</text>
+    </string>
 <!-- insert name -->	
     <string id="st_addon_scope_acog">
         <text>Trijicon ACOG</text>
@@ -699,7 +699,7 @@
 		<text>АN-94</text>
 	</string>
   <string id="st_wpn_abakan_descr">
-		<text>A modern assault rifle developed as a replacement for the aging AKM 74/2. The main difference is its high speed 2-round burst firing mode, which allows two bullets to be fired at exactly the same spot on a target up to 100 meters away. This significantly increases the likelihood of hitting the target in comparison to the 1 round firing mode, which considerably improves kill potential, stopping power and armour piercing capability.</text>
+		<text>A modern assault rifle developed as a replacement for the aging AKM 74/2. The main difference is its high speed 2-round burst firing mode, which allows two bullets to be fired at exactly the same spot on a target up to 100 meters away. This significantly increases the likelihood of hitting the target in comparison to the 1 round firing mode, which considerably improves kill potential, stopping power and armor piercing capability.</text>
   </string>
 <!-- АЕК-971 -->
     <string id="st_wpn_aek971">
@@ -789,14 +789,14 @@
 		<text>АКМ (потрёпанный)</text>
 	</string>
     <string id="st_wpn_akm_descr">
-        <text>The AKM is an upgraded version of the AK-47 rifle and is the most common variant of the entire AK series of firearms. It has found widespread use with most member states of the former Warsaw Pact. A favorite weapon amoung experienced Stalkers due to its power and reliability.</text>
+        <text>The AKM is an upgraded version of the AK-47 rifle and is the most common variant of the entire AK series of firearms. It has found widespread use with most member states of the former Warsaw Pact. A favorite weapon among experienced Stalkers due to its power and reliability.</text>
     </string>
 <!-- АКМС -->
     <string id="st_wpn_akms">
         <text>AKMS</text>
     </string>
     <string id="st_wpn_akms_descr">
-        <text>The main variant of the AKM is the AKMS, which was equipped with an under folding metal shoulder stock in place of the fixed wooden stock. A favorite weapon amoung experienced Stalkers due to its power, reliability and more compact size.</text>
+        <text>The main variant of the AKM is the AKMS, which was equipped with an under folding metal shoulder stock in place of the fixed wooden stock. A favorite weapon among experienced Stalkers due to its power, reliability and more compact size.</text>
     </string>
 <!-- АКС-74 -->
     <string id="st_wpn_aks74">
@@ -810,7 +810,7 @@
 		<text>AKS-74U</text>
 	</string>
 	<string id="st_wpn_ak74u_descr">
-		<text>Despite being similar to submachine guns in size, weight and tactical purpose, this weapon is classified as an assault rifle due to its use of the same intermediate cartridge as its larger cousin the AK-74. The weapon is notable for its mobility in close quarters and high armour-penetration capacity, while its drawbacks are its short effective range, despite the relatively long bullet range, a tendency to overheat and high ricochet propensity.</text>
+		<text>Despite being similar to submachine guns in size, weight and tactical purpose, this weapon is classified as an assault rifle due to its use of the same intermediate cartridge as its larger cousin the AK-74. The weapon is notable for its mobility in close quarters and high armor-penetration capacity, while its drawbacks are its short effective range, despite the relatively long bullet range, a tendency to overheat and high ricochet propensity.</text>
 	</string>
 <!-- АКС-74У -->
 	<string id="st_wpn_ak74u_snag">
@@ -880,7 +880,7 @@
 		<text>FN Five-seveN</text>
 	</string>
 	<string id="st_wpn_fn57_descr">
-		<text>The Five-seveN is a delayed blowback operated, semi automatic firearm. The Five-seveN pistol was designed by FN Herstal as a complimentary sidearm for the P90 submachine gun. The P90 and Five-seveN share the same ammunition, the 5.7x28mm SS190 cartridge. The idea behind the ammunition and weapon is to provide good penetration against targets protected by body armour, while keeping the weapon's weight, dimensions and recoil at reasonable levels.</text>
+		<text>The Five-seveN is a delayed blowback operated, semi automatic firearm. The Five-seveN pistol was designed by FN Herstal as a complimentary sidearm for the P90 submachine gun. The P90 and Five-seveN share the same ammunition, the 5.7x28mm SS190 cartridge. The idea behind the ammunition and weapon is to provide good penetration against targets protected by body armor, while keeping the weapon's weight, dimensions and recoil at reasonable levels.</text>
 	</string>
 <!-- FN FNP -->
 	<string id="st_wpn_fnp45">
@@ -960,17 +960,17 @@
     </string>
 <!-- Beretta M92 -->
 	<string id="st_wpn_beretta">
-		<text>Beretta 92f</text>
+		<text>Beretta 92</text>
 	</string>
 	<string id="st_wpn_beretta_descr">
         <text>Beretta 92f pistols enjoy the reputation of a relatively reliable, albeit somewhat cumbersome weapon, around the world. In service with armed forces and police across the ocean, as well as various military and law enforcement organizations worldwide.  The pistol is equally popular with members of the underworld, thanks to its powerful round and magazine capacity. Beretta 92f pistols found in the Zone are usually dated, probably from retired stock.</text>
 	</string>
 <!-- Beretta 92SB -->
 	<string id="st_wpn_m9">
-		<text>M9</text>
+		<text>Beretta 92</text>
 	</string>
 	<string id="st_wpn_m9_descr">
-		<text>M9 - кодовое название Beretta 92SB на вооружении армии США. Популярен и у преступников благодаря мощному патрону и ёмкому магазину. Как правило, в Зону попадают не самые новые модели данного оружия.</text>
+        <text>Beretta 92f pistols enjoy the reputation of a relatively reliable, albeit somewhat cumbersome weapon, around the world. In service with armed forces and police across the ocean, as well as various military and law enforcement organizations worldwide.  The pistol is equally popular with members of the underworld, thanks to its powerful round and magazine capacity. Beretta 92f pistols found in the Zone are usually dated, probably from retired stock.</text>
 	</string>
 <!-- БМ-16 -->
     <string id="st_wpn_bm16">
@@ -1001,7 +1001,7 @@
 		<text>FAMAS F1</text>
 	</string>
 	<string id="st_wpn_famas_descr">
-		<text>FAMAS - (штурмовая винтовка разработки оружейного предприятия MAS в Сент-Этьене) - французский автомат калибра 5,56 мм, имеющий компоновку «булл-пап». Неофициальное название - «клерон».</text>
+		<text>FAMAS stands for Fusil d'Assaut de la Manufacture d'Armes de St-Etienne (Assault Rifle by St-Etienne Arms Factory). Development of this rifle began in 1967, by Paul Tellie, a French arms designer. This new rifle was intended to replace the aging MAS Mle.49/56 semi automatic rifles, MAT-49 submachine guns and MAC Mle.1929 light machine guns. The first FAMAS prototype had been built in 1971, and French military began to test this rifle in 1972. Meanwhile, France adopted a Swiss-designed SIG SG-540 5.56mm assault rifle as an intermediate solution. The FAMAS was adopted by the French in 1978 and since then became a standard French Army rifle, known among the French soldiers as "Le Clairon" (the bulge).</text>
 	</string>
 <!-- FN-2000 -->
 	<string id="st_wpn_fn2000">
@@ -1120,14 +1120,14 @@
 		<text>M16</text>
 	</string>
 	<string id="st_wpn_m16_descr">
-        <text>The M16 is an assault rifle chambered for the 5.56x45 round. It entered service with the U.S miltary in 1963, eventually becoming the U.S. military's standard service rifle by 1969.</text>
+        <text>The M16 is the U.S. military designation for a family of rifles derived from the ArmaLite AR-15 and further developed by Colt starting in 1960s. The M16 rifle family including the M16/A1/A2/A3/A4 has been the primary infantry rifle of the United States military since the 1960s. With its variants, it has been in use by 15 NATO countries, and is the most produced firearm in its caliber. The M16 is a lightweight, 5.56x45mm caliber, air cooled, gas operated, magazine fed assault rifle, with a rotating bolt, actuated by direct impingement gas operation. The rifle is made of steel, aluminum, and composite plastics.</text>
 	</string>
 <!-- M16A1 -->
 	<string id="st_wpn_m16a1">
 		<text>M16A1</text>
 	</string>
 	<string id="st_wpn_m16a1_descr">
-		<text>The M16 is the U.S. military designation for a family of rifles derived from the ArmaLite AR-15 and further developed by Colt starting in 1960s. The M16 rifle family including the M16/A1/A2/A3/A4 has been the primary infantry rifle of the United States military since the 1960s. With its variants, it has been in use by 15 NATO countries, and is the most produced firearm in its caliber. The M16 is a lightweight, 5.56x45mm caliber, air cooled, gas operated, magazine fed assault rifle, with a rotating bolt, actuated by direct impingement gas operation. The rifle is made of steel, aluminum, and composite plastics.</text>
+		<text>An M16 with a forward assist feature requested by the Army. All of the early versions were chambered to fire the M193/M196 cartridge in the semi automatic and the automatic firing modes. This occurred in the early 1960s, with the Army issuing it in late 1964. M16A1s were first issued to Special Forces troops in spring of 1964.</text>
 	</string>
 <!-- M16A2 -->
 	<string id="st_wpn_m16a2">
@@ -1141,22 +1141,22 @@
 		<text>M16A3</text>
 	</string>
 	<string id="st_wpn_m16a3_descr">
-		<text>M16A3 - вариант винтовки M16A2 с режимом непрерывного огня, состоит на вооружении во флоте. Рукоятка для переноски и прицельные приспособления идентичны M16A2. Появилась в 1992 году под индексом M16A2E3.</text>
+		<text>By 1996, a newest version of the M16 appeared, the M16A3. This rifle differs from the M16A2 by having a removable carry handle, with the upper receiver being fitted with a Picatinny rail. The M16A3 also replaced the three-round burst mode with an automatic mode. The key advantage of both the M16A3 rifle is the ability to quickly mount a wide variety of optical, red dot or night vision/IR sights with MIL-STD 1913 Picatinny-type compatible mounts.</text>
 	</string>
 <!-- M16A4 -->
 	<string id="st_wpn_m16a4">
 		<text>M16A4</text>
 	</string>
 	<string id="st_wpn_m16a4_descr">
-		<text>M16A4 - вариант винтовки M16A2. Сверху ствольной коробки вместо ручки для переноски (которая стала съёмной) установлена направляющая типа Пикатинни. Возможна установка дополнительных направляющих типа Пикатинни на цевье.</text>
+		<text>Developed along with the M16A3, the M16A4 differ from the M16A2 by having a removable carry handle, with the upper receiver being fitted with a Picatinny rail. Otherwise the M16A4 is similar to the M16A2. The key advantage of the A4 rifle is the ability to quickly mount a wide variety of optical, red dot or night vision/IR sights with MIL-STD 1913 Picatinny-type compatible mounts.</text>
 	</string>
 <!-- insert name -->
-	<string id="st_wpn_m16a4_camo">
-		<text>M16A4 (камуфляж)</text>
-	</string>
-	<string id="st_wpn_m16a4_camo_descr">
-		<text>Вариант M16A4 с пустынным камуфляжем и прицелом Leupold Mark4.</text>
-	</string>
+    <string id="st_wpn_m16a4_camo">
+        <text>M16A4 (Camo)</text>
+    </string>
+    <string id="st_wpn_m16a4_camo_descr">
+        <text>A variant of the M16A4 rifle with a desert camo pattern and Leupold Mark 4 sight.</text>
+    </string>
 <!-- H&amp;K MP5 -->
     <string id="st_wpn_mp5">
         <text>H&amp;K MP5A3</text>
@@ -1317,7 +1317,7 @@
 		<text>SVD</text>
 	</string>
 	<string id="st_wpn_svd_descr">
-		<text>An army sniper rifle that has been on the market for more than fifty years and has earned its reputation for exceptional reliability and ease of use. The SVD is normally used by the army to improve the effective range of its units, but stalkers respect this weapon for its armour-piercing properties, which allow it to penetrate mutant hide and army body armour.</text>
+		<text>An army sniper rifle that has been on the market for more than fifty years and has earned its reputation for exceptional reliability and ease of use. The SVD is normally used by the army to improve the effective range of its units, but stalkers respect this weapon for its armor-piercing properties, which allow it to penetrate mutant hide and army body armor.</text>
 	</string>
 <!-- СВУ -->
 	<string id="st_wpn_svu">
@@ -1489,49 +1489,49 @@
 		<text>Walther WA 2000</text>
 	</string>
 	<string id="st_wpn_wa2000_descr">
-		<text>WA2000 (Walther Automat 2000) - снайперская винтовка компоновки булл-пап,разработана оружейным концерном «Walther». Всего было выпущено 176 винтовок (откуда Шустрый её достал - тот ещё вопрос).</text>
+        <text>The WA2000 is a bullpup sniper rifle, designed by the Walther company. Only 176 were built due to the high cost of the rifle making it currently rare and valuable.</text>
 	</string>
 <!-- insert name -->
     <string id="st_knife_survival">
         <text>Survival knife</text>
     </string>
     <string id="st_knife_survival_descr">
-        <text>Короткий нескладной нож выживания. Его легко скрыть из-за небольшого размера. Резиновая рукоять позволяет улучшить управляемость.</text>
+        <text>A short non-folding survival knife. Easy to conceal due to its small size. A rubber gripped handle allows for improved handling.</text>
     </string>
 <!-- insert name -->
     <string id="st_knife_spetsnaz">
-        <text>Spetsnaz switchblade</text>
+        <text>NR-2</text>
     </string>
     <string id="st_knife_spetsnaz_descr">
-        <text>A well-kept Spetsnaz military knife ideal for recon class soldiers. Spetsnaz units reportedly used it to slit throats of MRBM launching sites crews few days prior to planned massive nuclear exchange in European operational theater. It is a deadly weapon and the only knife in the Zone that is relatively good at both piercing armors and dealing massive tissue damage. Ultimate melee weapon.</text>
+        <text>A military survival knife manufactured for the Spetsnaz during the Soviet era. The NR-2 is a variant of the NRS-2 but lacking the single-shot shooting mechanism.</text>
     </string>
 <!-- insert name -->
     <string id="st_knife_tanto">
         <text>Tanto knife</text>
     </string>
     <string id="st_knife_tanto_descr">
-        <text>Современный боевой нож в стиле «танто». «Танто» буквально означает «короткий нож», появились они в Японии в феодальную эпоху. Происхождение этого ножа неизвестно, как и стоящее на нём клеймо.</text>
+        <text>A modern tanto-style combat knife. Literally meaning "short knife", a tanto is a Japanese blade from the feudal era. The origin of this knife is unknown as it is unbranded.</text>
     </string>
 <!-- insert name -->
     <string id="st_knife_colt">
         <text>Colt 62316</text>
     </string>
     <string id="st_knife_colt_descr">
-        <text>Colt 62316 - это американский военный штык М7, предназначенный для крепления к винтовке или дробовику. Принятый на вооружение в 1964 году, он впервые начал службу в войне во Вьетнаме.</text>
+        <text>The Colt 62316 is an American military M7 bayonet intended to be fixed to the end of a rifle or shotgun. Introduced in 1964, it first saw service in the Vietnam War.</text>
     </string>
 <!-- insert name -->
     <string id="st_knife_extrema">
         <text>Extrema Ratio MK 2.1</text>
     </string>
     <string id="st_knife_extrema_descr">
-        <text>Extrema Ratio MK 2.1 представляет собой стальной нож на базе исторического USMC Ka-Bar. Разработан и произведён для итальянских военных и сил специального назначения.</text>
+        <text>The Extrema Ratio MK 2.1 is a steel knife based on the historic USMC Ka-Bar. Developed and produced for use by the Italian military and special forces.</text>
     </string>
 <!-- insert name -->
     <string id="st_knife_hunting">
-        <text>Large hunting knife</text>
+        <text>Hunting knife</text>
     </string>
     <string id="st_knife_hunting_descr">
-        <text>A very durable hunting knife with a large blade of stainless steel. Ideal for handling larger animals, meat and thick hides. It is able to cause massive, bleeding wounds. Its draw-back is that it does not pierce heavy armors with adequate effectiveness.</text>
+        <text>A modern hunting knife with a camouflage pattern. Roughly half a dozen barbs run along the top of the blade, making its removal from flesh very difficult.</text>
     </string>
 <!-- insert name -->
 	<string id="st_addon_scope_1p29_detector">

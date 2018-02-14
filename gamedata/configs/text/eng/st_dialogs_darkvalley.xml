@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
-<!--------------------------- val_smart_terrain_7_4_bandit_trader_stalker -->
+
 	<string id="val_smart_terrain_7_4_bandit_trader_stalker_start_dialog_1">
 		<text>Hey, man! I have some stuff to sell you and maybe a couple jobs if you're interested. I'm the guy the boys around he come see when they line their pocket after a hit!</text>
 	</string>
 	<string id="val_smart_terrain_7_4_bandit_trader_stalker_start_dialog_2">
 		<text>Hey, man. What do you need? Looking for work?</text>
 	</string>
-<!---------------------------- val_smart_terrain_7_3_bandit_mechanic_stalker --->
+
 	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_start_dialog_1">
 		<text>What you need today, man? I'll fix your shit right up. Also, if you find any encrypted PDAs, I'll buy them from you.</text>
 	</string>
 	
-	<!-- Sultan, moved from Zaton to Dark Valley -->
+
 	
 	<string id="zat_b7_bandit_boss_sultan_intro_0">
 		<text>Remember. I'm Sultan. Everything that goes down here is either under my control or will be soon. If you want to live the good life, you gotta work for me. If you don't, you'll live the shitty life. That's how we roll, bro.</text>
@@ -61,20 +61,20 @@
 	</string>
 
 <string id="loky_0">
-		<text>Хай мэн!Расскажи о себе</text>
+		<text>Hello, tell me about yourself</text>
 	</string>
 
 <string id="loky_1">
-		<text>Хаюшки!Я пришел в зону со своими друзьями - Чеховым и Лукашом.С этими ребятами я был знаком еще до первой аварии на станции в 1986 году.Мы тогда на сталелитейном заводе в Воронеже работали.Ох и веселые были деньки я тебе скажу,дело шло к распаду Союза,как вдруг в Чернобыле прогремел тот злополучный взрыв.Ужас просто,сколько народу тогда погибло...Затем в 90-х начался беспредел,урки разношерстные полезли изо всех щелей и начали наводить свои порядки.В общем ты и сам знаешь что было дальше...А в 2008 мы решили поискать на свою пятую точку приключений и двинули сюда,в ЧЗО.Именно тогда мы и основали ''Свободу''.Потом уже появились ''долговцы'' и начали ''защищать нас от заразы зоны''.Мда...Защитнечки хреновы.Как то так чувак.</text>
+		<text>I came to the zone with my friends - Chekhov and Lukash. With these guys, I was familiar even before the first accident at the station in 1986. We then worked at a steel plant in Voronezh. Oh, and I had a funny time talking to you, it was going on to the disintegration of the Union, when suddenly an unfortunate explosion exploded in Chernobyl. The horror is just how many people were killed then ... Then in the 90s lawlessness began, the mixed-color hives climbed from all the cracks and began to direct their orders. In general, you yourself know that was further ... And in 2008 we decided to look for our fifth point of adventure and ^ advanced here in ChZO.Imenno then we founded the '' Freedom ''. Later there were '' dolgovtsev '' and began '' to protect us from the infection zone. '' Hmm ... Zaschitnechki hrenovy.Kak something like a dude.</text>
 	</string>
 
 
 <string id="sult_0">
-		<text>Расскажи о своей жизни.</text>
+		<text>Tell about your life.</text>
 	</string>
 
 <string id="sult_1">
-		<text>С чего бы рассказ начать...Был у меня товарищ на большой земле - как говорится, самый-самый... Вместе везде шлялись, вместе пить-курить начинали... Только ему всё ощущений острых не хватало. Взялся помалу за наркоту: вначале - шмаль, потом - герыч, когда бабло появилось - кокс. Я ему говорил: «Толян, спрыгивай!», только не слушал он меня... Толкнули ему отраву, и всё - не стало пацана, и какого! Я потом тех барыг нашёл и пописал чуток. Меня взяли, ну и понеслось: зона со своими раскладами... раз как-то заточку в бочину словил, но выжил... Откинулся, бизнес кое-какой построил, опять взяли. Откинулся, плюнул - и сюда, в Зону эту, ушёл. Покрутился полгода и заработал авторитет среди братвы. Теперь вот здесь,в Темной лощине над пацанами местными стою - смотрю, чтобы всё по понятиям было.В будущем подумываю к центру зоны смотаться.Там сталкерье совсем охренело говорят.Буду учить щенков уму-разуму хе-хе...</text>
+		<text>Why do I have to start a story ... I had a friend on the big earth - as they say, the most-most ... Together they wandered together, drinking and smoking started ... Only he did not have all the sensations acute. Took himself gradually for the drug: at first - shmal, then - gerych, when loot appeared - coke. I told him: "Tolyan, jump off!", But he did not listen to me ... They pushed him into the poison, and everything - did not become a kid, and what! I then found those huckster and pissed a bit. I was taken, well, it raced: the zone with its hands ... once somehow sharpened in the boil, but survived ... I leaned back, I built some business, took it again. He leaned back, spat - and went to this Zone. Twisted for six months and earned authority among the brothers. Now here, in the Dark Glade above the guys local I stand - I look to everything according to the concepts was. In the future I'm thinking about the center of the zone to get wind of it. There, the stalker was completely fucking spoken. I'm going to teach puppies to the mind-reason hehe ...</text>
 
 	</string>
 

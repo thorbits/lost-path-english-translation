@@ -1,8 +1,9 @@
 --------------------
 0.1.8 preview
 --------------------
-
-
+added st_dialogs_bar.xml
+added sim_factions.script
+added sim_script_to_text.script
 
 --------------------
 02/13 0.1.7	--> "Lost Path v0.5.003" compatible version

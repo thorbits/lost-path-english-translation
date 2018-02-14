@@ -31,7 +31,7 @@ updated sim_smart.script
 updated sim_squad.script
 updated ui_main_menu.script
 --------------------
-02/11 0.1.5	--> "Lost Path v0.5.001" last compatible version
+02/11 0.1.5	--> "Lost Path v0.5.001" compatible version (v0.5.001 only, not for v0.5.002)
 --------------------
 updated st_lostpath_main.xml
 updated st_lostpath_system.xml

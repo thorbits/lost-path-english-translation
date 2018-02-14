@@ -2,6 +2,9 @@
 0.1.8 preview
 --------------------
 added st_dialogs_bar.xml
+added st_dialogs_darkvalley.xml
+added st_dialogs_jupiter.xml
+added st_dialogs_zaton.xml
 added sim_factions.script
 added sim_script_to_text.script
 

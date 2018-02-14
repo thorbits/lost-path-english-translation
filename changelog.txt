@@ -1,10 +1,16 @@
 --------------------
-0.1.8 preview
+0.1.9 preview
 --------------------
-added st_dialogs_bar.xml
-added st_dialogs_darkvalley.xml
-added st_dialogs_jupiter.xml
-added st_dialogs_zaton.xml
+
+--------------------
+02/14 0.1.8
+--------------------
+updated mlr_addon.xml
+updated st_dialogs_bar.xml
+updated st_dialogs_darkvalley.xml
+updated st_dialogs_jupiter.xml
+updated st_dialogs_zaton.xml
+updated st_items_weapons.xml
 added sim_factions.script
 added sim_script_to_text.script
 

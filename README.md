@@ -131,8 +131,14 @@ st_closecaption.xml
 st_dialogs.xml
 <br>&#8627; <em>done</em><br>
 st_dialogs_bar.xml  
-<br>&#8627; <em>done</em><br>  
+<br>&#8627; <em>incomplete</em><br> 
+st_dialogs_darkvalley.xml
+<br>&#8627; <em>incomplete</em><br>
 st_dialogs_garbage.xml
+<br>&#8627; <em>incomplete</em><br>
+st_dialogs_jupiter.xml
+<br>&#8627; <em>incomplete</em><br>
+st_dialogs_zaton.xml
 <br>&#8627; <em>incomplete</em><br>
 st_drx_addons.xml
 <br>&#8627; <em>done</em><br>

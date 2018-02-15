@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
+
 	<string id="ls_header">
-		<text>Lost Path 0.5.003</text>
+		<text>Lost Path 0.5.004</text>
 	</string>
+
+		<string id="ls_tip_number">
+		<text>Excerpt #</text>
+	</string>
+	
 	<string id="ls_tip_1">
 		<text>Overloaded stalker is a dead stalker. Hungry stalker is a dead stalker. Sleepy stalker is a dead stalker. And you don't wanna be a dead stalker.</text>
 	</string>
@@ -402,7 +408,5 @@
 	<string id="ls_tip_100">
 		<text>You'll die in a week if you don't eat. But you can die in a matter of seconds if a bullet hits you. Always keep your suit in a good condition so you can live a little while longer.</text>
 	</string>
-	<string id="ls_tip_number">
-		<text>Excerpt #</text>
-	</string>
+
 </string_table>

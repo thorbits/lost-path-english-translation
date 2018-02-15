@@ -220,13 +220,13 @@
 		<text>Grass detail density</text>
 	</string>
 	
-    <string id="ui_mm_detail_radius">
-	    <text>Grass rendering distance</text>
+	<string id="ui_mm_detail_radius">
+		<text>Grass rendering distance</text>
    	</string>
 	
-    <string id="ui_mm_detail_height">
-	    <text>Grass height</text>
-    </string>
+	<string id="ui_mm_detail_height">
+		<text>Grass height</text>
+	</string>
 	
 	<string id="ui_mm_difficulty">
 		<text>Difficulty</text>
@@ -420,16 +420,16 @@
 		<text>Specular reflectivity (gloss factor)</text>
 	</string>
 	
-    <string id="ui_mm_r__actor_shadow">
-    <text>Actor shadow</text>
-    </string>
+	<string id="ui_mm_r__actor_shadow">
+		<text>Actor shadow</text>
+	</string>
 	
 	<string id="ui_mm_r2_sun_quality">
 		<text>Sun quality</text>
 	</string>
 	
 	<string id="ui_mm_r3_DX10_1">
-		<text>Use DX 10.1</text>
+		<text>Use DX10.1</text>
 	</string>
 	
 	<string id="ui_mm_r3_MSAA">

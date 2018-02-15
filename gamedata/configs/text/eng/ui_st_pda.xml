@@ -250,16 +250,16 @@
 		<text>Area</text>
 	</string>
 	<string id="st_jup_b32_has_af">
-		<text>Scanners detect the presence of artefacts:</text>
+		<text>Scanners detect the presence of artefact(s):</text>
 	</string>
 	<string id="st_jup_b32_no_af">
-		<text>According to scanners, there are no artefacts.</text>
+		<text>According to scanners, there are no artefact.</text>
 	</string>
 	<string id="st_ui_pda_secret">
 		<text>Stash</text>
 	</string>
 	<string id="st_ui_pda_secret_searched">
-		<text>Stash (Partially looted)</text>
+		<text>Stash (partially looted)</text>
 	</string>
 	<string id="st_ui_pda_sleep_place">
 		<text>Bed</text>
@@ -363,25 +363,25 @@
 		<text>Commands</text>
 	</string>
 		<string id="st_pda_action_1__3">
-		<text>Вылечить</text>
+		<text>Heal</text>
 	</string>
 	<string id="st_health_companion">
-		<text>Вылечить напарника?</text>
+		<text>Heal companion?</text>
 	</string>
 	<string id="st_health_full">
-		<text>Напарник абсолютно здоров</text>
+		<text>Companion has full health</text>
 	</string>
 	<string id="st_pda_action_1__4">
-		<text>Боевые задачи</text>
+		<text>Combat tasks</text>
 	</string>
 	<string id="st_pda_action_1__4_1">
-		<text>Назад</text>
+		<text>Back</text>
 	</string>
 	<string id="st_pda_action_1__4_2">
-		<text>Получить задание</text>
+		<text>Get an assignment</text>
 	</string>
 	<string id="st_pda_action_1__4_3">
-		<text>Отменить задание</text>
+		<text>Cancel job</text>
 
 	</string>
 	<string id="st_pda_action_1__2_2">

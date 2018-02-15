@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+	<string id="st_itm_backpack_name_10">
+		<text>Backpack</text>
+	</string>
+
+	<string id="st_itm_backpack_desc_10">
+		<text>A simple small backpack, made of not very high quality materials. \n ------------------------------------------------------- \n%c[255,1,255,255]•%c[default] Additional capacity: +10 kg</text>
+	</string>
+
+	<string id="st_itm_backpack_name_20">
+		<text>Travel backpack (olive)</text>
+	</string>
+
+	<string id="st_itm_backpack_desc_20">
+		<text>The usual tourist backpack. Made of quality materials that will last a long time. \n ------------------------------------------------------- \n%c[255,1,255,255]•%c[default] Color: olive \n%c[255,1,255,255]•%c[default] Additional capacity: +20 kg.</text>
+	</string>
+
+	<string id="st_itm_backpack_name_20_black">
+		<text>Travel backpack (Black)</text>
+	</string>
+
+	<string id="st_itm_backpack_desc_20_black">
+		<text>The usual tourist backpack. Made of quality materials that will last a long time. \n ------------------------------------------------------- \n%c[255,1,255,255]•%c[default] Color: black \n%c[255,1,255,255]•%c[default] Additional capacity: +20 kg.</text>
+	</string>
+
+	<string id="st_itm_backpack_name_40">
+		<text>Field backpack</text>
+	</string>
+
+	<string id="st_itm_backpack_desc_40">
+		<text>Durable field bag. Made of very high quality materials, which allows the soldier to operate in all conditions. \n ------------------------------------------------------- \n%c[255,1,255,255]•%c[default] Additional capacity: +40 kg.</text>
+	</string>
+
+	<string id="st_itm_backpack_name_60">
+		<text>Improved field backpack</text>
+	</string>
+
+	<string id="st_itm_backpack_desc_60">
+		<text>Durable backpack. Contains a large amount of additional pouches that allows you to move a lot of things. \n ------------------------------------------------------- \n%c[255,1,255,255]•%c[default] Additional capacity: +60 kg.</text>
+	</string>
+
+</string_table>

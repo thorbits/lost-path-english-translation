@@ -1,11 +1,28 @@
 --------------------
-0.1.9 preview
+0.2 preview	--> "Lost Path v0.5.004" compatible version
+updated mlr_addon.xml
+updated st_lostpath_ruck.xml
+updated st_lostpath_upgrade.xml
+updated ui_st_encyclopedia_lostpath_info.xml
+updated ui_st_loadscreen.xml
+updated ui_st_mm.xml
+updated ui_st_pda.xml
+updated ui_st_screen.xml
+updated axr_main_options.script
+updated dialogs_lostpath.script
+updated dialogs_mlr.script
+updated lostpath_start.script
+updated lostpath_visual.script
+updated sim_relations.script
+updated sim_squad.script
+
+--------------------
+02/15 0.1.9
 --------------------
 updated st_achievement.xml
 updated st_characters.xml
 updated st_dialog_manager.xml
 updated st_treasures.xml
-
 --------------------
 02/14 0.1.8
 --------------------

@@ -18,7 +18,6 @@ function squad_on_update(squad)
 	   return
 	end
 
-
 	if not (squad.registered_in_simultaion) then	
 
 		if (squad.checked_register) then
@@ -585,9 +584,9 @@ function get_simulation_info(squad)
            end	 
 		   
 	      if (squad.current_action == 1) then
-	          props = props.."\\n- is resting \\n"
+	          props = props.."\\n- resting \\n"
 	      elseif (squad.current_action == 0) then
-	          props = props.."\\n- is moving \\n"
+	          props = props.."\\n- moving \\n"
 	      end
 	   end	       
 	end

@@ -7,11 +7,13 @@
  #  file   : sim_relations.script 
 ]]-- -----------------------------------
 
---[[
+
 function on_game_start()
 	RegisterScriptCallback("npc_on_death_callback", npc_on_death)
 end
-]]--
+
+
+local dynamic_relations = (lostpath_main.config:r_value("scripts","enable_dynamic_relations",1))
 
 allowed_relation_change = {
 	stalker = {
@@ -89,18 +91,22 @@ tbl_change_relation = {
 	[1] = {
 		sender_icon = 'ui_inGame2_PD_Lider',
 		text = 'Factions %s è %s started a war'
+
 	},
 	[2] = {
 		sender_icon = 'ui_inGame2_PD_Drug_Stalkerov',
 		text = 'Factions %s è %s concluded an alliance'
+
 		},
 	[3] = {
 		sender_icon = 'ui_inGame2_PD_Avtoritet',
 		text = 'Factions %s è %s relations are deteriorating'
+
 	},
 	[4] = {
 		sender_icon = 'ui_inGame2_PD_Avtoritet',
 		text = 'Factions %s è %s ceased hostility'
+
 	}
 }
 
@@ -116,8 +122,9 @@ faction_names_standart = {
 	['monolith'] = 'Monolith',
 	['zombied'] = 'Zombies',
 	['monster'] = 'Mutants',
-	['darkstalker'] = 'Dark Stalkers',
+	['darkstalker'] = 'Darkstalkers',
 	['isg'] = 'Researchers',
+
 	['none'] = '[no data]',
 }
 
@@ -127,6 +134,7 @@ function send_news(sender, news_text, sender_icon)
 end
 
 function npc_on_death(dead, killer)
+	if dynamic_relations == false then return end
 	local dead_faction =  get_object_community(dead)
 	local killer_faction =  get_object_community(killer)
 	local not_actor = killer_faction
@@ -147,6 +155,26 @@ function npc_on_death(dead, killer)
 		else
 			set_faction_relations(faction, not_actor, -value)
 			printf("%s %s", faction, not_actor)
+		end
+	end
+	
+	--printf("%s %s %s", faction, killer_faction, value)
+end
+
+function sim_death(dead_faction, killer_faction)	
+	if dynamic_relations == false then return end
+	local value = math.random(1,20)
+	if not allowed_relation_change[killer_faction] then return end
+	for _, faction in pairs(allowed_relation_change[killer_faction]) do
+		if game_relations.is_factions_friends(faction, dead_faction) then
+			set_faction_relations(faction, killer_faction, -value)
+			printf("%s %s", faction, killer_faction)
+		elseif game_relations.is_factions_enemies(faction, dead_faction) then
+			set_faction_relations(faction, killer_faction, value)
+			printf("%s %s", faction, killer_faction)
+		else
+			set_faction_relations(faction, killer_faction, -value)
+			printf("%s %s", faction, killer_faction)
 		end
 	end
 	

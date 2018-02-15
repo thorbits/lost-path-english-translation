@@ -394,11 +394,11 @@ function main_menu:OnKeyboard(dik, keyboard_action)  --virtual function
 	-- AMI -- ]]	
 	
 		if dik == DIK_keys.DIK_F2 then
-			run_gui(Reputation_isg.Reputation_isg(), false)
+			--run_gui(Reputation_isg.Reputation_isg(), false)
 		end
 		
 		if dik == DIK_keys.DIK_K then
-			xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"killer", 1000}) 
+			--xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"killer", 1000}) 
 		end
 		
 		-- Test Lost Path --
@@ -408,19 +408,55 @@ function main_menu:OnKeyboard(dik, keyboard_action)  --virtual function
 		if(actor_faction ~= nil) then
 		local rank = db.actor:character_rank()
 			if dik == DIK_keys.DIK_F2 then
-				printf("%s", rank)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				coc_treasure_manager.create_random_stash(nil,nil,nil)
+				--[[printf("%s", rank)
 				rank = rank + 1000
-				actor:set_character_rank(rank)
+				actor:set_character_rank(rank)]]--
 			end
 			
 			if dik == DIK_keys.DIK_F3 then
-				db.actor:set_character_community("actor_killer")
-				game_relations.set_community_goodwill_for_faction("actor_killer")
+				--[[db.actor:set_character_community("actor_freedom")
+				game_relations.set_community_goodwill_for_faction("actor_freedom")]]--
 			end
 			
 			if dik == DIK_keys.DIK_F4 then
-				db.actor:set_character_community("actor_army")
-				game_relations.set_community_goodwill_for_faction("actor_army")
+				--[[db.actor:set_character_community("actor_army")
+				game_relations.set_community_goodwill_for_faction("actor_army")]]--
 			end
 		end		
 		-- Test Lost Path --

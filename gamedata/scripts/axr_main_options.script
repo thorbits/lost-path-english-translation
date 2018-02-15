@@ -39,6 +39,8 @@ function opt_menu_on_init(menu)
 	menu.gameplay_options["show_tip_reputation_option"] = {default=false,  debug_only=false, 	typ="check"}		
 	-- news
 	menu.gameplay_options["fake_news_option"] = {default=false,  debug_only=false, 	typ="check"}	
+    -- lootmoney
+	menu.gameplay_options["lootmoney_option"] = {default=false,  debug_only=false, 	typ="check"}
 	-- weapon loot
 	menu.gameplay_options["rank_loot_option"] = {default=false,  debug_only=false, 	typ="check"}	
 	-- open all transitions

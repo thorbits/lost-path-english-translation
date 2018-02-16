@@ -368,15 +368,15 @@
 	</string>
 
 	<string id="st_dont_has_knife">
-		<text>Pull out a knife</text>
+		<text>You need a knife</text>
 	</string>
 
 	<string id="disgusting_trees_tips">
-		<text>Cut off the crust ($$ACTION_USE$$)</text>
+		<text>Cut off the bark ($$ACTION_USE$$)</text>
 	</string>
 
 	<string id="bridge_down_red_forest_tips">
-		<text>to Lower the bridge ($$ACTION_USE$$)</text>
+		<text>Lower the bridge ($$ACTION_USE$$)</text>
 	</string>
 
 	<string id="bridge_stop_red_forest_tips">
@@ -384,7 +384,7 @@
 	</string>
 
 	<string id="bridge_up_red_forest_tips">
-		<text>to Raise the bridge ($$ACTION_USE$$)</text>
+		<text>Raise the bridge ($$ACTION_USE$$)</text>
 	</string>
 
 	<string id="totaliz_helper_mlr_text">
@@ -392,19 +392,19 @@
 	</string>
 
 	<string id="ui_mm_transitions_closed_disable">
-		<text>to Open all the crossings</text>
+		<text>Open all passages</text>
 	</string>
 
 	<string id="ui_mm_rank_loot_option">
-		<text>condition of the rifle depends on the rank of</text>
+		<text>Rifle condition depending of rank</text>
 	</string>
 
 	<string id="ui_mm_lootmoney_option">
-		<text>Money from the corpses of the</text>
+		<text>Loot corpses</text>
 	</string>
 
 	<string id="ui_mm_show_tip_reputation_option">
-		<text>reputation Data (in messages)</text>
+		<text>Reputation messages</text>
 	</string>
 
 	<string id="ui_mm_fake_news_option">
@@ -789,98 +789,98 @@
 	</string>
 
 	<string id="ui_st_red_forest_vagon_csky">
-		<text>the Camp at marque (the Red forest)</text>
+		<text>Camp of the Marque (Red Forest)</text>
 	</string>
 	<string id="ui_st_truck_cemetery_bandits_post">
-		<text>Park on the outskirts (Cemetery equipment)</text>
+		<text>Camp at outskirts (Truck Cemetery)</text>
 	</string>
 	<string id="ui_st_yanov_depo_monolith">
-		<text>Railway depot (Jupiter)</text>
+		<text>Eastern tunnel (Jupiter)</text>
 	</string>
 	<string id="ui_st_bridge_red_forest_mon">
-		<text>the Bridge before the tunnel to Limansk (Red forest)</text>
+		<text>Bridge to Limansk (Red Forest)</text>
 	</string>
 	<string id="ui_st_farm_base_neytral">
-		<text>the Parking lot bandits on the farm (Cordon)</text>
+		<text>Bandit base (Cordon)</text>
 	</string>
 	<string id="ui_st_kbo_monolith">
-		<text>CCD "Jubilee" (outskirts of Pripyat)</text>
+		<text>Yubileiny service center (Outskirts)</text>
 	</string>
 	<string id="ui_st_store_books_a18">
-		<text>Book Store (outskirts of Pripyat)</text>
+		<text>Book store (Pripyat)</text>
 	</string>
 	<string id="ui_st_fo_cordon">
 		<text>Southern checkpoint (Cordon)</text>
-	</string> 
+	</string>
 	<string id="ui_st_dasc_sawwill">
 		<text>Sawmill (Darkscape)</text>
-	</string> 
+	</string>
 	<string id="ui_st_l13_generators">
-		<text>Over the military laboratory (Generators)</text>
+		<text>Military laboratory (Generators)</text>
 	</string>
 
 	<string id="st_bar100rent_name">
-		<text>Bar "100 rads"</text>
+		<text>100 Rads bar</text>
 	</string>
 	<string id="st_gar_baraholka_name">
 		<text>Flea market</text>
 	</string>
 	<string id="st_gar_outpost_name">
-		<text>Outpost in front of the bar</text>
+		<text>Checkpoint by Rostok</text>
 	</string>
 	<string id="st_gar_angar_name">
-		<text>Base of Bandits</text>
+		<text>Train hangar</text>
 	</string>
 	<string id="st_yanbunker_name">
-		<text>Research Base</text>
+		<text>Research facility</text>
 	</string>
 	<string id="st_yancomplex_name">
 		<text>Industrial complex</text>
 	</string>
 	<string id="st_novice_village_name">
-		<text>the novice Village</text>
+		<text>Rookie village</text>
 	</string>
 	<string id="st_south_blokpost_name">
-		<text>South checkpoint</text>
+		<text>Southern checkpoint</text>
 	</string>
 	<string id="st_ATP_name">
-		<text>ATP</text>
+		<text>Vehicle station</text>
 	</string>
 	<string id="st_elevator_name">
 		<text>Elevator</text>
 	</string>
 	<string id="st_tunnel_electr_name">
-		<text>Tunnel with electro</text>
+		<text>Tunnel with Electro anomalies</text>
 	</string>
 	<string id="st_neut_base_name">
 		<text>Farm</text>
 	</string>
 	<string id="st_north_blockpost_name">
-		<text>Northern Outpost</text>
+		<text>Military outpost</text>
 	</string>
 	<string id="st_dar_farm_name">
 		<text>Farm</text>
 	</string>
 	<string id="st_val_bandit_base_name">
-		<text>the Base of the bandits</text>
+		<text>Bandits base</text>
 	</string>
 	<string id="st_dar_complex_name">
 		<text>Industrial complex</text>
 	</string>
 	<string id="st_bs_village_name">
-		<text>Village of bloodsuckers</text>
+		<text>Bloodsucker village</text>
 	</string>
 	<string id="st_base_freedom_name">
-		<text>Warehouses</text>
+		<text>Army warehouse</text>
 	</string>
 	<string id="st_border_name">
 		<text>Barrier</text>
 	</string>
 	<string id="st_mon_base_name">
-		<text>DK Energetik</text>
+		<text>Palace of Culture</text>
 	</string>
 	<string id="st_hotel_poless_name">
-		<text>the Hotel "Polesie"</text>
+		<text>Hotel</text>
 	</string>
 	<string id="st_big_bus_station_name">
 		<text>Bus station</text>
@@ -889,37 +889,37 @@
 		<text>Administration</text>
 	</string>
 	<string id="st_ds_market_name">
-		<text>Cooperative</text>
+		<text>Market</text>
 	</string>
 	<string id="st_ds_HoC_name">
 		<text>House of culture</text>
 	</string>
 	<string id="st_lim_zastava_name">
-		<text>Building on the hill</text>
+		<text>Front outpost</text>
 	</string>
 	<string id="st_lim_bubbles_name">
-		<text>Anomaly "Spatial rift"</text>
+		<text>Space anomalies</text>
 	</string>
 	<string id="st_lim_nonbuild_name">
-		<text>Construction</text>
+		<text>Construction site</text>
 	</string>
 	<string id="st_mar_old_church_name">
 		<text>Old Church</text>
 	</string>
 	<string id="st_mar_hide_base_spot_name">
-		<text>Hidden base</text>
+		<text>Clear Sky base</text>
 	</string>
 	<string id="st_mar_water_pump_station_name">
-		<text>the Tower</text>
+		<text>Water pump station</text>
 	</string>
 	<string id="st_mar_mechanic_yard_name">
-		<text>Paper yard</text>
+		<text>Machine yard</text>
 	</string>
 	<string id="st_lim_bridge_name">
-		<text>CAT and the bridge to Limansk</text>
+		<text>Bridge to Limansk</text>
 	</string>
 	<string id="st_lim_house_lesnik_name">
-		<text>Sanctuary of the Forester</text>
+		<text>Forester's building</text>
 	</string>
 	<string id="st_mar_post_vishka_name">
 		<text>Observation post</text>
@@ -928,28 +928,28 @@
 		<text>Fishing village</text>
 	</string>
 	<string id="st_agr_SRI_name">
-		<text>scientific research Institute "agriculture"</text>
+		<text>Agroprom Research Institute</text>
 	</string>
 	<string id="st_red_crap_name">
-		<text>a Fucking Parking lot</text>
+		<text>Devilish encampment</text>
 	</string>
 	<string id="st_red_dark_yar_name">
-		<text>the Dark ravine</text>
+		<text>Dark bank</text>
 	</string>
 	<string id="st_red_central_mine_name">
-		<text>mine</text>
+		<text>Mine</text>
 	</string>
 	<string id="st_tc_bandit_base_name">
-		<text>Park on the outskirts of the</text>
+		<text>Camp at the outskirts</text>
 	</string>
 	<string id="st_tc_kpp_name">
-		<text>CAT</text>
+		<text>Jupiter checkpoint</text>
 	</string>
 	<string id="st_tc_vert_name">
-		<text>a Helicopter Rusty forest</text>
+		<text>Helicopter in the Red Forest</text>
 	</string>
 	<string id="st_radar_first_zastava_name">
-		<text>Counter gate</text>
+		<text>First outpost</text>
 	</string>
 	<string id="st_rad_bunker_name">
 		<text>Bunker</text>
@@ -958,7 +958,7 @@
 		<text>Sawmill</text>
 	</string>
 	<string id="st_dasc_fuel_station_name">
-		<text>Filling</text>
+		<text>Gas station</text>
 	</string>
 	<string id="st_red_witch_round_name">
 		<text>Witch ring</text>
@@ -1149,570 +1149,569 @@
 	</string>
 
 	<string id="trucks_cemetery_bandit_mechanic_task_1_name">
-		<text>Find [%s]</text>
+		<text>Find %s</text>
 	</string>
 	<string id="trucks_cemetery_bandit_mechanic_task_1_text">
-		<text>Have pritaranil [%s] for appliances at the cemetery equipment.</text>
+		<text>The technician in the Truck Cemetery has asked me to find %s.</text>
 	</string>
 	<string id="trucks_cemetery_bandit_mechanic_task_1_about">
-		<text>Oh, bro! Here half of the disabled hanging around and I really for the lads need the tools for rough work, well, how are you?</text>
-	</string> 
+		<text>Bro, more than half of the stuff we got here is breaking apart, and I really need some tools to help out the lads. Wanna help?</text>
+	</string>
 	<string id="trucks_cemetery_bandit_mechanic_task_1_fetch_about">
-		<text>Oh, bro! Here half of the disabled hanging around and I really for the lads need the tools for rough work, well, how are you?</text>
+		<text>Bro, more than half of the stuff we got here is breaking apart, and I really need some tools to help out the lads. Wanna help?</text>
 	</string>
 	<string id="trucks_cemetery_bandit_mechanic_task_1_fetch_finish">
-		<text>Oops, that's so hot. Well you a deal then, baby!</text>
+		<text>Oooh, yeah... That's what I'm talkin' about. Tell ya what - since you helped me out, Imma help you out with a discount.</text>
 	</string>
 
 	<string id="trucks_cemetery_bandit_mechanic_task_2_name">
-		<text>Find [%s]</text>
+		<text>Find %s</text>
 	</string>
 	<string id="trucks_cemetery_bandit_mechanic_task_2_text">
-		<text>Have pritaranil [%s] for appliances at the cemetery equipment.</text>
+		<text>The technician in the Truck Cemetery has asked me to find %s.</text>
 	</string>
 	<string id="trucks_cemetery_bandit_mechanic_task_2_about">
-		<text>utter Wilderness, but this is it... a strategic point in! Therefore, the equipment fraternization upgrade is necessary, will need tools for fine work, can you help me out again?</text>
-	</string> 
+		<text>This area is complete wilderness, but this place right here... It's a strategic point, man! To get our comrades as much firepower as possible, we're gonna need some better tools to work with. Help me out again, will ya?</text>
+	</string>
 	<string id="trucks_cemetery_bandit_mechanic_task_2_fetch_about">
-		<text>utter Wilderness, but this is it... a strategic point in! Therefore, the equipment fraternization upgrade is necessary, will need tools for fine work, can you help me out again?</text>
+		<text>This area is a complete wilderness, but this place right here... It's a strategic point, man! To get our comrades as much firepower as possible, we're gonna need some better tools to work with. Help me out again, will ya?</text>
 	</string>
 	<string id="trucks_cemetery_bandit_mechanic_task_2_fetch_finish">
-		<text>Oh, fuck. Well, you do live from the heart of course. And you still get a discount for that, bro!</text>
+		<text>Oh, fuck. You're the best, man. You'll definitely be getting another discount for that!</text>
 	</string>
 
 	<string id="trucks_cemetery_bandit_mechanic_task_3_name">
-		<text>Find [%s]</text>
+		<text>Find %s</text>
 	</string>
 	<string id="trucks_cemetery_bandit_mechanic_task_3_text">
-		<text>Have pritaranil [%s] for appliances at the cemetery equipment.</text>
+		<text>The technician in the Truck Cemetery has asked me to find %s.</text>
 	</string>
 	<string id="trucks_cemetery_bandit_mechanic_task_3_about">
-		<text>Sitting all Foligno as fufel here and you know what for the sake of completeness is not enough? Correctly, the calibration tools! Well, how are you?</text>
-	</string> 
+		<text>Was just sittin' around, chillin' like villains, when I realized what we were missing. That's right, even better tools! Anyways, 'sup with you? Wanna help find some?</text>
+	</string>
 	<string id="trucks_cemetery_bandit_mechanic_task_3_fetch_about">
-		<text>Sitting all Foligno as fufel here and you know what for the sake of completeness is not enough? Correctly, the calibration tools! Well, how are you?</text>
+		<text>Was just sittin' around, chillin' like villains, when I realized what we were missing. That's right, even better tools! Anyways, 'sup with you? Wanna help find some?</text>
 	</string>
 	<string id="trucks_cemetery_bandit_mechanic_task_3_fetch_finish">
-		<text>Well, I did not think that tale someone would try so hard in this aperance. Keep some money, they deserve it!</text>
+		<text>Wow, you actually fuckin' did it! Thanks, pal, you're the best. Biggest discount goes to you, enjoy it!</text>
 	</string>
 
 	<string id="army_south_mechan_mlr_task_1_name">
-		<text>Find [%s]</text>
+		<text>Find %s</text>
 	</string>
 	<string id="army_south_mechan_mlr_task_1_text">
-		<text>Mechanic Serge asked me to find [%s]</text>
+		<text>Seryoga, a military technician, has asked me to find %s.</text>
 	</string>
 	<string id="army_south_mechan_mlr_task_1_about">
-		<text>Well, perhaps. Rested we recently tools all the needs of the research complex at Yantar, and I even BTR there is nothing to fix. Don't bring me the tools for rough work?</text>
-	</string> 
+		<text>I do, actually. We recently left all our tools at the research complex in Yantar, which is why I can't even repair the BTR here. I need tools - basic ones. Mind helping out?</text>
+	</string>
 	<string id="army_south_mechan_mlr_task_1_fetch_about">
-		<text>Well, perhaps. Rested we recently tools all the needs of the research complex at Yantar, and I even BTR there is nothing to fix. Don't bring me the tools for rough work?</text>
+		<text>I do, actually. We recently left all our tools at the research complex in Yantar, which is why I can't even repair the BTR here. I need tools - basic ones. Mind helping out?</text>
 	</string>
 	<string id="army_south_mechan_mlr_task_1_fetch_finish">
-		<text>Thank you so much, I skidochka.</text>
+		<text>Thank you so much! I will give you a discount.</text>
 	</string>
 
 	<string id="army_south_mechan_mlr_task_2_name">
-		<text>Find [%s]</text>
+		<text>Find %s</text>
 	</string>
 	<string id="army_south_mechan_mlr_task_2_text">
-		<text>Mechanic Serge asked me to find [%s]</text>
+		<text>Seryoga, a military technician, has asked me to find %s.</text>
 	</string>
 	<string id="army_south_mechan_mlr_task_2_about">
-		<text>Insufficient were the instruments. For fine work-not so rare I think, could you produce for me?</text>
-	</string>	
+		<text>Sadly, the tools that you gave me aren't enough, as they only work for the most basic of upgrades. I need more advanced tools - they shouldn't be too rare to find. Could you find them for me?</text>
+	</string>
 	<string id="army_south_mechan_mlr_task_2_fetch_about">
-		<text>Insufficient were the instruments. For fine work-not so rare I think, could you produce for me?</text>
+		<text>Sadly, the tools that you gave me aren't enough, as they only work for the most basic of upgrades. I need more advanced tools - they shouldn't be too rare to find. Could you find them for me?</text>
 	</string>
 	<string id="army_south_mechan_mlr_task_2_fetch_finish">
-		<text>krasava respect. Huge to you human thanks from all the boys.</text>
+		<text>Much appreciated. A big "thank you" from everybody here.</text>
 	</string>
 
 	<string id="army_south_mechan_mlr_task_3_name">
-		<text>Find [%s]</text>
+		<text>Find %s</text>
 	</string>
 	<string id="army_south_mechan_mlr_task_3_text">
-		<text>Mechanic Serge asked me to find [%s]</text>
+		<text>Seryoga, a military technician, has asked me to find %s.</text>
 	</string>
 	<string id="army_south_mechan_mlr_task_3_about">
-		<text>I'm Tired of the APC to dig, it would be time already and the equipment guys to patch up, and even more - modernezirovat handicraft. But I need the tools to calibrate, organize?</text>
-	</string> 
+		<text>I'm tired of rummaging around for BTR parts... It's time to get our guys equipped with some proper gear. I could use a different kind of tools - calibration tools. Can you provide me with those?</text>
+	</string>
 	<string id="army_south_mechan_mlr_task_3_fetch_about">
-		<text>I'm Tired of the APC to dig, it would be time already and the equipment guys to patch up, and even more - modernezirovat handicraft. But I need the tools to calibrate, organize?</text>
+		<text>I'm tired of rummaging around for BTR parts... It's time to get our guys equipped with some proper gear. I could use a different kind of tools - calibration tools. Can you provide me with those?</text>
 	</string>
 	<string id="army_south_mechan_mlr_task_3_fetch_finish">
-		<text>Stunned, did not think that they will see again here. Well, from a good skidochku you I will not leave, hehe.</text>
+		<text>Amazing. Never thought I'd see such sophisticated technology again... especially around here. And you won't stop me from giving you a fine discount.</text>
 	</string>
 
 	<string id="jup_cont_mech_bandit_task_1_name">
-		<text>Find [%s]</text>
+		<text>Find %s</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_1_text">
-		<text>Bandit-the technician asked me to bring him a [%s]</text>
+		<text>The tech gangster has asked me to bring him %s.</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_1_about">
-		<text>of Course, and the stalkers all currently hog, bitches and Jani dug. Bring me the tools for rough work?</text>
-	</string> 
+		<text>Stalkers snatched everything and set up defenses at Yanov, those fuckers. We ain't got shit! Need some tools, man. Get me some, yeah?</text>
+	</string>
 	<string id="jup_cont_mech_bandit_task_1_fetch_about">
-		<text>of Course, and the stalkers all currently hog, bitches and Jani dug. Bring me the tools for rough work?</text>
+		<text>Stalkers snatched everything and set up defenses at Yanov, those fuckers. We ain't got shit! Need some tools, man. Get me some, yeah?</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_1_fetch_finish">
-		<text>Ah, Malaca! Well I tell you this, the discount will.</text>
+		<text>Ah, beautiful! Someone's getting a discount.</text>
 	</string>
 
 	<string id="jup_cont_mech_bandit_task_2_name">
-		<text>Find [%s]</text>
+		<text>Find %s</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_2_text">
-		<text>Bandit-the technician asked me to bring him a [%s]</text>
+		<text>The tech gangster has asked me to bring him %s.</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_2_about">
-		<text>Hey, where could you even for one complection to drive? Only for thin. Well, quite tight to us here without good upgrades, hehe.</text>
-	</string> 
+		<text>Listen, I don't wanna bother you too much and all, but could you just bring one more kit here? Need a better kit to improve our shit, you know? It's hard for us here without the right upgrades, heh.</text>
+	</string>
 	<string id="jup_cont_mech_bandit_task_2_fetch_about">
-		<text>Hey, where could you even for one complection to drive? Only for thin. Well, quite tight to us here without good upgrades, hehe.</text>
+		<text>Listen, I don't wanna bother you too much and all, but could you just bring one more kit here? Need a better kit to improve our shit, you know? It's hard for us here without the right upgrades, heh.</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_2_fetch_finish">
-		<text>Thanks man. Well you're a man? Heh.</text>
+		<text>Thanks, man. You're a real guy, you know that?</text>
 	</string>
 
 	<string id="jup_cont_mech_bandit_task_3_name">
-		<text>Find [%s]</text>
+		<text>Find %s</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_3_text">
-		<text>Bandit-the technician asked me to bring him a [%s]</text>
+		<text>The tech gangster has asked me to bring him %s.s</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_3_about">
-		<text>And could you even gauge dig? Well, purely for the brothers, I will make such upgrades, uuuh...</text>
-	</string> 
+		<text>Hey, buddy, the two other sets of tools you brought us is really helpin', but I need the best o' the best. You know... the shit that'll make 'em go, "oooh, yeeeah..."</text>
+	</string>
 	<string id="jup_cont_mech_bandit_task_3_fetch_about">
-		<text>And could you even gauge dig? Well, purely for the brothers, I will make such upgrades, uuuh...</text>
+		<text>Hey, buddy, the two other sets of tools you brought us is really helpin', but I need the best o' the best. You know... the shit that'll make 'em go, "oooh, yeeeah..."</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_3_fetch_finish">
-		<text>Well fucking kidding me? Here is a rarity in the Area, a real rarity. I'm still skidochku nakin deserved.</text>
+		<text>Well, fuck me sideways! What a rarity... a real rarity. I'll give you another discount, you deserve it. Thanks, bro.</text>
 	</string>
 
 	<string id="zat_stancia_mech_merc_task_1_name">
-		<text>Find [%s]</text>
+		<text>Find %s</text>
 	</string>
 	<string id="zat_stancia_mech_merc_task_1_text">
-		<text>mercenaries Mechanic asked me to bring him for [%s]</text>
+		<text>A mercenary technician has asked me to bring him %s.</text>
 	</string>
 	<string id="zat_stancia_mech_merc_task_1_about">
-		<text>Listen, well what are we fucking mercenaries without a good regulated modules? We had tools for thin, so in the shops of the substation some dick stole them, you know. So, I need tools for fine work, bring?</text>
-	</string> 
+		<text>Listen, what kind of mercenaries are we without well-maintained and custom equipment? You know, we used to have tools for anything, but some fuck stole them from the substation workshop. So, I need tools, and not shitty ones either. Can you find us some?</text>
+	</string>
 	<string id="zat_stancia_mech_merc_task_1_fetch_about">
-		<text>Listen, well what are we fucking mercenaries without a good regulated modules? We had tools for thin, so in the shops of the substation some dick stole them, you know. So, I need tools for fine work, bring?</text>
+		<text>Listen, what kind of mercenaries are we without well-maintained and custom equipment? You know, we used to have tools for anything, but some fuck stole them from the substation workshop. So, I need tools, and not shitty ones either. Can you find us some?</text>
 	</string>
 	<string id="zat_stancia_mech_merc_task_1_fetch_finish">
-		<text>Well, I discount will write, thank you.</text>
+		<text>Damn, you deserve a discount. Thanks.</text>
 	</string>
 
 	<string id="zat_stancia_mech_merc_task_2_name">
-		<text>Find [%s]</text>
+		<text>Find %s</text>
 	</string>
 	<string id="zat_stancia_mech_merc_task_2_text">
-		<text>mercenaries Mechanic asked me to bring him for [%s]</text>
+		<text>A mercenary technician has asked me to bring him %s.</text>
 	</string>
 	<string id="zat_stancia_mech_merc_task_2_about">
-		<text>Reliable and neat trunks is nice, but so far without artisanal upgrades. Pomogite me with the tools for fine work?</text>
-	</string> 
+		<text>Having reliable weapons is nice, but so far we're without any sufficient upgrades. Will you find me an even better set of tools?</text>
+	</string>
 	<string id="zat_stancia_mech_merc_task_2_fetch_about">
-		<text>Reliable and neat trunks is nice, but so far without artisanal upgrades. Pomogite me with the tools for fine work?</text>
+		<text>Having reliable weapons is nice, but so far we're without any sufficient upgrades. Will you find me an even better set of tools?</text>
 	</string>
 	<string id="zat_stancia_mech_merc_task_2_fetch_finish">
-		<text>thank you, now look how much I can improve!</text>
+		<text>Thank you. Let's see how much I can help you and the others out with this!</text>
 	</string>
 
 	<string id="zat_stancia_mech_merc_task_3_name">
-		<text>Find [%s]</text>
+		<text>Find %s</text>
 	</string>
 	<string id="zat_stancia_mech_merc_task_3_text">
-		<text>mercenaries Mechanic asked me to bring him for [%s]</text>
+		<text>A mercenary technician has asked me to bring him %s.</text>
 	</string>
 	<string id="zat_stancia_mech_merc_task_3_about">
-		<text>Listen, let's do it to the end will bring? Calibration is what I need from our certainly no one > > left.</text>
-	</string> 
+		<text>Listen - let's finish our job, shall we? I need calibration tools to make sure that no scumbag escapes us.</text>
+	</string>
 	<string id="zat_stancia_mech_merc_task_3_fetch_about">
-		<text>Listen, let's do it to the end will bring? Calibration is what I need from our certainly no one > > left.</text>
+		<text>Listen - let's finish our job, shall we? I need calibration tools to make sure that no scumbag escapes us.</text>
 	</string>
 	<string id="zat_stancia_mech_merc_task_3_fetch_finish">
-		<text>Oh, fuck. Yes you're a hero for any technique! Oh, boy... well, I'll deal will double.</text>
+		<text>Oh, fuck... You are the hero of every technician! Well done indeed... I'll be doubling your discount.</text>
 	</string>
 
 	<string id="merc_pri_a18_mech_mlr_task_2_name">
-		<text>Find [%s]</text>
+		<text>Find %s</text>
 	</string>
 	<string id="merc_pri_a18_mech_mlr_task_2_text">
-		<text>Techniques of mark in Pripyat were asked to find a [%s]</text>
+		<text>A mercenary technician in the Outskirts has asked me to find %s.</text>
 	</string>
 	<string id="merc_pri_a18_mech_mlr_task_2_about">
-		<text>So, well, these figured out, but something was missing. I think you understand me, will find tools for calibration?</text>
+		<text>Well, we've sorted out a few issues, but there's still a lot left to do. Need better tools for even more upgrades. Mind helping out again?</text>
 	</string>
 	<string id="merc_pri_a18_mech_mlr_task_2_fetch_about">
-		<text>So, well, these figured out, but something was missing. I think you understand me, will find tools for calibration?</text>
+		<text>Well, we've sorted out a few issues, but there's still a lot left to do. Need better tools for even more upgrades. Mind helping out again?</text>
 	</string>
 	<string id="merc_pri_a18_mech_mlr_task_2_fetch_finish">
-		<text>well Done, good job. Now I have a complete set of discount you are entitled to of course, and me to keep something.</text>
+		<text>Well done. Now I have a full set, and you can have all the discounts you're entitled to.</text>
 	</string>
 
 	<string id="dasc_tech_mlr_task_1_name">
-		<text>Find [%s]</text>
+		<text>Find %s</text>
 	</string>
 	<string id="dasc_tech_mlr_task_1_text">
-		<text>the Technician at the lumber yard asked me to get him [%s]</text>
+		<text>The technician at the sawmill has asked me to fetch him %s.</text>
 	</string>
 	<string id="dasc_tech_mlr_task_1_about">
-		<text>As you know, the utter wilderness here. Though it is a former sawmill, but as you can see in addition to the logs there's nothing left. I could use some tools, bring?</text>
+		<text>As you already understand, the wilderness here is utterly unreal. Although this is a former sawmill, nothing is left but the logs. I could use some kits to work with... If you can find basic ones, please bring them here.</text>
 	</string>
 	<string id="dasc_tech_mlr_task_1_fetch_about">
-		<text>As you know, the utter wilderness here. Though it is a former sawmill, but as you can see in addition to the logs there's nothing left. I could use some tools, bring?</text>
+		<text>As you already understand, the wilderness here is utterly unreal. Although this is a former sawmill, nothing is left but the logs. I could use some kits to work with... If you can find basic ones, please bring them here.</text>
 	</string>
 	<string id="dasc_tech_mlr_task_1_fetch_finish">
-		<text>Thank you, now will be a little more fun. Hold a "Film" that good art is rare.</text>
+		<text>Thanks... Things are going to be much easier. Keep this artifact - it's called a Pellicle. Quite rare.</text>
 	</string>
 
 	<string id="dasc_tech_mlr_task_2_name">
-		<text>Find [%s]</text>
+		<text>Find %s</text>
 	</string>
 	<string id="dasc_tech_mlr_task_2_text">
-		<text>the Technician at the lumber yard asked me to get him [%s]</text>
+		<text>The technician at the sawmill has asked me to fetch him %s.</text>
 	</string>
 	<string id="dasc_tech_mlr_task_2_about">
-		<text>since you're one set of tools found, it can be know where to get a second?</text>
+		<text>Since you've already found one set of tools, do you happen to know where some more advanced ones are? I desperately need them.</text>
 	</string>
 	<string id="dasc_tech_mlr_task_2_fetch_about">
-		<text>since you're one set of tools found, it can be know where to get a second?</text>
+		<text>Since you've already found one set of tools, do you happen to know where some more advanced ones are? I desperately need them.</text>
 	</string>
 	<string id="dasc_tech_mlr_task_2_fetch_finish">
-		<text>well, thank you, thank you. With me a small discount.</text>
+		<text>Thank you, thank you. Here's a small discount.</text>
 	</string>
 
 	<string id="dasc_tech_mlr_task_3_name">
-		<text>Find [%s]</text>
+		<text>Find %s</text>
 	</string>
 	<string id="dasc_tech_mlr_task_3_text">
-		<text>the Technician at the lumber yard asked me to get him [%s]</text>
+		<text>The technician at the sawmill has asked me to fetch him %s.</text>
 	</string>
 	<string id="dasc_tech_mlr_task_3_about">
-		<text>I understand that too much to ask for in this godforsaken place, but maybe would help with the third kit?</text>
+		<text>I understand that it might be too much to ask in this godforsaken place, but maybe you could help me in finding a third, more complex kit? An expert's kit will do just fine.</text>
 	</string>
 	<string id="dasc_tech_mlr_task_3_fetch_about">
-		<text>I understand that too much to ask for in this godforsaken place, but maybe would help with the third kit?</text>
+		<text>I understand that it might be too much to ask in this godforsaken place, but maybe you could help me in finding a third, more complex kit? An expert's kit will do just fine.</text>
 	</string>
 	<string id="dasc_tech_mlr_task_3_fetch_finish">
-		<text>Thank you, maybe this wretched place will ever turn into a full camp.</text>
+		<text>Thank you for everything. Perhaps this wretched place will turn into a fully fledged camp someday.</text>
 	</string>
 
 	<string id="talk_to_maps_0">
-		<text>Hello, and what can free give. Not in terms of hiding places, and the territories?</text>
+		<text>Any free info can you share about the surrounding area?</text>
 	</string>
 	<string id="talk_to_maps_1">
-		<text>in fact, my bread is information, but okay - still a bit of a lull enlighten about the progress of cases.</text>
+		<text>Usually info is how I make a living, but since everything's quiet anyway, I can give you a bit of an insight.</text>
 	</string>
 	<string id="talk_to_maps_2">
-		<text>Listen with his ears.</text>
+		<text>I'm all ears.</text>
 	</string>
 	<string id="talk_to_maps_3">
-		<text>...hmm. \nSmotri is a Bar. It is completely safe for the "Friends of duty" and neutrals. \nzapadnee wild Territory, this is the former Western part of the plant "germ." According to rumors, the night is better not to go there. Great for postrelease point hold Measurements fall among two dangers. Down mutants, which is most advantageous to get up a hill in the warehouses themselves hills kotroliruyut snipers and gunslingers mercenaries. About the wild territory of all.\n North of the Army Warehouses. The best "friends" of "Debt" - "Svobodovets" to keep them. Nothing special there, except that this is the last "Bastion" normalnomyslyaschih do people. \nVostochnoe Cemetery Equipment, stock up on antirads and shot, if you go there. Mutants there's a lot of ground and sometimes not childish. \npurnea - Dump, complete anarchy out there, mutants, criminals, but there are "flea market" where you can be a good idea to trade plus, in the Hangar there was a hunter, which can be a job and of course the award. \nmsgid same time in the neighboring territories. What else can I tell?</text>
-
+		<text>Well, you're in Rostok. It's completely safe for anyone on good terms with Duty. To the west lies the Wild Territory, former western part of the Rostok factory. Rumors advise against going there at night. The best kill zones are held by the mercs, so you'll likely be getting shot from two sides. There are mutants in the lower lands, and it's better to stay at a height provided by warehouses... Although, the mercs have them covered. That's all about the Wild Territory. To the north lie the Army Warehouses, held by Duty's "best friend", Freedom. There's nothing particularly interesting going on there, but it's the last shelter around for sane people. To the east is the Truck Cemetery - stock up on anti-radiation supplies and ammo if you're going there. There are a lot of mutants and sometimes the radiation is way past what even we consider to be normal. To the south is the Garbage - complete anarchy going on over there... You've got mutants and thugs, but you've also got a neat marketplace. Plus, there's some kind of hunter in the train hangar who might have some jobs to offer. That's all for the roundabouts, need anything else?</text>
 	</string>
 	<string id="talk_to_maps_4">
-		<text>All basically is clear, but you talked about "normalnomyslyaschih do" and "Bastion".</text>
+		<text>You mentioned something about a shelter for sane people?</text>
 	</string>
 	<string id="talk_to_maps_5">
-		<text>North of the Army warehouses area "Monolith" - Radar, horrible place, stay away from him. If you're going there, we first stock up on ammo and first aid kits.</text>
+		<text>Well, north of the warehouses is the Radar, an eerie place held by the Monolith. It's best to stay away from there - no way of getting in with the psy-installation they've got set up.</text>
 	</string>
 	<string id="talk_to_maps_6">
-		<text>Thanks for the info, I will consider and will recommend you to friends if they need what you do for a living.</text>
+		<text>Thanks for the info.</text>
 	</string>
 
 	<string id="story_dolg_m_0">
-		<text>Tell me about yourself, Gromov, if not difficult.</text>
+		<text>Tell me about yourself.</text>
 	</string>
 	<string id="story_dolg_m_1">
-		<text>I have Migrated from the Agricultural industry, raised me. Before the Area was hit was a car mechanic. Appreciate my hands in the group, so I decided here to translate. I prefer heavy and assault weapons, sniper hate in terms of upgrades.</text>
+		<text>I used to be stationed at the Agroprom Research Institute before I got a promotion. Before the Zone came into existence, I was a car mechanic. Duty noticed my skills as a handyman after I had been around for a while, so they decided to assign me as technician here. I prefer tinkering with heavy firearms and assault weapons... hate working on snipers.</text>
 	</string>
 	<string id="story_dolg_m_2">
-		<text>And what bottles so close, the Duty for a healthy lifestyle?.</text>
+		<text>What's that smell? Didn't think Duty allowed drinking.</text>
 	</string>
 	<string id="story_dolg_m_3">
-		<text>I can, work is tedious, and boring here - not coming back, base in the Agroprom is not already. Although I do not know were alive then, say the base was killed during ejection in 2011. Something we have departed from the topic, don't be shy, bring your toys.</text>
+		<text>Man, it's hard getting by without a drink... The work is pretty tedious, and boring. I wish I could go back to the Agroprom, but our base there is gone now. If I hadn't been relocated, I don't even know if I'd be alive - they say the base was lost during an emission in twenty-eleven... Huh, looks like we've gone way off topic. Anyway, don't be shy, now - show me your toys if you need 'em fixed.</text>
 	</string>
 	<string id="story_dolg_m_4">
-		<text>Now will determine what and how, wait.</text>
-	</string> 
+		<text>I'll see if I have anything.</text>
+	</string>
 
 	<string id="story_b_cs_0">
-		<text>What can you say about the Cold?</text>
+		<text>What can you tell me about Cold?</text>
 	</string>
 	<string id="story_b_cs_1">
-		<text>what can I say, you guys think his views regarding the group is correct.</text>
+		<text>What can I say? He's earned quite a bit of respect as the current leader of our organization.</text>
 	</string>
 	<string id="story_b_cs_2">
-		<text>And what he has gained such "love"?</text>
+		<text>How did he earn that respect?</text>
 	</string>
 	<string id="story_b_cs_3">
-		<text>Understand, Lebedev even though I'm not surprised, but people began to dislike. He did not ask the opinion of members of the group, when moved them to the very last hike. The mercenary has certainly helped us, but it was not worth "powder and shot". Those who remained at the base are unable to do anything about returning after the defeat of the "renegades" reinforcements of the rabble. The meaning of the capture of the Marshes has been reduced to zero, the victim also turns out were in vain as the road to Chernobyl, and here.</text>
+		<text>You see, there was some controversy regarding Lebedev, our former leader - who, by the way, I personally never met - and he didn't seem to take the opinions of the faction members into account during their crusade towards the CNPP. That mercenary certainly helped us out, but in the end, it just wasn't worth it. Those who remained at the base were unable to fight back against a resurgence made by the Renegades. The significance of our struggle in the swamps was reduced to zero... and the sacrifices on the way to the Chernobyl NPP, as well as the swamps, turned out to be in vain.</text>
 	</string>
 	<string id="story_b_cs_4">
-		<text>I think starts to become understandable indignation of the guys about the former leader.</text>
+		<text>It seems like the faction's resentment towards their leader at that time was justified.</text>
 	</string>
 	<string id="story_b_cs_5">
-		<text>Look... For the return of the remnants of the squad had to wage a protracted struggle and to return it back. We ourselves would never have managed to be Cold through the familiar "free" stalkers took to guys from the Landfill and Cordon, helped singles and charisma of the new leader. Besides, he gave the word before all men not to leave. Any kind of help, but not the lives of our children.</text>
+		<text>There's more to it... After our troops had returned, we had to start a long war to take everything back. We wouldn't be able to manage in day-to-day life without Cold. He received some help from unaffiliated stalkers and got in touch with people throughout the Garbage and the Cordon. Free stalkers helped us out, and having a charismatic leader certainly didn't hurt. Moreover, he's given an order to all fighters - without exceptions - not to leave here. We'll take any help, but we won't risk the lives of our guys.</text>
 	</string>
 	<string id="story_b_cs_6">
-		<text>you Know, whoever Lebedev, but you have ceased to be the group which was originally.</text>
+		<text>Whoever Lebedev was and what he did, you aren't the same faction you used to be.</text>
 	</string>
 	<string id="story_b_cs_7">
-		<text>Well, that's your opinion, not devoid of meaning. No global goals we now have are not available as absolutely and unified views. So, stop with the fables, and perhaps to buy something.</text>
+		<text>That's your opinion. Certainly has some value to it. Right now, we have no large-scale goals, nor any common ideology... Anyway, it's probably time we cut the storytelling and start the trading.</text>
 	</string>
 	<string id="story_b_cs_8">
-		<text>hand.</text>
+		<text>Deal.</text>
 	</string>
 
 	<string id="story_dog_0">
-		<text>a Dog you dumb or something.</text>
+		<text>Whose pseudodog is that?</text>
 	</string>
 	<string id="story_dog_1">
-		<text>It's not our, it is my Friend. Dr. dog. Old was Doctor sincerely asked Cold about the place for him.</text>
+		<text>That's Buddy, the Doctor's dog. Doctor asked Cold to keep him safe, as he's started getting a little old.</text>
 	</string>
 	<string id="story_dog_2">
-		<text>In both, you wouldn't say that he needs it.</text>
+		<text>Well, by the looks of it, you wouldn't say that he needs it.</text>
 	</string>
 	<string id="story_dog_3">
-		<text>Looks are deceiving sometimes. Pet a kind-hearted creature, now can you explain about the "dogs" of these something to ask?</text>
+		<text>Looks can be deceiving sometimes. Pet a kind-hearted creature. Now, can I tell you about these dogs and answer your questions?</text>
 	</string>
 	<string id="story_dog_4">
-		<text>go Ahead.</text>
+		<text>Go ahead.</text>
 	</string>
 	<string id="story_dog_5">
-		<text>"Pseudodog", "Psi-Dogs" and "Chernobyl" are not dogs at all, from wolves they kind of happened. In "the Debt" were taught.</text>
+		<text>Pseudodogs aren't really dogs at all. They kind of originate from wolves - Duty learned that while researching them.</text>
 	</string>
 	<string id="story_dog_6">
-		<text>In both, it is necessary to write down, and what's the request?</text>
+		<text>That's... I need to write that down. What's the request, anyway?</text>
 	</string>
 	<string id="story_dog_7">
-		<text>by profession I collect all sorts of history, since about pseudopath talking. On the outskirts there is a place like our Swamps, Zaton is called. I heard there is a crank on the Old Barge lives, he also has a pseudodog, fiction or not - can learn.</text>
+		<text>By virtue of my profession, I collect all sorts of stories. To the north, there's a place similar to our swamps called Zaton. I've heard there's an old crank that lives in the old barge, and apparently, he also has a pseudodog. Perhaps you can find out if it's true, if the distance doesn't bother you.</text>
 	</string>
 	<string id="story_dog_8">
-		<text>Okay, will check it out.</text>
+		<text>I'll check if possible.</text>
 	</string>
 
 	<string id="aslan_st_0">
-		<text>How and in what way it is better to go to "work".</text>
+		<text>What's the current situation?</text>
 	</string>
 	<string id="aslan_st_1">
-		<text>Look here: "syndicate" in the Area has only one Central base - our. South cut trail again, the psi setting on the Amber works the crowd at times zombar rod out in the arms of the mutants. Limansk in the North busy with us, but more godforsaken place is a maze and fanatics. In the East the Army Warehouses, the area of Freedom. </text>
+		<text>Well, the Syndicate only has one central base in the Zone, and it's right here. The path to Yantar is cut off because of the psy-installation, and crowds of zombies sometimes come out of there, along with mutants. Limansk has gone to shit - it's a maze full of dangers. The Red Forest is even more dangerous, since Monolith fighters have settled at the bridge to Limansk while the rest of the area is crawling with mutants. At the Army Warehouses in the east, it's all Freedom territory.</text>
 	</string>
 	<string id="aslan_st_2">
-		<text>[more...]</text>
+		<text>Go on.</text>
 	</string>
 	<string id="aslan_st_3">
-		<text>as for the hazards - assess yourself, but keep in mind that when you fulfill orders - you're at work and feelings with snot throw a fuck or put it on a shelf, no morality - only calculation. About trails through Limansk is the safest in terms of displacement. There is a closed space, the sniper's possible you can't fully shelter from the ejection, and in case of a prolonged firefight. There are also disadvantages - it is the unpredictability of the terrain, I don't know what's around the corner.</text>
+		<text>As for any dangers, you'll see those for yourself. Keep in mind, though; when carrying out orders, you've got a job to do, and any emotions are just gonna distract you. Put those aside... There's no room for emotion, no room for morality - only intellect and calculation. And regarding other paths, the safest route is through Limansk. There's plenty of closed space where you'll be safe from sniper fire, and there is shelter where you can hide from firefights, as well as anomalies. The area's quite unpredictable, however - never gonna know what exactly's around the corner.</text>
 	</string>
 	<string id="aslan_st_4">
-		<text>are You saying the base is Central, so there are more outposts?</text>
+		<text>You say the base is central. Does that mean there are any other outposts?</text>
 	</string>
 	<string id="aslan_st_5">
-		<text>I know there are three little dots. First Creek, at the edge of a vast filthy "Northern" wetlands. The second in the middle of nowhere, on the Outskirts of Pripyat. And we have a settled group in which the supplier is behind the bridge in Limansk on the edge of the "Red forest". You can also find our group on the whole Area during execution of various contracts.</text>
+		<text>There are two minor ones that I know of. The first one is in Zaton, at the edge of the northern marshes. The second one is in the southwest part of the Pripyat outskirts. We've also got a group stationed in the Wild Territory, and you can find our squads in different parts of the Zone when they carry out contracts.</text>
 	</string>
 	<string id="aslan_st_6">
-		<text>For Liman's territory "Monolith", as I understand it.</text>
-	</string> 
+		<text>So anything north of Limansk is Monolith territory.</text>
+	</string>
 	<string id="aslan_st_7">
-		<text>Hospital there is an old, but sense to climb there is a trail of the Chernobyl NPP and Plant Amber cut of psy-radiation. After you reach Limansk, hold on the road to the South, but stock up with ammo and first aid kits.</text>
+		<text>Pretty much. There's an old hospital not far from Limansk. No point in going there - the path to the Chernobyl NPP, as well as the one leading to Yantar are both cut off by psy-emissions.</text>
 	</string>
 	<string id="aslan_st_8">
-		<text>Accepted, a huge "thank you."</text>
+		<text>Understood, thanks for the info.</text>
 	</string>
 
 	<string id="sultan_st_0">
-		<text>Tell me about yourself.</text>
+		<text>Who are you?</text>
 	</string>
 	<string id="sultan_st_1">
-		<text>Listen carefully. I'm the godfather, my name you already know. Not long ago I walked back here from the Creek and the guys with me pulled. Of the mutants we'd vypustili and regenerated the database. In Zaton I just punted. Pretended to be her and framed. Had to run off there.</text>
+		<text>Congratulations - with a memory like that, you'll be the next Strelok. Listen carefully. I'm the big dog here, and you will know my name. I got here from Zaton some time ago, along with my guys. We fucked the mutants out of the base and got it back up and running. Some sod set us up, pretended to be one of us and ratted me out. Had to get the fuck out.</text>
 	</string>
 	<string id="sultan_st_2">
-		<text>no concepts fraerki flooded, tillage throw. Like that asshole called it, in the case of the ass it will tear.</text>
+		<text>These rooks don't even know the rules, copping the made guys like that. Whatever that douchebag's name was, I'm going to rip him a new one.</text>
 	</string>
 	<string id="sultan_st_3">
-		<text>Sasha is like, don't touch his asshole. You have a pecker too small, and the ass his iron and mazes.</text>
+		<text>His name was Sashenka or something - and stay out of his ass. Your prick's tiny, and his asshole is a metal maze.</text>
 	</string>
 	<string id="sultan_st_4">
-		<text>Truncating. Tell me about the progress of the Bandits in the Area.</text>
+		<text>Got it. Any tips on others in the Zone?</text>
 	</string>
 	<string id="sultan_st_5">
-		<text>you can't trust anyone except our kids, that of the skull worn on the sleeves. Around remember pidduck, some our enemies. In General, the estimate of the situation, if you feel as close to fucking beating Teki hog.</text>
+		<text>Simple. Don't trust anybody but our guys with skulls on their sleeves. Pretty much everyone else is hostile - remember that. Just try to figure things out for yourself. If you feel something's off, get your ass out of there.</text>
 	</string>
 	<string id="sultan_st_6">
-		<text>It is clear, and where more or less could easily be my ass.</text>
+		<text>Got it. Any safe places I can stay?</text>
 	</string>
 	<string id="sultan_st_7">
-		<text>Listen carefully, kid. From the North Cemetery equipment dogs our there on the old CAT road and the exits from the Military Warehouses brand held in the Cemetery that night try not to roam and generally avoid junk old. Background rattle sometimes so that the ringing of the balls is heard, plus the anomalies of the circle and "swaroski" local not asleep. To the West of the Landfill, and there is complete anarchy and say you can not do anything specific on it, just know about the checkpoint dolgovtsev in the North. South grove is a huge, Dark ravine called the wild warriors there periodically patrol and stalkery hang out. About the Hollow I forgot to mention, on the way to it, but we have on the Farm old stalkers eyes calluses, be careful. The Groves that has a huge plus, the road and exit from it are on the Border, our will find no problems. The Cordon of ATP to keep the old try.</text>
+		<text>No such place as safe in the Zone, boy, but don't let this advice go to waste. North of us is the Truck Cemetery, and our boys there control the old checkpoint and the entrance to the Army Warehouses. Try not to hang around the cemetery at night, and stay away from all the old vehicles. Radiation levels there are high enough to make your counter ring down to your balls, and I haven't even mentioned the creatures and anomalies. There's the Garbage to the west - total chaos over there. I can't say anything else, other than there's a checkpoint to the north controlled by Duty. There's a huge forest to the south called Darkscape - really wild place, you've got soldiers patrolling there from time to time and loners pissing about. Pretty big maze. Also, there are a few stalkers at the farm on the way to the Darkscape, so don't fuck around. There's a huge advantage in that forest: the road leads to the Cordon. You'll easily find our guys at the vehicle station there.</text>
 	</string>
 	<string id="sultan_st_8">
-		<text>something soporno somehow.</text>
+		<text>That's kind of scary.</text>
 	</string>
 	<string id="sultan_st_9">
-		<text>what do you want small, that's life.</text>
+		<text>And what did you expect, boy? No sunshine and rainbows - this is the real life.</text>
 	</string>
 	<string id="sultan_st_10">
-		<text>Yes it does actually, thanks for the tips, the godfather.</text>
+		<text>Alright, whatever. Thanks for the help, boss.</text>
 	</string>
 
 	<string id="bandit_trader_st_0">
-		<text>Tooth, why do you have such errands flawed?</text>
+		<text>Why is your nickname so lousy?</text>
 	</string>
 	<string id="bandit_trader_st_1">
-		<text>Hey simpleton green, you what thieves the mouse bitten? Fuck motherfuckers - do not touch anyone, Borzenko cut. Touch her asshole so down and out shit builds.</text>
+		<text>Look who's talking! Goddamn greenhorns, trying to act all tough... You don't handle them, they can't even hold their own dicks straight when taking a piss. If you do, they act like lousy morons, to put it in your own words.</text>
 	</string>
 	<string id="bandit_trader_st_2">
-		<text>Whoa, sorry - didn't want the tire to roll. Just didn't know how to start talking.</text>
+		<text>Hey, easy - didn't mean anything by it. Just didn't know what to say.</text>
 	</string>
 	<string id="bandit_trader_st_3">
-		<text>Okay, apology accepted, you understand me too I got old nerves in her pussy.</text>
+		<text>Alright, whatever... Apology accepted. Things ain't easy when you get old and your nerves are fucked.</text>
 	</string>
 	<string id="bandit_trader_st_4">
-		<text>OK, but still why Tooth called?</text>
+		<text>Understood. How did you get your name?</text>
 	</string>
 	<string id="bandit_trader_st_5">
-		<text>How do you wear out my ears, I will tell so be it. Before my first trip even with the "Scoop" of my story has its roots. Life I beautiful wanted. Speculation hunted, spalvis on the deal one went to jail. Time rewind started Dating a new to look and found Kent new stolen and traded. For three years he lived - then again, a period of time. Leaned back and "scoop" is already there. You know what saskarne?</text>
+		<text>I'll tell you, if only to put an end to your yapping. My story began under the Soviet Union, before the first time I ended up in prison. I wanted a good life... Did some trade hustle, and been caught for that one day. So after I did my time, I started making new connections and selling stolen stuff. Did that for three years before I, once again, ended up in jail. Got out, but the USSR was gone... You know what the most frustrating thing was?</text>
 	</string>
 	<string id="bandit_trader_st_6">
-		<text>No Tooth, I have not seen in a reasonable age of "Scoop".</text>
+		<text>No. Never saw the Soviet Union at a reasonable age.</text>
 	</string>
 	<string id="bandit_trader_st_7">
-		<text>On the first run I got is for "entrepreneurship", spekulant "shovels". Now all successful for it to close. That's where the "tail stick".</text>
+		<text>First time I ended up in prison, it was "business"... or "profiteering", in old Soviet speech. Nowadays, anyone who's successful can end up behind bars. That place is where you feel your ass burning.</text>
 	</string>
 	<string id="bandit_trader_st_8">
-		<text>[more...]</text>
+		<text>[continue...]</text>
 	</string>
 	<string id="bandit_trader_st_9">
-		<text>was Released after the second release, on the bottom slipped. There is no profit, at every step the same "entrepreneurs" like me. How did the Area decided to dump here.</text>
+		<text>When I got out of my second stint, everything crashed down. No income at all, and there were loads of people around who were doing the same thing as I was. When the Zone came into existence, I figured I'd go see it for myself.</text>
 	</string>
 	<string id="bandit_trader_st_10">
-		<text>[more...]</text>
+		<text>[continue...]</text>
 	</string>
 	<string id="bandit_trader_st_11">
-		<text>a Tooth magnified the habit of the product that I drag to try to "heart", love to complain about the quality and condition.</text> 
-	</string> 
+		<text>By the way, they call me Olivius because I tend to try out the cargo people take to me firsthand. I'm keen about quality and condition.</text>
+	</string>
 	<string id="bandit_trader_st_12">
-		<text>Thanks for the story, sorry about that.</text> 
-	</string> 
+		<text>Thanks for the history lesson. Sorry once again.</text>
+	</string>
 
 	<string id="bandit_mechanic_st_0">
-		<text>Bro, tell them your story.</text>
+		<text>Share your story, brother.</text>
 	</string>
 	<string id="bandit_mechanic_st_1">
-		<text>You're a fucking prison sentence, although the right and not on the hair dryer will tell.</text>
+		<text>You trying to get me prosecuted or something? Whatever, get comfortable.</text>
 	</string>
 	<string id="bandit_mechanic_st_2">
-		<text>[more...]</text>
+		<text>[continue...]</text>
 	</string>
 	<string id="bandit_mechanic_st_3">
-		<text>once me and my "Board of honor" would not disappear, he worked as a mechanical engineer at the plant and was the best spec of this profession in your company. Have rewarded me with awards and certificates.</text>
+		<text>There were times when my face was constantly on a roll of honor... I worked as a mechanical engineer at a plant and got recognized in my company as the best specialist in that profession. They awarded me prizes and certificates.</text>
 	</string>
 	<string id="bandit_mechanic_st_4">
-		<text>And suddenly you want to pariganit, I'm guessing?</text>
+		<text>I'm guessing you wanted to get some tail?</text>
 	</string>
 	<string id="bandit_mechanic_st_5">
-		<text>You now don't interrupt and pay attention on my errands.</text>
+		<text>Don't interrupt me... and do pay attention to my name.</text>
 	</string>
 	<string id="bandit_mechanic_st_6">
-		<text>Supposedly Transparent from the "Prozrachnaya"?</text>
+		<text>They call you Limpid because you've got something limp down under?</text>
 	</string>
 	<string id="bandit_mechanic_st_7">
-		<text>And you're not as infamous as I thought. I loved to hang out with his chums at the plant after the change challenging. Sawaha somehow flagged our ball and dripped on me, got fired in one day as last fraera.</text>
+		<text>Real funny guy. Anyway, I enjoyed hanging out with my guys after a long shift. Had a few too many drinks... The boss caught us, and I got fired like some stupid loser.</text>
 	</string>
 	<string id="bandit_mechanic_st_8">
-		<text>Life is so shit.</text>
+		<text>Life's a bitch.</text>
 	</string>
 	<string id="bandit_mechanic_st_9">
-		<text>Flooded the fucking band life. Got a simple mechanic to the housing office, found a friend there, Vic. The money was paid "gulkin fuck" to drink good enough. Thumped once Kent shit I don't even remember what it was about. In General, I it out with a screwdriver stabbed, well that is not dying it. Gave me a few years strogacha. Wife a bitch while I was sitting there all sold out and disappeared. Leaned back when - and drove home and everything that is left in him. Money drunk and bummed for a long time after that. As the Zone was formed, I decided to pull in here, here all are equal - all pests are the same. Went to the thieves to the Landfill, assessing me as the local mechanics were allowed to stay. The best time in my life, guns and vodka hauling boxes.</text>
+		<text>A bitch I doubt you've seen for real. Got a job as an ordinary locksmith and found a new friend by the name of Vitka. Barely got paid jack shit, but thankfully I earned enough to get myself a few rounds once in a while. At one time we got drunk and fucked around... Don't even remember why. Anyway, I stabbed him with a screwdriver - good thing that he didn't die right then and there. Spent a few years in maximum security, and my bitch wife sold everything and ran off. When I got released, I spent all my money on drinks and ended up in the slums... Got here when the Zone came about. Here, everyone's equal: we're all outcasts. I met up with the guys at the Garbage - they found me useful as a technician and let me stay there. Best time in my life... Tons of guns and vodka.</text>
 	</string>
 	<string id="bandit_mechanic_st_10">
-		<text>Here is not a Dump, bro.</text>
+		<text>This isn't the Garbage.</text>
 	</string>
 	<string id="bandit_mechanic_st_11">
-		<text>Again, you interrupt. Came the Big Release, we hid like fryer last holes. As subsided gathered a meeting and decided to strain gyrus drunken about where the "getaway car", the Dump was the shelter from the emissions of such. From her had to give up forever and move in small groups and different trails here in the Dark Valley.</text>
+		<text>Again with your damn interrupting. The big-ass Emission happened, and we hid like little girls. When that nightmare was over with, we had a meeting on where the fuck to go: the Garbage turned out to be a bad shelter from those kinds of emissions. We had to leave it for good and move through different roads in small groups to this place - the Dark Valley.</text>
 	</string>
 	<string id="bandit_mechanic_st_12">
-		<text>Not sickly story.</text> 
+		<text>That's quite a story.</text>
 	</string>
 
 	<string id="army_south_mechan_mlr_st_0">
-		<text>"Hello", as I understand it technician South Checkpoint?</text>
+		<text>Who are you?</text>
 	</string>
 	<string id="army_south_mechan_mlr_st_1">
-		<text>the way it is.</text>
+		<text>Oh, I work as the technician here at the checkpoint.</text>
 	</string>
 	<string id="army_south_mechan_mlr_st_2">
-		<text>As you can apply?</text>
+		<text>What do they call you?</text>
 	</string>
 	<string id="army_south_mechan_mlr_st_3">
-		<text>No need of formality and titles, not on the parade ground. And in the event of an attack mutants or "Nightcrawlers" which will be a long time to say. Sergey I or simply Serge.</text>
+		<text>No need for formality and ranks - not on the parade ground, at least. In case of any attack, my name would be too long to pronounce. Name's Sergey, though I prefer Seryoga.</text>
 	</string>
 	<string id="army_south_mechan_mlr_st_4">
-		<text>Nice to meet you.</text>
+		<text>Nice to meet you, Seryoga.</text>
 	</string>
 	<string id="army_south_mechan_mlr_st_5">
-		<text>Likewise, it is possible to fix that spill.</text>
+		<text>Likewise. If you need anything fixed up, just let me know.</text>
 	</string>
 	<string id="army_south_mechan_mlr_st_6">
-		<text>I would like to ask about the situation.</text>
+		<text>What's the current situation?</text>
 	</string>
 	<string id="army_south_mechan_mlr_st_7">
-		<text>Boredom here, just above the village Stalker begins... for us up to the Agroprom enemies solid.</text>
+		<text>Nothing interesting. There's a stalker village a bit to the north... Nothing but hostiles all the way up to Agroprom.</text>
 	</string>
 	<string id="army_south_mechan_mlr_st_8">
-		<text>Turns out we're locked in and can attack at any moment be subjected?</text>
+		<text>So... we're stuck here and in danger of being attacked at any moment?</text>
 	</string>
 	<string id="army_south_mechan_mlr_st_9">
-		<text>No, recently "Fathers Commanders" drove us to the APC, which really was broke, stepped up patrols, and "Spinner" are to cover. Plus I forgot to say how to get out from the Checkpoint going North, go strictly by the asphalt minefield on both sides of the road.</text>
+		<text>Nah, not too long ago our commanding officers got us a BTR, reinforced our patrols, and our helicopter's always ready to go. By the way, when you leave the checkpoint northside, stay on the road. There's a minefield on both sides.</text>
 	</string>
 	<string id="army_south_mechan_mlr_st_10">
-		<text>I will Consider.</text>
+		<text>I'll keep that in mind.</text>
 	</string>
 
 	<string id="loki_st_0">
-		<text>You're in charge here?</text>
+		<text>Are you in charge here?</text>
 	</string>
 	<string id="loki_st_1">
-		<text>the way it is - my name is Loki, Deputy Mikluho at this Station.</text>
+		<text>That I am. Name's Loki, right hand of Miklukha at this station.</text>
 	</string>
 	<string id="loki_st_2">
-		<text>Interesting name - like the Scandinavian deity so called.</text>
+		<text>An interesting name - like the Scandinavian deity.</text>
 	</string>
 	<string id="loki_st_3">
-		<text>the way it is. Clung to me during the break through the "Burner." Dashing times were.</text>
+		<text>It is. That's what they called me in the early days, right around when the Brain Scorcher showed up. Those were crazy times.</text>
 	</string>
 	<string id="loki_st_4">
-		<text>Tell?</text>
+		<text>Could you tell me more about the events after the Scorcher?</text>
 	</string>
 	<string id="loki_st_5">
-		<text>Good. When turned off "the Burner", my detachment marched North. Long went wild place around. Both on the horizon loomed Chernobyl, a place for the camp to look for started. Found this station abandoned and settled here. Further fever Zone start and there was "Debt". Unfamiliar places, people few, and emissions are frequent. Signing the truce, agreed to at the Station to keep guns holstered and knives sheathed.</text>
+		<text>Sure. When the Scorcher was shut down, my squad launched a campaign towards the north. We went on for some time, going through different places... As the Chernobyl power plant loomed on the horizon, we decided to look for a place to set up camp and found this station while it was empty. The Zone turned to hell, and Duty appeared. The places were strange, there weren't many people, and times were wild with emissions. After calling a truce, we agreed to keep all weapons holstered and knives sheathed in this station.</text>
 	</string>
 	<string id="loki_st_6">
-		<text>And where are these dolgovtsev?</text>
+		<text>And where is Duty now?</text>
 	</string>
 	<string id="loki_st_7">
-		<text>No their who to shoot did not, they ran. Not so long ago we got the real Stalker one, Sasha called. Robust design has helped us a lot of good things done. But the last straw was the information of the CCP of their founder, according to which the Debt was founded by former military on compulsory basis. Their captain (the late General) simply cut off communication with the headquarters. This infuriated the local stalking, exactly as puzzled by some enemy fighters. All we had at the station was purely a balance. And then using the stalkers and soldiers have appeared, well, like straight from the air, and defectors with sympathetic was full. Here we force a "Debt" hence banished.</text>
-	</string> 
+		<text>They're not here. Anyone who we didn't manage to shoot down ran off. Not long ago, a stalker by the name of Sasha appeared and helped us out considerably - man did a lot of good things. The last piece of the puzzle he gave us was the PDA of the man who founded Duty, and according to it, he and his group were former military. Seems like he just cut off comms with the headquarters, which made local stalkers go nuts and left enemy forces confused. We kept a careful balance in this station. And thanks to the help of that stalker, we've been getting all kinds of support... from free stalkers, defectors, sympathizers, you name it. We've basically forced Duty out of here.</text>
+	</string>
 	<string id="loki_st_8">
-		<text>where is this Stalker go away?</text>
+		<text>And where did the stalker go?</text>
 	</string>
 	<string id="loki_st_9">
-		<text>don't know, but last time it together with the "company" was seen going in the direction of "Jupiter". And not before I was, to be honest.</text>
+		<text>I don't know. Last time I heard, he was heading towards Jupiter with some kind of fireteam. He was a good man - hopefully he's alive and kicking.</text>
 	</string>
 	<string id="loki_st_10">
-		<text>Tell me about the area. What fear is?</text>
+		<text>What makes the local environment dangerous?</text>
 	</string>
 	<string id="loki_st_11">
-		<text>Beasts full. And frankly, we missed the "Monolith", the bastards managed to settle in the old Depot. In General a decent base they have there. In the North in Kopachi fully zombified, near the ventilation complex and SAM "Volkhov" them too much, keep your eyes open.</text>
+		<text>It's full of mutants. On top of that, you've got the Monolith... Those bastards have taken over the old depot and lined the perimeter with scouts and machine guns. Other than that, some areas are crawling with zombies, such as the old village of Kopachy west of us, as well as the ventilation complex and the Volkhov AA complex. Keep your eyes peeled, man.</text>
 	</string>
 	<string id="loki_st_12">
-		<text>Thanks, I will consider.</text>
+		<text>Thanks. I'll keep that in mind.</text>
 	</string> 
 
 	<string id="st_device_torch_low_name">
@@ -1799,55 +1798,55 @@
 	</string> 
 
 	<string id="fanat_kmb_3_1">
-		<text>KMB: to clean ATP</text>
+		<text>KMB: clear out the vehicle station</text>
 	</string>
 	<string id="fanat_kmb_3_2">
-		<text>KMB: to talk to a Fan</text>
+		<text>KMB: speak to Fanatic</text>
 	</string>
 	<string id="fanat_kmb_3_3">
-		<text>KMB: to return to the village</text>
+		<text>KMB: return to the village</text>
 	</string>
 	<string id="fanat_kmb_3_4">
-		<text>KMB: to talk to a Fan</text>
+		<text>KMB: speak to Fanatic</text>
 	</string>
 	<string id="task_fanat_kmb_3_descr">
-		<text>KMB: the final lesson and it seems the most responsible. Together, we will have to get rid of superior number of bandits on the ATP, NDA. I hope the Fan knows his stuff.</text>
+		<text>This is the final and most important task Fanatic has given me. Together, we are going to get rid of the bandits at the vehicle station.</text>
 	</string>
 	<string id="fanat_kmb_2_1">
 		<text>KMB: to find the stash</text>
 	</string>
 	<string id="fanat_kmb_2_2">
-		<text>KMB: to talk to a Fan</text>
+		<text>KMB: speak to Fanatic</text>
 	</string>
 	<string id="task_fanat_kmb_2_descr">
-		<text>KMB: the next task is to learn to look for caches. It is located somewhere within the village newcomers, most likely behind the Fan. At least I think so.</text>
-		</string>
+		<text>My next challenge is one of perception - I have to find a stash located somewhere in the Rookie Village.</text>
+	</string>
 	<string id="fanat_kmb_1_1">
-		<text>KMB: to deal with the wild boars</text>
+		<text>KMB: deal with the wild boars</text>
 	</string>
 	<string id="fanat_kmb_1_3">
-		<text>KMB: to talk to a Fan</text>
+		<text>KMB: speak to Fanatic</text>
 	</string>
 	<string id="fanat_kmb_1_4">
-		<text>KMB: to reach the anomalous zone</text>
+		<text>KMB: reach the anomalous area</text>
 	</string>
 	<string id="fanat_kmb_1_5">
-		<text>KMB: to talk to a Fan</text>
+		<text>KMB: speak to Fanatic</text>
 	</string>
 	<string id="fanat_kmb_1_9">
-		<text>KMB: get "jellyfish"</text>
+		<text>KMB: get the Jellyfish artifact</text>
 	</string>
 	<string id="fanat_kmb_1_6">
-		<text>KMB: to return to the village</text>
+		<text>KMB: return to the village</text>
 	</string>
 	<string id="fanat_kmb_1_7">
-		<text>KMB: to talk to a Fan</text>
+		<text>KMB: speak to Fanatic</text>
 	</string>
 	<string id="fanat_kmb_1_8">
-		<text>KMB: to talk to a Fan</text>
+		<text>KMB: speak to Fanatic</text>
 	</string>
 	<string id="task_fanat_kmb_1_descr">
-		<text>Fan apparently among the most experienced stalkers in the village and he decided I was something to teach.</text>
+		<text>Fanatic seems to be one of the more experienced stalkers in the village. He has decided to teach me a trick or two.</text>
 	</string>
 
 </string_table>

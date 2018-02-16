@@ -58,10 +58,10 @@
 		<text>Show message history</text>
 	</string>
 	<string id="pda_btn_quests">
-		<text>Map</text>
+		<text>Area map</text>
 	</string>
 	<string id="pda_btn_quests_hint">
-		<text>Show the map and task list</text>
+		<text>Show the Zone map and task list</text>
 	</string>
 	<string id="pda_btn_ranking">
 		<text>Statistics</text>
@@ -241,7 +241,7 @@
 		<text>Personal storage</text>
 	</string>
 	<string id="filter_primary_objects_text">
-		<text>Important areas</text>
+		<text>Areas</text>
 	</string>
 	<string id="filter_quest_npcs_text">
 		<text>Important objects</text>
@@ -250,10 +250,10 @@
 		<text>Area</text>
 	</string>
 	<string id="st_jup_b32_has_af">
-		<text>Scanners detect the presence of artefact(s):</text>
+		<text>Scanners detect the presence of artefacts:</text>
 	</string>
 	<string id="st_jup_b32_no_af">
-		<text>According to scanners, there are no artefact.</text>
+		<text>According to scanners, there are no artefacts.</text>
 	</string>
 	<string id="st_ui_pda_secret">
 		<text>Stash</text>

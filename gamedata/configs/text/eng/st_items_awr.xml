@@ -1245,7 +1245,7 @@
 		<text>Exit</text>
 	</string>
 	<string id="ui_mm_awr_disassembly">
-		<text>[AWR] Disassembly with the CTRL button</text>
+		<text>[AWR] Hold CTRL to disassemble</text>
 	</string>
 	<string id="st_awr_r_detail">
 		<text>restore part [!]</text>
@@ -1296,7 +1296,7 @@
 		<text>%sTime is up%s</text>
 	</string>
 	<string id="st_awr_dead_mechanic">
-		<text>%sThe technician %s has been killed %s %s \nAccess to the vise is free</text>
+		<text>%sThe technician %s has been killed by %s %s \nAccess to the vise is free</text>
 	</string>
 	<string id="st_by_unknown">
 		<text>unknown</text>

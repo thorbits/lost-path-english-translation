@@ -1,7 +1,11 @@
 --------------------
 0.2.1 preview
 --------------------
-
+updated mlr_addon.xml
+updated st_lostpath_system.xml
+updated ui_st_faction_starts.xml
+updated ui_st_pda.xml
+updated ui_st_pda_quick_travel.xml
 
 --------------------
 02/16 0.2.0 --> "Lost Path v0.5.004" compatible version

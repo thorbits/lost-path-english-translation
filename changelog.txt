@@ -1,6 +1,7 @@
 --------------------
 0.2 preview	--> "Lost Path v0.5.004" compatible version
 updated mlr_addon.xml
+updated st_items_awr.xml
 updated st_lostpath_ruck.xml
 updated st_lostpath_upgrade.xml
 updated ui_st_encyclopedia_lostpath_info.xml

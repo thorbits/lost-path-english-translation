@@ -33,7 +33,7 @@
 <specific_character id="jup_brodyaga" team_default="1">
     <name>Бродяга</name>
     <icon>ui_inGame2_Brodyaga_free</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_brodyaga</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -71,7 +71,7 @@
 <specific_character id="jup_bronya" team_default="1">
     <name>Броня</name>
     <icon>ui_inGame2_Spooner</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_bronya</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -111,7 +111,7 @@
 <specific_character id="jup_serp" team_default="1">
     <name>Серп</name>
     <icon>ui_inGame2_military</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_serp</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -149,7 +149,7 @@
 <specific_character id="jup_morj" team_default="1">
     <name>Морж</name>
     <icon>ui_inGame2_free_hood</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_morj</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -187,7 +187,7 @@
 <specific_character id="jup_foma" team_default="1">
     <name>Фома</name>
     <icon>ui_inGame2_free_hood</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_foma</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -226,7 +226,7 @@
 <specific_character id="mil_ugr" team_default="1">
   <name>Угрюмый</name>
     <icon>ui_inGame2_freedom_0</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>mil_ugr</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -265,7 +265,7 @@
 <specific_character id="mil_cap" team_default="1">
   <name>Кэп</name>
     <icon>ui_inGame2_cap</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>mil_cap</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -303,7 +303,7 @@
 <specific_character id="mil_vano" team_default="1">
   <name>Вано</name>
     <icon>ui_inGame2_Freedom_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>mil_vano</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -341,7 +341,7 @@
 <specific_character id="mil_cap_sniper_1" team_default="1">
   <name>Комендант</name>
     <icon>ui_inGame2_Freedom_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>mil_cap_sniper_1</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -379,7 +379,7 @@
 <specific_character id="mil_cap_sniper_2" team_default="1">
   <name>Макс</name>
     <icon>ui_inGame2_Freedom_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>mil_cap_sniper_2</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -417,7 +417,7 @@
 <specific_character id="mil_cap_heavy" team_default="1">
   <name>Косой</name>
     <icon>ui_inGame2_Freedom_4</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>mil_cap_heavy</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -455,7 +455,7 @@
 <specific_character id="mil_cap_pkm" team_default="1">
   <name>Миклуха</name>
     <icon>ui_inGame2_Freedom_4</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>mil_cap_pkm</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -493,7 +493,7 @@
 <specific_character id="mil_cap_razvedka" team_default="1">
   <name>Кот</name>
     <icon>ui_inGame2_Freedom_4</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>mil_cap_razvedka</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -530,7 +530,7 @@
     <name>Ашот</name>
     <icon>ui_inGame2_Freedom_4</icon>
     <map_icon x="0" y="0"></map_icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>mil_ashot</class>
     <community>freedom</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
@@ -559,7 +559,7 @@
     <name>Повар Славик</name>
     <icon>ui_inGame2_Freedom_2</icon>
     <map_icon x="0" y="0"></map_icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>mil_slavik</class>
     <community>freedom</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
@@ -587,7 +587,7 @@
 	<specific_character id="voron" team_default="1">
   <name>Ворон</name>
     <icon>ui_inGame2_Freedom_4</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>voron</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -624,7 +624,7 @@
     <name>Костюк</name>
     <icon>ui_inGame2_Freedom_4</icon>
     <map_icon x="0" y="0"></map_icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>kostuk</class>
     <community>freedom</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
@@ -653,7 +653,7 @@
     <name>Кремень</name>
     <icon>ui_inGame2_Freedom_2</icon>
     <map_icon x="0" y="0"></map_icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>kremen</class>
     <community>freedom</community>
 	<terrain_sect>stalker_terrain</terrain_sect>

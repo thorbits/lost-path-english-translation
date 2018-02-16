@@ -3,7 +3,7 @@
 <specific_character id="aes_degtyarev" team_default="1">
     <name>Полковник Дегтярёв</name>
     <icon>ui_inGame2_Hero</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_degtyarev</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -42,7 +42,7 @@
 <specific_character id="aes_leo" team_default="1">
     <name>Майор Леонидов</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_leo</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -80,7 +80,7 @@
 	<specific_character id="kuznetsov" team_default="1">
     <name>Майор Кузнецов</name>
     <icon>ui_inGame2_Kuznetsov</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>kuznetsov</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -117,7 +117,7 @@
 	<specific_character id="prapor_sher" team_default="1">
     <name>Прапорщик Шерстюк</name>
     <icon>ui_inGame2_Soldier_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>prapor_sher</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -154,7 +154,7 @@
 	<specific_character id="haletski" team_default="1">
     <name>Подполковник Халецкий</name>
     <icon>ui_inGame2_Haletski</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>haletski</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -191,7 +191,7 @@
 	<specific_character id="pypin" team_default="1">
     <name>Сержант Пупин</name>
     <icon>ui_inGame2_Soldier_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pypin</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -228,7 +228,7 @@
 	<specific_character id="gaikin" team_default="1">
     <name>Ефрейтор Гайкин</name>
     <icon>ui_inGame2_Soldier_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>gaikin</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -265,7 +265,7 @@
 	<specific_character id="nevezychi" team_default="1">
     <name>Василь Невезучий</name>
     <icon>ui_inGame2_Soldier_4</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>nevezychi</class>
     <community>army</community>
     <map_icon x="1" y="0"/>

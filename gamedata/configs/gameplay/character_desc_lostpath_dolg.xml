@@ -2,7 +2,7 @@
     <specific_character id="agr_dolg_mechanic" team_default="1">
     <name>Громов</name>
     <icon>ui_inGame2_Dolg_1_mask</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>agr_dolg_mechanic</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -355,7 +355,7 @@
 <specific_character id="zat_fekl" team_default="1">
     <name>Фёкл</name>
     <icon>ui_inGame2_fekl_squad</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>zat_fekl</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -393,7 +393,7 @@
 <specific_character id="zat_semen" team_default="1">
     <name>Семён Семёнович</name>
     <icon>ui_inGame2_fekl_squad</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>zat_semen</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -431,7 +431,7 @@
 <specific_character id="zat_lis" team_default="1">
     <name>Лис Бандикут</name>
     <icon>ui_inGame2_fekl_squad</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>zat_lis</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -471,7 +471,7 @@
 <specific_character id="zat_milutin" team_default="1">
     <name>Милютин</name>
     <icon>ui_inGame2_fekl_squad</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>zat_milutin</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -509,7 +509,7 @@
 <specific_character id="zat_sudar" team_default="1">
     <name>Сударь</name>
     <icon>ui_inGame2_fekl_squad</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>zat_sudar</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -548,7 +548,7 @@
 <specific_character id="zat_tachenko" team_default="1">
     <name>Генерал Таченко</name>
     <icon>ui_inGame2_dolg_general</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>zat_tachenko</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -586,7 +586,7 @@
 <specific_character id="zat_kosmach" team_default="1">
     <name>Полковник Космач</name>
     <icon>ui_inGame2_Dolg_3</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>zat_kosmach</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -626,7 +626,7 @@
 <specific_character id="zat_chepurnoy" team_default="1">
     <name>Майор Чепурной</name>
     <icon>ui_inGame2_Dolg_3</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>zat_chepurnoy</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -664,7 +664,7 @@
 <specific_character id="zat_bynchuk" team_default="1">
     <name>Лейтенант Бунчук</name>
     <icon>ui_inGame2_Dolg_3</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>zat_bynchuk</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -702,7 +702,7 @@
 <specific_character id="zat_zaxarchuk" team_default="1">
     <name>Лейтенант Захарчук</name>
     <icon>ui_inGame2_Dolg_3</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>zat_zaxarchuk</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -740,7 +740,7 @@
 <specific_character id="zat_mechanic_smirnov" team_default="1">
     <name>Лейтенант Смирнов</name>
     <icon>ui_inGame2_Dolg_3</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>zat_mechanic_smirnov</class>
     <community>dolg</community>
 	<mechanic_mode>1</mechanic_mode>
@@ -779,7 +779,7 @@
 <specific_character id="zat_trader_volkov" team_default="1">
     <name>Лейтенант Волков</name>
     <icon>ui_inGame2_Dolg_3</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>zat_trader_volkov</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -817,7 +817,7 @@
 <specific_character id="zat_shulga" team_default="1">
     <name>Подполковник Шульга</name>
     <icon>ui_inGame2_Shulga</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>zat_shulga</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -856,7 +856,7 @@
 <specific_character id="gar_prapor" team_default="1">
     <name>Прапор</name>
     <icon>ui_inGame2_petrenko</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>gar_prapor</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -894,7 +894,7 @@
 <specific_character id="gar_brom" team_default="1">
     <name>Бром</name>
     <icon>ui_inGame2_duty_2_old</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>gar_brom</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -932,7 +932,7 @@
 <specific_character id="gar_pulya" team_default="1">
     <name>Пуля</name>
     <icon>ui_inGame2_Dolg_3</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>gar_pulya</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -972,7 +972,7 @@
 <specific_character id="gar_loxmatiy" team_default="1">
     <name>Сергей Лохматый</name>
     <icon>ui_inGame2_Dolg_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>gar_loxmatiy</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -1010,7 +1010,7 @@
 <specific_character id="gar_barin" team_default="1">
     <name>Барин</name>
     <icon>ui_inGame2_duty_2_old</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>gar_barin</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -1046,7 +1046,7 @@
 	<specific_character id="ivantsov" team_default="1">
     <name>Капитан Иванцов</name>
     <icon>ui_inGame2_voronin</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>ivantsov</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -1082,7 +1082,7 @@
 	<specific_character id="plichko" team_default="1">
     <name>Сержант Пличко</name>
     <icon>ui_inGame2_kitsenko</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>plichko</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -1118,7 +1118,7 @@
 	<specific_character id="nalivaiko" team_default="1">
     <name>Ефрейтор Наливайко</name>
     <icon>ui_inGame2_Dolg_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>nalivaiko</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -1154,7 +1154,7 @@
 	<specific_character id="morgan" team_default="1">
     <name>Прапорщик Морган</name>
     <icon>ui_inGame2_petrenko</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>morgan</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -1190,7 +1190,7 @@
 	<specific_character id="zvyagintsev" team_default="1">
     <name>Майор Звягинцев</name>
     <icon>ui_inGame2_petrenko</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>zvyagintsev</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>
@@ -1226,7 +1226,7 @@
 	<specific_character id="inkvizitor" team_default="1">
     <name>Инквизитор</name>
     <icon>ui_inGame2_Dolg_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>inkvizitor</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>

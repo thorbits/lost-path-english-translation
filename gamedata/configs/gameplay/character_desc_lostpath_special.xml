@@ -3,7 +3,7 @@
 <specific_character id="spec_manuel" team_default="1">
     <name>Мануэль</name>
     <icon>ui_inGame2_neutral_nauchniy</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>spec_manuel</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -34,7 +34,7 @@
 <specific_character id="spec_fladar" team_default="1">
     <name>Фладар</name>
     <icon>ui_inGame2_neutral_nauchniy</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>spec_fladar</class>
     <community>bandit</community>
     <map_icon x="1" y="0"/>
@@ -62,7 +62,7 @@
 <specific_character id="spec_zaec" team_default="1">
     <name>Заяц</name>
     <icon>ui_inGame2_merc_4a</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>spec_zaec</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -90,7 +90,7 @@
 <specific_character id="spec_monat" team_default="1">
     <name>Монат</name>
     <icon>ui_inGame2_bandit_3_mask</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>spec_monat</class>
     <community>bandit</community>
     <map_icon x="1" y="0"/>
@@ -122,7 +122,7 @@
 <specific_character id="spec_tyx" team_default="1">
     <name>Тухлый</name>
     <icon>ui_inGame2_merc_4a</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>spec_tyx</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -151,7 +151,7 @@
 <specific_character id="spec_tomas" team_default="1">
     <name>Томас О'Мелли</name>
     <icon>ui_inGame2_ecolog_white</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>spec_tomas</class>
     <community>ecolog</community>
     <map_icon x="1" y="0"/>
@@ -181,7 +181,7 @@
 <specific_character id="spec_chess" team_default="1">
     <name>Шахматист</name>
     <icon>ui_inGame2_merc_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>spec_chess</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -210,7 +210,7 @@
 <specific_character id="spec_konrad" team_default="1">
     <name>Конрад Уэлш</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>spec_konrad</class>
     <community>isg</community>
     <map_icon x="1" y="0"/>
@@ -239,7 +239,7 @@
 <specific_character id="spec_shepard" team_default="1">
     <name>Бенджамин Шепард</name>
     <icon>ui_inGame2_csky_nauchniy</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>spec_shepard</class>
     <community>csky</community>
     <map_icon x="1" y="0"/>
@@ -268,7 +268,7 @@
 <specific_character id="spec_demidov" team_default="1">
     <name>Капитан Демидов</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>spec_demidov</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -297,7 +297,7 @@
 <specific_character id="spec_doberman" team_default="1">
     <name>Доберман</name>
     <icon>ui_inGame2_bandit_6l</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>spec_doberman</class>
     <community>bandit</community>
     <map_icon x="1" y="0"/>
@@ -327,7 +327,7 @@
 <specific_character id="spec_orlan" team_default="1">
     <name>Орлан</name>
     <icon>ui_inGame2_neutral_4_new</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>spec_orlan</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -356,7 +356,7 @@
 <specific_character id="spec_sokol" team_default="1">
     <name>Сокол</name>
     <icon>ui_inGame2_monolith2_gp5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>spec_sokol</class>
     <community>monolith</community>
     <map_icon x="1" y="0"/>
@@ -385,7 +385,7 @@
 <specific_character id="spec_earth" team_default="1">
     <name>Земляк</name>
     <icon>ui_inGame2_monolith2_gp5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>spec_earth</class>
     <community>darkstalker</community>
     <map_icon x="1" y="0"/>
@@ -414,7 +414,7 @@
 <specific_character id="spec_pokemon" team_default="1">
     <name>Покемон</name>
     <icon>ui_inGame2_freedom_2_old</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>spec_pokemon</class>
     <community>freedom</community>
     <map_icon x="1" y="0"/>
@@ -443,7 +443,7 @@
 <specific_character id="spec_filatov" team_default="1">
     <name>Комиссар Филатов</name>
     <icon>ui_inGame2_Dolg_3</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>spec_filatov</class>
     <community>dolg</community>
     <map_icon x="1" y="0"/>

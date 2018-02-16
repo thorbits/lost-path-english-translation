@@ -5,7 +5,7 @@
 <specific_character id="pri_farvater_1" team_default="1">
     <name>Сержант Меркулов</name>
     <icon>ui_inGame2_Soldier_4</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_farvater</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -41,7 +41,7 @@
 <specific_character id="pri_farvater_2" team_default="1">
     <name>Лейтенант Стеценко</name>
     <icon>ui_inGame2_Soldier_3</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_farvater</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -77,7 +77,7 @@
 <specific_character id="pri_farvater_3" team_default="1">
     <name>Лейтенант Скеля</name>
     <icon>ui_inGame2_Soldier_4</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_farvater</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -115,7 +115,7 @@
 <specific_character id="pri_farvater_4" team_default="1">
     <name>Сержант Морозов</name>
     <icon>ui_inGame2_Soldier_3</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_farvater</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -151,7 +151,7 @@
 <specific_character id="pri_farvater_5" team_default="1">
     <name>Капитан Клименко</name>
     <icon>ui_inGame2_Soldier_3</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_farvater</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -187,7 +187,7 @@
 <specific_character id="pri_farvater_6" team_default="1">
     <name>Лейтенант Сергеев</name>
     <icon>ui_inGame2_Soldier_3</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_farvater</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -223,7 +223,7 @@
 <specific_character id="pri_farvater_7" team_default="1">
     <name>Сержант Валюшок</name>
     <icon>ui_inGame2_Soldier_4</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_farvater</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -259,7 +259,7 @@
 <specific_character id="pri_farvater_8" team_default="1">
     <name>Сержант Островский</name>
     <icon>ui_inGame2_Soldier_4</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_farvater</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -295,7 +295,7 @@
 <specific_character id="pri_farvater_9" team_default="1">
     <name>Сержант Ярмошук</name>
     <icon>ui_inGame2_Soldier_3</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_farvater</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -331,7 +331,7 @@
 <specific_character id="pri_farvater_10" team_default="1">
     <name>Лейтенант Соколов</name>
     <icon>ui_inGame2_Sokolov</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_farvater</class>
     <community>army</community>
     <mechanic_mode>1</mechanic_mode>
@@ -368,7 +368,7 @@
 	<specific_character id="pri_farvater_11" team_default="1">
     <name>Полковник Ковальский</name>
     <icon>ui_inGame2_Kovalskiy</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_farvater_11</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -405,7 +405,7 @@
 	<specific_character id="pri_farvater_12" team_default="1">
     <name>Лейтенант Роговец</name>
     <icon>ui_inGame2_Rogovets</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_farvater_12</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -442,7 +442,7 @@
 	<specific_character id="pri_farvater_13" team_default="1">
     <name>Лейтенант Кириллов</name>
     <icon>ui_inGame2_Soldier_3</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_farvater_13</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -478,7 +478,7 @@
 	<specific_character id="pri_farvater_14" team_default="1">
     <name>Капитан Тарасов</name>
     <icon>ui_inGame2_Soldier_3</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_farvater_14</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -514,7 +514,7 @@
 	<specific_character id="pri_farvater_15" team_default="1">
     <name>Лейтенант Подорожный</name>
     <icon>ui_inGame2_Soldier_3</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_farvater_15</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -550,7 +550,7 @@
 	<specific_character id="pri_farvater_16" team_default="1">
     <name>Прапорщик Валентир</name>
     <icon>ui_inGame2_Soldier_3</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_farvater_16</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -586,7 +586,7 @@
 <specific_character id="pri_strelok" team_default="1">
     <name>Стрелок</name>
     <icon>ui_inGame2_strelok</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pri_strelok</class>
     <community>trader</community>
     <mechanic_mode>1</mechanic_mode>

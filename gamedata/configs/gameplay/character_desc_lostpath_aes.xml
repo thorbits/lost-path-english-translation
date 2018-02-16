@@ -1,7 +1,7 @@
 <specific_character id="aes_kvartet" team_default="1">
     <name>Квартет</name>
     <icon>ui_inGame2_farvater</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_kvartet</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -37,7 +37,7 @@
 <specific_character id="aes_sova_1" team_default="1">
     <name>Капитан Стрелецкий</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_sova_1</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -72,7 +72,7 @@
 <specific_character id="aes_sova_2" team_default="1">
     <name>Лейтенант Приходько</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_sova_2</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -107,7 +107,7 @@
 <specific_character id="aes_sova_3" team_default="1">
     <name>Прапорщик Шматко</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_sova_3</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -144,7 +144,7 @@
 <specific_character id="aes_eagle_1" team_default="1">
     <name>Лейтенант Куренков</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_eagle_1</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -179,7 +179,7 @@
 <specific_character id="aes_eagle_2" team_default="1">
     <name>Сержант Нестеров</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_sova_2</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -216,7 +216,7 @@
 <specific_character id="aes_korshun_leader" team_default="1">
     <name>Капитан Костенко</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_korshun_leader</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -251,7 +251,7 @@
 <specific_character id="aes_korshun_1" team_default="1">
     <name>Ефрейтор Волков</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_korshun_1</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -286,7 +286,7 @@
 <specific_character id="aes_korshun_2" team_default="1">
     <name>Лейтенант Соколовский</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_korshun_2</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -321,7 +321,7 @@
 <specific_character id="aes_korshun_3" team_default="1">
     <name>Сержант Дракошин</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_korshun_3</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -356,7 +356,7 @@
 <specific_character id="aes_korshun_4" team_default="1">
     <name>Сержант Милков</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_korshun_4</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -391,7 +391,7 @@
 <specific_character id="aes_korshun_5" team_default="1">
     <name>Сержант Силантьев</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_korshun_5</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -426,7 +426,7 @@
 <specific_character id="aes_korshun_6" team_default="1">
     <name>Сержант Рюмин</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_korshun_6</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -463,7 +463,7 @@
 <specific_character id="aes_lyn_leader" team_default="1">
     <name>Лейтенант Корзун</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_lyn_leader</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -498,7 +498,7 @@
 <specific_character id="aes_lyn_1" team_default="1">
     <name>Сержант Федоренко</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_lyn_1</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -533,7 +533,7 @@
 <specific_character id="aes_lyn_2" team_default="1">
     <name>Лейтенант Валеев</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_lyn_2</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -568,7 +568,7 @@
 <specific_character id="aes_lyn_3" team_default="1">
     <name>Сержант Завадский</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_lyn_3</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -603,7 +603,7 @@
 <specific_character id="aes_lyn_4" team_default="1">
     <name>Сержант Коваленко</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_lyn_4</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -640,7 +640,7 @@
 <specific_character id="aes_pyst_leader" team_default="1">
     <name>Капитан Бондарев</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_pyst_leader</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -675,7 +675,7 @@
 <specific_character id="aes_pyst_1" team_default="1">
     <name>Сержант Чирко</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_pyst_1</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -710,7 +710,7 @@
 <specific_character id="aes_pyst_2" team_default="1">
     <name>Сержант Мухин</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_pyst_2</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -747,7 +747,7 @@
 <specific_character id="aes_sapsan_leader" team_default="1">
     <name>Лейтенант Романенко</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_sapsan_leader</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -782,7 +782,7 @@
 <specific_character id="aes_sapsan_1" team_default="1">
     <name>Рядовой Миронов</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_sapsan_1</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -817,7 +817,7 @@
 <specific_character id="aes_sapsan_2" team_default="1">
     <name>Ефрейтор Михновец</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_sapsan_2</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -852,7 +852,7 @@
 <specific_character id="aes_sapsan_3" team_default="1">
     <name>Сержант Рыбин</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_sapsan_3</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -889,7 +889,7 @@
 <specific_character id="aes_grif_leader" team_default="1">
     <name>Лейтенант Павленко</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_grif_leader</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -924,7 +924,7 @@
 <specific_character id="aes_grif_1" team_default="1">
     <name>Сержант Шестопалов</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_grif_1</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -959,7 +959,7 @@
 <specific_character id="aes_grif_2" team_default="1">
     <name>Прапорщик Демьяненко</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_grif_2</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -994,7 +994,7 @@
 <specific_character id="aes_grif_3" team_default="1">
     <name>Рядовой Ковальский</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_grif_3</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -1031,7 +1031,7 @@
 <specific_character id="aes_sokol_leader" team_default="1">
     <name>Лейтенант Кулешов</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_sokol_leader</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -1066,7 +1066,7 @@
 <specific_character id="aes_sokol_1" team_default="1">
     <name>Ефрейтор Лавров</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_sokol_1</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -1101,7 +1101,7 @@
 <specific_character id="aes_sokol_2" team_default="1">
     <name>Рядовой Гунько</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_sokol_2</class>
     <community>army</community>
     <map_icon x="1" y="0"/>
@@ -1136,7 +1136,7 @@
 <specific_character id="aes_sokol_3" team_default="1">
     <name>Сержант Капланов</name>
     <icon>ui_inGame2_soldier_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aes_sokol_3</class>
     <community>army</community>
     <map_icon x="1" y="0"/>

@@ -3,7 +3,7 @@
 <specific_character id="esc_father" team_default="1">
     <name>esc_father_name</name>
     <icon>ui_inGame2_Father</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>esc_father</class>
     <community>isg</community>
     <map_icon x="1" y="0"/>
@@ -40,7 +40,7 @@
 <specific_character id="bar_zoneguard" team_default="1">
     <name>Гуфи</name>
     <icon>ui_inGame2_neutral_2_old</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>bar_zoneguard</class>
     <community>isg</community>
     <map_icon x="1" y="0"/>
@@ -75,7 +75,7 @@
 <specific_character id="gar_demon" team_default="1">
     <name>Олег "Демон" Гусаров</name>
     <icon>ui_inGame2_demon</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>gar_demon</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -115,7 +115,7 @@
 <specific_character id="mil_vorobey" team_default="1">
     <name>Воробей</name>
     <icon>ui_inGame2_demon</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>mil_vorobey</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -153,7 +153,7 @@
 <specific_character id="mil_vasyan" team_default="1">
     <name>Васян</name>
     <icon>ui_inGame2_demon</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>mil_vasyan</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -191,7 +191,7 @@
 <specific_character id="mil_pes" team_default="1">
     <name>Пёс</name>
     <icon>ui_inGame2_demon</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>mil_pes</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -231,7 +231,7 @@
 <specific_character id="red_medved" team_default="1">
     <name>Медведь</name>
     <icon>ui_inGame2_neutral_4_new</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>red_medved</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -270,7 +270,7 @@
 <specific_character id="red_mitya" team_default="1">
     <name>Митяй</name>
     <icon>ui_inGame2_neutral_4_new</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>red_mitya</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -310,7 +310,7 @@
 <specific_character id="red_torba" team_default="1">
     <name>Торба</name>
     <icon>ui_inGame2_neutral_4_new</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>red_torba</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -349,7 +349,7 @@
 <specific_character id="ds_matis" team_default="1">
     <name>Матис</name>
     <icon>ui_inGame2_noavatar</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>ds_matis</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -400,7 +400,7 @@
 <specific_character id="ds_clesh" team_default="1">
     <name>Клещ</name>
     <icon>ui_inGame2_noavatar</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>ds_clesh</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -444,7 +444,7 @@
 <specific_character id="ds_shulc" team_default="1">
     <name>Шульц</name>
     <icon>ui_inGame2_noavatar</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>ds_shulc</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -481,7 +481,7 @@
 	<specific_character id="seriy" team_default="1">
     <name>Серый</name>
     <icon>ui_inGame2_zat_new_med</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>seriy</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -517,7 +517,7 @@
 	<specific_character id="bes" team_default="1">
     <name>Бес</name>
     <icon>ui_inGame2_neutral_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>bes</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -553,7 +553,7 @@
 	<specific_character id="digger_lis" team_default="1">
     <name>Лис</name>
     <icon>ui_inGame2_neutral_0</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>digger_lis</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -589,7 +589,7 @@
 	<specific_character id="krot" team_default="1">
     <name>Крот</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>krot</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -625,7 +625,7 @@
 	<specific_character id="petruxa" team_default="1">
     <name>Петруха</name>
     <icon>ui_inGame2_neutral_1</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>petruxa</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -661,7 +661,7 @@
 	<specific_character id="napr" team_default="1">
     <name>Дикий Напр</name>
     <icon>ui_inGame2_Napr</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>napr</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -697,7 +697,7 @@
 	<specific_character id="spartak" team_default="1">
     <name>Спартак</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>spartak</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -733,7 +733,7 @@
 	<specific_character id="levsha" team_default="1">
     <name>Левша</name>
     <icon>ui_inGame2_neutral_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>levsha</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -769,7 +769,7 @@
 	<specific_character id="pyzo" team_default="1">
     <name>Пузо</name>
     <icon>ui_inGame2_neutral_1</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pyzo</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -805,7 +805,7 @@
 	<specific_character id="svezhak" team_default="1">
     <name>Свежак</name>
     <icon>ui_inGame2_neutral_1_mask</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>svezhak</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -843,7 +843,7 @@
 	<specific_character id="provodnik" team_default="1">
     <name>Проводник</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>provodnik</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -878,7 +878,7 @@
 	<specific_character id="prizrak" team_default="1">
     <name>Призрак</name>
     <icon>ui_inGame2_wolf</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>prizrak</class>
     <community>trader</community>
     <map_icon x="1" y="0"/>
@@ -913,7 +913,7 @@
 	<specific_character id="klyk" team_default="1">
     <name>Клык</name>
     <icon>ui_inGame2_arnie</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>klyk</class>
     <community>trader</community>
     <map_icon x="1" y="0"/>
@@ -948,7 +948,7 @@
 	<specific_character id="zvezdochet" team_default="1">
     <name>Звездочёт</name>
     <icon>ui_inGame2_nimble</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>zvezdochet</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -983,7 +983,7 @@
 	<specific_character id="semetski" team_default="1">
     <name>Юрий Семецкий</name>
     <icon>ui_inGame2_fanatic</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>semetski</class>
     <community>trader</community>
     <map_icon x="1" y="0"/>
@@ -1020,7 +1020,7 @@
 		 <specific_character id="otshelnik" team_default="1">
     <name>Отшельник</name>
     <icon>ui_inGame2_neutral_2_gp5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>otshelnik</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -1054,7 +1054,7 @@
 	<specific_character id="orest" team_default="1">
     <name>Орест</name>
     <icon>ui_inGame2_neutral_2_old</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>orest</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -1088,7 +1088,7 @@
 	<specific_character id="aidar" team_default="1">
     <name>Айдар</name>
     <icon>ui_inGame2_neutral_2mask1</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>aidar</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -1122,7 +1122,7 @@
 	<specific_character id="avel" team_default="1">
     <name>Авель</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>avel</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -1157,7 +1157,7 @@
 	<specific_character id="zveroboy" team_default="1">
     <name>Зверобой</name>
     <icon>ui_inGame2_Zveroboy</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>zveroboy</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -1192,7 +1192,7 @@
 		 <specific_character id="barzha" team_default="1">
     <name>Баржа</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>barzha</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -1226,7 +1226,7 @@
 	<specific_character id="joker" team_default="1">
     <name>Джокер</name>
     <icon>ui_inGame2_neutral_1w_gas</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>joker</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -1260,7 +1260,7 @@
 	<specific_character id="kuvalda" team_default="1">
     <name>Кувалда</name>
     <icon>ui_inGame2_neutral_3</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>kuvalda</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -1294,7 +1294,7 @@
 	<specific_character id="greben" team_default="1">
     <name>Гребень</name>
     <icon>ui_inGame2_neutral_3</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>greben</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>
@@ -1328,7 +1328,7 @@
 	<specific_character id="shepka" team_default="1">
     <name>Щепка</name>
     <icon>ui_inGame2_neutral_1w_mask</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>shepka</class>
     <community>stalker</community>
     <map_icon x="1" y="0"/>

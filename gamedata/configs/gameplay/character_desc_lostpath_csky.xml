@@ -33,7 +33,7 @@
     <name>Денис Лебедев</name>
     <icon>ui_inGame2_lebedev</icon>
     <map_icon x="1" y="0"> </map_icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>lebedev</class>
     <community>csky</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -62,7 +62,7 @@
     <name>Профессор Каланча</name>
     <icon>ui_inGame2_kalancha</icon>
     <map_icon x="1" y="0"> </map_icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>kalancha</class>
     <community>csky</community>
     <terrain_sect>stalker_terrain</terrain_sect>
@@ -91,7 +91,7 @@
     <name>Вениамин Суслов</name>
     <icon>ui_inGame2_csky_2</icon>
     <map_icon x="1" y="0"> </map_icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>suslov</class>
     <community>csky</community>
     <terrain_sect>stalker_terrain</terrain_sect>

@@ -176,7 +176,7 @@
 <specific_character id="animalist" team_default="1">
     <name>Живодёр</name>
     <icon>ui_inGame2_bandit_1</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>animalist</class>
     <community>bandit</community>
     <map_icon x="1" y="0"/>
@@ -202,7 +202,7 @@
 <specific_character id="kastet" team_default="1">
     <name>Кастет</name>
     <icon>ui_inGame2_bandit_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>kastet</class>
     <community>bandit</community>
     <map_icon x="1" y="0"/>
@@ -230,7 +230,7 @@
 <specific_character id="avoska" team_default="1">
     <name>Авоська</name>
     <icon>ui_inGame2_bandit_1</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>avoska</class>
     <community>bandit</community>
     <map_icon x="1" y="0"/>
@@ -256,7 +256,7 @@
 <specific_character id="senka" team_default="1">
     <name>Сенька</name>
     <icon>ui_inGame2_bandit_1</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>senka</class>
     <community>bandit</community>
     <map_icon x="1" y="0"/>
@@ -282,7 +282,7 @@
 <specific_character id="koriaga" team_default="1">
     <name>Коряга</name>
     <icon>ui_inGame2_bandit_1</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>koriaga</class>
     <community>bandit</community>
     <map_icon x="1" y="0"/>
@@ -308,7 +308,7 @@
 <specific_character id="fraer" team_default="1">
     <name>Фраер</name>
     <icon>ui_inGame2_bandit_3</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>fraer</class>
     <community>bandit</community>
     <map_icon x="1" y="0"/>
@@ -335,7 +335,7 @@
 <specific_character id="kocherga" team_default="1">
     <name>Кочерга</name>
     <icon>ui_inGame2_bandit_4</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>kocherga</class>
     <community>bandit</community>
     <map_icon x="1" y="0"/>
@@ -363,7 +363,7 @@
 <specific_character id="vobla" team_default="1">
     <name>Вобла</name>
     <icon>ui_inGame2_bandit_1</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>vobla</class>
     <community>bandit</community>
     <map_icon x="1" y="0"/>

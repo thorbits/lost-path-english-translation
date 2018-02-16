@@ -16,7 +16,7 @@
     <name>yan_st_sakharov_name</name>
     <icon>ui_inGame2_sakharov</icon>
     <map_icon x="1" y="0"></map_icon>
-    <bio></bio>
+    <bio>yan_st_sakharov_bio</bio>
     <class>yan_stalker_sakharov</class>
     <community>trader</community> <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>

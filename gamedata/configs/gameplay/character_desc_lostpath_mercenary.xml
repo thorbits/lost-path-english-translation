@@ -3,7 +3,7 @@
 <specific_character id="ros_volkodav" team_default="1">
     <name>Волкодав</name>
     <icon>ui_inGame2_merc_4a</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>ros_volkodav</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -42,7 +42,7 @@
 <specific_character id="ros_volkodav_team" team_default="1">
     <name>Гавр</name>
     <icon>ui_inGame2_merc_4a</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>sim_default_killer_4</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -81,7 +81,7 @@
 <specific_character id="cit_killers_tiran" team_default="1">
     <name>Тиран</name>
     <icon>ui_inGame2_merc_4a</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>cit_killers_tiran</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -121,7 +121,7 @@
 <specific_character id="cit_killers_master" team_default="1">
     <name>Мастер</name>
     <icon>ui_inGame2_merc_4a</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>cit_killers_master</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -161,7 +161,7 @@
 <specific_character id="cit_killers_chu" team_default="1">
     <name>Чучело</name>
     <icon>ui_inGame2_merc_4a</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>cit_killers_chu</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -200,7 +200,7 @@
 <specific_character id="mil_zastava_ara" team_default="1">
     <name>Ара</name>
     <icon>ui_inGame2_merc_trade</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>mil_zastava_ara</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -237,7 +237,7 @@
 <specific_character id="mil_zastava_pavlik" team_default="1">
     <name>Павлик</name>
     <icon>ui_inGame2_Freedom_5</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>mil_zastava_pavlik</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -273,7 +273,7 @@
 <specific_character id="barchuk" team_default="1">
     <name>Барчук</name>
     <icon>ui_inGame2_ecolog_guard_blue</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>barchuk</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -308,7 +308,7 @@
 <specific_character id="shakal" team_default="1">
     <name>Шакал</name>
     <icon>ui_inGame2_ecolog_green</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>shakal</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -343,7 +343,7 @@
 <specific_character id="serbin" team_default="1">
     <name>Альберт Сербин</name>
     <icon>ui_inGame2_ecolog_blue</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>serbin</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -378,7 +378,7 @@
 <specific_character id="hrebet" team_default="1">
     <name>Хребет</name>
     <icon>ui_inGame2_merc_4a</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>hrebet</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -411,7 +411,7 @@
 <specific_character id="kryk" team_default="1">
     <name>Крюк</name>
     <icon>ui_inGame2_mercenary3</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>kryk</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -444,7 +444,7 @@
 <specific_character id="grif" team_default="1">
     <name>Гриф</name>
     <icon>ui_inGame2_merc_sun1_merc</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>grif</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -479,7 +479,7 @@
 <specific_character id="black_merc" team_default="1">
     <name>Чёрный</name>
     <icon>ui_inGame2_merc_sun1_merc</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>black_merc</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -514,7 +514,7 @@
 <specific_character id="duplet" team_default="1">
     <name>Дуплет</name>
     <icon>ui_inGame2_merc_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>duplet</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -547,7 +547,7 @@
 <specific_character id="hiryrg" team_default="1">
     <name>Хирург</name>
     <icon>ui_inGame2_merc_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>hiryrg</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -580,7 +580,7 @@
 <specific_character id="kol" team_default="1">
     <name>Кол</name>
     <icon>ui_inGame2_merc_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>kol</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -613,7 +613,7 @@
 <specific_character id="koshei" team_default="1">
     <name>Кощей</name>
     <icon>ui_inGame2_merc_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>koshei</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -646,7 +646,7 @@
 <specific_character id="trup" team_default="1">
     <name>Труп</name>
     <icon>ui_inGame2_merc_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>trup</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -679,7 +679,7 @@
 <specific_character id="tesak" team_default="1">
     <name>Тесак</name>
     <icon>ui_inGame2_mercsun_old</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>tesak</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -714,7 +714,7 @@
 <specific_character id="pianist" team_default="1">
     <name>Пианист</name>
     <icon>ui_inGame2_merc_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>pianist</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -747,7 +747,7 @@
 <specific_character id="goblin" team_default="1">
     <name>Гоблин</name>
     <icon>ui_inGame2_merc_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>goblin</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -780,7 +780,7 @@
 <specific_character id="dyb" team_default="1">
     <name>Дуб</name>
     <icon>ui_inGame2_merc_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>dyb</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -813,7 +813,7 @@
 <specific_character id="gazon" team_default="1">
     <name>Газон</name>
     <icon>ui_inGame2_merc_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>gazon</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -846,7 +846,7 @@
 <specific_character id="kirzach" team_default="1">
     <name>Кирзач</name>
     <icon>ui_inGame2_merc_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>kirzach</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -879,7 +879,7 @@
 <specific_character id="tank" team_default="1">
     <name>Танк</name>
     <icon>ui_inGame2_merc_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>tank</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>
@@ -914,7 +914,7 @@
 <specific_character id="rilo" team_default="1">
     <name>Рыло</name>
     <icon>ui_inGame2_merc_2</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>rilo</class>
     <community>killer</community>
     <map_icon x="1" y="0"/>

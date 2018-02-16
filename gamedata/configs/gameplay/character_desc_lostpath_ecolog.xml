@@ -4,7 +4,7 @@
 <specific_character id="jup_topol" team_default="1">
     <name>Тополь</name>
     <icon>ui_inGame2_ecolog_white</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_topol</class>
     <community>ecolog</community>
     <map_icon x="1" y="0"/>
@@ -43,7 +43,7 @@
 <specific_character id="jup_bulava" team_default="1">
     <name>Булава</name>
     <icon>ui_inGame2_ecolog_yellow</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_bulava</class>
     <community>ecolog</community>
     <map_icon x="1" y="0"/>
@@ -83,7 +83,7 @@
 <specific_character id="jup_dyx" team_default="1">
     <name>Дух</name>
     <icon>ui_inGame2_ecolog_orange</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_dyx</class>
     <community>ecolog</community>
     <map_icon x="1" y="0"/>
@@ -121,7 +121,7 @@
 <specific_character id="jup_zmey" team_default="1">
     <name>Змей</name>
     <icon>ui_inGame2_ecolog_brown</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>jup_zmey</class>
     <community>ecolog</community>
     <map_icon x="1" y="0"/>
@@ -157,7 +157,7 @@
 	<specific_character id="kruglov" team_default="1">
     <name>Профессор Круглов</name>
     <icon>ui_inGame2_ecolog_blue</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>kruglov</class>
     <community>ecolog</community>
     <map_icon x="1" y="0"/>
@@ -193,7 +193,7 @@
 	<specific_character id="vasiliev" team_default="1">
     <name>Доцент Васильев</name>
     <icon>ui_inGame2_ecolog_green</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>vasiliev</class>
     <community>ecolog</community>
     <map_icon x="1" y="0"/>
@@ -227,7 +227,7 @@
 	<specific_character id="semenov" team_default="1">
     <name>Лаборант Семёнов</name>
     <icon>ui_inGame2_ecolog_orange</icon>
-    <bio>.</bio>
+    <bio>An experienced stalker. No detailed information is available.</bio>
     <class>semenov</class>
     <community>ecolog</community>
     <map_icon x="1" y="0"/>

@@ -231,7 +231,7 @@ ui_st_faction_starts.xml
 ui_st_keybinding.xml
 <br>&#8627; <em>done - need revision</em><br>
 ui_st_loadscreen.xml
-<br>&#8627; <em>done - need revision - reminder- version number displayed always needs to be updated to latest version</em><br>
+<br>&#8627; <em>done - need revision - reminder: version number displayed always need to be updated to latest version</em><br>
 ui_st_mm.xml
 <br>&#8627; <em>done - need revision</em><br>
 ui_st_pda.xml

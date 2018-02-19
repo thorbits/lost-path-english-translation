@@ -391,30 +391,30 @@ end
 
 function sunset_news()
 local time_morn ={ 
-"Dawn is beautiful, it's like in Sevastopol and not here!",
-"Oh, and it's beautiful all the same here!",
-"And at such moments of the morning I always remember my childhood." It's your village, you'll get up so early and you'll see the game of shadow and light in your room, and all that ... unreal, magical or something. ",
-"Horror, not the morning.",
-"Ah, earlier in the morning I had very different things.",
-"I made bricks all night in the camp, terribly at night!",
-"Get up again, eeeh.",
-"All the night, the banderlogists were shouting, like their ... borers? Not, I remembered - the kinks",
-"Evening as if",
-"It's morning already, I'm just sitting in the subway.",
-"Guys, it's dawning ... it's beautiful like that.",
-"It's dawning ...",
-"Soon the dawn, there is no way out - trust the key and le-te-li!",
-"The people, it's here, dawns - I think we can already advance, there's not much for whom now we'll come across, not that at night.",
-"It's fresher, we're moving forward, now it's more or less safe.",
-"Guys, rise! Morning is already!",
-"Well, finally, it's morning, you can crawl out of the subway." The beast fucked the fucking beast.",
-"Finally, it's getting light, or I'm already tired of shaking with fear in the dark ... It's better to shiver in the light of day ... ",
-"Somebody hears me?" A group of our guys were gone last night, they should have returned to the morning from Agroprom. No, no, we're going to search in an hour. ",
-"Damn, who came up with the morning ... Today they've been drinking all night ... A miser, a bastard, he brought vodka again from somewhere ..." Freedom, "we sleep further ... raid on the Duty base will wait ... ",
-"Guys, you would see what a dawn is on Amber, it's something ... And it's scary and beautiful ... And snork corpses are so cool drifting in the sparkling lake in the morning sun ... Romance ...",
-"Guys, it's dawning ... it's beautiful like that.",
-"Guys, what a beauty, so I would have admired ...",
-"A new day is a new walk!"
+"Рассветает красиво! Будто в Севастополе а не здесь!", 
+"Эх, и красиво же всё-равно здесь!", 
+"А я в такие моменты утренние всегда детство вспоминаю. Деревеньку свою. Встанешь так рано и посмотришь игру тени и света в твоей комнате, а всё такое... нереальное, волшебное что ли.", 
+"Ужас, а не утро", 
+"Эх, раньше по утрам у меня были совсем другие дела.", 
+"Всю ночь кирпичи делал в лагере. Жутко ночью!", 
+"Снова вставать, эээх.", 
+"Всю ночь орали бандерлоги, как их... буреры? Не, вспомнил - изломы", 
+"Вечер как будто", 
+"Уже утро? Я просто в подземке сижу.",
+"Мужики, рассветает... красиво-то как.",
+"Рассветает...",
+"Скоро рассвет, выхода нет - ключ повери и по-ле-те-ли!",
+"Народ, тут это, рассветает - думаю, можно уже выдвигаться, мало на кого теперь натолкнёмся, не то что ночью.",
+"Рассвело. Выдвигаемся, сейчас более-менее безопасно.",
+"Мужики, подъём! Утро уже!",
+"Ну наконец утро, можно и из подземки выползать. Зверьё сраное загнало.",
+"Эх, мужики! Наконец-то светает, а то устал уже я дрожать от страха в темноте. Уж лучше при свете дня... дрожать...",
+"Меня кто-нибудь слышит? Сегодня ночью пропала группа наших ребят. Должны были вернуться к утру с Агропрома. До сих пор нет. Через час отправляемся на поиски. Присоединяйтесь.",
+"Чёрт, кто придумал утро... Сегодня ж всю ночь пили... Скряга, сволочь, водку палёную опять притащил откуда-то... «Свобода», спим дальше... рейд на базу «Долга» подождёт...",
+"Мужики, вы бы видели, какой тут на Янтаре рассвет. Это что-то... И страшно, и красиво... И трупы снорков так классно дрейфуют в искрящейся в утреннем солнце глади озера... Романтика..." ,
+"Мужики, рассветает... красиво-то как.",
+"Мужики, красота-то какая! Так бы и любовался...",
+"Новый день - новая ходка!"
 }
 
 local time_night ={ 
@@ -459,10 +459,10 @@ local time_night ={
 "Всем внимание!\\nУчёные сообщают о подозрительной активности мутантов на Янтаре этой ночью.\\nВсем оставаться в лагерях."
 }   
 	if level.get_time_hours()>=6 and level.get_time_hours()<9 then 
-		db.actor:give_game_news("Message:", (time_morn[math.random(#time_morn)]), "ui_icon_vs_news_all", 0, 10000)
+		db.actor:give_game_news("Сообщение:", (time_morn[math.random(#time_morn)]), "ui_icon_vs_news_all", 0, 10000)
 		xr_sound.set_sound_play(db.actor:id(), "pda_tips")
         elseif level.get_time_hours()>=19 and level.get_time_hours()<22 then 
-		db.actor:give_game_news("Message:", (time_night[math.random(#time_night)]), "ui_icon_vs_news_all", 0, 10000)
+		db.actor:give_game_news("Сообщение:", (time_night[math.random(#time_night)]), "ui_icon_vs_news_all", 0, 10000)
 		xr_sound.set_sound_play(db.actor:id(), "pda_tips")
 	end 
 end

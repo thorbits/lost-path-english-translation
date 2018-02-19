@@ -7,11 +7,9 @@
  #  file   : sim_relations.script 
 ]]-- -----------------------------------
 
-
 function on_game_start()
 	RegisterScriptCallback("npc_on_death_callback", npc_on_death)
 end
-
 
 local dynamic_relations = (lostpath_main.config:r_value("scripts","enable_dynamic_relations",1))
 
@@ -46,7 +44,6 @@ allowed_relation_change = {
 		'dolg',
 		'freedom',
 		'killer',
-		'bandit',
 		'ecolog',
 	},
 	killer = {
@@ -57,6 +54,7 @@ allowed_relation_change = {
 		'bandit',
 		'isg',
 		'army',
+		'darkstalker',
 	},
 	army = {
 		'dolg',
@@ -67,9 +65,8 @@ allowed_relation_change = {
 	bandit = {
 		'freedom',
 		'killer',
-		'csky',
-		'dolg',
 		'isg',
+		'darkstalker',
 	},
 	isg = {
 		'stalker',
@@ -84,29 +81,32 @@ allowed_relation_change = {
 		'stalker',
 		'dolg',
 		'csky',
+	},
+	monolith = {
+
+	},
+	darkstalker = {
+		'bandit',
+		'killer',
 	}
 }
 
 tbl_change_relation = {
 	[1] = {
 		sender_icon = 'ui_inGame2_PD_Lider',
-		text = 'Factions %s è %s started a war'
-
+		text = 'Factions %s and %s started a war'
 	},
 	[2] = {
 		sender_icon = 'ui_inGame2_PD_Drug_Stalkerov',
-		text = 'Factions %s è %s concluded an alliance'
-
+		text = 'Factions %s and %s have formed an alliance'
 		},
 	[3] = {
 		sender_icon = 'ui_inGame2_PD_Avtoritet',
-		text = 'Factions %s è %s relations are deteriorating'
-
+		text = 'Relations between factions %s and %s are deteriorating'
 	},
 	[4] = {
 		sender_icon = 'ui_inGame2_PD_Avtoritet',
-		text = 'Factions %s è %s ceased hostility'
-
+		text = 'Factions %s and %s have ceased hostility'
 	}
 }
 
@@ -124,7 +124,6 @@ faction_names_standart = {
 	['monster'] = 'Mutants',
 	['darkstalker'] = 'Darkstalkers',
 	['isg'] = 'Researchers',
-
 	['none'] = '[no data]',
 }
 
@@ -145,6 +144,7 @@ function npc_on_death(dead, killer)
 	end
 	
 	local value = math.random(1,20)
+	if not allowed_relation_change[not_actor] then return end
 	for _, faction in pairs(allowed_relation_change[not_actor]) do
 		if game_relations.is_factions_friends(faction, dead_faction) then
 			set_faction_relations(faction, not_actor, -value)

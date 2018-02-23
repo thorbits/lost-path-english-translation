@@ -1,4 +1,26 @@
 --------------------
+02/22 0.2.2 --> "Lost Path v0.5.005" compatible version
+--------------------
+updated st_lostpath_main.xml
+updated st_mm_faction_select.xml
+updated ui_st_encyclopedia_awr.xml
+updated ui_st_encyclopedia_features.xml
+updated ui_st_faction_starts.xml
+updated ui_st_loadscreen.xml
+updated atmosfear_options.script
+updated lostpath_main_options.script
+updated sim_relations.script
+updated sim_smart.script
+updated sim_squad.script
+updated transitions.script
+updated ui_load_dialog.script
+updated ui_main_menu.script
+updated ui_mm_opt_lostpath.script
+updated ui_mm_opt_main.script
+updated ui_save_dialog.script
+updated zone_news_main.script
+updated zone_surge_news.script
+--------------------
 02/17 0.2.1 --> "Lost Path v0.5.004" compatible version
 --------------------
 updated axr_options.ltx

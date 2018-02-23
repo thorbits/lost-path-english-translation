@@ -285,25 +285,25 @@ function check_npc(smart)
 		while mechanic_in_smart < mechanic_pop do	
 			sim_squad.create_squad(smart, faction, nil, mechanic , nil, 1)
 			mechanic_in_smart = mechanic_in_smart + 1
-			--printf("### EOC: A mechanic is present in ".. smart:name() .." ###")
+			--printf("### EOC: Спавн механика в смарт ".. smart:name() .." ###")
 		end
 		   
 		while trader_in_smart < trader_pop do
 			sim_squad.create_squad(smart, faction, nil, trader, nil, 1)
 			trader_in_smart = trader_in_smart + 1
-			--printf("### EOC: A trader is present in ".. smart:name() .." ###")
+			--printf("### EOC: Спавн торговца в смарт ".. smart:name() .." ###")
 		end
 
 		while medik_in_smart < medik_pop do
 			sim_squad.create_squad(smart, faction, nil, medik, nil, 1)
 			medik_in_smart = medik_in_smart + 1
-			--printf("### EOC: A doctor is present in ".. smart:name() .." ###")
+			--printf("### EOC: Спавн медика в смарт ".. smart:name() .." ###")
 		end	
 		
 		while leader_in_smart < leader_pop do
 			sim_squad.create_squad(smart, faction, nil, leader, nil, 1)
 			leader_in_smart = leader_in_smart + 1
-			--printf("### EOC: A team leader is present in ".. smart:name() .." ###")
+			--printf("### EOC: Спавн наставника в смарт ".. smart:name() .." ###")
 		end	
 	end
 end
@@ -735,12 +735,12 @@ function spawn_defense_squad(smart)
 end
 
 function spawn_patrol_squad(smart)
-	--printf("# SIM: Spawn Patrol is disabled")
+	--printf("# SIM: Спавн патруля отключен")
 	return 
 end
 
 function spawn_killers_squad(smart)
-	--printf("# SIM: Spawn of Mercenaries is disabled")	
+	--printf("# SIM: Спавн головорезов отключен")	
 	return 
 end
 function spawn_attack_squad(smart)	

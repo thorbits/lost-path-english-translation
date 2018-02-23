@@ -55,9 +55,9 @@ function main_menu:InitControls()
 	local actor = db.actor
 	local actor_faction = character_community(actor)
 	
-	if(actor_faction ~= nil) then
-		background = ui_menu.menu()
-	end
+	--if(actor_faction ~= nil) then
+	--	background = ui_menu.menu()
+	--end
 	
 	xml:InitStatic					(background, self)
 	

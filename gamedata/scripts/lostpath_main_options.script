@@ -1,0 +1,613 @@
+--[[ -----------------------------------
+ #  Настройка мода
+ #  for Lost Path
+ #  author : b4d1k
+ #  date   : 28.11.2017
+ #  file   : lostpath_main_options.script 
+]]-- -----------------------------------
+
+function lp_menu_on_init(menu)
+	menu.war_options["passive_npc_const"]		= {default = 10, 	debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50}, cat="war_options"}
+	menu.war_options["active_npc_const"]		= {default = 20, 	debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50}, cat="war_options"}
+	menu.war_options["res_coeff"]			    = {default = 3, 	debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10}, cat="war_options"}
+	menu.war_options["base_coeff"]			    = {default = 6, 	debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10}, cat="war_options"}
+	
+	menu.war_options["spawn_attack_time"]		= {default = 15, 	debug_only=false, 	typ="list", list={1,2,3,4,5,10,15,20,25,30,35,40,45,50,55,60,75,90,105,120,180,240,300,360,420,480,540,600,1200,2400}, cat="war_options"}
+	menu.war_options["spawn_defence_time"]		= {default = 5, 	debug_only=false, 	typ="list", list={1,2,3,4,5,10,15,20,25,30,35,40,45,50,55,60,75,90,105,120,180,240,300,360,420,480,540,600,1200,2400}, cat="war_options"}
+	
+	menu.war_options["default_pop"]			    = {default = 6, 	debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="smart_population"}
+	menu.war_options["lair_pop"]			    = {default = 6, 	debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="smart_population"}
+	menu.war_options["base_pop"]			    = {default = 12, 	debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="smart_population"}
+	menu.war_options["res_pop"]			        = {default = 8, 	debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="smart_population"}
+	menu.war_options["territory_pop"]			= {default = 8, 	debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="smart_population"}
+	
+	menu.war_options["power"]			        = {default = 15, 	debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="power"}
+	menu.war_options["faction_boost"]			= {default = 0, 	debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="power"}
+	menu.war_options["def_boost"]			    = {default = 10, 	debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="power"}
+	
+	menu.war_options["strong_min"]			    = {default = 5, 	debug_only=false, 	typ="list", list={5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80}, cat="power_mutant"}
+	menu.war_options["strong_max"]			    = {default = 15, 	debug_only=false, 	typ="list", list={5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80}, cat="power_mutant"}
+	menu.war_options["zombie_min"]				= {default = 5, 	debug_only=false, 	typ="list", list={5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80}, cat="power_mutant"}
+	menu.war_options["zombie_max"]				= {default = 10, 	debug_only=false, 	typ="list", list={5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80}, cat="power_mutant"}
+	menu.war_options["dog_min"]					= {default = 5, 	debug_only=false, 	typ="list", list={5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80}, cat="power_mutant"}
+	menu.war_options["dog_max"]					= {default = 10, 	debug_only=false, 	typ="list", list={5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80}, cat="power_mutant"}
+	menu.war_options["rat_min"]					= {default = 5, 	debug_only=false, 	typ="list", list={5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80}, cat="power_mutant"}
+	menu.war_options["rat_max"]					= {default = 10, 	debug_only=false, 	typ="list", list={5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80}, cat="power_mutant"}
+	menu.war_options["heavy_min"]				= {default = 15, 	debug_only=false, 	typ="list", list={5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80}, cat="power_mutant"}
+	menu.war_options["heavy_max"]				= {default = 20, 	debug_only=false, 	typ="list", list={5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80}, cat="power_mutant"}
+	
+	menu.war_options["sarcofag"]				= {default = 0, 	debug_only=false, 	typ="list", list={1,2,3,4,5}, cat="coef_mutant"}
+	menu.war_options["zaton"]					= {default = 3, 	debug_only=false, 	typ="list", list={1,2,3,4,5}, cat="coef_mutant"}
+	menu.war_options["pripyat"]			    	= {default = 3, 	debug_only=false, 	typ="list", list={1,2,3,4,5}, cat="coef_mutant"}
+	menu.war_options["default_mutant"]			= {default = 2, 	debug_only=false, 	typ="list", list={1,2,3,4,5}, cat="coef_mutant"}
+	
+	menu.war_options["novice_min"]			    = {default = 2, 	rank = "novice", 			debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="power_stalker"}
+	menu.war_options["novice_max"]			    = {default = 6, 	rank = "novice", 			debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="power_stalker"}
+	menu.war_options["advanced_min"]			= {default = 6, 	rank = "advanced", 			debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="power_stalker"}
+	menu.war_options["advanced_max"]			= {default = 10, 	rank = "advanced", 			debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="power_stalker"}
+	menu.war_options["veteran_min"]			    = {default = 10, 	rank = "veteran", 			debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="power_stalker"}
+	menu.war_options["veteran_max"]			    = {default = 16, 	rank = "veteran", 			debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="power_stalker"}
+	menu.war_options["special_min"]			    = {default = 15, 	rank = "special", 			debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="power_stalker"}
+	menu.war_options["special_max"]			    = {default = 15, 	rank = "special", 			debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="power_stalker"}
+	
+	menu.war_options["stalker_min"]			    = {default = 4, 	faction = "stalker", 		debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["stalker_max"]			    = {default = 10, 	faction = "stalker", 		debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["bandit_min"]			    = {default = 4, 	faction = "bandit", 		debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["bandit_max"]			    = {default = 8, 	faction = "bandit", 		debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["ecolog_min"]			    = {default = 4, 	faction = "ecolog", 		debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["ecolog_max"]			    = {default = 6, 	faction = "ecolog", 		debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["csky_min"]			    = {default = 4, 	faction = "csky", 			debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["csky_max"]			    = {default = 6, 	faction = "csky", 			debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["army_min"]			    = {default = 4, 	faction = "army", 			debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["army_max"]			    = {default = 10, 	faction = "army", 			debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["freedom_min"]			    = {default = 4, 	faction = "freedom", 		debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["freedom_max"]			    = {default = 12, 	faction = "freedom", 		debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["dolg_min"]			    = {default = 4, 	faction = "dolg", 			debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["dolg_max"]			    = {default = 12, 	faction = "dolg", 			debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["isg_min"]			        = {default = 4, 	faction = "isg", 			debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["isg_max"]			        = {default = 3, 	faction = "isg", 			debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["killer_min"]			    = {default = 4, 	faction = "killer", 		debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["killer_max"]			    = {default = 10, 	faction = "killer", 		debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["monolith_min"]			= {default = 4, 	faction = "monolith", 		debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["monolith_max"]			= {default = 8, 	faction = "monolith", 		debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["darkstalker_min"]			= {default = 4, 	faction = "darkstalker",	debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["darkstalker_max"]			= {default = 6, 	faction = "darkstalker",	debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["zombied_min"]				= {default = 4, 	faction = "zombied", 		debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	menu.war_options["zombied_max"]				= {default = 8, 	faction = "zombied", 		debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}, cat="faction_boost"}
+	
+	local need_save
+	
+	for k,v in pairs(menu.war_options) do
+		if (v.default ~= nil) then
+			if (v.typ=="check") then
+				if not (lostpath_main.config:line_exist("war_options","enable_"..k)) then
+					lostpath_main.config:w_value("war_options","enable_"..k,v.default)
+					need_save = true
+				end
+			elseif not (lostpath_main.config:line_exist("war_options",k)) then
+				if(v.cat == "war_options") then
+					lostpath_main.config:w_value("war_options",k,v.default)
+				end
+			elseif not (lostpath_main.config:line_exist("smart_population",k)) then	
+				if(v.cat == "smart_population") then
+					lostpath_main.config:w_value("smart_population",k,v.default)
+				end
+			elseif not (lostpath_main.config:line_exist("power_mutant",k)) then	
+				if(v.cat == "power_mutant") then
+					lostpath_main.config:w_value("power_mutant",k,v.default)
+				end
+			elseif not (lostpath_main.config:line_exist("power",k)) then	
+				if(v.cat == "power") then
+					lostpath_main.config:w_value("power",k,v.default)
+				end
+			elseif not (lostpath_main.config:line_exist("power_stalker",k)) then	
+				if(v.cat == "power_stalker") then
+					lostpath_main.config:w_value("power_stalker",k,v.default)
+					lostpath_main.faction:w_value(v.rank,k,v.default)
+				end
+			elseif not (lostpath_main.config:line_exist("faction_boost",k)) then	
+				if(v.cat == "faction_boost") then
+					lostpath_main.config:w_value("faction_boost",k,v.default)
+					lostpath_main.faction:w_value(v.faction,k,v.default)
+				end
+			elseif not (lostpath_main.config:line_exist("coef_mutant",k)) then	
+				if (v.cat == "coef_mutant") then
+					lostpath_main.config:w_value("coef_mutant",k,v.default)
+				end
+				
+				need_save = true
+			end
+		end
+    end
+	
+	if (need_save == true) then
+        lostpath_main.config:save()
+        lostpath_main.faction:save()
+		need_save = false
+    end
+	
+	menu.alife["Switch distance"]               = {default = 125, 	debug_only=false, 	typ = "list", list={50,75,100,125,150,175,200,225,250,275,300,325,350,375,400,425,450,475,500,525,550,575,600,625,650,675,700,725,750,775,800,825,850,875,900,925,950,975,1000}, cat = "alife"}
+	menu.alife["Objects per update"]            = {default = 10, 	debug_only=false, 	typ = "list", list={1,2,3,4,5,6,7,8,9,10,15,20,25,30,35,40,45,50}, cat = "alife"}
+
+	for k,v in pairs(menu.alife) do
+		if (v.default ~= nil) then
+			if not (lostpath_alife.config:line_exist("alife",k)) then
+				if(v.cat == "alife") then
+					lostpath_alife.config:w_value("alife",k,v.default)
+				end				
+				need_save = true
+			end
+		end
+		
+		lostpath_alife.config:w_value("alife","autosave_interval","01:05:00")
+		lostpath_alife.config:w_value("alife","delay_autosave_interval","00:00:30")
+		lostpath_alife.config:w_value("alife","normal_time_factor","15")
+		lostpath_alife.config:w_value("alife","process_time","900")
+		lostpath_alife.config:w_value("alife","schedule_max","1")
+		lostpath_alife.config:w_value("alife","schedule_min","1")
+		lostpath_alife.config:w_value("alife","start_date","05.09.2017")
+		lostpath_alife.config:w_value("alife","start_game_callback","_G.start_game_callback")
+		lostpath_alife.config:w_value("alife","start_time","09:00:00")
+		lostpath_alife.config:w_value("alife","switch_factor","0.1")
+		lostpath_alife.config:w_value("alife","time_factor","10")
+		lostpath_alife.config:w_value("alife","update_monster_factor","0.1")
+    end
+	
+	if (need_save == true) then
+        lostpath_alife.config:save()
+		need_save = false
+    end
+	
+	menu.map["show_smart"]			= {default = true, 	debug_only=true, 	typ = "check", cat="map"}
+	menu.map["hide_hand"]			= {default = true, 	debug_only=true, 	typ = "check", cat="scripts"}
+	menu.map["rename"]				= {default = true, 	debug_only=true, 	typ = "check", cat="scripts"}
+	menu.map["inf_ruck"]			= {default = false, debug_only=false, 	typ = "check", cat="scripts"}
+	menu.map["show_enemy"]			= {default = false, debug_only=false, 	typ = "check", cat="scripts"}
+	menu.map["spawn_res"]			= {default = true, debug_only=false, 	typ = "check", cat="scripts"}
+	menu.map["attack_news"]			= {default = true, debug_only=false, 	typ = "check", cat="scripts"}
+	menu.map["mutant_news"]			= {default = true, debug_only=false, 	typ = "check", cat="scripts"}
+	menu.map["capture_actor_news"]	= {default = true, debug_only=false, 	typ = "check", cat="scripts"}
+	menu.map["capture_news"]		= {default = true, debug_only=false, 	typ = "check", cat="scripts"}
+	menu.map["night_spawn"]			= {default = false, debug_only=false, 	typ = "check", cat="scripts"}
+	menu.map["dynamic_relations"]	= {default = true, debug_only=false, 	typ = "check", cat="scripts"}
+	menu.map["release_min_dist"]	= {default = 125, debug_only=false, 	typ="list", list={25,50,75,100,125,150,200,250,300,400,500,750,1000}, cat="scripts"}
+	menu.map["stay_time"]			= {default = 90, debug_only=false, 	typ="list", list={10,20,30,40,50,60,70,80,90,100,125,150,175,200,250,500}, cat="scripts"}
+	menu.map["treasure_k"]			= {default = 5, debug_only=false, 	typ="list", list={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100}, cat="scripts"}
+	
+	for k,v in pairs(menu.map) do
+		if (v.default ~= nil) then
+			if not (lostpath_main.config:line_exist("map",k)) then
+				if(v.cat == "map") then
+					lostpath_main.config:w_value("map",k,v.default)
+				elseif(v.cat == "scripts") then
+					lostpath_main.config:w_value("scripts",k,v.default)
+				end				
+				need_save = true
+			end
+		end
+    end
+	
+	if (need_save == true) then
+		lostpath_main.config:save()
+		lostpath_main.faction:save()
+		need_save = false
+	end
+end
+
+function lp_menu_on_accept(menu,optMgr,console)
+	for name,k in pairs(menu.war_options) do
+		if (k.default ~= nil) then
+			if (k.typ=="check") then
+				lostpath_main.config:w_value("war_options","enable_"..name,k.ctrl:GetCheck())
+			elseif (k.typ=="list") then 
+				if(k.cat == "war_options") then
+					if (type(k.default) == "boolean") then
+						lostpath_main.config:w_value("war_options",name,k.ctrl:GetText()=="true" or false)
+					elseif (type(k.default) == "number") then 
+						lostpath_main.config:w_value("war_options",name,tonumber(k.ctrl:GetText()) or k.default)
+					else 
+						lostpath_main.config:w_value("war_options",name,k.ctrl:GetText())
+					end
+				elseif(k.cat == "smart_population") then
+					if (type(k.default) == "boolean") then
+						lostpath_main.config:w_value("smart_population",name,k.ctrl:GetText()=="true" or false)
+					elseif (type(k.default) == "number") then 
+						lostpath_main.config:w_value("smart_population",name,tonumber(k.ctrl:GetText()) or k.default)
+					else 
+						lostpath_main.config:w_value("smart_population",name,k.ctrl:GetText())
+					end
+				elseif(k.cat == "power_mutant") then
+					if (type(k.default) == "boolean") then
+						lostpath_main.config:w_value("power_mutant",name,k.ctrl:GetText()=="true" or false)
+					elseif (type(k.default) == "number") then 
+						lostpath_main.config:w_value("power_mutant",name,tonumber(k.ctrl:GetText()) or k.default)
+					else 
+						lostpath_main.config:w_value("power_mutant",name,k.ctrl:GetText())
+					end
+				elseif(k.cat == "power") then
+					if (type(k.default) == "boolean") then
+						lostpath_main.config:w_value("power",name,k.ctrl:GetText()=="true" or false)
+					elseif (type(k.default) == "number") then 
+						lostpath_main.config:w_value("power",name,tonumber(k.ctrl:GetText()) or k.default)
+					else 
+						lostpath_main.config:w_value("power",name,k.ctrl:GetText())
+					end
+				elseif(k.cat == "power_stalker") then
+					if (type(k.default) == "boolean") then
+						lostpath_main.config:w_value("power_stalker",name,k.ctrl:GetText()=="true" or false)
+					elseif (type(k.default) == "number") then 
+						lostpath_main.config:w_value("power_stalker",name,tonumber(k.ctrl:GetText()) or k.default)
+						lostpath_main.faction:w_value(k.rank,name,tonumber(k.ctrl:GetText()) or k.default)
+					else 
+						lostpath_main.config:w_value("power_stalker",name,k.ctrl:GetText())
+					end
+				elseif(k.cat == "faction_boost") then
+					if (type(k.default) == "boolean") then 
+						lostpath_main.config:w_value("faction_boost",name,k.ctrl:GetText()=="true" or false)
+						lostpath_main.faction:w_value(k.faction,name,k.ctrl:GetText()=="true" or false)
+					elseif (type(k.default) == "number") then 
+						lostpath_main.config:w_value("faction_boost",name,tonumber(k.ctrl:GetText()) or k.default)
+						lostpath_main.faction:w_value(k.faction,name,tonumber(k.ctrl:GetText()) or k.default)
+					else 
+						lostpath_main.config:w_value("faction_boost",name,k.ctrl:GetText())
+						lostpath_main.faction:w_value(k.faction,name,k.ctrl:GetText())
+					end
+				elseif(k.cat == "coef_mutant") then
+					if (type(k.default) == "boolean") then
+						lostpath_main.config:w_value("coef_mutant",name,k.ctrl:GetText()=="true" or false)
+					elseif (type(k.default) == "number") then 
+						lostpath_main.config:w_value("coef_mutant",name,tonumber(k.ctrl:GetText()) or k.default)
+					else 
+						lostpath_main.config:w_value("coef_mutant",name,k.ctrl:GetText())
+					end
+				end				
+			end
+			
+			if (k.on_accept) then 
+				k.on_accept(menu,optMgr,k.ctrl)
+			end
+		end
+    end
+	
+    lostpath_main.config:save()
+    lostpath_main.faction:save()
+	
+	for name,q in pairs(menu.alife) do
+		if (q.default ~= nil) then
+			if (q.typ=="check") then
+				lostpath_alife.config:w_value("alife","enable_"..name,q.ctrl:GetCheck())
+			elseif (q.typ=="list") then 
+				if (type(q.default) == "boolean") then
+					lostpath_alife.config:w_value("alife",name,q.ctrl:GetText()=="true" or false)
+				elseif (type(q.default) == "number") then 
+					lostpath_alife.config:w_value("alife",name,tonumber(q.ctrl:GetText()) or q.default)
+				else 
+					lostpath_alife.config:w_value("alife",name,q.ctrl:GetText())
+				end
+			end
+			
+			if (q.on_accept) then 
+				q.on_accept(menu,optMgr,q.ctrl)
+			end
+		end
+	end
+	
+    lostpath_alife.config:save()
+	
+	for name,q in pairs(menu.map) do
+		if (q.default ~= nil) then
+			if(q.cat == "map") then
+				if (q.typ=="check") then
+					lostpath_main.config:w_value("map","enable_"..name,q.ctrl:GetCheck())
+				elseif (q.typ=="list") then 
+					if (type(q.default) == "boolean") then
+						lostpath_main.config:w_value("map",name,q.ctrl:GetText()=="true" or false)
+					elseif (type(q.default) == "number") then 
+						lostpath_main.config:w_value("map",name,tonumber(q.ctrl:GetText()) or q.default)
+					else 
+						lostpath_main.config:w_value("map",name,q.ctrl:GetText())
+					end
+				end
+			elseif(q.cat == "scripts") then
+				if (q.typ=="check") then
+					lostpath_main.config:w_value("scripts","enable_"..name,q.ctrl:GetCheck())
+				elseif (q.typ=="list") then 
+					if (type(q.default) == "boolean") then
+						lostpath_main.config:w_value("scripts",name,q.ctrl:GetText()=="true" or false)
+					elseif (type(q.default) == "number") then 
+						lostpath_main.config:w_value("scripts",name,tonumber(q.ctrl:GetText()) or q.default)
+					else 
+						lostpath_main.config:w_value("scripts",name,q.ctrl:GetText())
+					end
+				end
+			end
+		end
+			
+		if (q.on_accept) then 
+			q.on_accept(menu,optMgr,q.ctrl)
+		end
+	end
+	
+    lostpath_main.config:save()
+    lostpath_main.faction:save()
+end
+
+function lp_menu_on_reset(menu,optMgr,console)
+	for name,k in pairs(menu.war_options) do
+		if (k.default ~= nil) then
+			if (k.typ=="check") then
+				lostpath_main.config:w_value("war_options","enable_"..name,k.default)
+			elseif (k.typ=="list") then 
+				if(k.cat == "war_options") then
+					if (type(k.default) == "boolean") then
+						lostpath_main.config:w_value("war_options",name,k.default or false)
+					elseif (type(k.default) == "number") then 
+						lostpath_main.config:w_value("war_options",name,k.default)
+					else 
+						lostpath_main.config:w_value("war_options",name,k.default)
+					end
+				elseif(k.cat == "smart_population") then
+					if (type(k.default) == "boolean") then
+						lostpath_main.config:w_value("smart_population",name,k.default)
+					elseif (type(k.default) == "number") then 
+						lostpath_main.config:w_value("smart_population",name,k.default)
+					else 
+						lostpath_main.config:w_value("smart_population",name,k.default)
+					end
+				elseif(k.cat == "power_mutant") then
+					if (type(k.default) == "boolean") then
+						lostpath_main.config:w_value("power_mutant",name,k.default)
+					elseif (type(k.default) == "number") then 
+						lostpath_main.config:w_value("power_mutant",name,k.default)
+					else 
+						lostpath_main.config:w_value("power_mutant",name,k.default)
+					end
+				elseif(k.cat == "power") then
+					if (type(k.default) == "boolean") then
+						lostpath_main.config:w_value("power",name,k.default)
+					elseif (type(k.default) == "number") then 
+						lostpath_main.config:w_value("power",name,k.default)
+					else 
+						lostpath_main.config:w_value("power",name,k.default)
+					end
+				elseif(k.cat == "power_stalker") then
+					if (type(k.default) == "boolean") then
+						lostpath_main.config:w_value("power_stalker",name,k.default)
+					elseif (type(k.default) == "number") then 
+						lostpath_main.config:w_value("power_stalker",name,k.default)
+						lostpath_main.faction:w_value(k.rank,name,k.default)
+					else 
+						lostpath_main.config:w_value("power_stalker",name,k.default)
+					end
+				elseif(k.cat == "faction_boost") then 
+					if (type(k.default) == "boolean") then
+						lostpath_main.config:w_value("faction_boost",name,k.default)
+						lostpath_main.faction:w_value(k.faction,name,k.default)
+					elseif (type(k.default) == "number") then 
+						lostpath_main.config:w_value("faction_boost",name,k.default)
+						lostpath_main.faction:w_value(k.faction,name,k.default)
+					else 
+						lostpath_main.config:w_value("faction_boost",name,k.default)
+						lostpath_main.faction:w_value(k.faction,name,k.default)
+					end
+				elseif(k.cat == "coef_mutant") then
+					if (type(k.default) == "boolean") then
+						lostpath_main.config:w_value("coef_mutant",name,k.default)
+					elseif (type(k.default) == "number") then 
+						lostpath_main.config:w_value("coef_mutant",name,k.default)
+					else 
+						lostpath_main.config:w_value("coef_mutant",name,k.default)
+					end
+				end				
+			end
+			
+			if (k.on_accept) then 
+				k.on_accept(menu,optMgr,k.ctrl)
+			end
+		end
+    end
+	
+    lostpath_main.config:save()
+    lostpath_main.faction:save()
+	
+	for name,q in pairs(menu.alife) do
+		if (q.default ~= nil) then
+			if (q.typ=="check") then
+				lostpath_alife.config:w_value("alife","enable_"..name,q.ctrl:GetCheck())
+			elseif (q.typ=="list") then 
+				if (type(q.default) == "boolean") then
+					lostpath_alife.config:w_value("alife",name,q.default)
+				elseif (type(q.default) == "number") then 
+					lostpath_alife.config:w_value("alife",name,q.default)
+				else 
+					lostpath_alife.config:w_value("alife",name,q.default)
+				end
+			end
+			
+			if (q.on_accept) then 
+				q.on_accept(menu,optMgr,q.ctrl)
+			end
+		end
+	end
+	
+    lostpath_alife.config:save()
+	
+	for name,q in pairs(menu.map) do
+		if (q.default ~= nil) then
+			if(q.cat == "map") then	
+				if (q.typ=="check") then
+					lostpath_main.config:w_value("map","enable_"..name,q.default)
+				elseif (q.typ=="list") then 
+					if (type(q.default) == "boolean") then
+						lostpath_main.config:w_value("map",name,q.default)
+					elseif (type(q.default) == "number") then 
+						lostpath_main.config:w_value("map",name,q.default)
+					else 
+						lostpath_main.config:w_value("map",name,q.default)
+					end
+				end
+			elseif(q.cat == "scripts") then
+				if (q.typ=="check") then
+					lostpath_main.config:w_value("scripts","enable_"..name,q.default)
+				elseif (q.typ=="list") then 
+					if (type(q.default) == "boolean") then
+						lostpath_main.config:w_value("scripts",name,q.default)
+					elseif (type(q.default) == "number") then 
+						lostpath_main.config:w_value("scripts",name,q.default)
+					else 
+						lostpath_main.config:w_value("scripts",name,q.default)
+					end
+				end
+			end
+			
+			if (q.on_accept) then 
+				q.on_accept(menu,optMgr,q.ctrl)
+			end
+		end
+	end
+	
+    lostpath_main.config:save()
+    lostpath_main.faction:save()
+end
+
+function lp_menu_on_set_values(menu,optMgr)	
+	for name,k in pairs(menu.war_options) do
+		if (k.default ~= nil) then
+			if (k.typ=="check") then
+				k.ctrl:SetCheck(lostpath_main.config:r_value("war_options","enable_"..name,1,k.default))
+			elseif (k.typ=="list") then
+				if(k.cat == "war_options") then
+					if (type(k.default) == "boolean") then
+						k.ctrl:SetText(lostpath_main.config:r_value("war_options",name,1,k.default))
+					elseif (type(k.default) == "number") then 
+						k.ctrl:SetText(lostpath_main.config:r_value("war_options",name,2,k.default))
+					else 
+						k.ctrl:SetText(lostpath_main.config:r_value("war_options",name,0,k.default))
+					end	
+				elseif(k.cat == "smart_population") then
+					if (type(k.default) == "boolean") then
+						k.ctrl:SetText(lostpath_main.config:r_value("smart_population",name,1,k.default))
+					elseif (type(k.default) == "number") then 
+						k.ctrl:SetText(lostpath_main.config:r_value("smart_population",name,2,k.default))
+					else 
+						k.ctrl:SetText(lostpath_main.config:r_value("smart_population",name,0,k.default))
+					end
+				elseif(k.cat == "power_mutant") then
+					if (type(k.default) == "boolean") then
+						k.ctrl:SetText(lostpath_main.config:r_value("power_mutant",name,1,k.default))
+					elseif (type(k.default) == "number") then 
+						k.ctrl:SetText(lostpath_main.config:r_value("power_mutant",name,2,k.default))
+					else 
+						k.ctrl:SetText(lostpath_main.config:r_value("power_mutant",name,0,k.default))
+					end
+				elseif(k.cat == "power") then
+					if (type(k.default) == "boolean") then
+						k.ctrl:SetText(lostpath_main.config:r_value("power",name,1,k.default))
+					elseif (type(k.default) == "number") then 
+						k.ctrl:SetText(lostpath_main.config:r_value("power",name,2,k.default))
+					else 
+						k.ctrl:SetText(lostpath_main.config:r_value("power",name,0,k.default))
+					end
+				elseif(k.cat == "power_stalker") then
+					if (type(k.default) == "boolean") then
+						k.ctrl:SetText(lostpath_main.config:r_value("power_stalker",name,1,k.default))
+					elseif (type(k.default) == "number") then 
+						k.ctrl:SetText(lostpath_main.config:r_value("power_stalker",name,2,k.default))
+						k.ctrl:SetText(lostpath_main.faction:r_value(k.rank,name,2,k.default))
+					else 
+						k.ctrl:SetText(lostpath_main.config:r_value("power_stalker",name,0,k.default))
+					end
+				elseif(k.cat == "faction_boost") then
+					if (type(k.default) == "boolean") then 
+						k.ctrl:SetText(lostpath_main.config:r_value("faction_boost",name,1,k.default))
+						k.ctrl:SetText(lostpath_main.faction:r_value(k.faction,name,1,k.default))
+					elseif (type(k.default) == "number") then 
+						k.ctrl:SetText(lostpath_main.config:r_value("faction_boost",name,2,k.default))
+						k.ctrl:SetText(lostpath_main.faction:r_value(k.faction,name,2,k.default))
+					else 
+						k.ctrl:SetText(lostpath_main.config:r_value("faction_boost",name,0,k.default))
+						k.ctrl:SetText(lostpath_main.faction:r_value(k.faction,name,0,k.default))
+					end
+				elseif(k.cat == "coef_mutant") then
+					if (type(k.default) == "boolean") then
+						k.ctrl:SetText(lostpath_main.config:r_value("coef_mutant",name,1,k.default))
+					elseif (type(k.default) == "number") then 
+						k.ctrl:SetText(lostpath_main.config:r_value("coef_mutant",name,2,k.default))
+					else 
+						k.ctrl:SetText(lostpath_main.config:r_value("coef_mutant",name,0,k.default))
+					end
+				end
+			end
+			if (k.on_set_values) then 
+				k.on_set_values(menu,optMgr,k.ctrl)
+			end
+		end
+    end
+	
+	for name,q in pairs(menu.alife) do
+		if (q.default ~= nil) then
+			if (q.typ=="check") then
+				q.ctrl:SetCheck(lostpath_alife.config:r_value("alife","enable_"..name,1,q.default))
+			elseif (q.typ=="list") then
+				-- so proper type is cached when reading
+				if (type(q.default) == "boolean") then
+					q.ctrl:SetText(lostpath_alife.config:r_value("alife",name,1,q.default))
+				elseif (type(q.default) == "number") then 
+					q.ctrl:SetText(lostpath_alife.config:r_value("alife",name,2,q.default))
+				else 
+					q.ctrl:SetText(lostpath_alife.config:r_value("alife",name,0,q.default))
+				end
+			end
+			if (q.on_set_values) then 
+				q.on_set_values(menu,optMgr,q.ctrl)
+			end
+		end
+    end
+	
+	for name,q in pairs(menu.map) do
+		if (q.default ~= nil) then
+			if q.cat == "map" then 
+				if (q.typ=="check") then
+					q.ctrl:SetCheck(lostpath_main.config:r_value("map","enable_"..name,1,q.default))
+				elseif (q.typ=="list") then
+					-- so proper type is cached when reading
+					if (type(q.default) == "boolean") then
+						q.ctrl:SetText(lostpath_main.config:r_value("map",name,1,q.default))
+					elseif (type(q.default) == "number") then 
+						q.ctrl:SetText(lostpath_main.config:r_value("map",name,2,q.default))
+					else 
+						q.ctrl:SetText(lostpath_main.config:r_value("map",name,0,q.default))
+					end
+				end
+			elseif q.cat == "scripts" then
+				if (q.typ=="check") then
+					q.ctrl:SetCheck(lostpath_main.config:r_value("scripts","enable_"..name,1,q.default))
+				elseif (q.typ=="list") then
+					-- so proper type is cached when reading
+					if (type(q.default) == "boolean") then
+						q.ctrl:SetText(lostpath_main.config:r_value("scripts",name,1,q.default))
+					elseif (type(q.default) == "number") then 
+						q.ctrl:SetText(lostpath_main.config:r_value("scripts",name,2,q.default))
+					else 
+						q.ctrl:SetText(lostpath_main.config:r_value("scripts",name,0,q.default))
+					end
+				end
+			end
+			if (q.on_set_values) then 
+				q.on_set_values(menu,optMgr,q.ctrl)
+			end
+		end
+    end	
+end
+
+function lp_menu_alife_on_init(menu)
+
+end
+
+function lp_menu_alife_on_accept(menu,optMgr,console)
+	
+end
+
+function lp_menu_alife_on_set_values(menu,optMgr)
+	
+end

@@ -1,161 +1,150 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
-	
 	<string id="st_treasure">
 		<text>Create stash</text>
 	</string>
-	
 	<string id="st_serv">
 		<text>Install</text>
 	</string>
-	
 	<string id="st_rem_serv">
 		<text>Remove</text>
 	</string>
-	
 	<string id="st_pda_research">
 		<text>Inspect</text>
 	</string>
-	
 	<string id="st_pda_charge">
 		<text>Charge</text>
 	</string>
-	
 	<string id="st_noenergy">
 		<text>Not enough battery power</text>
 	</string>	
+
 	
 	<string id="st_charging_pda">
 		<text>Are you sure you want to charge your PDA?</text>
 	</string>
-	
 	<string id="st_serv_noinstall">
 		<text>This armor does not have support for servo.</text>
 	</string>
-	
 	<string id="st_serv_noreinstall">
 		<text>This armor does not have a servo.</text>
 	</string>
-	
 	<string id="st_serv_install">
 		<text>Are you sure you want to install the servo?</text>
 	</string>
-	
 	<string id="st_serv_reinstall">
 		<text>Are you sure you want to remove the servo?</text>
 	</string>
-		
+	
 	<string id="st_upgr_mat">
 		<text>Cost</text>
 	</string>
-	
 	<string id="materials_up_name">
 		<text>Set of parts</text>
 	</string>
-	
 	<string id="materials_up_descr">
 		<text>The set of parts required to upgrade any mechanic</text>
 	</string>
+
 	
 	<string id="ui_mm_passive_npc_const">
 		<text>Minimum of passive NPCs</text>
 	</string>
-	
 	<string id="ui_mm_active_npc_const">
 		<text>Minimum of active NPCs</text>
 	</string>
-	
 	<string id="ui_mm_defend_min">
 		<text>Respawn time for defense (min)</text>
 	</string>
-	
 	<string id="ui_mm_defend_max">
 		<text>Respawn time for defense (max)</text>
 	</string>
-	
 	<string id="ui_mm_attack_min">
 		<text>Respawn time for attack (min)</text>
 	</string>
-	
 	<string id="ui_mm_attack_max">
 		<text>Respawn time for attack (max)</text>
 	</string>
-	
 	<string id="ui_mm_patrol_min">
 		<text>Respawn time for patrol (min)</text>
 	</string>
-	
 	<string id="ui_mm_patrol_max">
 		<text>Respawn time for patrol (max)</text>
 	</string>
-	
 	<string id="ui_mm_res_coeff">
 		<text>Number of resources on respawn</text>
 	</string>
-	
 	<string id="ui_mm_base_coeff">
 		<text>Number of bases on respawn</text>
 	</string>
-	
 	<string id="ui_mm_limit_attack">
 		<text>Minimum for attack (ms)</text>
 	</string>
-	
 	<string id="ui_mm_limit_defend">
 		<text>Minimum for defense (ms)</text>
 	</string>
-	
 	<string id="ui_mm_update">
 		<text>Information update time (ms)</text>
 	</string>
 	
 	<string id="ui_mm_spawn_attack_time">
-		<text>Время респавна атакующих (игр. мин)</text>
+		<text>Attack respawn time (minutes)</text>
 	</string> 
 	<string id="ui_mm_spawn_defence_time">
-		<text>Время респавна защищающихся (игр. мин)</text>
+		<text>Defense respawn time (minutes)</text>
 	</string> 
 	
 	<string id="spawn_res">
-		<text>Тратить ресурсы на спавн отрядов</text>
+		<text>Spend resources on units</text>
 	</string>
 	<string id="attack_news">
-		<text>Новости с атакующими сквадами</text>
+		<text>News of attacking squads</text>
 	</string>
 	<string id="mutant_news">
-		<text>Новости про мутантов</text>
+		<text>News of mutants</text>
 	</string>
 	<string id="capture_actor_news">
-		<text>Отправлять новости о захвате игроком</text>
+		<text>News of captured points (Actor)</text>
 	</string>
 	<string id="capture_news">
-		<text>Отправлять новости о захвате НПС</text>
-	</string>
-	<string id="mutant_news">
-		<text>Отправлять новости о мутантах</text>
-	</string>
-	<string id="night_spawn">
-		<text>Респавн атаки только ночью</text>
-	</string>
-	<string id="disable_alife">
-		<text>Отключить симуляцию по всей Зоне</text>
+		<text>News of captured points (NPC)</text>
 	</string>
 	
+	
+	
+	<string id="night_spawn">
+		<text>Respawn attacks only at night</text>
+	</string>
+	<string id="disable_alife">
+		<text>Disable simulation throughout the Zone</text>
+	</string>
+	<string id="dynamic_relations">
+		<text>Dynamic factions relationships</text>
+	</string>
+	<string id="release_min_dist">
+		<text>Corpses removal minimum distance</text>
+	</string>
+	<string id="stay_time">
+		<text>Corpses removal time (seconds)</text>
+	</string>
+	<string id="treasure_k">
+		<text>"Greasy" cache coefficient</text>
+	</string>
+
+
+	
 	<string id="ui_mm_default_pop">
-		<text>Вместимость смарта</text>
+		<text>Smart capacity</text>
 	</string>
 	<string id="ui_mm_lair_pop">
 		<text>Lair capacity</text>
 	</string>
-	
 	<string id="ui_mm_base_pop">
 		<text>Base capacity</text>
 	</string>
-	
 	<string id="ui_mm_res_pop">
 		<text>Resource point capacity</text>
 	</string>
-	
 	<string id="ui_mm_territory_pop">
 		<text>Territory capacity</text>
 	</string>
@@ -163,83 +152,64 @@
 	<string id="ui_mm_power">
 		<text>Default Power</text>
 	</string>
-	
 	<string id="ui_mm_faction_boost">
 		<text>Strengthen faction</text>
 	</string>
-	
 	<string id="ui_mm_def_boost">
 		<text>Enhance defense</text>
 	</string>
-	
+
 	<string id="ui_mm_strong_min">
 		<text>Strength | Strong mutants (min)</text>
 	</string>
-	
 	<string id="ui_mm_strong_max">
 		<text>Strength | Strong mutants (max)</text>
 	</string>
-	
 	<string id="ui_mm_heavy_min">
 		<text>Strength | Heavy mutants (min)</text>
 	</string>
-	
 	<string id="ui_mm_heavy_max">
 		<text>Strength | Heavy mutants (max)</text>
 	</string>
-	
 	<string id="ui_mm_zombie_min">
 		<text>Strength | Zombies (min)</text>
 	</string>
-	
 	<string id="ui_mm_zombie_max">
 		<text>Strength | Zombies (max)</text>
 	</string>
-	
 	<string id="ui_mm_dog_min">
 		<text>Strength | Dogs, Cats (min)</text>
 	</string>
-	
 	<string id="ui_mm_dog_max">
 		<text>Strength | Dogs, Cats (max)</text>
 	</string>
-	
 	<string id="ui_mm_rat_min">
 		<text>Strength | Small mutants (min)</text>
 	</string>
-	
 	<string id="ui_mm_rat_max">
 		<text>Strength | Small mutants (max)</text>
 	</string>
-	
 	<string id="ui_mm_novice_min">
 		<text>Strength | Rookie (min)</text>
 	</string>
-	
 	<string id="ui_mm_novice_max">
 		<text>Strength | Rookie (max)</text>
 	</string>
-	
 	<string id="ui_mm_advanced_min">
 		<text>Strength | Experienced (min)</text>
 	</string>
-	
 	<string id="ui_mm_advanced_max">
 		<text>Strength | Experienced (max)</text>
 	</string>
-	
 	<string id="ui_mm_veteran_min">
 		<text>Strength | Veteran (min)</text>
 	</string>
-	
 	<string id="ui_mm_veteran_max">
 		<text>Strength | Veteran (max)</text>
 	</string>
-	
 	<string id="ui_mm_special_min">
 		<text>Strength | Master (min)</text>
 	</string>
-	
 	<string id="ui_mm_special_max">
 		<text>Strength | Master (max)</text>
 	</string>
@@ -247,113 +217,90 @@
 	<string id="ui_mm_zombied_min">
 		<text>Strength : Zombies (min)</text>
 	</string>
-	
 	<string id="ui_mm_zombied_max">
 		<text>Strength : Zombies (max)</text>
 	</string>
-	
 	<string id="ui_mm_stalker_min">
 		<text>Strength : Loners (min)</text>
 	</string>
-	
 	<string id="ui_mm_stalker_max">
 		<text>Strength : Loners (max)</text>
 	</string>
-	
 	<string id="ui_mm_bandit_min">
 		<text>Strength : Bandits (min)</text>
 	</string>
-	
 	<string id="ui_mm_bandit_max">
 		<text>Strength : Bandits (max)</text>
 	</string>
-	
 	<string id="ui_mm_dolg_min">
 		<text>Strength : Duty (min)</text>
 	</string>
-	
 	<string id="ui_mm_dolg_max">
 		<text>Strength : Duty (max)</text>
 	</string>
-	
 	<string id="ui_mm_freedom_min">
 		<text>Strength : Freedom (min)</text>
 	</string>
-	
 	<string id="ui_mm_freedom_max">
 		<text>Strength : Freedom (max)</text>
 	</string>
-	
 	<string id="ui_mm_army_min">
 		<text>Strength : Military (min)</text>
 	</string>
-	
 	<string id="ui_mm_army_max">
 		<text>Strength : Military (max)</text>
 	</string>
-	
 	<string id="ui_mm_isg_min">
 		<text>Strength : ISG (min)</text>
 	</string>
-	
 	<string id="ui_mm_isg_max">
 		<text>Strength : ISG (max)</text>
 	</string>
-	
 	<string id="ui_mm_killer_min">
 		<text>Strength : Mercenaries (min)</text>
 	</string>
-	
 	<string id="ui_mm_killer_max">
 		<text>Strength : Mercenaries (max)</text>
 	</string>
-	
 	<string id="ui_mm_ecolog_min">
 		<text>Strength : Ecologists (min)</text>
 	</string>
-	
 	<string id="ui_mm_ecolog_max">
 		<text>Strength : Ecologists (max)</text>
 	</string>
-	
 	<string id="ui_mm_csky_min">
 		<text>Strength : Clear Sky (min)</text>
 	</string>
-	
 	<string id="ui_mm_csky_max">
 		<text>Strength : Clear Sky (max)</text>
 	</string>
-	
 	<string id="ui_mm_darkstalker_min">
 		<text>Strength : Darkstalkers (min)</text>
 	</string>
-	
 	<string id="ui_mm_darkstalker_max">
 		<text>Strength : Darkstalkers (max)</text>
 	</string>
-	
 	<string id="ui_mm_monolith_min">
 		<text>Strength : Monolith (min)</text>
 	</string>
-	
 	<string id="ui_mm_monolith_max">
 		<text>Strength : Monolith (max)</text>
 	</string>
-	
+
 	<string id="ui_mm_default_mutant">
 		<text>Number of mutants</text>
 	</string>
-	
 	<string id="ui_mm_sarcofag">
 		<text>Number of mutants - CNPP</text>
 	</string>
-	
 	<string id="ui_mm_zaton">
 		<text>Number of mutants - North Zone</text>
 	</string>
-	
 	<string id="ui_mm_pripyat">
 		<text>Number of mutants - Forest</text>
 	</string>
+
+
+
 	
 </string_table>

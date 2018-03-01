@@ -1,4 +1,12 @@
 --------------------
+03/01 0.2.3 --> "Lost Path v0.5.005" compatible version
+--------------------
+updated st_dynamic_news.xml
+updated st_items_outfit.xml
+updated st_items_outfit_addon.xml
+updated st_items_quest.xml
+updated st_items_weapons_upgrades.xml
+--------------------
 02/22 0.2.2 --> "Lost Path v0.5.005" compatible version
 --------------------
 updated st_lostpath_main.xml

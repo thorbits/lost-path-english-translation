@@ -28,30 +28,35 @@
 	<!-- DRX Storyline Documents Quest Item -->
 
 	<string id="drx_sl_quest_item_1_name">
-		<text>Документы</text>
+
+		<text>Documents</text>
 	</string>
 	<string id="drx_sl_quest_item_1_desc">
-		<text>Важные документы. За них можно получить награду.</text>
+
+		<text>Important documents. Return them for your reward.</text>
 	</string>
 
 	<!-- ----------------------------------------------------------------------------------------- -->
 	<!-- DRX Storyline Locked Case Quest Item -->
 
 	<string id="drx_sl_quest_item_2_name">
-		<text>Закрытый кейс</text>
+
+		<text>Locked Case</text>
 	</string>
 	<string id="drx_sl_quest_item_2_desc">
-		<text>Закрытый кейс. Не знаю, что находится внутри, но он тяжёлый.</text>
+
+		<text>A locked case. Not sure what's inside but it's heavy. Better be worth it lugging this thing around.</text>
 	</string>
 
 	<!-- ----------------------------------------------------------------------------------------- -->
 	<!-- DRX Storyline PDA Quest Item -->
 
 	<string id="drx_sl_quest_item_3_name">
-		<text>ПДА</text>
+		<text>PDA</text>
 	</string>
 	<string id="drx_sl_quest_item_3_desc">
-		<text>Зашифрованный ПДА. Обещали награду за его возвращение.</text>
+
+		<text>An encrypted PDA. You have been promised a reward for its return.</text>
 	</string>
 
 	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->

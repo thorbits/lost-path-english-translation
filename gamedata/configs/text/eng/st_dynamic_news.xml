@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 	<string id="st_dyn_news_karlik_1">
-		<text>карлика</text>
+		<text>a karlik</text>
 	</string>
 	<string id="st_dyn_news_karlik_2">
-		<text>На нас напал карлик</text>
+		<text>We got attacked by a karlik</text>
 	</string>
 	<string id="st_dyn_news_karlik_3">
-		<text>Напоролись на карлика</text>
+		<text>We ran into a karlik</text>
 	</string>
 	<string id="st_dyn_news_karlik_4">
-		<text>На нас напали карлики</text>
+		<text>We were attacked by a group of karliks</text>
 	</string>
 	<string id="st_dyn_news_karlik_5">
-		<text>Напоролись на группу карликов</text>
+		<text>We ran into some karliks</text>
 	</string>
 	<string id="st_dyn_news_karlik_6">
-		<text>куча карликов</text>
+		<text>a group of karliks</text>
 	</string>
 	<string id="st_dyn_news_karlik_7">
-		<text>Карлик</text>
+		<text>karlik</text>
 	</string>
 	
 	<string id="st_dyn_news_boar_1">
@@ -41,7 +41,7 @@
 		<text>a pack of wild boars</text>
 	</string>
 	<string id="st_dyn_news_boar_7">
-		<text>Кабан</text>
+		<text>boar</text>
 	</string>
 	
 	<string id="st_dyn_news_dog_1">
@@ -63,7 +63,7 @@
 		<text>a pack of dogs</text>
 	</string>
 	<string id="st_dyn_news_dog_7">
-		<text>Слепой пёс</text>
+		<text>blind dog</text>
 	</string>
 	
 	<string id="st_dyn_news_flesh_1">
@@ -82,10 +82,10 @@
 		<text>We got attacked by flesh</text>
 	</string>
 	<string id="st_dyn_news_flesh_6">
-		<text>A pound of fleshd</text>
+		<text>a pack of flesh</text>
 	</string>
 	<string id="st_dyn_news_flesh_7">
-		<text>Плоть</text>
+		<text>flesh</text>
 	</string>
 	
 	<string id="st_dyn_news_pseudodog_1">
@@ -107,7 +107,7 @@
 		<text>a pack of pseudodogs</text>
 	</string>
 	<string id="st_dyn_news_pseudodog_7">
-		<text>Псевдособака</text>
+		<text>pseudodog</text>
 	</string>
 	
 	<string id="st_dyn_news_snork_1">
@@ -129,7 +129,7 @@
 		<text>A group of snorks</text>
 	</string>
 	<string id="st_dyn_news_snork_7">
-		<text>Снорк</text>
+		<text>snork</text>
 	</string>
 	
 	<string id="st_dyn_news_bloodsucker_1">
@@ -151,7 +151,7 @@
 		<text>a pack of bloodsuckers</text>
 	</string>
 	<string id="st_dyn_news_bloodsucker_7">
-		<text>Кровосос</text>
+		<text>bloodsucker</text>
 	</string>
 	
 	<string id="st_dyn_news_burer_1">
@@ -173,7 +173,7 @@
 		<text>A bunch of burers</text>
 	</string>
 	<string id="st_dyn_news_burer_7">
-		<text>Бюрер</text>
+		<text>burer</text>
 	</string>
 	
 	<string id="st_dyn_news_chimera_1">
@@ -195,7 +195,7 @@
 		<text>a pack of chimeras</text>
 	</string>
 	<string id="st_dyn_news_chimera_7">
-		<text>Химера</text>
+		<text>chimera</text>
 	</string>
 	
 	<string id="st_dyn_news_controller_1">
@@ -217,7 +217,7 @@
 		<text>A school of controllers</text>
 	</string>
 	<string id="st_dyn_news_controller_7">
-		<text>Контролёр</text>
+		<text>controller</text>
 	</string>
 	
 	<string id="st_dyn_news_poltergeist_1">
@@ -239,7 +239,7 @@
 		<text>A couple poltergeists</text>
 	</string>
 	<string id="st_dyn_news_poltergeist_7">
-		<text>Полтергейст</text>
+		<text>poltergeist</text>
 	</string>
 	
 	<string id="st_dyn_news_gigant_1">
@@ -261,7 +261,7 @@
 		<text>A couple pseudogiants</text>
 	</string>
 	<string id="st_dyn_news_gigant_7">
-		<text>Псевдогигант</text>
+		<text>pseudogiant</text>
 	</string>
 	
 	<string id="st_dyn_news_tushkano_1">
@@ -283,7 +283,7 @@
 		<text>a pack of tushkano</text>
 	</string>
 	<string id="st_dyn_news_tushkano_7">
-		<text>Тушкан</text>
+		<text>tushkano</text>
 	</string>
 	
 	<string id="st_dyn_news_psy_dog_1">
@@ -305,7 +305,7 @@
 		<text>a pack of psy dogs</text>
 	</string>
 	<string id="st_dyn_news_psy_dog_7">
-		<text>Пси-собака</text>
+		<text>psy-dog</text>
 	</string>
 	
 	<string id="st_dyn_news_psy_dog_phantom_1">
@@ -327,7 +327,7 @@
 		<text>a pack of psy dogs</text>
 	</string>
 	<string id="st_dyn_news_psy_dog_phantom_7">
-		<text>Фантом пси-собаки</text>
+		<text>phantom</text>
 	</string>
 
 	<string id="st_dyn_news_zombied_1">
@@ -349,7 +349,7 @@
 		<text>A squad of zombies</text>
 	</string>
 	<string id="st_dyn_news_zombied_7">
-		<text>Зомбированный</text>
+		<text>zombified stalker</text>
 	</string>
 
 	<string id="st_dyn_news_cat_1">
@@ -371,7 +371,7 @@
 		<text>A group of cats</text>
 	</string>
 	<string id="st_dyn_news_cat_7">
-		<text>Кот</text>
+		<text>cat</text>
 	</string>
 
 	<string id="st_dyn_news_fracture_1">
@@ -393,7 +393,7 @@
 		<text>A group of fractures</text>
 	</string>
 	<string id="st_dyn_news_fracture_7">
-		<text>Излом</text>
+		<text>fracture</text>
 	</string>
 
 	<string id="st_dyn_news_zombie_1">
@@ -415,7 +415,7 @@
 		<text>A bunch of zombies</text>
 	</string>
 	<string id="st_dyn_news_zombie_7">
-		<text>Зомби</text>
+		<text>zombie</text>
 	</string>
 
 	<string id="st_dyn_news_rat_1">
@@ -437,121 +437,121 @@
 		<text>A bunch of rats</text>
 	</string>
 	<string id="st_dyn_news_rat_7">
-		<text>Крысы</text>
+		<text>rat</text>
 	</string>
 
 	<string id="st_dyn_news_comm_darkstalker_1">
-		<text>темный сталкер</text>
+		<text>a Darkstalker</text>
 	</string>
 	<string id="st_dyn_news_comm_darkstalker_2">
-		<text>темный</text>
+		<text>a Darkstalker</text>
 	</string>
 	<string id="st_dyn_news_comm_darkstalker_3">
-		<text>темного</text>
+		<text>some Darkstalker</text>
 	</string>
 	<string id="st_dyn_news_comm_darkstalker_4">
-		<text>дарксталкера</text>
+		<text>one of the Darkstalker</text>
 	</string>
 	<string id="st_dyn_news_comm_darkstalker_5">
-		<text>дарк</text>
+		<text>Darkstalker</text>
 	</string>
 	<string id="st_dyn_news_comm_darkstalker_6">
-		<text>Дарк:</text>
+		<text>Darkstalker</text>
 	</string>
 	<string id="st_dyn_news_comm_darkstalker_7">
-		<text>темный</text>
+		<text>Darkstalkers</text>
 	</string>
 	<string id="st_dyn_news_comm_darkstalker_8">
-		<text>дарк</text>
+		<text>Darkstalkers</text>
 	</string>
 	<string id="st_dyn_news_comm_darkstalker_9">
-		<text>темные</text>
+		<text>Darkstalker</text>
 	</string>
 	<string id="st_dyn_news_comm_darkstalker_10">
-		<text>темные</text>
+		<text>Darkstalker forces</text>
 	</string>
 	<string id="st_dyn_news_comm_darkstalker_11">
-		<text>SOS! Необходима помощь.</text>
+		<text>We need backup!</text>
 	</string>
 	<string id="st_dyn_news_comm_darkstalker_12">
-		<text>Братьям нужна помощь!</text>
+		<text>Requesting backup!</text>
 	</string>
 	<string id="st_dyn_news_comm_darkstalker_13">
-		<text>Требуется помощь, выручайте.</text>
+		<text>Brothers, help!</text>
 	</string>
 	<string id="st_dyn_news_comm_darkstalker_14">
-		<text>Спасите...</text>
+		<text>We need help, brothers!</text>
 	</string>
 	
 	<string id="st_dyn_news_comm_isg_1">
-		<text>учёный</text>
+		<text>a Researcher</text>
 	</string>
 	<string id="st_dyn_news_comm_isg_2">
-		<text>научник</text>
+		<text>a Researcher</text>
 	</string>
 	<string id="st_dyn_news_comm_isg_3">
-		<text>учёного</text>
+		<text>some Researcher</text>
 	</string>
 	<string id="st_dyn_news_comm_isg_4">
-		<text>исследователя</text>
+		<text>a member of the Researchers</text>
 	</string>
 	<string id="st_dyn_news_comm_isg_5">
-		<text>учёный</text>
+		<text>a Researcher</text>
 	</string>
 	<string id="st_dyn_news_comm_isg_6">
-		<text>Исследователи:</text>
+		<text>Researcher</text>
 	</string>
 	<string id="st_dyn_news_comm_isg_7">
-		<text>ученые ООН</text>
+		<text>Researchers</text>
 	</string>
 	<string id="st_dyn_news_comm_isg_8">
-		<text>эколог</text>
+		<text>Researchers</text>
 	</string>
 	<string id="st_dyn_news_comm_isg_9">
-		<text>учёные</text>
+		<text>some Researchers</text>
 	</string>
 	<string id="st_dyn_news_comm_isg_10">
-		<text>ИИГ</text>
+		<text>Researchers</text>
 	</string>
 	<string id="st_dyn_news_comm_isg_11">
-		<text>SOS! Необходима помощь.</text>
+		<text>Help! Somebody please help us!</text>
 	</string>
 	<string id="st_dyn_news_comm_isg_12">
-		<text>Исследовательской группе нужна помощь!</text>
+		<text>We need some help over here!</text>
 	</string>
 	<string id="st_dyn_news_comm_isg_13">
-		<text>Требуется помощь, выручайте.</text>
+		<text>This is a Researchers team, requesting assistance!</text>
 	</string>
 	<string id="st_dyn_news_comm_isg_14">
-		<text>Спасите...</text>
+		<text>We need reinforcements!</text>
 	</string>
 		
 	<string id="st_dyn_news_comm_actor_1">
-		<text>a stalker</text>
+		<text>a loner</text>
 	</string>
 	<string id="st_dyn_news_comm_actor_2">
 		<text>a loner</text>
 	</string>
 	<string id="st_dyn_news_comm_actor_3">
-		<text>some stalker</text>
+		<text>some loner</text>
 	</string>
 	<string id="st_dyn_news_comm_actor_4">
 		<text>some loner</text>
 	</string>
 	<string id="st_dyn_news_comm_actor_5">
-		<text>stalker</text>
+		<text>loner</text>
 	</string>
 	<string id="st_dyn_news_comm_actor_6">
 		<text>Loner</text>
 	</string>
 	<string id="st_dyn_news_comm_actor_7">
-		<text>stalkers</text>
+		<text>loners</text>
 	</string>
 	<string id="st_dyn_news_comm_actor_8">
 		<text>loners</text>
 	</string>
 	<string id="st_dyn_news_comm_actor_9">
-		<text>stalkers</text>
+		<text>loners</text>
 	</string>
 	<string id="st_dyn_news_comm_actor_10">
 		<text>loners</text>

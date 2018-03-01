@@ -1,169 +1,170 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 	<string id="trenchcoat_brown_outfit_name">
-		<text>Комбинезон «Авторитет»</text>
+		<text>Bandit leather trench coat</text>
 	</string>
 	<string id="trenchcoat_brown_outfit_description">
-		<text>Обычный кожаный плащ со вшитым под него сталкерским комбинезоном. Комбинезон оснащен усиленным бронежилетом, изготовленным бандитскими техниками, благодаря чему костюм не только предоставляет хорошую защиту от аномалий, но и способен остановить пистолетную пулю. Установка контейнеров для артефактов не предусмотрена, зато возможна установка различных вспомогательных систем.</text>
+		<text>A regular trench coat that hides a stalker bodysuit underneath it. Said bodysuit comes with reinforced body armour made by bandit craftsmen providing good protection against anomalies. The suit cannot be modified with an artefact container, but may be upgraded with a combat support system instead.</text>
 	</string>
 
 	<string id="army_outfit_name">
-		<text>Армейский бронежилет</text>
+		<text>Soldier uniform</text>
 	</string>
 	<string id="army_outfit_description">
-		<text>Слабый бронежилет, изготавливаемый с подачи правительственных бюрократов по максимально низкой цене. Обладает крайне недостаточной защитой от пуль, осколков и укусов, а также не предоставляет адекватной защиты от аномальной активности. В суровых условиях Зоны бродить в подобном костюме - всё равно что ходить голышом.</text>
+		<text>A poor protective outfit contracted by government bureaucrats outsourcing to the lowest bidder. It slightly increases bullet, shrapnel and bite protection. For the soldiers serving in the Zone, it is as good as walking naked amidst rifle bullets and anomalies.</text>
 	</string>
 
  	<string id="barmerc_outfit_name">
-    		<text>Униформа охраны Бара</text>
+		<text>Bar guard uniform</text>
   	</string>
   	<string id="barmerc_outfit_description">
-    		<text>Униформа охраны бара «100 рентген». За основу взята стандартная экипировка сталкеров из группировки «Наёмники». За счёт специальной обработки ткани усилена устойчивость брони при физическом смещении пластин. По защитным характеристикам немного превосходит армейские бронежилеты серии ПСЗ-7.</text>
+		<text>The uniform used by guards in and around the 100 Rads bar. Its design is based on the outfit used by mercenaries around the Zone. Due to a special treatment of the fabric, the armour has much strengthened stability to offset the physical movement of its plates. Its protective properties are slightly better then those of the PSZ-7 military bulletproof suits.</text>
   	</string>
 
 	<string id="cs_scientific_outfit_name">
-		<text>Научный комбинезон «Чистого Неба»</text>
+		<text>Clear Sky scientific suit</text>
 	</string>
 	<string id="cs_scientific_outfit_description">
-		<text>Производимый в одном из киевских оборонных НИИ, предоставляет отличную альтернативу комбинезонам сталкеров, изготовленным в кустарных условиях. Встроенный бронежилет способен остановить только пистолетную пулю, однако система защиты от аномальных воздействий по праву считается непревзойдённой. Из-за возможности самостоятельной модернизации и двух встроенных контейнеров для артефактов многие опытные сталкеры отдают предпочтение именно этой модели.</text>
+		<text>This suit, produced by one of Kiev's Defence Research Institutes, is a great alternative to home-made stalker suits. While its built-in body armour can only stop light rounds, the anomaly and radiation protection system is second to none. Fully upgradeable and boasting a built-in artefact container, this bodysuit is the equipment of choice for many experienced stalkers.</text>
 	</string>
 	
 	<string id="nbc_outfit_name">
-		<text>Комбинезон «КРБХ»</text>
+		<text>NBC suit</text>
 	</string>
 	<string id="nbc_outfit_description">
-		<text>«Костюм Радио-, Био- и Химзащиты» представляет собой модифицированный комбинезон «Заря», оснащенный камуфлированным ОЗК, кевларовым бронежилетом третьего класса и разгрузкой из пяти подсумков. Костюм также снабжён встроенным шланговым противогазом ГП-5. Имеет встроенный контейнер для артефактов.</text>
+		<text>The NBC suit is an advanced version of the standard Sunrise suit. It is composed of a camouflaged CBRN suit with a Class III Kevlar vest. Comes standard with a GP-5 gas mask using a hose leading to a modern filter. Comes with a built-in artefact container.</text>
 	</string>
 	
 	<string id="cs_nbc_outfit_name">
-		<text>«КРБХ-ЧН»</text>
+		<text>Clear Sky NBC suit</text>
 	</string>
 	<string id="cs_nbc_outfit_description">
-		<text>Вариант «Костюма Радио-, Био- и Химзащиты» группировки «Чистое Небо». Представляет собой модифицированный комбинезон «ЧН-1», оснащенный камуфлированным ОЗК, кевларовым бронежилетом третьего класса и разгрузкой из пяти подсумков. Костюм также снабжён встроенным шланговым противогазом ГП-5. Имеет встроенный контейнер для артефактов.</text>
+		<text>The Clear Sky NBC suit is an advanced version of the standard CS-1 Body Armour. It is composed of a camouflaged CBRN suit with a Class III Kevlar vest. Comes standard with a GP-5 gas mask using a hose leading to a modern filter. Comes with a built-in artefact container.</text>
 	</string>
 	
 	<string id="monolith_nbc_outfit_name">
-		<text>«КРБХ» Монолита</text>
+		<text>Monolith NBC suit</text>
 	</string>
 	<string id="monolith_nbc_outfit_description">
-		<text>«Костюм Радио-, Био- и Химзащиты» группировки «Монолит». Представляет собой модифицированный комбинезон «Монолита», оснащенный камуфлированным ОЗК, кевларовым бронежилетом третьего класса и разгрузкой из пяти подсумков. Костюм также снабжён встроенным шланговым противогазом ГП-5. Имеет встроенный контейнер для артефактов.</text>
+		<text>The Monolith NBC suit is an advanced version of the standard Monolith suit. It is composed of a camouflaged CBRN suit with a Class III Kevlar vest. Comes standard with a GP-5 gas mask using a hose leading to a modern filter. Comes with a built-in artefact container.</text>
 	</string>
 	
 	<string id="radiation_outfit_name">
-		<text>Тяжёлый бронекостюм</text>
+		<text>Radiation suit</text>
 	</string>
 	<string id="radiation_outfit_description">
-		<text>Безусловно лучший образец современных технологий индивидуальной защиты. Костюм состоит из трех элементов: усиленного комбинезона, тяжелого бронежилета и встроенного тактического шлема. Жилет состоит из нескольких толстых слоев кевлара и может быть дополнительно усилен с помощью композитных или титановых пластин для улучшения защиты от пуль и осколков. Оснащён встроенным контейнером для артефактов.</text>
+		<text>The best in personal protection technology. Composed of three elements - a tactical helmet, a heavy armoured vest and reinforced jumpsuit. The vest consists of several thick layers of Kevlar and can be reinforced with composite or titanium plates for increased protection. Comes with a built-in artefact container.</text>
 	</string>
 	
 	<string id="dolg_radiation_outfit_name">
-		<text>Тяжёлый бронекостюм «Долга»</text>
+		<text>Duty radiation suit</text>
 	</string>
 	<string id="dolg_radiation_outfit_description">
-		<text>Безусловно лучший образец современных технологий индивидуальной защиты. Костюм состоит из трех элементов: усиленного комбинезона, тяжелого бронежилета и встроенного тактического шлема. Жилет состоит из нескольких толстых слоев кевлара и может быть дополнительно усилен с помощью композитных или титановых пластин для улучшения защиты от пуль и осколков. Не оснащается контейнерами для артефактов.</text>
+		<text>The best in personal protection technology. Composed of three elements - a tactical helmet, a heavy armoured vest and reinforced jumpsuit. The vest consists of several thick layers of Kevlar and can be reinforced with composite or titanium plates for increased protection. Does not come with a built-in artefact container.</text>
 	</string>
 	
 	<string id="svoboda_radiation_outfit_name">
-		<text>Тяжёлый бронекостюм «Свободы»</text>
+		<text>Freedom radiation suit</text>
 	</string>
 	<string id="svoboda_radiation_outfit_description">
-		<text>Безусловно лучший образец современных технологий индивидуальной защиты. Костюм состоит из трех элементов: усиленного комбинезона, тяжелого бронежилета и встроенного тактического шлема. Жилет состоит из нескольких толстых слоев кевлара и может быть дополнительно усилен с помощью композитных или титановых пластин для улучшения защиты от пуль и осколков. Оснащён встроенным контейнером для артефактов.</text>
+		<text>The best in personal protection technology. Composed of three elements - a tactical helmet, a heavy armoured vest and reinforced jumpsuit. The vest consists of several thick layers of Kevlar and can be reinforced with composite or titanium plates for increased protection. Comes with a built-in artefact container.</text>
 	</string>
 	
 	<string id="merc_radiation_outfit_name">
-		<text>Тяжёлый бронекостюм наёмников</text>
+		<text>Mercenary radiation suit</text>
 	</string>
 	<string id="merc_radiation_outfit_description">
-		<text>Безусловно лучший образец современных технологий индивидуальной защиты. Костюм состоит из трех элементов: усиленного комбинезона, тяжелого бронежилета и встроенного тактического шлема. Жилет состоит из нескольких толстых слоев кевлара и может быть дополнительно усилен с помощью композитных или титановых пластин для улучшения защиты от пуль и осколков. Оснащён двумя встроенными контейнерами для артефактов.</text>
+		<text>The best in personal protection technology. Composed of three elements - a tactical helmet, a heavy armoured vest and reinforced jumpsuit. The vest consists of several thick layers of Kevlar and can be reinforced with composite or titanium plates for increased protection. Comes with two built-in artefact containers.</text>
 	</string>
 	
 	<string id="monolith_radiation_outfit_name">
-		<text>Тяжёлый бронекостюм «Монолита»</text>
+		<text>Monolith radiation suit</text>
 	</string>
 	<string id="monolith_radiation_outfit_description">
-		<text>Безусловно лучший образец современных технологий индивидуальной защиты. Костюм состоит из трех элементов: усиленного комбинезона, тяжелого бронежилета и встроенного тактического шлема. Жилет состоит из нескольких толстых слоев кевлара и может быть дополнительно усилен с помощью композитных или титановых пластин для улучшения защиты от пуль и осколков. Оснащён двумя встроенными контейнерами для артефактов.</text>
+		<text>The best in personal protection technology. Composed of three elements - a tactical helmet, a heavy armoured vest and reinforced jumpsuit. The vest consists of several thick layers of Kevlar and can be reinforced with composite or titanium plates for increased protection. Comes with two built-in artefact containers.</text>
 	</string>
 
 	<string id="isg_outfit_name">
-		<text>Комбинезон «ИИГ»</text>
+		<text>UNISG outfit</text>
 	</string>
 	<string id="isg_outfit_description">
-		<text>Комбинезон представляет собой комбинацию двуслойной прорезиненной ткани с подкладкой из плексигласа со встроенным бронежилетом. Создан специально для членов ныне не существующей «Интернациональной Исследовательской Группы» на базе сталкерского комбинезона «Заря». Оснащён встроенными контейнерами для артефактов.</text>
+		<text>This bodysuit is a combination of a bodysuit of twin-layered rubberised cloth with Plexiglas lining and built-in body armour. Created specifically for members of the now defunct United Nations International Scientific Group, this suit is modelled after the popular Sunrise suit. Comes with built-in artefact containers.</text>
 	</string>
 	
 	<string id="isg_scientific_outfit_name">
-		<text>Научный комбинезон «ИИГ»</text>
+		<text>UNISG SEVA suit</text>
 	</string>
 	<string id="isg_scientific_outfit_description">
-		<text>Костюм для учёных более не существующей организации «ИИГ», работающих в зонах с повышенной аномальной активностью. Имеет замкнутую систему дыхания и встроенную систему подавления аномальных полей. Предоставляет неплохую защиту от пуль и осколков, но крайне недостаточную для ведения крупных боевых действий. Оснащается двумя встроенными контейнерами для артефактов.</text>
+		<text>A suit once worn by brave UNISG scientists who foraged into Zone's most anomalous areas. It provides good protection from bullet and shrapnel hit, but not enough for large-scale hostilities. Fully upgradeable and boasting two built-in artefact containers.</text>
 	</string>
 	
 	<string id="bandit_specops_outfit_name">
-		<text>Бандитский «Берилл»</text>
+		<text>Bandit Berill-5M armoured suit</text>
 	</string>
 	<string id="bandit_specops_outfit_description">
-		<text>Модифицированная версия стандартного бандитского комбинезона. Добавлен военный бронежилет серии ПС3-9а, а также многочисленные модификации, значительно повышающие защиту носителя от аномалий и радиации.</text>
+		<text>An upgraded version of the common bandit body armour. The vest includes PSZ-9a series military body armour and many other upgrades to protect the wearer against anomalies and radiation.</text>
 	</string>
 	
 	<string id="cs_exo_outfit_name">
-		<text>Экоскелет «Чистого Неба»</text>
+		<text>Clear Sky exoskeleton</text>
 	</string>
 	<string id="cs_exo_outfit_description">
-		<text>Экспериментальный образец военного экзоскелета, раскрашенный в небесно-голубой камуфляж «Чистого Неба». Пользуется популярностью среди ветеранов группировки. Оснащен контейнерами для артефактов.</text>
+		<text>An experimental sample of an exoskeleton painted in Clear Sky colours, their demand is high between veterans of the Clear Sky faction. Comes with a built-in artefact containers.</text>
 	</string>
 	
 	<string id="st_helm_tactic_2">
-		<text>Шлем М12 «Тактический»</text>
+		<text>Tactical M12 helmet</text>
 	</string>
 	<string id="st_helm_tactic_2_descr">
-		<text>Отделанный тканью алюминиево-титановый шлем с карманами для стальных бронеэлементов и бронемаской. Обычно поставляется в комплекте с бронежилетами класса ПС3 для спецназа. Достаточно популярен в Зоне благодаря респиратору и встроенному прибору ночного видения, а также хорошей защите головы. Предусмотрена возможность установки электроники.</text>
+		<text>An aluminium/titanium helmet with an armour face mask and a cloth exterior that comes with pockets for additional steel armour pieces providing the maximum head protection possible. The Tactical M12 is normally used as part of a combination that includes PSZ series Spetsnaz body armour. It is quite rare in the Zone thanks to its limited production. It comes with a built-in first generation night vision device as well as electronics slots. </text>
 	</string>
 	
 	<string id="st_helm_respirator_2_descr">
-		<text>Старая модель стандартного противогаза, предназначенная для фильтрации из воздуха радиоактивной пыли и отравляющих веществ. Широко используется как новичками, так и ветеранами всех группировок ввиду своей дешевизны и функциональной незаменимости. Не оснащается защитой от пуль, осколков и механических воздействий.</text>
+		<text>A regular plastic and rubber gas mask, used for filtering air for radioactive particles and poisonous substances. This older model is still widely used by rookies and veterans of all factions due to its universal functionality and cheap price. Does not provide any physical protection.</text>
 	</string>
 	
 	<string id="st_helm_facemask">
-		<text>Маска</text>
+		<text>Mask</text>
 	</string>
 	<string id="st_helm_facemask_descr">
-		<text>Кусок ткани, закрывающий часть лица. Помимо того, что скрывает личность носителя, он также защищает его от вдыхания пыли. Впрочем, для этих целей лучше подойдёт противогаз.</text>
+		<text>A piece of cloth for covering one's mouth. Protects wearer from inhaling dust. You should probably invest in a respirator.</text>
 	</string>
 	
 	<string id="cs_stalker_outfit_name">
-		<text>Комбинезон «Заря-ЧН»</text>
+		<text>Clear Sky Sunrise suit</text>
 	</string>
 	<string id="cs_stalker_outfit_description">
-		<text>Комбинезон «Заря», раскрашенный в камуфляж группировки «Чистое Небо». Несмотря на то, что костюм едва защищает от пистолетных пуль, пользуется популярностью из-за малой цены и высокого потенциала к модификации. Оснащён встроенным контейнером для артефактов.</text>
+		<text>A Clear Sky branded Sunrise bodysuit. Despite the fact that the body armour is incapable of protecting the wearer from even pistol bullets, the suit enjoys great popularity within Clear Sky members due to its low cost and modification potential. Comes with built-in artefact container.</text>
 	</string>
 	
 	<string id="scientific_heavy_outfit_name">
-		<text>Усиленный комбинезон «СЕВА»</text>
+		<text>Heavy SEVA suit</text>
 	</string>
 	<string id="scientific_heavy_outfit_description">
-		<text>Модифицированный комбинезон «СЕВА», с большим акцентом на бронезащиту. Из-за подобной смены приоритетов слегка пострадали противоаномальные свойства костюма. Снабжён двумя встроенными контейнерами для артефактов.</text>
+		<text>A modified SEVA suit with heavier emphasis on body armour. The anomaly protection features have slightly suffered due to this change of priorities. Fully upgradeable and boasting two built-in artefact containers.</text>
 	</string>
 	
 	<string id="exo_proto_outfit_name">
-		<text>Экзоскелет «Заря»</text>
+		<text>Sunrise exoskeleton</text>
 	</string>
 	<string id="exo_proto_outfit_description">
-		<text>Стандартный комбинезон сталкера, снабжённый военным экзоскелетом нового поколения. Предоставляет улучшенные характеристики, относительно обычного экзоскелета. Имеет встроенный шлем с хорошей защитой от радиации.</text>
+		<text>A standard Sunrise bodysuit fitted into a old military grade exoskeleton. Offers the same amount of protection as a standard Sunrise, but with greatly increased carrying capacity. Where the hell did you find this?</text>
 	</string>
+	
 	<string id="st_helm_respirator_half">
-		<text>Респиратор</text>
+		<text>Respirator</text>
 	</string>
 
 	<string id="st_helm_respirator_half_descr">
-		<text>Пластмассово-резиновый респиратор, используется для защиты владельца от вдыхания вредных паров, пыли или газов. Широко используется новобранцами и ветеранами всех группировок благодаря своей универсальной функциональности. Не обеспечивает какой-либо физической защиты.</text>
+		<text>A regular plastic and rubber respirator, used to protect the wearer from inhaling harmful dusts, fumes, vapours or gases. Widely used by rookies and veterans of all factions due to its universal functionality. Does not provide any physical protection.</text>
 	</string>
 	
 	<string id="st_helm_respirator_gp5">
-		<text>ГП-5</text>
+		<text>GP-5 gas mask</text>
 	</string>
 
 	<string id="st_helm_respirator_gp5_descr">
-		<text>Противогаз ГП-5 предназначался для защиты гражданского населения Советского Союза от выпадения радиоактивных осадков, и изготовливался в период холодной войны с 1962 по 1989 год. Представляет собой шлем-маску из белой и черной резины, линзы удерживаются на месте обжимным ободами. Нижняя часть маски выполнена из металла, в ней расположены клапана и крепление фильтра. ГП-5 широко используется одиночками и бандитами из-за своей доступности и дешёвой цене.</text>
+		<text>The GP-5 was designed to protect civilians of the Soviet Union from radioactive fallout during the Cold War and was manufactured from 1962 to 1989. This mask is a helmet-type mask which was made in both white and black rubber. The lenses of these masks are held in place by crimped metal rims, crimped onto the rubber of the mask. The bottom of the mask is made of metal, and in it is the 40mm filter input, and the inhale and exhale valves. The GP-5 is widely used by loners and bandits due to its availability and cheap price.</text>
 	</string>
 
 </string_table>
